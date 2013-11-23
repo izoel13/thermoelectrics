@@ -1,0 +1,264 @@
+% The line below tells TeXworks editor to use pdflatex for compilation
+% of this document; remove it if you want to use another engine
+%
+%!TEX program = pdflatex
+%
+% LaTeX2e document starts with \documentclass[options]{<class-name>}
+% <class-name> can be one of the standard LaTeX document classes:
+% article, report or book, or some other specialised class.
+%
+\documentclass[a4paper,10pt,journal]{IEEEtran}
+%
+% Preamble of LaTeX document is everything before \begin{document}.
+% Preamble is used to load extension packages and to set up global
+% parameters and configuration for the entire document.
+%
+% Extension packages providing additional functionality
+\usepackage{amsmath}       % additional math environments
+\usepackage{graphicx}      % graphics import from external files
+\usepackage{epstopdf}      % automates .eps to .pdf conversion
+% epstopdf package may require --shell-escape option to pdflatex
+\usepackage{booktabs}      % table typesetting additions
+\usepackage{siunitx}       % number and units formatting
+%\usepackage{caption}       % customisation of captions
+\usepackage{url}           % format url addresses
+%\usepackage{tikz,pgfplots} % diagrams and data plots
+%
+% set up caption options
+%\captionsetup{format=hang,width=0.85\textwidth,labelfont=bf}
+%
+% global options for siunitx
+% \sisetup{seperr,repeatunits=false,per=frac}
+%
+% some handy commands for referencing;
+% the optional argument overrides the default label, e.g.
+% \figref[FIG.~]{fig:label}
+\newcommand{\figref}[2][\figurename~]{#1\ref{#2}}
+\newcommand{\tabref}[2][\tablename~]{#1\ref{#2}}
+\newcommand{\secref}[2][Section~]{#1\ref{#2}}
+
+\begin{document}
+
+\title{wvxx: Ultrasound Experiments}
+\author{\IEEEauthorblockN{Callum Vincent}\\
+\IEEEauthorblockA{cv235@exeter.ac.uk\\25 March 2013}
+}
+%\date{10 February 2013}	not working???
+
+% Single column abstract. See:
+% Q: How do I get a single column abstract and/or index terms section in a two
+% column document?
+% http://www.michaelshell.org/tex/ieeetran/
+%
+%
+% Do:
+% diffraction in abstract
+% discussion
+% flesh out introduction
+% check/organise all the info
+% check conclusion
+%
+%
+\IEEEaftertitletext{\vspace{-1\baselineskip}\noindent
+\begin{abstract}
+Our experiments were designed to demonstrate and validate the theories behind the wave properties of ultrasound. Small differences in the frequency ($\Delta f$) of closely mounted ultrasound transducers produces beats, a periodically varying amplitude envelope with frequency equal to $\Delta f$, which we verified to 1.8\% agreement. Diffraction of ultrasound should follow The speed of sound in air is proportional to air pressure and density. Using an echolocation method at RTP, we found the speed of ultrasound to be $344.2 \pm 0.69 ms^{-1}$, 0.31\% from accepted values. When wave sources \& observers have velocities relative to each other, ($\Delta v$) a change in frequency proportional to $\Delta v$ is observed, known as Doppler shift. Using an infrared motion capture suite, rail push trolley and the beats phenomena we verified Doppler theory to 4.3\% agreement. We conclude that wave theory is a good model for ultrasound in air.
+\end{abstract}
+\vspace{1\baselineskip}}
+
+\maketitle
+
+\section{Introduction}
+
+Wave theory is long established and fundamental to many aspects of modern physics. The propagation of energy through any medium is most completely described by wave equations. Common applications of wave theory are quantum mechanics, optics and electronics. It is therefore vital that the basic properties of waves are verified and well understood.\\
+Ultrasound is defined as sound waves with frequency greater than that of the human hearing range, which is approximately 0.02-20kHz. The longitudinal pressure waves of ultrasound are easily visualised and manipulated using simple equipment. Using ultrasonic transducers we investigate the wave properties of ultrasound in air.
+
+\section{Theory}
+Sound waves propagate through the air as longitudinal pressure waves as described by the wave equation:
+
+\begin{equation}
+\label{eq:sound-wave}
+	y(x,t) = y_0 \cos(\omega(t-\frac{x}{c}))
+\end{equation}
+where $y$ is the displacement of a point on the travelling sound wave, $x$ is the distance the point has travelled from the wave source, $t$ is time, $y_0$ is amplitude, $c$ is wave speed and $\omega$ is angular frequency \cite{young-book}.\\
+Wave speed is generally $c = \sqrt{\frac{K}{\rho}}$, where $K$ is bulk modulus and $\rho$ is density. Using thermodynamic equations of state and classical mechanics for a gas it can be shown that:
+
+\begin{equation}
+\label{eq:speed}
+	c^2 = (\frac{\delta p}{\delta \rho})_s
+\end{equation}
+%check the big brackets have worked and constant s
+where $p$ is gas pressure, $\rho$ is gas density and $s$ is entropy \cite{young-book}. For air multiple variables contribute to the density, but temperature is the most significant. Neglecting other factors the speed of sound in air is approximated by:
+
+\begin{equation}
+\label{eq:speed-in-air}
+	 c_{air} \approx 604.45 + 0.606T
+\end{equation}
+where $T$ is temperature in Kelvin. For air at room temperature we get the accepted value of $c_{air} = 343.15$.
+%accepted? traditional? typical?
+Sound wavelength $\lambda$ can be found by $\lambda = \frac{2\Pi c}{\omega}$, for $c_{air}$ and 40kHz ultrasound frequency:
+
+\begin{equation}
+\label{eq:ultra-wavelength}
+	$\lambda_{ultra} = \frac{343.15}{40000} = 0.00858
+\end{equation}
+
+Our transducers have a circular aperture which, from optics, will diffract with an Airy disk pattern \cite{young-book} (\figref{airy-pattern}) as described by:
+
+\begin{equation}
+\label{eq:airy-disk}
+	\sin(\theta) \approx 1.22 \frac{\lambda}{d}
+\end{equation}
+where $\theta$ is the angle at which the first minimum occurs and $d$ is aperture diameter \cite{young-book}.\\
+When two sound waves of slightly different frequencies $f_a$ and $f_b$ are superimposed the resultant waveform has frequency equal to the mean of the two waves $f = \frac{f_a + f_b}{2}$ and a periodically varying amplitude $A(t)$ given by:
+
+\begin{equation}
+\label{eq:amplitude}
+	A(t) = (A_a + A_b) \cos(2\pi t \frac{f_b - f_a}{2})
+\end{equation}
+where $A_a$ and $A_b$ are the amplitudes of the incidence waves. The time between two minima of this varying amplitude is known as the beat period $T_S$. The corresponding beat frequency $f_S$ is described by:
+
+\begin{equation}
+\label{eq:beat-freq}
+	f_S = \frac{1}{T_S} = f_b - f_a
+\end{equation}
+
+Finally, the movement of an observer or source modulates the frequency of waves, this is known as Doppler shift:
+
+\begin{equation}
+\label{eq:doppler}
+	f = f_s(\frac{c+v_o}{c+v_s})
+\end{equation}
+
+where $f$ is the observed frequency, $f_s$ is source frequency, $c$ is the speed of sound, $v_o$ is the observer velocity and $v_s$ is the source velocity \cite{young-book}.
+If velocities $v_s$ and $v_o$ are small relative to the speed of sound and their difference is $\Delta v$, then the change in frequency $\Delta f$ can be approximated as:
+
+\begin{equation}
+\label{eq:doppler-approx}
+	\Delta f = f_s \frac{\Delta v}{c}
+\end{equation}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{airy-pattern.eps}
+	\caption{Computer render of Airy disk diffraction pattern \cite{airy-pattern}. White represents areas of high intensity}
+	\label{airy-pattern}
+\end{figure}
+
+\section{The Setup}
+All experiments were conducted using piezoelectric ultrasonic transducers as both transmitters and receivers. Every transmitter was connected to a ~40kHz square wave signal generator which was also used as the oscilloscope trigger for the speed of sound and Doppler experiments. All receivers were connected to a sine wave amplifier before the oscilloscope, see \figref{input-output}\\
+Transducer diffraction was determined by a voltmeter measuring the amplitude of a receiver as it was linearly translated over 1.4m at 0.78m from a transmitter. Adjusting the frequency of two transmitters 10cm apart and observing at 1m with a receiver \& digital oscilloscope allowed us to resolve beat frequency dependence. Using a receiver transmitter pair 10cm apart, a reflective screen at a varying distance and pulse input waveform, the speed of sound was found. See \figref{combined-diagram} for details.
+Doppler shift was measured using a transmitter \& retroreflective strip mounted on a rail push trolley aimed at a receiver connected to an oscilloscope. An infrared LED array \& camera capture the motion of the retroreflective strip whilst a smartphone camera simultaneously captures oscilloscope output. See \figref{doppler-diagram} for details.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{input-output.eps}
+	\caption{Battery powered Leybold 416012 square wave signal generator \& 416100 sine wave amplifier \cite{echo-sounder-principles} used with the transducers in all experiments}
+	\label{input-output}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{combined-diagram.eps}
+	\caption{Diagram of apparatus for beat frequency, speed of sound and transducer diffraction experiments}
+	\label{combined-diagram}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{doppler-diagram.eps}
+	\caption{Diagram of apparatus for the Doppler shift experiment}
+	\label{doppler-diagram}
+\end{figure}
+
+
+\section{Method}
+
+Before each experiment all transmitters were calibrated by adjusting the signal generator frequency pot until a peak amplitude was measured by a receiver connected to a voltmeter. By moving the receiver in 0.05m steps and taking voltage measurements at each position a position-intensity data set was produced for transducer diffraction analysis.
+The frequency of a transmitter operating at peak amplitude was found using a digital oscilloscopes measure function. Adjusting and measuring the frequency of a second transmitter produced a frequency difference between the two transmitters. The corresponding beat period  was determined by eye using a snapshot of the received waveform on the oscilloscope. Modifying the frequency difference and noting the corresponding beat period produced data for beat frequency analysis.
+Transmitting with a signal generator set to 2ms on, 80ms off pulse output, receiving the reflection using an oscilloscope and measuring the distance travelled and the time between the leading edge of pulses produced a distance-time data set for speed of sound analysis.
+Doppler shift was induced by pushing the rail trolley, whilst the infrared camera captured motion at 60fps and with the smartphone camera, a snapshot of the oscilloscopes combination of transmitter input and the received wave was taken. Computer software analysed motion capture data to produce a time-velocity plot and the oscilloscope snapshots were analysed by eye to find the beat frequency.
+
+\section{Results}
+
+From calibration we found the peak input/output frequency of our ultrasound transducers to be $41.4 \pm 0.10$kHz, this is 1.4kHz higher than the stated value. All linear fits are artificially centred on the origin and predicted to the $x=0$ term.
+
+Fitting a Gaussian to the diffraction data we see just one maximum over the 1.4m at which data was taken \figref{linear-gaussian} (note that voltage $\propto$ wave intensity) with half-width at half height of $0.403 \pm 0.011$m. Rearranging equation \eqref{eq:airy-disk}, using aperture diameter of 0.16m and wave length of 8.58mm (from equation \eqref{eq:ultra-wavelength}) we calculate expected half-width to be 0.430m, 6.7\% from the experimental value.
+
+Plotting frequency difference against beat frequency (calculated from equation \eqref{eq:beat-freq}) using a linear fit we find a gradient of $0.982 \pm 0.0031$ \figref{beats-linear}. From equation \eqref{eq:beat-freq} a gradient of 1 is expected, our results are 1.8\% lower.
+
+Taking the total distance travelled against time taken and plotting a linear fit we find a gradient of $344.2 \pm 0.69 ms^{-1}$ (\figref{speed-linear}), which is 0.31\% from the approximate value of the speed of sound in air \eqref{eq:speed-in-air}.
+
+Taking a linear fit of the observed beat frequency against velocity measurements produced a gradient of $111.2 \pm 2.9$ Hzm^{-1}s$ which is 4.3\% from the theoretical value (equation \eqref{eq:doppler-approx}) of the Doppler shift.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{linear-gaussian.eps}
+	\caption{Voltage against linear translation of a receiver over a transmitter at 0.78m. Half-width of $0.403 \pm 0.011$m, 6.7\% from theory.}
+	\label{linear-gaussian}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{beats-linear.eps}
+	\caption{Observed beat frequency against measured frequency difference of an ultrasound transducer pair. Linear fit has gradient of $0.982 \pm 0.0031$, 1.8\% from theory}
+	\label{beats-linear}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{speed-linear.eps}
+	\caption{Distance travelled by reflected ultrasound pulse against time between leading edges. Linear fit has gradient of $344.2 \pm 0.69 ms^{-1}$, 0.31\% from approximate theory}
+	\label{speed-linear}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{doppler-linear.eps}
+	\caption{Observed beat frequency of a moving transmitter \& input waveform against velocity from infrared motion capture. Linear fit has gradient of $111.2 \pm 2.9$ Hzm^{-1}s$, 4.3\% from approximate theory}
+	\label{doppler-linear}
+\end{figure}
+
+
+\section{Discussion}
+
+Taking half-width at half height 0.402999781 +/- 0.01121049460 v
+One maximum was expected, though minima are likely to be so small as to be unreadable due to our uncertainty.
+In linear diffraction experiments it's clear that both the transmitter and receiver will influence diffraction. For the purposes of our experiment we counted receiver diffraction be negligible. A more conclusive experiment could be carried out by using a more powerful transmitter and
+
+beat frequency corresponds to the difference between the input and output frequencies, thus is a direct measure of the Doppler shift.
+errors in beat frequency are high and constant due to the difficulty in resolving from the smartphone pictures.
+
+Results for the steel sphere on a horizontal turntable are exceptionally close to that of the theory. Even at maximum error from uncertainty we see just 6.1\% disagreement with theory. The success of this result can be attributed to the fact that the density of the sphere gives sufficent weight to be resistant to bouncing caused by imperfections in the sphere and the turntable. Our method was also refined through multiple trial runs, lowering the human error element.\\
+We observed the table tennis ball to be less stable in general, sometimes acting completely erractically. Although suprisingly the horizontal turntable measurements are consitant with theory despite this.\\
+
+Multiple spheres of different densities were tested to determine the effect this had on results. We found the less dense and the smaller the sphere, the less consistant with theory. This can be attributed to instability as described above.
+
+Another problem we encountered was the erractic behaviour of the turntable frequency, of which we measured an average variation of 0.5Hz. We lowered the effect of this by taking count measurements in all data sets, allowing us to calculate the frequency for each particular measurement.\\
+We took measures to improve the smoothness of our turntable and spheres by using a thin layer of vegetable oil as a lubricant. There is a compromise here, the interface between the sphere and turntable can't be too smooth otherwise the sphere would not reach rolling equilibrium with the turntable, but too much friction will prevent stable motion. Through minor testing we believe that the lubricant improved our results.
+
+When the turntable was tilted we had difficulty finding an accurate method to determine the drift velocity. Either the distance the sphere travelled was hard to determine due to the circular orbits or the sphere would fall from the turntable half way through an orbit. This is a problem as the drift motion follows a pattern of movement, slowing down, stopping and then moving again. The overall velocity will be different if the sphere falls off midway through an orbit. A method to ensure integar orbits would ensure this isn't a factor in our error.
+
+Improvements could be made by using denser, larger spheres, a bigger turntable, more accurate position measurement methods and automated data acquisition.
+
+\section{Conclusion}
+
+All experiments show good relation to the relevant wave theory with a mean deviation of 3.3\%. From the linear diffraction experiment we showed that sound diffracts with an Airy disk pattern from a circular aperture with a 6.7\% agreement with theory. Beat frequencies were observed and measured to agree with theory by 1.8\%. With an echolocation method the speed of sound was measured to be $344.2 \pm 0.69 ms^{-1}$, 0.31\% from theory. Infrared motion capture and beats allowed Doppler shift to be measured to be 4.3\% from theory.\\
+All wave theory investigated show strong correlation with experimental results and thus we can conclude that wave theory accurately describes ultrasound in air. Given the simplicity of our experiments and relative potential for error this is a remarkably good result.
+
+\bibliographystyle{IEEEtran}
+\begin{thebibliography}{9}
+% Removed wiki citations in favour of young and freedman, more professional.
+%\bibitem{wiki-long-waves}
+%\url{http://en.wikipedia.org/wiki/Longitudinal_wave} 26 March 2013
+%\bibitem{wiki-sound}
+%\url{http://en.wikipedia.org/wiki/Speed_of_sound} 26 March 2013
+\bibitem{young-book}
+Hugh D. Young, Roger A. Freedman, \emph{Sears and Zemansky's university physics 11th ed : with modern physics}
+\bibitem{echo-sounder-principles}
+\url{http://pec.sjtu.edu.cn/ols/P1/P1742_E.pdf} 26 March 2013
+\bibitem{airy-pattern}
+\url{http://upload.wikimedia.org/wikipedia/commons/1/14/Airy-pattern.svg} 26 March 2013
+
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,159 @@
+what is the research and how is it important?
+what has been done, where do we need to go, why are we interested?
+
+seems to be a great deal of trade offs to be made, the different things need to be balanced, it's difficult to see a perfect solution, but a balanced one utilising the benefits of each seems possible
+
+direct conversion of heat energy into electricity
+main use is waste heat, improving total efficientcy of heat engines
+
+"Figure of merit" slide
+"PGCE" slide, how to?
+semiconductors work best
+10% efficientcy, like solar power, situation dependent
+minor variations in crystal growth, we see big ZT differences
+
+kinetic theory, boltzman transport, nearly-free electron model -> conductivity
+kinetic theroy, phonon boltzman transport -> phonon heat conductivity, independent from electrons
+
+disorder on phonon scale, not electron
+phonons have large range of mean free path
+Dressellhaus
+summary -> important citations at the end
+N,P on generator diagram
+explain ZT before graphs
+parallels to solar thermal
+assumptions/methodological slide, how will we achieve the goals
+ZT>3 in buisness, efficientcies of 15%
+where is ZT limit?
+what is a phonon?
+	they would have an infinite lifetime in an infinite crystal, only defects cause the scattering
+how many ways to achieve PGCE? what are the constraints?
+	disordered glass like strucutures
+
+outline/basic aims -> define terms -> basic physics -> history/current -> applications/the future -> current problems -> kinetic theory -> ZT -> conceptual plan -> PGCE -> complete aims/summary -> references
+
+p22 thermobook
+	efficientcy derivations
+
+lego superlattice
+draw a graphene style superlattice
+
+image credit
+
+thermogen.svg
+	Ken Brazier - en.wikipedia.org/wiki/File:Thermoelectric_Generator_Diagram.svg
+carrier-concentration.svg - p41 thermobook - dependence of electrical conductivity and seebeck coefficent on the concentration of charge carriers
+	Adapted from: D. M. Rowe (1995) CRC Handbook of Thermoelectrics p44
+
+
+http://emps.exeter.ac.uk/medical-imaging/staff/cs463
+http://newton.ex.ac.uk/staff/AVS/
+
+http://newton.ex.ac.uk/handbook/PHY/Yr34-MPhysProjects.html
+
+http://www.jim-harvey.com/how-to-use-bullet-points-in-presentation-slides/
+http://www.slideshare.net/abonner/bullet-points-can-kill-your-presentation
+https://github.com/schacon/showoff
+https://code.google.com/p/io-2012-slides/
+https://speakerdeck.com/holman/how-github-uses-github-to-build-github
+http://www.presentationzen.com/
+http://scientific-presentations.com/
+blog scientific presentations
+http://www.slideshare.net/otikik/how-to-make-awesome-diagrams-for-your-slides
+	diagrams
+http://zachholman.com/posts/slide-design-for-developers/
+	zach style
+
+stavroula's two cents
+---------------------
+
+As far as presentation style there are no really fixed recipes here.
+However, you should make sure that you do not run over time
+and that your presentation covers content, is coherent
+clear and organized,
+all ifnormation are communicated with visual clarity,
+what you say is clearly audible
+
+bate email on referencing
+-------------------------
+
+There is a simple rule -- essentially, if in doubt, reference where the material
+came from.  You are unlikely to get in trouble for referencing too much.
+
+Basically, if you have taken material or ideas from *any* document and
+included the material or ideas in your work, then you should give appropriate
+credit to the person who you got that material from (i.e. reference it).
+
+A good wikipedia entry will usually have references to the source material
+from which they got the information.  In these cases, you can go back to the
+original source and reference it.  This also applies to images.  If there is no
+trace of where the material came from, then reference wikipedia.  I do this for
+some images used in my Electromagnetism lectures.
+
+
+efficientcy paper email to andrew
+---------------------------------
+
+Hey, I was just talking to GP about this paper, thought I'd point you
+to the relevant pages and summarise our discussion. There's lots of
+good stuff that is likely worth mentioning in your presentation.
+
+The paper is useful because it's giving the current practical limits
+of thermoelectrics.
+Page 4 of the pdf discusses and derives the total efficiency. You'll
+see that for current BiTe thermoelectrics at the temperature ranges
+that they operate they get a total practical efficiency of just 4%,
+half of what GP was quoting originally. Now that is terribly low, but
+a primary advantage of thermoelectric generators over heat engines is
+the reliability, you'll see the quote "10-30 years" for heat engines.
+Theoretically we can reach the carnot limit through thermoelectrics,
+which is not possible with heat engines.
+Also on that page is discussion about some nano-scale film research
+that this research group has managed to produce. A practical value of
+2.4 ZT has been achieved! So our theoretical research may not be all
+pie in the sky after all!
+
+Speech Notes 2013-10-25
+-----------------------
+What I'm going to talk about is designing new thermoelectrics using nanocomposite materials. So the first thing you need to know is, what exactly are thermoelectrics?
+A thermoelectric is relatively simple, it is a material or structure which produces an electric current when a heat graident is applied to it, this is known as the Seebeck effect. In a thermoelectric the opposite is also true, when you drive it with an electric current you produce a heat gradient, which will cool one end and the heat the other, this is known as the Peltier effect. Now one key thing to understand about thermoelectrics is that they do of course still obey the laws of thermodynamics. This means that the efficientcy of thermoelectrics is restricted by the same laws derived for a carnot engine. In effect, the charge carriers of thermoelectrics operate as the steam and the electron motion is like the piston motion. So essentially what we are doing is driving the electrons of our thermoelectric material by pushing them with our energetic charge carriers. Now I've mentioned charge carriers, so what are they? They are the electrons and the phonons of a material. The way that they transfer the heat energy through the material is through 5 different transport mechanisms, of which 3 are important for our studies. These are electron conductivity, thermal conductivity through electrons and sdgfsadf
+
+The title of my presentation is, nanocomposite thermoelectric design, so we know what thermoelectrics are, what are nanocomposites?
+We've heard of composite materials in the contexts of aeroplanes, cars and biology, they are the combination of bulk materials to produce a new material with significantly different properties. A nanocomposite is exactly the same as these kind of composites, however the scale at which the material is structured is much much smaller, at the nanoscale. The distingishing feature between the crystal structures we are familar with from condensed matter and the structures in nanocomposites, is that we are aritifcally introducing defects into the crystal lattice. This is easiest to explain by taking an example nanocomposite, the superlattice.
+
+A superlattice is what we would call a 2 dimensional nanocomposite, that means that the 3 dimensional structure of the nanocomposite is comprised of 2 dimensional layers. This is perhaps the simpliest example of a superlattice, being what I'd call a nano sandwich. If we examine one layer of the superlattice, we will see that the material would normally form a 3 dimensional crystal, but we have introduced a boundry defect by constraining the thickness of the lattice. So as you can see what we have done is create a new 2 dimensional artfical crystal which will call a nanocomposite.
+Now that the definition of my title is clear, I'll give quick overview of the history of thermoelectrics.
+
+In 1821 Thomas Seebeck found that a circuit made from two dissimilar metals, with junctions at different temperatures would deflect a compass magnet, he had discovered thermoelectricity. Thermoelectricity largely remained a curiosity until the 1930's when there was heavy research into bulk thermoelectric materials. Pretty much every combination of elements in the periodic table was tested and by the 1960's 3 different materials were found to be optimal. Bismuth teleraide, Lead terlearide and silicon germanium which are effective at low, medium and high temperatures respectively. These materials were found to have maximum efficentcies of around 10%, which although low, has found their use in many applications today. Primarily, space exploration, where thermoelectric generators are used for their low weight and reliability.
+Interest was renewed in thermoelectrics in the 1990's when new nanoscale fabrication techniques opened up the possability to design new artifical crystal structures. Research into the possabilities of these new nanocomposite thermoelectrics suggests that efficentcies up to 20-30% are possible, which would open up many new applications, primarily heat recovery systems and solar thermal generators.
+How exactly these new efficientcys would be achived and what sort of nanocomposite structures would be benefical is not exactly clear. Of primary concern is the theory is not well understood.
+
+The main problem is that the core theory for thermoelectricity requires that there be a balance between many different variables. The efficientcy of thermoelectric conversion is expressed in the following formula, where ZT represents the thermoelectric figure of merit, which is proportional to the total efficientcy of the system. S is the seebeck coeefficent, sigma is the electrical conductivity, T is the average temperature difference and kappa is the thermal conductivity, where kappa can be split into contributions from electrons, phonons and a bipolar mechanism. As is clear from the formula, if we want to increase our efficiency, we need to increase our ZT, which would mean increasing the values of S, sigma and T whilst reducing kappa. However, if you delve deeper into the mechanisms of each of these variables you discover that an increase in one will decrease another. For instance, if we increase the electrical conductivity of a material, we also increase the thermal conducivity due to the electrons. Much research has gone into increasing S and sigma, whilst decreasing thermal conductivity in the electrons. For our project we are not going to concern ourselves with the electrons at all, we're going to focus on just one variable from this equation, the thermal conducivity due to phonons. David Rowe proposes a solution to this in his excellent book, the CRC handbook of thermoelectrics. His proposal is the concept of a phonon glass and electron crystal. That is you introduce small pertubations into the crystal that effect the phonons short mean free path, but don't effect the motion of electrons
+
+
+Speech Notes 2013-11-01
+-----------------------
+
+Hello, I'm Callum Vincent, my supervisor is GP and my theoretical masters project is designing high efficientcy thermoelectric materials using nanocomposites.
+
+"thermoelectrics are a hot topic at the moment, with interest being renewed by recent advances in nanofabrication techniques and the application in solar thermal systems"
+
+I'll start by defining exactly what we mean by the terms thermoelectric and nanocomposite, I'll then cover a brief history of thermoelectrics and their applications, followed by an outline of the fundamental theories and assumptions we are going to use in our project and finally I'll give a conceptual plan of how we are going to achieve our goal of high efficientcy thermoelectric materials.
+
+So the first thing you need to know is, what exactly are thermoelectrics?
+A thermoelectric is relatively simple, it is a material or structure which produces an electric current when a heat graident is applied to it, this is known as the Seebeck effect. The opposite is also true, when you drive a thermoelectric with an electric current you produce a heat gradient, which will cool one end and the heat the other, this is known as the Peltier effect. "Common examples of thermoelectrics are thermocouple temperature sensors" Now one key thing to understand about thermoelectrics is that they do of course still obey the laws of thermodynamics. This means that the efficientcy of thermoelectrics is restricted by the same laws derived for a carnot engine. In effect, the charge carriers of thermoelectrics operate as the steam and the electron motion is like the piston motion. So essentially what we are doing is driving the electrons of our thermoelectric material by pushing them with our heat gradient.
+"
+Now I've mentioned charge carriers, so what are they? They are the free electrons and electron holes that we are familar with from condensed matter physics. These free electrons and holes, together with the collective excitations of the atoms, which we know as phonons are the key components to the thermal conducitivty.
+"
+Now the title of my presentation is, nanocomposite thermoelectric design, so we know what thermoelectrics are, what are nanocomposites?
+
+We've heard of composite materials in the contexts of aeroplanes, cars and biology, they are the combination of bulk materials to produce a new material with significantly different properties. A nanocomposite is exactly the same as these kind of composites, however the scale at which the material is structured is much much smaller, at the nanoscale. The distingishing feature between the crystal structures we are familar with from condensed matter and the structures in nanocomposites, is that we are aritifcally introducing defects into the crystal lattice. This is easiest to explain by taking an example nanocomposite, the superlattice.
+
+A superlattice is what we would call a 2 dimensional nanocomposite, that means that the 3 dimensional structure of the nanocomposite is comprised of 2 dimensional layers. This is perhaps the simpliest example of a nanocomposite, being what I'd call a nano-sandwich. If we examine one layer of the superlattice, we will see that the material would normally form a 3 dimensional crystal, but we have introduced a boundry defect by constraining the thickness. So as you can see what we have done is create a new 2 dimensional artfical crystal which we call a nanocomposite.
+Now that the definition of my title is clear, I'll give quick overview of the history of thermoelectrics.
+
+In 1821 Thomas Seebeck found that a circuit made from two dissimilar metals, with junctions at different temperatures would deflect a compass magnet, he had discovered thermoelectricity. Thermoelectricity largely remained a curiosity until the 1930's where war pressures spurred heavy research into bulk thermoelectric materials. Pretty much every combination of elements in the periodic table was tested and by the 1960's 3 different materials were found to be optimal at low, medium and high temperatures, namely Bismuth teleraide, Lead terlearide and silicon germanium. These materials were found to have maximum practical efficentcies of around 4%, which although low, has found their use in specialised applications today. Primarily, space exploration, where thermoelectric generators are used for their low weight and reliability.
+Interest was renewed in thermoelectrics in the 1990's when new nanoscale fabrication techniques opened up the possability to design new artifical crystal structures. Research into the possabilities of these new nanocomposite thermoelectrics suggests efficentcies up to 20-30% are within reach. Efficientcies at this level will open up many new applications, primarily heat recovery systems and solar thermal generators.
+How exactly these new efficientcys would be achived and what sort of nanocomposite structures would be benefical is not exactly clear. Of primary concern is the theory is not well understood.
+
+The main problem is that the core theory for thermoelectricity requires that there be a balance between many different variables. The efficientcy of thermoelectric conversion is expressed in the following formula, where ZT represents the thermoelectric figure of merit, which is proportional to the total efficientcy of the system. S is the seebeck coeefficent, sigma is the electrical conductivity, T is the average temperature difference and kappa is the thermal conductivity, where kappa can be split into contributions from electrons, phonons and a bipolar mechanism. As is clear from the formula, if we want to increase our efficiency, we need to increase our ZT, which would mean increasing the values of S, sigma and T whilst reducing kappa. However, if you delve deeper into the mechanisms of each of these variables you discover that an increase in one will decrease another. For instance, if we increase the electrical conductivity of a material, we also increase the thermal conducivity due to the electrons. Much research has gone into increasing S and sigma, whilst decreasing thermal conductivity in the electrons. For our project we are not going to concern ourselves with the electrons at all, we're going to focus on just one variable from this equation, the thermal conducivity due to phonons. David Rowe proposes a solution to this in his excellent book, the CRC handbook of thermoelectrics. His proposal is the concept of a phonon glass and electron crystal. That is you introduce small pertubations into the crystal that effect the phonons short mean free path, but don't effect the motion of electrons

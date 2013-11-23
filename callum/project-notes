@@ -1,0 +1,29 @@
+PbTe, BiTe, PbSe, BiSe, SiG
+	room temp effective mass (in electron mass) of electron, heavy hole, light hole
+	band gap at t=0 and 300K
+	temp depedence
+
+PbTe
+	effective masses = 0.01me
+		http://www.nature.com/srep/2013/131107/srep03168/fig_tab/srep03168_T1.html
+		http://www.springermaterials.com/docs/info/10681727_723.html
+	band gap = 0.25eV, 0.32eV
+		http://en.wikipedia.org/wiki/PbTe
+
+BiTe
+	eff
+	band gap = 0.21eV, 0.16eV (room temp, 0.11eV theory)
+		https://mospace.umsystem.edu/xmlui/bitstream/handle/10355/9466/ElectronicStructureThermoelectricProperties.pdf?sequence=1
+		http://www.iue.tuwien.ac.at/phd/mwagner/node53.html
+		http://www.azom.com/article.aspx?ArticleID=8462
+
+BiSe
+	eff
+	band gap = 0.24eV (room temp, calculated, experiment shows 0.2-0.3eV)
+		https://mospace.umsystem.edu/xmlui/bitstream/handle/10355/9466/ElectronicStructureThermoelectricProperties.pdf?sequence=1
+
+SiG
+	effective mass =
+		http://www.ioffe.rssi.ru/SVA/NSM/Semicond/SiGe/bandstr.html#Masses
+	band gap = ~0.6eV
+		http://www.ioffe.rssi.ru/SVA/NSM/Semicond/SiGe/bandstr.html#Masses
