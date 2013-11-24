@@ -6,6 +6,88 @@ it's everything we know about solid state physics
 good thermoelectric descriptive links:
 http://www.its.caltech.edu/~jsnyder/thermoelectrics/
 http://www.rsc.org/Education/EiC/issues/2012March/thermoelectric-materials-nanoparticles.asp
+http://www.electronics-cooling.com/2006/11/the-seebeck-coefficient/
+
+do (prised from all my notes)
+efficientcy stuff and zimann on microscopic stuff
+discuss nanocomposites
+	what are they?
+	superlattice, 2D sandwich and how much better is it
+		current research?
+	more boundries better thermoelectric properties
+		why is not clear
+	2D quantum wells/superlattices, 1D quantum wires/nanowires, 0D quantum dot
+blend in parts from the review papers
+defects
+	have different effects on phonons and electrons
+discuss current thermoelectrics in more detail
+	random alloys, the 1960's work
+	low, medium, high, BiTe, PbTe, SiGe
+	complex crystal structures get 30% better than single crystal bulks
+Dresselhaus
+deriving efficiency
+	what is ZT? dimensionless
+	minor variation in crystal growth has massive ZT impact
+		ZT = \frac{S^2 \sigma \overline{T}}{\kappa_e + \kappa_{ph}}
+			kappa_e is coupled to sigma, seebeck
+			kappa_ph is independent
+	\nu = \nu(Z\overline{T}, T_h, T_c)
+	broad ZT peak preferable
+	\kappa_e increases with high density of electrons
+	free electrons, kappa, ZT graph, electron density different temp
+Macroscopic transport coeff definition
+	p270-275, section 7.5 & 7,6 Zimann Electrons and Phonons, Oxford, 1960
+micoscopic transport (Kittel)
+	vector E, q instead of e
+Seebeck positive for p type, negative for n type
+peltier effect - refridgeration applications efficiency
+phonons (Zimann section 7.1
+	fine when there are greater than 50 oscillators, good assumption even for nano structures
+	K = \frac{1}{3} Cv \lambda
+		K = \frac{1}{3} \sum_q(vector) \sum_s C_s(q) v_s(q) \lambda
+			s is polarisation index
+	linear combination of multiple oscillators = normal modes
+	probability of energy packet states
+	have infinite life in perfect infinite size sample
+	at high temps boundry defects are the main scattering processes
+	greater mass difference = more phonon scattering
+	what are phonon collsions?
+	possible 2-3x reduction
+		electrons will always have a tradeoff
+	higher temperature sees anharmonic phonon-phonon scattering
+	nanostructuring can reduce the \kappa_{ph} close to the phonon glass limit
+appendix
+	current open questions
+	my life story
+	health and saftey forms
+	acoustic stimulation of crystals to improve ZT?
+effective mass?
+	holes travel slower, larger effective mass
+	encupasses all underlying physics
+boltzmann transport zimann 7.3->7.4
+	assume distribution function in space & time,
+		electrons(rvector,t), phonons(rvector, t)
+	in the presence of external field
+		df/dt_field + df/dt_collsions = 0
+	fermi dirac stuff
+		equilbrium f\bar = \frac{1}{exp{\frac{E_k-E_f}{kT}}+1}
+		n\bar = \frac{1}{exp{\frac{hbar \omega_q}{kT}}-1}
+	distribution will change with relaxation time \tau
+		phonons & electrons don't want to interact but thermal fields force them together
+kinetic theroy of phonon & electron -> nearly free -> /tau, apply boltz
+history -> current materials -> experimental improvements -> applications -> our goal -> kinetic theory -> condensed matter -> our solutions -> conclusion
+PGEC
+	regular arrangement for the electrons with large mean free path
+	varied masses -> phonon glass
+	bigger band gap reduces phonon velocity, so \kappa_ph
+	electrons don't care about the masses of atoms
+	how many ways to achieve PGEC? what constraints?
+	seeing how far PGEC can go
+	not many have done PGEC, computationally intensive
+	few layers of dirty interfaces doesn't effect electrons
+		big effect on phonons :D:D:D
+there are different ways of maximising ZT, PGEC is one
+cite often, print and keep a copy of citations with you, defend what is written
 
 Structure:
 abstract
