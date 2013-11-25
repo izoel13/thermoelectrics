@@ -39,12 +39,12 @@ are attainable. Current bulk thermoelectric materials reach $ZT < 1$,
 realising practical efficiencies of ~4\%.\\
 Reductions of # in phonon thermal conductivity $kappa_{ph}$ have been
 suggested \cite{crc-handbook}, with potential for $ZT > #$. Applying the
-Boltzmann transport equation to the phonon and nearly free electron
-models for the concept of \acronym{PGEC}{phonon glass electron crystal}
-\cite{crc-handbook}, we search for a theoretical mechanism through which
-$kappa_{ph}$ can be reduced. If such a mechanism is discovered, we
-will design and computationally model new material structures to
-demonstrate its validity.
+Boltzmann transport equation to the phonon and \acronym{NFE}{nearly
+free electron} models for the concept of \acronym{PGEC}{phonon glass
+electron crystal} \cite{crc-handbook}, we search for a theoretical
+mechanism through which $kappa_{ph}$ can be reduced. If such a
+mechanism is discovered, we will design and computationally model new
+material structures to demonstrate its validity.
 \end{abstract}
 
 \vspace{1\baselineskip}}
@@ -104,13 +104,14 @@ by a modified Ohm's law \cite{ziman}:
 \label{current-density}
 	\vec{J} = \sigma (-\vec{\nabla} V - S \vec{\nabla} T)
 \end{equation}
-where $\vec{J}$, $V$ and $\sigma$ are the current density $\frac{I}{A}$,
-voltage and electrical conductivity at a given location in the
-material. If we were to repeat the experiment conducted by Seebeck
-(\figref{seebeck-experiment}), using a probe to measure $V$ and
-$\sigma$ for one of the metals at both junctions, assuming steady state,
-i.e., $I=0 \therefore \vec{J} = 0$, the metals Seebeck coefficient can be
-determined.\\\\
+where $\vec{J}$ and $\sigma$ are the current density $\frac{I}{A}$ and
+electrical conductivity at a given location in the material and
+$\vec{\nabla} T$ and $\vec{\nabla} V$ are the temperature and
+resultant voltage gradients across the material. If we were to repeat the
+experiment conducted by Seebeck (\figref{seebeck-experiment}), using a
+probe to measure $V$ between junctions and $\sigma$ at each junction
+for one of the metals, assuming steady state, i.e., $I=0 \therefore
+\vec{J} = 0$, the metals Seebeck coefficient can be determined.\\
 Thermoelectricity, its uses and current nanocomposite research are well
 summarised by J. W. Bos \cite{bos-review} and A. J. Minnich et al.
 \cite{minnich-review}.
@@ -126,18 +127,21 @@ summarised by J. W. Bos \cite{bos-review} and A. J. Minnich et al.
 \end{figure}
 
 \subsection{Statistical Mechanics}
-Using the kinetic theory, with relevant assumptions, charge density of
-an arbitrary charge carrier can be described microscopically \cite{kittel}:
+Using the kinetic theory, with relevant assumptions, charge density
+$\vec{J}$ of an arbitrary charge carrier can be described
+microscopically \cite{kittel}:
+
 \begin{equation}
 \label{charge-density}
-	J = \frac{nq^2\vec{E} \tau}{m}
+	\vec{J} = \frac{nq^2\vec{E} \tau}{m}
 \end{equation}
-where $n$ is free carrier density, $q$ is the charge of the
+where $n$ is free charge carrier density, $q$ is the charge of the
 carrier, $\vec{E}$ is the electric field accelerating the
 carrier, $\tau$ is the mean time between carrier collisions and $m$ is
 carrier mass.\\
 Applying this to solid-state electrical conductivity $\sigma = \frac{ne^2
-\tau}{m^*}$ it can be shown \cite{ziman}:
+\tau}{m^*}$ it can be shown that \cite{ziman}:
+
 \begin{equation}
 \label{micro-elec}
 	\sigma = \frac{e^2}{m^*} \sum_{\mathrm{spin}} \sum_{\vec{k}}
@@ -145,11 +149,12 @@ Applying this to solid-state electrical conductivity $\sigma = \frac{ne^2
 \end{equation}
 where $m^*$ is the electron effective mass, $\mathrm{spin}$ refers to
 electron spin and $\vec{k}$ is the electron wavevector over the
-Brillouin zone.
-
+Brillouin zone. These new concepts are all derived from the \ac{NFE}
+model, as described in Kittel \cite{kittel}.\\
 The Boltzmann transport equation "describes the statistical behaviour
 of a thermodynamic system not in thermodynamic equilibrium"
 \cite{wiki-boltz} and its general definition is:
+
 \begin{equation}
 \label{boltz-trans}
 	\frac{\partial f}{\partial t} = \left(\frac{\partial f}{\partial
@@ -159,17 +164,39 @@ where $\frac{\partial f}{\partial t}$ is time dependence of a system
 of particles $f$, the "force" term represents external forces on the
 particles, the "diff" term is the diffusion of particles through the
 system and the "coll" term represents forces acting between particles
-in collisions.
+in collisions.\\
+A phonon is the quantisation of vibrational motion of a lattice of
+atoms at a single frequency, known as a normal mode. These phonons are
+quasiparticles, free to move around the lattice and they are
+distributed according to the Bose-Einstein distribution \cite{kittel}:
 
-in the presence of an external field electron and phonon distributions
-satisfy Boltzmann
+\begin{equation}
+\label{bose-einstein}
+	 \bar{n} = \frac{1}{e^{(\hbar \omega) / k T} - 1}
+\end{equation}
+where $\bar{n}$ is the probability of a phonon existing with energy
+$\hbar \omega$.\\
+Electrons can be modelled as quasiparticles in a similar way, with a
+wavevector and effective mass as in equation \eqref{micro-elec},
+leading to the Fermi-Dirac distribution \cite{kittel}:
+
+\begin{equation}
+\label{fermi-dirac}
+	 \bar{f} = \frac{1}{e^{(E - E_f) / k T} + 1}
+\end{equation}
+where $\bar{f}$ is the probability of an electron existing with energy
+$E$ and $E_f$ is the Fermi level.\\
+In the presence of an external fields, phonon and electron
+distributions (\eqref{bose-einstein} \& \eqref{fermi-dirac}) both
+satisfy the Boltzmann transport equation \eqref{boltz-trans} with
+\cite{ziman}:
+
 \begin{equation}
 \label{boltz-specific}
 	\frac{df}{dt}\bigg|_{field} + \frac{df}{dt}\bigg|_{collisions} = 0
 \end{equation}
-
-%efficiency, or a separate section? probably put in applied theory
-section
+where function $f$ is $f = \bar{n}$ or $f = \bar{f}$, the Bose-Einstein
+and Fermi-Dirac distribution functions.
 
 \subsection{Nanocomposites}
 
@@ -189,6 +216,8 @@ but by constraining the layer thickness we have introduced a boundary
 defect. The periodic array of these boundary defects forms a new 3D
 artificial crystal, which we define as a superlattice, a nanocomposite.
 
+2D -> 1D -> 0D
+
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\textwidth]{graphene-superlattice.eps}
@@ -196,16 +225,66 @@ artificial crystal, which we define as a superlattice, a nanocomposite.
 	nanoscale copper and graphene are sandwiched together.}
 \end{figure}
 
+\section{Project Theory Discussion}
+\subsection{Assumptions}
+For our project we will be using the phonon and \ac{NFE} models, which
+bring with them a multitude of assumptions. For the phonon model, our
+main assumption is that our system is at least 50 atomic oscillators
+\cite{kittel}; this means we are limited to a $50\r{A} = 5
+\mathrm{nm}$fabrication size. Current fabrication methods are at best
+25nm \cite{minnch-review}, so our 50 oscillator assumption is well met.
+For both the phonon and the \ac{NFE} model, we assume an ideal gas,
+i.e., particles do not interact with each other and can move freely
+around the lattice, effected only by lattice perturbations. This is
+known to be a good assumption for the low temperatures in \ac{SSP}
+\cite{kittel}.\\
+Based on this limited initial analysis, we believe these assumptions
+should be valid with an accurate final model possible. If it transpires
+that these assumptions cannot be valid, we will seek alternative models.\\
 
+\subsection{Thermoelectric Efficiency}
+The thermoelectric efficiency is best expressed in the dimensionless
+parameter $ZT$ with thermal efficiency $\eta = \eta (Z\bar{T}, T_h,
+T_c)$, where $Z$ is the figure of merit, $\bar{T} = \frac{1}{2}(T_h +
+T_c)$, $T_h$ is the temperature at the hot junction and $T_c$ is the
+temperature at the cold junction. Note that the $T$ in the commonly
+cited $ZT$ really refers to $Z \bar{T}$. This is omitted due to the
+temperature appearing of both sides of the expression for $ZT$:
+\begin{equation}
+\label{zt}
+	Z \bar{T} = \frac{S^2 \sigma \bar{T}}{\kappa_e + \kappa_{ph}}
+\end{equation}
+where $S$ is the Seebeck coefficient from equation \eqref{seebeck-emf}
+\& \eqref{current-density}, $\sigma$ is electrical conductivity,
+$\kappa_e$ and $\kappa_{ph}$ are the thermal conductivity due to
+electrons and phonons. This is derived in D. M. Rowe's Modern
+Thermoelectrics \cite{modern-thermoelectrics}.\\
+Current thermoelectric materials $ZT$ values against temperature are
+plotted in figure \figref{zt-plot}
 
-\section{Project Theory and Assumptions}
-For our project we will be using the nearly free electron model, which
-assumes no electron-electron interactions
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{zt-temp-plot.png}
+	\caption{Plot of thermoelectric figure of merit $ZT$ against
+	temperature. Note $ZT$ is proportional to the thermal efficiency
+	$ZT \propto \eta$ \cite{minnich-review}.}
+\end{figure}
 
-\subsection{Phonons}
+The mean time between collisions $\tau$ from \eqref{charge-density} is
+of vital importance for our project.
 
 \subsection{\acf{PGEC}}
-The core research topic for our project is the idea of PGEC.
+A core research topic for our project is the idea of \ac{PGEC}. How can
+we achieve this? What are the constraints?
+
+\section{Conclusions \& Project Aims}
+Thermoelectric theory provides a good basis from which we can
+understand \ac{SSP}. Using phonon and \ac{NFE} models together with
+the Boltzmann transport equation \eqref{boltz-trans} we aim to develop
+a \ac{PGEC} inspired mechanism through which $ZT$ can be improved and
+test this mechanism computationally. In pursuit of this aim, it is
+likely that we utilise nanocomposite material design for the
+introduction of multiple boundary defects.
 
 \bibliographystyle{IEEEtran}
 \begin{thebibliography}{2}
@@ -231,15 +310,21 @@ Sci., 2009, 2, 466-479. DOI: 10.1039/B822664B
 \bibitem{ziman}
 %p270-275, section 7.5 & 7,6
 J. M. Ziman, \emph{Electrons and Phonons: The Theory of Transport
-Phenomena in Solids}. 1960, ISBN 978-0-19-850779-6
+Phenomena in Solids}. 1960, ISBN: 978-0-19-850779-6
 \bibitem{kittel}
 C. Kittel, \emph{Introduction to Solid State Physics, 8th ed}. November 2004, ISBN: 978-0471415268
 \bibitem{wiki-boltz}
 \url{http://en.wikipedia.org/wiki/Boltzmann_equation} 18 November 2013
 \bibitem{wiki-composite}
 \url{http://en.wikipedia.org/wiki/Composite_material} 22 November 2013
+\bibitem{modern-thermoelectrics}
+D. M. Rowe, \emph{Modern Thermoelectrics}. Reston Pub Co, September
+1983. ISBN: 978-0835945936
 \end{thebibliography}
 
+\end{document}
+
+%shifted out of document probably not going to use
 \newpage
 \appendix
 \section{Acronym List}
@@ -257,5 +342,3 @@ area of further study
   \item Can acoustic stimulation of a material cause additional phonon
   collisions? Is a $kappa_{ph}$ reduction obtainable?
 \end{itemize}
-
-\end{document}
