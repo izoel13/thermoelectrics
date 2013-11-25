@@ -15,7 +15,7 @@ clarity and precision supersedes any other writing method
 write in a similar manner to the introductory report
 need lots of pictures
 it's everything we know about solid state physics
-	abbreviate solid state physics (SSP)?
+http://www.tapdancinggoats.com/latex-vector-notation.htm
 
 good thermoelectric descriptive links:
 http://www.its.caltech.edu/~jsnyder/thermoelectrics/
@@ -23,7 +23,6 @@ http://www.rsc.org/Education/EiC/issues/2012March/thermoelectric-materials-nanop
 http://www.electronics-cooling.com/2006/11/the-seebeck-coefficient/
 
 do (prised from all my notes)
-efficientcy stuff and zimann on microscopic stuff
 discuss nanocomposites
 	what are they?#
 	superlattice#
@@ -50,11 +49,6 @@ deriving efficiency
 	broad ZT peak preferable
 	\kappa_e increases with high density of electrons
 	free electrons, kappa, ZT graph, electron density different temp
-Macroscopic transport coeff definition
-	p270-275, section 7.5 & 7,6 Zimann Electrons and Phonons, Oxford, 1960
-micoscopic transport (Kittel)
-	vector E, q instead of e
-Seebeck positive for p type, negative for n type
 peltier effect - refridgeration applications efficiency
 phonons (Zimann section 7.1
 	fine when there are greater than 50 oscillators, good assumption even for nano structures
@@ -71,11 +65,11 @@ phonons (Zimann section 7.1
 		electrons will always have a tradeoff
 	higher temperature sees anharmonic phonon-phonon scattering
 	nanostructuring can reduce the \kappa_{ph} close to the phonon glass limit
-appendix
-	current open questions
+appendix#
+	current open questions#
 	my life story
-	health and saftey forms
-	acoustic stimulation of crystals to improve ZT?
+	health and saftey forms#
+	acoustic stimulation of crystals to improve ZT?#
 effective mass?
 	holes travel slower, larger effective mass
 	encupasses all underlying physics
@@ -103,6 +97,14 @@ PGEC
 		big effect on phonons :D:D:D
 there are different ways of maximising ZT, PGEC is one
 cite often, print and keep a copy of citations with you, defend what is written
+
+# = done
+Macroscopic transport coeff definition
+	p270-275, section 7.5 & 7,6 Zimann Electrons and Phonons, Oxford, 1960
+micoscopic transport (Kittel)
+	vector E, q instead of e
+Seebeck positive for p type, negative for n type
+
 
 Structure:
 abstract

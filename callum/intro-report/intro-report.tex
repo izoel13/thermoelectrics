@@ -19,6 +19,8 @@
 \newcommand{\tabref}[2][\tablename~]{#1\ref{#2}}
 \newcommand{\secref}[2][Section~]{#1\ref{#2}}
 
+%	\renewcommand{\vec}[1]{\mathbf{#1}}	%bold vectors
+
 
 \begin{document}
 
@@ -78,17 +80,17 @@ water wheels, there became hydroelectric dams, now where there is
 heat, there will be thermoelectricity.
 
 % Change the section name?
-\section{General Physics}
+\section{Background Theory}
 \subsection{Thermoelectricity}
 In 1821, Thomas Seebeck discovered that a circuit made from two
 dissimilar metals, with junctions at different temperatures would
 deflect a compass magnet (\figref{seebeck-experiment}), he had
-discovered thermoelectricity. The temperature gradient $\nabla
+discovered thermoelectricity. The temperature gradient $\vec{\nabla}
 T$ between the junctions generates an electromotive force:
 
 \begin{equation}
 \label{seebeck-emf}
-	E_{emf} = -S \nabla T
+	\vec{E_{emf}} = -S \vec{\nabla} T
 \end{equation}
 where $S$ is the Seebeck coefficient, defined as the induced voltage per
 unit temperature difference, mathematically $\Delta S = \frac{\Delta
@@ -96,33 +98,22 @@ V}{\Delta T}$ \cite{auparay}. This coefficient is not only material
 dependent, but also temperature dependent, i.e., a temperature gradient
 produces an electromotive force gradient. This electromotive force
 gradient produces a current density gradient described macroscopically
-by a modified Ohm's law:
+by a modified Ohm's law \cite{ziman}:
 
 \begin{equation}
 \label{current-density}
-	J = \sigma (-\nabla V - S \nabla T)
+	\vec{J} = \sigma (-\vec{\nabla} V - S \vec{\nabla} T)
 \end{equation}
-where $J$, $V$ and $\sigma$ are the current density $\frac{I}{A}$,
+where $\vec{J}$, $V$ and $\sigma$ are the current density $\frac{I}{A}$,
 voltage and electrical conductivity at a given location in the
 material. If we were to repeat the experiment conducted by Seebeck
 (\figref{seebeck-experiment}), using a probe to measure $V$ and
 $\sigma$ for one of the metals at both junctions, assuming steady state,
-i.e., $I=0 \therefore J = 0$, the metals Seebeck coefficient can be
-determined.\\
-Analysing the flow of electrons through a material, a microscopic
-expression of Ohm's law can be derived \cite{kittel}:
-\begin{equation}
-\label{micro-ohm}
-	J = \frac{ne^2E \tau}{m_e}
-\end{equation}
-where $n$ is the density of free electrons in the material, $e$ is the
-elementary charge, $E$ is the electric field accelerating
-electrons, $\tau$ is the mean time between electrons colliding with
-something in the material and $m_e$ is the electron mass.
-
+i.e., $I=0 \therefore \vec{J} = 0$, the metals Seebeck coefficient can be
+determined.\\\\
 Thermoelectricity, its uses and current nanocomposite research are well
 summarised by J. W. Bos \cite{bos-review} and A. J. Minnich et al.
-\cite{minnich-review}
+\cite{minnich-review}.
 
 \begin{figure}
 	\centering
@@ -134,7 +125,51 @@ summarised by J. W. Bos \cite{bos-review} and A. J. Minnich et al.
 	\label{seebeck-experiment}
 \end{figure}
 
+\subsection{Statistical Mechanics}
+Using the kinetic theory, with relevant assumptions, charge density of
+an arbitrary charge carrier can be described microscopically \cite{kittel}:
+\begin{equation}
+\label{charge-density}
+	J = \frac{nq^2\vec{E} \tau}{m}
+\end{equation}
+where $n$ is free carrier density, $q$ is the charge of the
+carrier, $\vec{E}$ is the electric field accelerating the
+carrier, $\tau$ is the mean time between carrier collisions and $m$ is
+carrier mass.\\
+Applying this to solid-state electrical conductivity $\sigma = \frac{ne^2
+\tau}{m^*}$ it can be shown \cite{ziman}:
+\begin{equation}
+\label{micro-elec}
+	\sigma = \frac{e^2}{m^*} \sum_{\mathrm{spin}} \sum_{\vec{k}}
+	n(\vec{k}) \tau(\vec{k})
+\end{equation}
+where $m^*$ is the electron effective mass, $\mathrm{spin}$ refers to
+electron spin and $\vec{k}$ is the electron wavevector over the
+Brillouin zone.
 
+The Boltzmann transport equation "describes the statistical behaviour
+of a thermodynamic system not in thermodynamic equilibrium"
+\cite{wiki-boltz} and its general definition is:
+\begin{equation}
+\label{boltz-trans}
+	\frac{\partial f}{\partial t} = \left(\frac{\partial f}{\partial
+	t}\right)_\mathrm{force} + \left(\frac{\partial f}{\partial t}\right)_\mathrm{diff}+ \left(\frac{\partial f}{\partial t}\right)_\mathrm{coll}
+\end{equation}
+where $\frac{\partial f}{\partial t}$ is time dependence of a system
+of particles $f$, the "force" term represents external forces on the
+particles, the "diff" term is the diffusion of particles through the
+system and the "coll" term represents forces acting between particles
+in collisions.
+
+in the presence of an external field electron and phonon distributions
+satisfy Boltzmann
+\begin{equation}
+\label{boltz-specific}
+	\frac{df}{dt}\bigg|_{field} + \frac{df}{dt}\bigg|_{collisions} = 0
+\end{equation}
+
+%efficiency, or a separate section? probably put in applied theory
+section
 
 \subsection{Nanocomposites}
 
@@ -161,9 +196,13 @@ artificial crystal, which we define as a superlattice, a nanocomposite.
 	nanoscale copper and graphene are sandwiched together.}
 \end{figure}
 
-\section{Models and Assumptions}
+
+
+\section{Project Theory and Assumptions}
 For our project we will be using the nearly free electron model, which
 assumes no electron-electron interactions
+
+\subsection{Phonons}
 
 \subsection{\acf{PGEC}}
 The core research topic for our project is the idea of PGEC.
@@ -180,8 +219,6 @@ N. Auparay, \emph{Room Temperature Seebeck Coefficient Measurement
 of Metals and Semiconductors}. Available
 from:
 \url{http://www.physics.oregonstate.edu/~tate/TateLabWiki/lib/exe/fetch.php?media=theses:auparay_bs_2013.pdf} 20 November 2013
-\bibitem{kittel}
-C. Kittel, Introduction to Solid State Physics, 8th ed. November 2004, ISBN: 978-0471415268
 \bibitem{bos-review}
 J. W. Bos, \emph{Thermoelectric materials: efficiencies found in
 nanocomposites}. Education in Chemistry, March 2012. Available
@@ -191,6 +228,14 @@ from:
 A. J. Minnich et al. \emph{Bulk nanostructured thermoelectric
 materials: current research and future prospects}. Energy Environ.
 Sci., 2009, 2, 466-479. DOI: 10.1039/B822664B
+\bibitem{ziman}
+%p270-275, section 7.5 & 7,6
+J. M. Ziman, \emph{Electrons and Phonons: The Theory of Transport
+Phenomena in Solids}. 1960, ISBN 978-0-19-850779-6
+\bibitem{kittel}
+C. Kittel, \emph{Introduction to Solid State Physics, 8th ed}. November 2004, ISBN: 978-0471415268
+\bibitem{wiki-boltz}
+\url{http://en.wikipedia.org/wiki/Boltzmann_equation} 18 November 2013
 \bibitem{wiki-composite}
 \url{http://en.wikipedia.org/wiki/Composite_material} 22 November 2013
 \end{thebibliography}
@@ -207,5 +252,10 @@ electron transmissive crystals
 These questions are ideas that I have posed thus far in the project.
 They are included as an interest to the reader, perhaps indicating
 area of further study
+
+\begin{itemize}
+  \item Can acoustic stimulation of a material cause additional phonon
+  collisions? Is a $kappa_{ph}$ reduction obtainable?
+\end{itemize}
 
 \end{document}
