@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt,journal]{IEEEtran}
+\documentclass[a4paper,12pt]{article}
 
 % Extension packages providing additional functionality
 \usepackage{amsmath}       % additional math environments
@@ -24,30 +24,15 @@
 
 \begin{document}
 
-\title{Nanocomposite Design of Thermoelectric Materials\\Introductory
-Report}
-\author{\IEEEauthorblockN{Callum Vincent}\\
-\IEEEauthorblockA{cv235@exeter.ac.uk\\24 November 2013}
-}
+\title{Nanocomposite Design of Thermoelectric Materials\\Introductory Report}
+\author{Callum Vincent}
+\maketitle
 
-\IEEEaftertitletext{\vspace{-1\baselineskip}\noindent
-%\begin{abstract}
-Thermoelectrics are a promising area of materials research recently
-revitalised by the introduction of nanocomposites. Obtaining a
-thermoelectric figure of merit $ZT > 3$, potent new energy applications
-are attainable. Current bulk thermoelectric materials reach $ZT < 1$,
-realising practical efficiencies of ~4\%.\\
-Reductions of ... in phonon thermal conductivity $kappa_{ph}$ have been
-suggested \cite{crc-handbook}, with potential for $ZT > ...$. Applying the
-Boltzmann transport equation to the phonon and \acronym{NFE}{nearly
-free electron} models for the concept of \acronym{PGEC}{phonon glass
-electron crystal} \cite{crc-handbook}, we search for a theoretical
-mechanism through which $kappa_{ph}$ can be reduced. If such a
-mechanism is discovered, we will design and computationally model new
-material structures to demonstrate its validity.
-%\end{abstract}
 
-\vspace{1\baselineskip}}
+\begin{abstract}
+Thermoelectrics are a promising area of materials research recently revitalised by the introduction of nanocomposites. Obtaining a thermoelectric figure of merit $ZT > 3$, potent new energy applications are attainable. Current bulk thermoelectric materials reach $ZT < 1$, realising practical efficiencies of ~4\%. Reductions of ... in phonon thermal conductivity $kappa_{ph}$ have been suggested \cite{crc-handbook}, with potential for $ZT > ...$. Applying the Boltzmann transport equation to the phonon and (NFE)(nearly free electron) models for the concept of (PGEC)(phonon glass electron crystal) \cite{crc-handbook}, we search for a theoretical mechanism through which $kappa_{ph}$ can be reduced. If such a mechanism is discovered, we will design and computationally model new material structures to demonstrate its validity.
+\end{abstract}
+
 
 \section{Introduction}
 
@@ -55,7 +40,7 @@ From its discovery in 1821, thermoelectricity has seen constant
 attention by the scientific community. Its source lies deep in the
 fundamental nature of solid state materials. Through understanding
 thermoelectricity we meld all the concepts underpinning
-\acronym{SSP}{solid-state physics}; a well defined thermoelectric
+\acrodef{SSP}[SSP]{solid-state physics}; a well defined thermoelectric
 theory is the pinnacle of \ac{SSP}.
 
 %citations below? for the numbers?
@@ -108,7 +93,7 @@ $\vec{\nabla} T$ and $\vec{\nabla} V$ are the temperature and
 resultant voltage gradients across the material. If we were to repeat the
 experiment conducted by Seebeck (\figref{seebeck-experiment}), using a
 probe to measure $V$ between junctions and $\sigma$ at each junction
-for one of the metals, assuming steady state, i.e., $I=0 \therefore
+for one of the metals, assuming steady state, i.e., $I=0
 \vec{J} = 0$, the metals Seebeck coefficient can be determined.\\
 Thermoelectricity, its uses and current nanocomposite research are well
 summarised by J. W. Bos \cite{bos-review} and A. J. Minnich et al.
