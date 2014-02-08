@@ -1,0 +1,36 @@
+http://code.google.com/p/msysgit/downloads/list
+https://github.com/bungeshea/GitPortable/tree/master/GitPortable
+
+
+project notes
+
+effective mass are given in units of mass/electron rest mass m_0, m_e
+Uc * Uv
+
+
+electron rest mass = 9.10938215E-31
+	wikipedia
+
+
+n-type
+Nd = 3x10^25
+	http://www.jim.or.jp/journal/e/pdf3/45/11/3102.pdf
+electron effective mass = 0.24ml 0.024mt
+	http://link.springer.com/chapter/10.1007/10681727_723#page-2
+hole effective mass = 0.31ml 0.022mt
+	http://link.springer.com/chapter/10.1007/10681727_723#page-2
+	http://www.iue.tuwien.ac.at/phd/mwagner/node65.html
+
+
+plot 2k_b sigma T / e^2 = thermal conductivity electrons
+plot initial ZT expectation Power factor/thermal conducivity
+
+expected results
+S = 200uV/K
+conductction = 741 -> 10905 S/m
+
+PbTe under pressure
+http://prb.aps.org/abstract/PRB/v82/i19/e195102
+
+good PbTe data
+https://etd.ohiolink.edu/ap/0?0:APPLICATION_PROCESS%3DDOWNLOAD_ETD_SUB_DOC_ACCNUM:::F1501_ID:osu1228340969%2Cattachment
