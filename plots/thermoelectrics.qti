@@ -1,6 +1,57 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	4
+<windows>	3
+<table>
+modified-ema-data	30	11	10/27/14 11:25 AM
+geometry	maximized	active
+header	Interface Density[X]	Nanoparticle Diameter	Volume Fraction	Description	Data	Lsi-eff	Lge-eff	Ksi	Kge	Alpha	Keff[Y]
+ColWidth	128	153	142	149	133	135	139	120	127	127	135	
+<com>
+<col nr="2">
+col("Interface Density")*col("Nanoparticle Diameter")/6
+</col>
+<col nr="4">
+col("Data", 5)*col("Data", 6)*col("Data", 7)/3
+</col>
+<col nr="5">
+1/((1/col("Data", 3))+(col("Interface Density")/4))
+</col>
+<col nr="6">
+1/((1/col("Data", 7))+(1/col("Nanoparticle Diameter")))
+</col>
+<col nr="7">
+col("Data", 1)*col("Data", 2)*col("Lsi-eff")/3
+</col>
+<col nr="8">
+col("Data", 5)*col("Data", 6)*col("Lge-eff")/3
+</col>
+<col nr="9">
+col("Data", 9)*col("Ksi")/(col("Nanoparticle Diameter")/2)
+</col>
+<col nr="10">
+col("Ksi")*((col("Kge")*(1+2*col("Alpha"))+2*col("Ksi")+2*col("Volume Fraction")*(col("Kge")*(1-col("Alpha"))-col("Ksi")))/(col("Kge")*(1+2*col("Alpha"))+2*col("Ksi")-col("Volume Fraction")*(col("Kge")*(1-col("Alpha"))-col("Ksi"))))
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0
+Comments												
+WindowLabel		2
+<data>
+0	100000	5e-08	0.0008333333333333	Heat Capcity - Si	930000	2.66216350452e-07	3.868778280543e-08	149.876319999	11.69067420814	40.74579124998	149.6942460492
+1	1000000	5e-08	0.008333333333333	Phonon Veloctiy - Si	1804	2.511715089035e-07	3.868778280543e-08	149.8763199899	11.69067420814	40.74579124751	148.062192052
+2	10000000	5e-08	0.08333333333333	Bulk MFP - Si	2.68e-07	1.604790419162e-07	3.868778280543e-08	149.8763198996	11.69067420814	40.74579122296	132.3707128804
+3	100000000	5e-08	0.8333333333333			3.480519480519e-08	3.868778280543e-08	149.8763189958	11.69067420814	40.74579097725	20.24366795359
+4	1000000000	5e-08	8.333333333333	Heat Capcity - Ge	870000	3.941176470588e-09	3.868778280543e-08	149.8763099583	11.69067420814	40.74578852029	-210.7359981466
+5				Phonon Veloctiy - Ge	1042						
+6				Bulk MFP - Ge	1.71e-07						
+8				R	6.796569206238e-09						
+10				Bulk Thermal Cond - Si	0.15						
+11				Bulk Thermal Cond - Ge	0.0517						
+12				Calc Bulk Thermal - Si	149.87632						
+13				Calc Bulk Thermal - Ge	51.67278						
+</data>
+</table>
 <SurfacePlot>
 3d-bose-einstein	28/02/2014 13:51:58
 geometry	0	0	1366	659	
@@ -39,7 +90,7 @@ axisType	0	0	0
 </SurfacePlot>
 <multiLayer>
 modified-ema	1	1	26/10/2014 23:17:33
-geometry	216	74	806	579	
+geometry	913	-47	806	579	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -61,7 +112,7 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	Interface Density	Keff			
+AxesTitles	Volume Fraction	Keff			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	0
@@ -140,8 +191,8 @@ CanvasBackground	#ffffff	0
 </Function>
 scale	0	0	160	0	9	5	0	0
 scale	1	0	160	0	9	5	0	0
-scale	2	0.0001	1	0	5	8	1	0
-scale	3	0.0001	1	0	5	8	1	0
+scale	2	0.0008	8	0	5	8	1	0
+scale	3	0.0008	8	0	5	8	1	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	3	3	3	3
@@ -183,128 +234,5 @@ EnabledTickLabels	1	0	1	0
 </graph>
 <LinkXAxes>1</LinkXAxes>
 <ScaleLayers>0</ScaleLayers>
-</multiLayer>
-<table>
-modified-ema-data	30	9	10/27/14 11:25 AM
-geometry	maximized	active
-header	Volume Fraction[X]	Nanoparticle Diameter	Description	Data	Ksi	Kge	Alpha	Keff	Interface Density
-ColWidth	126	195	149	84	120	109	110	128	128	
-<com>
-<col nr="4">
-((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Volume Fraction"))))
-</col>
-<col nr="5">
-((870000*1042)/((3/0.000000171)+(3/col("Nanoparticle Diameter"))))
-</col>
-<col nr="6">
-(2*col("Ksi")*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/col("Nanoparticle Diameter"))
-</col>
-<col nr="7">
-col("Ksi")*((col("Kge")*(1+2*col("Alpha"))+2*col("Ksi")+2*col("Volume Fraction")*(col("Kge")*(1-col("Alpha"))-col("Ksi")))/(col("Kge")*(1+2*col("Alpha"))+2*col("Ksi")-col("Volume Fraction")*(col("Kge")*(1-col("Alpha"))-col("Ksi"))))
-</col>
-<col nr="8">
-6*col("Volume Fraction")/col("Nanoparticle Diameter")
-</col>
-</com>
-ColType	0;0/13	0;0/13	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0	0	0	0	0	0	0
-HiddenColumn	0	0	0	0	0	0	0	0	0
-Comments										
-WindowLabel		2
-<data>
-0	0.1	1	Heat Capcity - Si	930000	149.8760522215	51.67277116396	2.037285922562e-06	137.6532035012	0.6
-1	0.2	10	Phonon Veloctiy - Si	1804	149.8749811168	51.6727791164	2.037271362888e-07	126.0759546866	0.12
-2	0.3	100	Bulk MFP - Si	2.68e-07	149.8673945641	51.67277991164	2.037168237827e-08	115.0974491484	0.018
-3	0.4	10000000000			0.03354688950235	51.67278	4.560075123135e-20	104.6708528145	2.4e-10
-4	0.5	10000	Heat Capcity - Ge	870000	149.3426688633	51.67277999912	2.030035568747e-10	94.72661001131	0.0003
-5			Phonon Veloctiy - Ge	1042					
-6			Bulk MFP - Ge	1.71e-07					
-</data>
-</table>
-<multiLayer>
-Graph1	1	1	10/27/14 11:41 AM
-geometry	845	106	525	459	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	396
-<PageGeometry>0.00967118	0.0121655	0.980658	0.963504</PageGeometry>
-PlotTitle	Title	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-TitleFont	Liberation Sans	12	75	0	0	0
-ScaleFont0	Liberation Sans	10	75	0	0	0
-ScaleFont1	Liberation Sans	10	75	0	0	0
-ScaleFont2	Liberation Sans	10	75	0	0	0
-ScaleFont3	Liberation Sans	10	75	0	0	0
-AxisFont0	Liberation Sans	10	50	0	0	0
-AxisFont1	Liberation Sans	10	50	0	0	0
-AxisFont2	Liberation Sans	10	50	0	0	0
-AxisFont3	Liberation Sans	10	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	modified-ema-data_Volume Fraction	modified-ema-data_Keff	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	29	1
-scale	0	90	140	0	6	5	0	0
-scale	1	90	140	0	6	5	0	0
-scale	2	0	0.6	0	7	5	0	0
-scale	3	0	0.6	0	7	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>0.015037593984962</x>
-<y>127.65886287625</y>
-<right>0.16390977443609</right>
-<bottom>120.869565217391</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-</Text>
-<Font>Liberation Sans	10	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <open>1</open>
