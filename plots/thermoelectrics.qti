@@ -2,10 +2,10 @@ QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
 <windows>	4
 <table>
-modified-ema-data	30	12	10/27/14 11:25 AM
-geometry	50	50	445	220	
-header	Interface Density[X]	Nanoparticle Diameter	Volume Fraction	Description	Data	Lsi-eff	Lge-eff	Ksi	Kge	Alpha	Keff[Y]	3d-function
-ColWidth	128	153	142	149	133	135	139	133	127	127	135	151	
+modified-ema-data	30	13	10/27/14 11:25 AM
+geometry	0	0	1920	934	
+header	Interface Density[X]	Nanoparticle Diameter[Y]	Volume Fraction	Description	Data	Lsi-eff	Lge-eff	Ksi	Kge	Alpha	Keff[Z]	3d-function[Z]	1[Y]
+ColWidth	128	159	142	149	133	135	139	133	127	127	135	151	100	
 <com>
 <col nr="2">
 col("Interface Density")*col("Nanoparticle Diameter")/6
@@ -32,32 +32,35 @@ col("Data", 9)*col("Ksi")/(col("Nanoparticle Diameter")/2)
 col("Ksi")*((col("Kge")*(1+2*col("Alpha"))+2*col("Ksi")+2*col("Volume Fraction")*(col("Kge")*(1-col("Alpha"))-col("Ksi")))/(col("Kge")*(1+2*col("Alpha"))+2*col("Ksi")-col("Volume Fraction")*(col("Kge")*(1-col("Alpha"))-col("Ksi"))))
 </col>
 <col nr="11">
-((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))*((((870000*1042)/((3/0.000000171)+(3/col("Nanoparticle Diameter"))))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/col("Nanoparticle Diameter")))+2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))+2*(col("Interface Density")*col("Nanoparticle Diameter")/6)*(((870000*1042)/((3/0.000000171)+(3/col("Nanoparticle Diameter"))))*(1-(2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/col("Nanoparticle Diameter")))-((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))))/(((870000*1042)/((3/0.000000171)+(3/col("Nanoparticle Diameter"))))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/col("Nanoparticle Diameter")))+2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))-(col("Interface Density")*col("Nanoparticle Diameter")/6)*(((870000*1042)/((3/0.000000171)+(3/col("Nanoparticle Diameter"))))*(1-(2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/col("Nanoparticle Diameter")))-((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density")))))))
+(col("Interface Density")<(pi/col("Nanoparticle Diameter")))*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))*((((870000*1042)/((3/0.000000171)+(3/col("Nanoparticle Diameter"))))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/col("Nanoparticle Diameter")))+2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))+2*(col("Interface Density")*col("Nanoparticle Diameter")/6)*(((870000*1042)/((3/0.000000171)+(3/col("Nanoparticle Diameter"))))*(1-(2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/col("Nanoparticle Diameter")))-((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))))/(((870000*1042)/((3/0.000000171)+(3/col("Nanoparticle Diameter"))))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/col("Nanoparticle Diameter")))+2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))-(col("Interface Density")*col("Nanoparticle Diameter")/6)*(((870000*1042)/((3/0.000000171)+(3/col("Nanoparticle Diameter"))))*(1-(2*((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density"))))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/col("Nanoparticle Diameter")))-((930000*1804)/((3/0.000000268)+(2*col("Nanoparticle Diameter")/col("Interface Density")))))))
+</col>
+<col nr="12">
+(col("Interface Density")<(pi/col("Nanoparticle Diameter")))*10
 </col>
 </com>
-ColType	0;0/13	0;0/13	0;0/13	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0
-HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0
-Comments													
+ColType	0;0/13	0;0/13	0;0/13	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments														
 WindowLabel		2
 <data>
-0	100000	5e-08	0.0008333333333333	Heat Capcity - Si	930000	2.66216350452e-07	3.868778280543e-08	149.876319999	11.69067420814	40.74579124998	149.6942460492	149.6942460502
-1	1000000	5e-08	0.008333333333333	Phonon Veloctiy - Si	1804	2.511715089035e-07	3.868778280543e-08	149.8763199899	11.69067420814	40.74579124751	148.062192052	148.062192062
-2	10000000	5e-08	0.08333333333333	Bulk MFP - Si	2.68e-07	1.604790419162e-07	3.868778280543e-08	149.8763198996	11.69067420814	40.74579122296	132.3707128804	132.3707129688
-3	100000000	5e-08	0.8333333333333			3.480519480519e-08	3.868778280543e-08	149.8763189958	11.69067420814	40.74579097725	20.24366795359	20.24366807174
-4	1000000000	5e-08	8.333333333333	Heat Capcity - Ge	870000	3.941176470588e-09	3.868778280543e-08	149.8763099583	11.69067420814	40.74578852029	-210.7359981466	-210.7360124011
-5				Phonon Veloctiy - Ge	1042							
-6				Bulk MFP - Ge	1.71e-07							
-8				R	6.796569206238e-09							
-10				Bulk Thermal Cond - Si	0.15							
-11				Bulk Thermal Cond - Ge	0.0517							
-12				Calc Bulk Thermal - Si	149.87632							
-13				Calc Bulk Thermal - Ge	51.67278							
+0	15600000	2e-07	0.52	Heat Capcity - Si	930000	1.310385292392e-07	9.21832884097e-08	73.04270188605	27.85594609164	4.964397783791	61.40404368935	64.10537171544	10
+1	16000000	2e-07	0.5333333333333	Phonon Veloctiy - Si	1804	1.293436293436e-07	9.21832884097e-08	140.4651546392	11.69067420814	9.546811445702	148.062192052	0	0
+2	10000000	5e-08	0.08333333333333	Bulk MFP - Si	2.68e-07	1.604790419162e-07	3.868778280543e-08	89.74629940122	11.69067420814	24.39867739537	132.3707128804	132.3707129688	10
+3	100000000	5e-08	0.8333333333333			3.480519480519e-08	3.868778280543e-08	19.46445714285	11.69067420814	5.291661201329	20.24366795359	0	0
+4	1000000000	5e-08	8.333333333333	Heat Capcity - Ge	870000	3.941176470588e-09	3.868778280543e-08	2.204063529412	11.69067420814	0.5992028125038	-210.7359981466	0	0
+5				Phonon Veloctiy - Ge	1042								
+6				Bulk MFP - Ge	1.71e-07								
+8				R	6.796569206238e-09								
+10				Bulk Thermal Cond - Si	0.15								
+11				Bulk Thermal Cond - Ge	0.0517								
+12				Calc Bulk Thermal - Si	149.87632								
+13				Calc Bulk Thermal - Ge	51.67278								
 </data>
 </table>
 <SurfacePlot>
 3d-bose-einstein	28/02/2014 13:51:58
-geometry	0	0	1366	659	
+geometry	0	0	1920	934	
 SurfaceFunction	1/(exp((1.054571726E-34*2*PI*x)/(1.3806488E-23*y)-1));40;40	1e+12	1.5e+13	0	1000	0	2.59091
 Style	box	nofloor	filledmesh
 grids	0
@@ -93,7 +96,7 @@ axisType	0	0	0
 </SurfacePlot>
 <multiLayer>
 modified-ema	1	1	26/10/2014 23:17:33
-geometry	913	-47	806	579	
+geometry	0	0	1920	934	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -103,7 +106,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	780	511
-<PageGeometry>0.00626566	0.0094162	0.977444	0.962335</PageGeometry>
+<PageGeometry>0.00260417	0.00547046	0.40625	0.559081</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -241,22 +244,22 @@ EnabledTickLabels	1	0	1	0
 <SurfacePlot>
 3d-modified-ema	31/10/2014 13:04
 geometry	maximized	active
-SurfaceFunction	((930000*1804)/((3/0.000000268)+(2*y/x)))*((((870000*1042)/((3/0.000000171)+(3/y)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((930000*1804)/((3/0.000000268)+(2*y/x)))+2*(x*y/6)*(((870000*1042)/((3/0.000000171)+(3/y)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((930000*1804)/((3/0.000000268)+(2*y/x)))))/(((870000*1042)/((3/0.000000171)+(3/y)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((930000*1804)/((3/0.000000268)+(2*y/x)))-(x*y/6)*(((870000*1042)/((3/0.000000171)+(3/y)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((930000*1804)/((3/0.000000268)+(2*y/x))))));40;40	1e+06	1e+08	1e-08	2e-07	0	149.504
+SurfaceFunction	(x<(pi/y))*((930000*1804)/((3/0.000000268)+(2*y/x)))*((((870000*1042)/((3/0.000000171)+(3/y)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((930000*1804)/((3/0.000000268)+(2*y/x)))+2*(x*y/6)*(((870000*1042)/((3/0.000000171)+(3/y)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((930000*1804)/((3/0.000000268)+(2*y/x)))))/(((870000*1042)/((3/0.000000171)+(3/y)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((930000*1804)/((3/0.000000268)+(2*y/x)))-(x*y/6)*(((870000*1042)/((3/0.000000171)+(3/y)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((930000*1804)/((3/0.000000268)+(2*y/x))))));40;40	1e+06	1e+08	1e-08	2e-07	0	149.504
 Style	box	nofloor	filledmesh
 grids	0
-title		#000000	Liberation Sans	12	50	0
+title		#000000	Liberation Sans	18	50	0
 colors	#000000	#000000	#000000	#000000	#ffffff	#000000	#0000ff	#ff0000	1	
-axesLabels	X axis	Y axis	Z axis
+axesLabels	Interface Density (1/m)	Nanoparticle Diameter (m)	Keff (mK)
 tics	5	5	5	5	5	5
 tickLengths	1.9e-08	1.14e-08	9.9e+06	5.94e+06	9.9e+06	5.94e+06
 options	1	1	0
-numbersFont	Liberation Sans	10	50	0
-xAxisLabelFont	Liberation Sans	10	50	0
-yAxisLabelFont	Liberation Sans	10	50	0
-zAxisLabelFont	Liberation Sans	10	50	0
-rotation	19	0	-164
+numbersFont	Liberation Sans	15	50	0
+xAxisLabelFont	Liberation Sans	15	50	0
+yAxisLabelFont	Liberation Sans	15	50	0
+zAxisLabelFont	Liberation Sans	15	50	0
+rotation	19	0	-72
 zoom	5.71577e+07
-scaling	1.0101e-08	5.26316e+06	0.00333333
+scaling	1.0101e-08	5.26316e+06	0.00668878
 shift	0	0	0
 LineWidth	1
 WindowLabel		2
