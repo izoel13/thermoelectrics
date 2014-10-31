@@ -1,6 +1,57 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	2
+<windows>	3
+<table>
+modified-ema-data	30	11	10/27/14 11:25 AM
+geometry	maximized	active
+header	Interface Density[X]	Nanoparticle Diameter	Volume Fraction	Description	Data	Lsi-eff	Lge-eff	Ksi	Kge	Alpha	Keff[Y]
+ColWidth	128	153	142	149	133	135	139	120	127	127	135	
+<com>
+<col nr="2">
+col("Interface Density")*col("Nanoparticle Diameter")/6
+</col>
+<col nr="4">
+col("Data", 5)*col("Data", 6)*col("Data", 7)/3
+</col>
+<col nr="5">
+1/((1/col("Data", 3))+(col("Interface Density")/4))
+</col>
+<col nr="6">
+1/((1/col("Data", 7))+(1/col("Nanoparticle Diameter")))
+</col>
+<col nr="7">
+col("Data", 1)*col("Data", 2)*col("Lsi-eff")/3
+</col>
+<col nr="8">
+col("Data", 5)*col("Data", 6)*col("Lge-eff")/3
+</col>
+<col nr="9">
+col("Data", 9)*col("Ksi")/(col("Nanoparticle Diameter")/2)
+</col>
+<col nr="10">
+col("Ksi")*((col("Kge")*(1+2*col("Alpha"))+2*col("Ksi")+2*col("Volume Fraction")*(col("Kge")*(1-col("Alpha"))-col("Ksi")))/(col("Kge")*(1+2*col("Alpha"))+2*col("Ksi")-col("Volume Fraction")*(col("Kge")*(1-col("Alpha"))-col("Ksi"))))
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0
+Comments												
+WindowLabel		2
+<data>
+0	100000	5e-08	0.0008333333333333	Heat Capcity - Si	930000	2.66216350452e-07	3.868778280543e-08	149.876319999	11.69067420814	40.74579124998	149.6942460492
+1	1000000	5e-08	0.008333333333333	Phonon Veloctiy - Si	1804	2.511715089035e-07	3.868778280543e-08	149.8763199899	11.69067420814	40.74579124751	148.062192052
+2	10000000	5e-08	0.08333333333333	Bulk MFP - Si	2.68e-07	1.604790419162e-07	3.868778280543e-08	149.8763198996	11.69067420814	40.74579122296	132.3707128804
+3	100000000	5e-08	0.8333333333333			3.480519480519e-08	3.868778280543e-08	149.8763189958	11.69067420814	40.74579097725	20.24366795359
+4	1000000000	5e-08	8.333333333333	Heat Capcity - Ge	870000	3.941176470588e-09	3.868778280543e-08	149.8763099583	11.69067420814	40.74578852029	-210.7359981466
+5				Phonon Veloctiy - Ge	1042						
+6				Bulk MFP - Ge	1.71e-07						
+8				R	6.796569206238e-09						
+10				Bulk Thermal Cond - Si	0.15						
+11				Bulk Thermal Cond - Ge	0.0517						
+12				Calc Bulk Thermal - Si	149.87632						
+13				Calc Bulk Thermal - Ge	51.67278						
+</data>
+</table>
 <SurfacePlot>
 3d-bose-einstein	28/02/2014 13:51:58
 geometry	0	0	1366	659	
@@ -39,17 +90,17 @@ axisType	0	0	0
 </SurfacePlot>
 <multiLayer>
 modified-ema	1	1	26/10/2014 23:17:33
-geometry	maximized	active
+geometry	913	-47	806	579	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
-LayerCanvasSize	559	440
+LayerCanvasSize	704	440
 Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	639	510
-<PageGeometry>0.00366032	0.00782473	0.467789	0.798122</PageGeometry>
+ggeometry	5	5	780	511
+<PageGeometry>0.00626566	0.0094162	0.977444	0.962335</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -61,11 +112,10 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	Interface Density	Keff			
+AxesTitles	Volume Fraction	Keff			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	0
-InvertedTitle	0	0	0	0
 TitleFont	DejaVu Sans	25	50	0	0	0
 ScaleFont0	DejaVu Sans	19	50	0	0	0
 ScaleFont1	DejaVu Sans	19	50	0	0	0
@@ -90,9 +140,9 @@ CanvasBackground	#ffffff	0
 <Style>0</Style>
 <LineStyle>1</LineStyle>
 <Pen>
-	<Color>#000000</Color>
+	<Color>#0000ff</Color>
 	<Style>0</Style>
-	<Width>1</Width>
+	<Width>2</Width>
 </Pen>
 <xAxis>2</xAxis>
 <yAxis>0</yAxis>
@@ -102,7 +152,7 @@ CanvasBackground	#ffffff	0
 <Function>
 <Type>0</Type>
 <Title>F2</Title>
-<Expression>((930000*1804)/((3/0.000000268)+(2*0.000000100/x)))*((((870000*1042)/((3/0.000000171)+(3/0.000000100)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*0.000000100/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000100))+2*((930000*1804)/((3/0.000000268)+(2*0.000000100/x)))+2*x*(((870000*1042)/((3/0.000000171)+(3/0.000000100)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*0.000000100/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000100))-((930000*1804)/((3/0.000000268)+(2*0.000000100/x)))))/(((870000*1042)/((3/0.000000171)+(3/0.000000100)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*0.000000100/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000100))+2*((930000*1804)/((3/0.000000268)+(2*0.000000100/x)))-x*(((870000*1042)/((3/0.000000171)+(3/0.000000100)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*0.000000100/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000100))-((930000*1804)/((3/0.000000268)+(2*0.000000100/x))))))</Expression>
+<Expression>((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))*((((870000*1042)/((3/0.000000171)+(3/0.000000500)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000500))+2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))+2*x*(((870000*1042)/((3/0.000000171)+(3/0.000000500)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000500))-((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))))/(((870000*1042)/((3/0.000000171)+(3/0.000000500)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000500))+2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))-x*(((870000*1042)/((3/0.000000171)+(3/0.000000500)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000500))-((930000*1804)/((3/0.000000268)+(2*0.000000500/x))))))</Expression>
 <Variable>x</Variable>
 <Range>0.0001	1</Range>
 <Points>1000</Points>
@@ -112,7 +162,7 @@ CanvasBackground	#ffffff	0
 <Pen>
 	<Color>#ff0000</Color>
 	<Style>0</Style>
-	<Width>1</Width>
+	<Width>2</Width>
 </Pen>
 <xAxis>2</xAxis>
 <yAxis>0</yAxis>
@@ -132,7 +182,7 @@ CanvasBackground	#ffffff	0
 <Pen>
 	<Color>#00ff00</Color>
 	<Style>0</Style>
-	<Width>1</Width>
+	<Width>2</Width>
 </Pen>
 <xAxis>2</xAxis>
 <yAxis>0</yAxis>
@@ -141,15 +191,15 @@ CanvasBackground	#ffffff	0
 </Function>
 scale	0	0	160	0	9	5	0	0
 scale	1	0	160	0	9	5	0	0
-scale	2	0.0001	1.2	0	6	5	1	0
-scale	3	0.0001	1.2	0	6	5	1	0
+scale	2	0.0008	8	0	5	8	1	0
+scale	3	0.0008	8	0	5	8	1	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	3	3	3	3
 MinorTicks	3	0	3	3
 TicksLength	5	9
 DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
+AxesLineWidth	2
 LabelsRotation	0	0	0	0
 LabelsPrefix				
 LabelsSuffix				
@@ -159,12 +209,12 @@ EnabledTickLabels	1	0	1	0
 <Legend>
 <Frame>1</Frame>
 <Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
+<FrameWidth>2</FrameWidth>
 <LineStyle>0</LineStyle>
 <x>0.0025471261206694</x>
 <y>99.84962406015</y>
-<right>0.000462376496410069</right>
-<bottom>146.350710900474</bottom>
+<right>0.000313418069328588</right>
+<bottom>146.854460093897</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
