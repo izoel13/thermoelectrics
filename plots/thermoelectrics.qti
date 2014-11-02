@@ -3,9 +3,9 @@ QtiPlot 0.9.8 project file
 <windows>	5
 <table>
 kph-data-calculations	65	16	10/27/14 11:25 AM
-geometry	maximized	active
+geometry	0	0	1366	659	
 header	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	Description	Data	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	3D EMA
-ColWidth	84	47	136	165	133	25	58	51	106	116	104	28	124	113	113	110	
+ColWidth	84	47	136	165	133	25	154	51	106	116	104	28	124	113	113	110	
 <com>
 <col nr="0">
 5000000*(i-3)
@@ -17,7 +17,7 @@ ColWidth	84	47	136	165	133	25	58	51	106	116	104	28	124	113	113	110
 col("Interface Dens")*col("Nanoparticle Diameter")/6
 </col>
 <col nr="4">
-col("Data", 5)*col("Data", 6)*col("Data", 7)/3
+4*((col("Data", 5)*col("Data", 6)+col("Data", 1)*col("Data", 2))/(col("Data", 5)*col("Data", 6)*col("Data", 1)*col("Data", 2)))
 </col>
 <col nr="6">
 1/((1/col("Data", 7))+(col("Interface Dens")/4))
@@ -122,7 +122,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 model-comparison	1	1	02/11/2014 18:52:13
-geometry	765	241	485	449	
+geometry	maximized	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -131,8 +131,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	459	381
-<PageGeometry>0.010661	0.0126263	0.978678	0.962121</PageGeometry>
+ggeometry	15	8	1337	612
+<PageGeometry>0.010981	0.0125196	0.97877	0.957746</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -149,15 +149,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	4	5124	4
 AxesTitleDistance	2	-1	2	-1
 InvertedTitle	0	0	0	0
-TitleFont	DejaVu Sans	16	50	0	0	0
-ScaleFont0	DejaVu Sans	14	50	0	0	0
-ScaleFont1	DejaVu Sans	14	50	0	0	0
-ScaleFont2	DejaVu Sans	14	50	0	0	0
-ScaleFont3	DejaVu Sans	14	50	0	0	0
-AxisFont0	DejaVu Sans Condensed	9	50	0	0	0
-AxisFont1	DejaVu Sans Condensed	9	50	0	0	0
-AxisFont2	DejaVu Sans Condensed	9	50	0	0	0
-AxisFont3	DejaVu Sans Condensed	9	50	0	0	0
+TitleFont	DejaVu Sans	27	50	0	0	0
+ScaleFont0	DejaVu Sans	23	50	0	0	0
+ScaleFont1	DejaVu Sans	23	50	0	0	0
+ScaleFont2	DejaVu Sans	23	50	0	0	0
+ScaleFont3	DejaVu Sans	23	50	0	0	0
+AxisFont0	DejaVu Sans Condensed	15	50	0	0	0
+AxisFont1	DejaVu Sans Condensed	15	50	0	0	0
+AxisFont2	DejaVu Sans Condensed	15	50	0	0	0
+AxisFont3	DejaVu Sans Condensed	15	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
@@ -187,10 +187,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>0.012927024859663</x>
-<y>88.475836431227</y>
-<right>0.109671210906175</right>
-<bottom>73.6059479553903</bottom>
+<x>0.054253611556982</x>
+<y>89.661654135338</y>
+<right>0.156918138041734</right>
+<bottom>73.4962406015038</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -199,7 +199,7 @@ EnabledTickLabels	1	1	1	1
 \l(2)%(2)
 \l(3)%(3)
 </Text>
-<Font>DejaVu Sans	9	50	0	0	0</Font>
+<Font>DejaVu Sans	15	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -211,11 +211,11 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
-<folder>	plots	02/11/2014 17:52:52		current
+<folder>	plots	02/11/2014 17:52:52	
 <open>1</open>
 <multiLayer>
 modified-ema-v1	1	1	26/10/2014 23:17:33
-geometry	0	0	1920	934	
+geometry	maximized	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -225,7 +225,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	4	3	555	268
-<PageGeometry>0.00210084	0.00340522	0.291492	0.3042</PageGeometry>
+<PageGeometry>0.00296516	0.00623701	0.411416	0.557173</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -363,23 +363,23 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <SurfacePlot>
 3d-modified-ema	31/10/2014 13:04
-geometry	maximized	active
+geometry	0	0	1366	659	
 SurfaceFunction	(x<(pi/y))*((870000*1042)/((3/0.000000171)+(2*y/x)))*((((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))+2*(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x)))))/(((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))-(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x))))));40;40	1e+06	1e+08	1e-08	2e-07	0	51.5461
 Style	box	nofloor	filledmesh
 grids	0
-title		#000000	Liberation Sans	22	50	0
+title		#000000	Liberation Sans	10	50	0
 colors	#000000	#000000	#000000	#000000	#ffffff	#000000	#0000ff	#ff0000	1	
 axesLabels	Interface Density (1/m)	Nanoparticle Diameter (m)	Keff (mK)
 tics	5	5	5	5	5	5
 tickLengths	1.9e-08	1.14e-08	9.9e+06	5.94e+06	9.9e+06	5.94e+06
 options	1	1	0
-numbersFont	Liberation Sans	18	50	0
-xAxisLabelFont	Liberation Sans	18	50	0
-yAxisLabelFont	Liberation Sans	18	50	0
-zAxisLabelFont	Liberation Sans	18	50	0
-rotation	25	0	202
-zoom	4.74089e+07
-scaling	1.0101e-08	6.31579e+06	0.0257518
+numbersFont	Liberation Sans	8	50	0
+xAxisLabelFont	Liberation Sans	7	50	0
+yAxisLabelFont	Liberation Sans	7	50	0
+zAxisLabelFont	Liberation Sans	7	50	0
+rotation	24	0	211
+zoom	4.2668e+07
+scaling	1.11111e-08	6.31579e+06	0.0257518
 shift	0	0	0
 LineWidth	1
 WindowLabel		2
@@ -400,20 +400,20 @@ axisType	0	0	0
 </SurfacePlot>
 <SurfacePlot>
 3d-bose-einstein	28/02/2014 13:51:58
-geometry	-751	124	1920	934	
+geometry	0	0	1366	659	
 SurfaceFunction	1/(exp((1.054571726E-34*2*PI*x)/(1.3806488E-23*y)-1));40;40	1e+12	1.5e+13	0	1000	0	2.59091
 Style	box	nofloor	filledmesh
 grids	0
-title		#000000	MS Shell Dlg 2	98	50	0
+title		#000000	MS Shell Dlg 2	67	50	0
 colors	#000000	#000000	#000000	#000000	#ffffff	#000000	#0000ff	#ff0000	1	
 axesLabels	Frequency [Hz]	Temperature [K]	Bose-Einstein
 tics	4	5	5	5	5	5
 tickLengths	65	25	65	25	65	25
 options	1	1	5
-numbersFont	DejaVu Sans Condensed	19	50	0
-xAxisLabelFont	DejaVu Serif	33	50	0
-yAxisLabelFont	DejaVu Serif	33	50	0
-zAxisLabelFont	DejaVu Serif	33	50	0
+numbersFont	DejaVu Sans Condensed	13	50	0
+xAxisLabelFont	DejaVu Serif	23	50	0
+yAxisLabelFont	DejaVu Serif	23	50	0
+zAxisLabelFont	DejaVu Serif	23	50	0
 rotation	28	0	-49
 zoom	7.5656e+12
 scaling	7.14286e-14	0.001	0.385131
