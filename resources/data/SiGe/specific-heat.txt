@@ -1,0 +1,21 @@
+Silicon:
+Density = 2.33 g/cm^3
+Temperature (K)	Pressure (Pa)	Heat Capacity (J/Kg-K)
+200				101325			556.9
+250				101325			648.7
+298.15			100000			705
+350				101325			757.7
+400				101325			788.3
+500				101325			830.7
+600				101325			859.9
+
+
+
+Germanium:
+Density = 5.323 g/cm^3
+Temperature (K)	Pressure (Pa)	Heat Capacity (J/Kg-K)
+298.15			100000			320
+350				101325			328.5
+400				101325			334.8
+500				101325			343.8
+600				101325			350.5
