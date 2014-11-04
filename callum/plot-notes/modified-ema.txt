@@ -1,7 +1,6 @@
 do
 
 * fix 3D plot function, must be wrong somewhere
-* logirithmic plots
 
 1/(col("Volume Fraction")*(1/col("Data", 13))+(1-col("Volume Fraction"))*(1/col("Data", 14)))
 
