@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	5
 <table>
 kph-data-calculations	65	16	10/27/14 11:25 AM
-geometry	maximized	active
+geometry	0	0	1366	659	
 header	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	Description	Data	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	3D EMA
 ColWidth	84	47	136	165	133	25	154	51	106	116	104	28	124	113	113	110	
 <com>
@@ -122,7 +122,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 model-comparison	1	1	02/11/2014 18:52:13
-geometry	765	241	485	449	
+geometry	0	0	1029	547	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -131,8 +131,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	459	380
-<PageGeometry>0.010661	0.0126263	0.978678	0.959596</PageGeometry>
+ggeometry	10	7	1002	478
+<PageGeometry>0.00979432	0.0140281	0.981391	0.957916</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -148,16 +148,15 @@ AxesTitles	Volume Fraction	Thermal Conductivity [W/mK]		%(?Y)
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	4	5124	4
 AxesTitleDistance	2	-1	2	-1
-InvertedTitle	0	0	0	0
-TitleFont	DejaVu Sans	17	50	0	0	0
-ScaleFont0	DejaVu Sans	15	50	0	0	0
-ScaleFont1	DejaVu Sans	15	50	0	0	0
-ScaleFont2	DejaVu Sans	15	50	0	0	0
-ScaleFont3	DejaVu Sans	15	50	0	0	0
-AxisFont0	DejaVu Sans Condensed	9	50	0	0	0
-AxisFont1	DejaVu Sans Condensed	9	50	0	0	0
-AxisFont2	DejaVu Sans Condensed	9	50	0	0	0
-AxisFont3	DejaVu Sans Condensed	9	50	0	0	0
+TitleFont	DejaVu Sans	34	50	0	0	0
+ScaleFont0	DejaVu Sans	29	50	0	0	0
+ScaleFont1	DejaVu Sans	29	50	0	0	0
+ScaleFont2	DejaVu Sans	29	50	0	0	0
+ScaleFont3	DejaVu Sans	29	50	0	0	0
+AxisFont0	DejaVu Sans Condensed	19	50	0	0	0
+AxisFont1	DejaVu Sans Condensed	19	50	0	0	0
+AxisFont2	DejaVu Sans Condensed	19	50	0	0	0
+AxisFont3	DejaVu Sans Condensed	19	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
@@ -165,10 +164,10 @@ CanvasBackground	#ffffff	0
 curve	kph-data-calculations_Volume Fraction	kph-data-calculations_Modified EMA	0	1	#000000	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
 curve	kph-data-calculations_Volume Fraction	kph-data-calculations_Unmodified EMA	0	1	#ff0000	0	2	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	64	1
 curve	kph-data-calculations_Volume Fraction	kph-data-calculations_Weighted Average	0	1	#00ff00	0	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
-scale	0	0	120	0	7	5	0	0
-scale	1	0	120	0	7	5	0	0
-scale	2	-0.1	0.6	0	8	5	0	0
-scale	3	-0.1	0.6	0	8	5	0	0
+scale	0	0	100	0	6	5	0	0
+scale	1	0	100	0	6	5	0	0
+scale	2	0	0.52	0	7	5	0	0
+scale	3	0	0.52	0	7	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	3	1	3	1
@@ -187,10 +186,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>-0.026966292134831</x>
-<y>107.59398496241</y>
-<right>0.11123595505618</right>
-<bottom>88.1954887218045</bottom>
+<x>0.054253611556982</x>
+<y>89.661654135338</y>
+<right>0.0302630106323447</right>
+<bottom>96.4956195244055</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -199,7 +198,7 @@ EnabledTickLabels	1	1	1	1
 \l(2)%(2)
 \l(3)%(3)
 </Text>
-<Font>DejaVu Sans	9	50	0	0	0</Font>
+<Font>DejaVu Sans	19	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -215,7 +214,7 @@ EnabledTickLabels	1	1	1	1
 <open>1</open>
 <multiLayer>
 modified-ema-v1	1	1	26/10/2014 23:17:33
-geometry	0	0	1349	501	
+geometry	maximized
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -225,7 +224,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	4	3	555	268
-<PageGeometry>0.00292826	0.00623701	0.406296	0.557173</PageGeometry>
+<PageGeometry>0.00784314	0.00731707	1.08824	0.653659</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -241,7 +240,6 @@ AxesTitles	Volume Fraction	Keff
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	0
-InvertedTitle	0	0	0	0
 TitleFont	DejaVu Sans	25	50	0	0	0
 ScaleFont0	DejaVu Sans	19	50	0	0	0
 ScaleFont1	DejaVu Sans	19	50	0	0	0
@@ -339,8 +337,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>0.0025471261206694</x>
 <y>99.84962406015</y>
-<right>0.00337065739507783</right>
-<bottom>146.382978723404</bottom>
+<right>0.00661486796053852</right>
+<bottom>129.398907103825</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -363,7 +361,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <SurfacePlot>
 3d-modified-ema	31/10/2014 13:04
-geometry	maximized	active
+geometry	0	0	1366	659	
 SurfaceFunction	(x<(pi/y))*((870000*1042)/((3/0.000000171)+(2*y/x)))*((((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))+2*(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x)))))/(((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))-(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x))))));40;40	1e+06	1e+08	1e-08	2e-07	0	51.5461
 Style	box	nofloor	filledmesh
 grids	0
@@ -400,7 +398,7 @@ axisType	0	0	0
 </SurfacePlot>
 <SurfacePlot>
 3d-bose-einstein	28/02/2014 13:51:58
-geometry	0	0	1349	501	
+geometry	0	0	1366	659	active
 SurfaceFunction	1/(exp((1.054571726E-34*2*PI*x)/(1.3806488E-23*y)-1));40;40	1e+12	1.5e+13	0	1000	0	2.59091
 Style	box	nofloor	filledmesh
 grids	0
