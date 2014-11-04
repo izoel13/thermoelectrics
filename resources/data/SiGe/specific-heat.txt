@@ -1,5 +1,5 @@
 Silicon:
-Density = 2.33 g/cm^3
+Density = 2330 kg/m^3
 Temperature (K)	Pressure (Pa)	Heat Capacity (J/Kg-K)
 200				101325			556.9
 250				101325			648.7
@@ -12,10 +12,25 @@ Temperature (K)	Pressure (Pa)	Heat Capacity (J/Kg-K)
 
 
 Germanium:
-Density = 5.323 g/cm^3
+Density = 5323 kg/m^3
 Temperature (K)	Pressure (Pa)	Heat Capacity (J/Kg-K)
 298.15			100000			320
 350				101325			328.5
 400				101325			334.8
 500				101325			343.8
 600				101325			350.5
+
+Ge
+100/(3.95*1e-3*T+3.38*1e-6*T^2+0.17)
+
+si
+100/(1.56*1e-3*T+1.65*1e-6*T^2+0.03)
+
+chen modified EMA
+http://dx.doi.org/10.1063/1.2771040
+
+chen specific heat data
+http://dx.doi.org/10.1103/PhysRevB.57.14958
+
+nan EMA theory
+http://dx.doi.org/10.1063/1.365209
