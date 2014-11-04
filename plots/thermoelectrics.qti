@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	5
+<windows>	6
 <table>
 kph-data-calculations	65	16	10/27/14 11:25 AM
-geometry	0	0	1366	659	
+geometry	0	0	1920	934	
 header	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	Description	Data	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	3D EMA
 ColWidth	97	47	136	179	133	25	62	51	106	116	106	28	115	115	115	115	
 <com>
@@ -122,7 +122,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 model-comparison	1	1	04/11/2014 11:47
-geometry	1366	0	476	415	active
+geometry	387	21	780	656	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -131,8 +131,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	458	352
-<PageGeometry>0.0106838	0.013624	0.978632	0.959128</PageGeometry>
+ggeometry	5	5	762	590
+<PageGeometry>0.00647668	0.00822368	0.987047	0.970395</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -148,15 +148,15 @@ AxesTitles	Volume Fraction	Thermal Conductivity [W/mK]		%(?Y)
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	4	5124	4
 AxesTitleDistance	2	-1	2	-1
-TitleFont	Liberation Sans	10	50	0	0	0
-ScaleFont0	DejaVu Sans	14	50	0	0	0
-ScaleFont1	DejaVu Sans	14	50	0	0	0
-ScaleFont2	DejaVu Sans	14	50	0	0	0
-ScaleFont3	DejaVu Sans	14	50	0	0	0
-AxisFont0	DejaVu Sans	10	50	0	0	0
-AxisFont1	DejaVu Sans	10	50	0	0	0
-AxisFont2	DejaVu Sans	10	50	0	0	0
-AxisFont3	DejaVu Sans	10	50	0	0	0
+TitleFont	Liberation Sans	17	50	0	0	0
+ScaleFont0	DejaVu Sans	23	50	0	0	0
+ScaleFont1	DejaVu Sans	23	50	0	0	0
+ScaleFont2	DejaVu Sans	23	50	0	0	0
+ScaleFont3	DejaVu Sans	23	50	0	0	0
+AxisFont0	DejaVu Sans	17	50	0	0	0
+AxisFont1	DejaVu Sans	17	50	0	0	0
+AxisFont2	DejaVu Sans	17	50	0	0	0
+AxisFont3	DejaVu Sans	17	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
@@ -188,8 +188,98 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>0.043432494279176</x>
 <y>77.037037037037</y>
-<right>0.152013729977117</right>
-<bottom>63.4920634920635</bottom>
+<right>0.148179419525066</right>
+<bottom>69.4594594594595</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+</Text>
+<Font>DejaVu Sans	17	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+model-comparison-log-scale	1	1	04/11/2014 11:55
+geometry	1366	0	476	415	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	458	352
+<PageGeometry>0.0106838	0.013624	0.978632	0.959128</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Volume Fraction	Thermal Conductivity [W/mK]		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Liberation Sans	10	50	0	0	0
+ScaleFont0	DejaVu Sans	14	50	0	0	0
+ScaleFont1	Liberation Sans	12	75	0	0	0
+ScaleFont2	DejaVu Sans	14	50	0	0	0
+ScaleFont3	Liberation Sans	12	75	0	0	0
+AxisFont0	DejaVu Sans	10	50	0	0	0
+AxisFont1	Liberation Sans	10	50	0	0	0
+AxisFont2	DejaVu Sans	10	50	0	0	0
+AxisFont3	Liberation Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	kph-data-calculations_Volume Fraction	kph-data-calculations_Weighted Average	0	1	#000000	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
+curve	kph-data-calculations_Volume Fraction	kph-data-calculations_Unmodified EMA	0	1	#ff0000	0	2	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	64	1
+curve	kph-data-calculations_Volume Fraction	kph-data-calculations_Modified EMA	0	1	#00ff00	0	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
+scale	0	1.35387955988132	100	0	2	5	1	0
+scale	1	0	80	0	9	5	0	0
+scale	2	0	0.52	0	7	5	0	0
+scale	3	0	0.52	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	1	3	1
+MinorTicks	3	1	3	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.034626519976838</x>
+<y>5.6482671898148</y>
+<right>0.144528083381587</right>
+<bottom>2.72627081655837</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
