@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	9
+<windows>	10
 <table>
 model-comparison	65	17	10/27/14 11:25 AM
-geometry	0	0	1920	970	
+geometry	467	-48	1291	660	
 header	Description	Data	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	Alpha-unmodified	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	3D EMA
 ColWidth	179	148	97	52	55	30	67	51	106	116	119	117	28	115	115	115	118	
 <com>
@@ -125,9 +125,9 @@ WindowLabel		2
 </table>
 <table>
 temp-dependent	65	21	04/11/2014 12:09
-geometry	0	0	1920	970	
-header	Description	Data	variables	Temp	Kge	Ksi	Cge	Csi	Lge	Lsi	Lge-eff	Lsi-eff	R	Alpha	Kge-eff	Ksi-eff	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	3D EMA
-ColWidth	179	148	25	106	138	117	100	100	152	157	148	155	149	127	138	100	28	115	124	115	115	
+geometry	0	0	1907	970	
+header	Description	Data	variables	Temp[X]	Kge	Ksi	Cge	Csi	Lge	Lsi	Lge-eff	Lsi-eff	R	Alpha	Kge-eff	Ksi-eff	Alpha-eff	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
+ColWidth	179	148	25	106	138	117	100	100	152	157	148	155	93	122	121	122	116	28	115	124	115	
 <com>
 <col nr="1">
 6*col("Data", 8)/col("Data", 7)
@@ -153,8 +153,26 @@ ColWidth	179	148	25	106	138	117	100	100	152	157	148	155	149	127	138	100	28	115	1
 <col nr="12">
 4*((col("Cge")*col("Data", 1)+col("Csi")*col("Data", 4))/(col("Cge")*col("Data", 1)*col("Csi")*col("Data", 4)))
 </col>
-<col nr="17">
+<col nr="13">
+col("R")*col("Kge")/(col("Data", 7)/2)
+</col>
+<col nr="14">
+col("Cge")*col("Data", 1)*col("Lge-eff")/3
+</col>
+<col nr="15">
+col("Csi")*col("Data", 4)*col("Lsi-eff")/3
+</col>
+<col nr="16">
+col("R")*col("Kge-eff")/(col("Data", 7)/2)
+</col>
+<col nr="18">
 1/(col("Data", 8)/col("Ksi")+(1-col("Data", 8))/col("Kge"))
+</col>
+<col nr="19">
+col("Kge")*((col("Ksi")*(1+2*col("Alpha"))+2*col("Kge")+2*col("Data", 8)*(col("Ksi")*(1-col("Alpha"))-col("Kge")))/(col("Ksi")*(1+2*col("Alpha"))+2*col("Kge")-col("Data", 8)*(col("Ksi")*(1-col("Alpha"))-col("Kge"))))
+</col>
+<col nr="20">
+col("Kge-eff")*((col("Ksi-eff")*(1+2*col("Alpha-eff"))+2*col("Kge-eff")+2*col("Data", 8)*(col("Ksi-eff")*(1-col("Alpha-eff"))-col("Kge-eff")))/(col("Ksi-eff")*(1+2*col("Alpha-eff"))+2*col("Kge-eff")-col("Data", 8)*(col("Ksi-eff")*(1-col("Alpha-eff"))-col("Kge-eff"))))
 </col>
 </com>
 ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
@@ -163,88 +181,39 @@ HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Comments																						
 WindowLabel		2
 <data>
-0	Phonon velocity - Ge	3900		298.15	60.6740056356	155.8146569829	1703360	1642650	2.740014561067e-08	4.446359264648e-08	8.692932967431e-09	8.163911061668e-09	9.826109182965e-10	11.92378807886	60.67400563561			89.18846330257	26.49897562893		0
-1	Density (kg/m^3) - Ge	5323		350	50.85047418067	128.5140562249	1748605.5	1765441	2.236968222378e-08	3.412233195866e-08	8.114039367504e-09	7.733574007519e-09	9.405671751e-10	9.565657370522	50.85047418068			74.38859317267	22.90597024204		51.54611402169
-2				400	43.652872359	108.9324618736	1782140.4	1836739	1.884202422202e-08	2.780040686415e-08	7.598052662106e-09	7.354525829328e-09	9.157877678548e-10	7.99535330762	43.65287235899			63.61308583859	20.24397771754		51.35650270101
-3	Phonon Velocity - Si	6400		500	33.44481605351	81.79959100204	1830047.4	1935531	1.405798646506e-08	1.981035606364e-08	6.681197881085e-09	6.64546106774e-09	8.833538642445e-10	5.908721499963	33.4448160535			48.43695955854	16.43089206382		51.04151334841
-4	Density (kg/m^3) - Si	2330		600	26.61839863714	64.10256410256	1865711.5	2003567	1.097473605074e-08	1.499729079341e-08	5.894204422816e-09	5.999566479966e-09	8.616754937753e-10	4.587284357833	26.61839863713			38.36476761783	13.84403471156		50.41536714131
-5																					49.79427932954
-6	Nanoparticle diameter	1e-08																			49.17818886244
-7	Volume Fraction	0.5235987755983																			48.56703566786
-8	Interface density	314159265.359																			47.96076063264
-9																					47.35930558351
-10																					46.76261326854
-11																					46.17062733893
-12																					45.5832923313
-13																					45.00055365033
-14																					44.42235755189
-15																					43.84865112648
-16																					43.27938228309
-17																					42.71449973348
-18																					42.15395297672
-19																					41.59769228416
-20																					41.04566868474
-21																					40.49783395059
-22																					39.95414058301
-23																					39.41454179873
-24																					38.87899151648
-25																					38.34744434389
-26																					37.81985556467
-27																					37.29618112603
-28																					36.77637762647
-29																					36.26040230375
-30																					35.74821302319
-31																					35.23976826618
-32																					34.73502711897
-33																					34.2339492617
-34																					33.73649495764
-35																					33.24262504273
-36																					32.75230091525
-37																					32.2654845258
-38																					31.78213836745
-39																					31.30222546608
-40																					30.82570937099
-41																					30.35255414566
-42																					29.88272435869
-43																					29.41618507497
-44																					28.95290184707
-45																					28.49284070666
-46																					28.03596815631
-47																					27.58225116129
-48																					27.13165714163
-49																					26.68415396434
-50																					26.23970993575
-51																					25.79829379403
-52																					25.35987470184
-53																					24.92442223922
-54																					24.49190639646
-55																					24.06229756726
-56																					23.63556654199
-57																					23.21168450102
-58																					22.79062300827
-59																					22.37235400482
-60																					21.9568498027
-61																					21.5440830788
-62																					21.13402686883
-63																					20.72665456147
-64																					20.32193989263
+0	Phonon velocity - Ge	3900		298.15	60.6740056356	155.8146569829	1703360	1642650	2.740014561067e-08	4.446359264648e-08	8.692932967431e-09	8.163911061668e-09	9.826109182965e-10	11.92378807886	19.24935258922	28.60895681162	3.782924804861		89.18846330257	26.49897562893	10.33444243114
+1	Density (kg/m^3) - Ge	5323		350	50.85047418067	128.5140562249	1748605.5	1765441	2.236968222378e-08	3.412233195866e-08	8.114039367504e-09	7.733574007519e-09	9.405671751e-10	9.565657370522	18.4447300248	29.12675974274	3.469701522982		74.38859317267	22.90597024204	10.14402949673
+2				400	43.652872359	108.9324618736	1782140.4	1836739	1.884202422202e-08	2.780040686415e-08	7.598052662106e-09	7.354525829328e-09	9.157877678548e-10	7.99535330762	17.60303559361	28.81780142343	3.224128934748		63.61308583859	20.24397771754	9.883259951308
+3	Phonon Velocity - Si	6400		500	33.44481605351	81.79959100204	1830047.4	1935531	1.405798646506e-08	1.981035606364e-08	6.681197881085e-09	6.64546106774e-09	8.833538642445e-10	5.908721499963	15.89498145451	27.43999126593	2.808178657987		48.43695955854	16.43089206382	9.290052732521
+4	Density (kg/m^3) - Si	2330		600	26.61839863714	64.10256410256	1865711.5	2003567	1.097473605074e-08	1.499729079341e-08	5.894204422816e-09	5.999566479966e-09	8.616754937753e-10	4.587284357833	14.2959504675	25.64380461561	2.463694035614		38.36476761783	13.84403471156	8.692986454801
+6	Nanoparticle diameter	1e-08																			
+7	Volume Fraction	0.5235987755983																			
+8	Interface density	314159265.359																			
 </data>
 </table>
 <note>
 notes	04/11/2014 13:24
-geometry	0	0	892	641	
+geometry	maximized
 WindowLabel		2
 AutoExec	0
 <LineNumbers>1</LineNumbers>
 <tab>
 <active>1</active>
-<title>untitled</title>
+<title>general</title>
 <content>
 notes
 
 the data provided in the table in Chen's modified EMA paper uses the sine style dispersion of phonons. This changes the group velocity, specific heat and mean free path.
 We're going to use the Debye approximation for the dispersion of phonons, which is linear. It shouldn't matter too much since we're mostly concerned with comparing the different models.
 
+chen modified EMA
+http://dx.doi.org/10.1063/1.2771040
+
+chen specific heat data
+http://dx.doi.org/10.1103/PhysRevB.57.14958
+
+nan EMA theory
+http://dx.doi.org/10.1063/1.365209
 
 
 do
@@ -299,6 +268,41 @@ y
 z
 0
 150
+</content>
+</tab>
+<tab>
+<title>specfic-heat-data</title>
+<content>
+Silicon:
+Density = 2330 kg/m^3
+Temperature (K)	Pressure (Pa)	Heat Capacity (J/Kg-K)
+200				101325			556.9
+250				101325			648.7
+298.15			100000			705
+350				101325			757.7
+400				101325			788.3
+500				101325			830.7
+600				101325			859.9
+
+
+
+Germanium:
+Density = 5323 kg/m^3
+Temperature (K)	Pressure (Pa)	Heat Capacity (J/Kg-K)
+298.15			100000			320
+350				101325			328.5
+400				101325			334.8
+500				101325			343.8
+600				101325			350.5
+
+
+0-800K phonon thermal conductivities
+
+Ge
+100/(3.95*1e-3*T+3.38*1e-6*T^2+0.17)
+
+si
+100/(1.56*1e-3*T+1.65*1e-6*T^2+0.03)
 </content>
 </tab>
 </note>
@@ -394,7 +398,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 model-comparison-log-scale	1	1	04/11/2014 11:55
-geometry	965	141	696	656	active
+geometry	965	141	696	656	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -463,6 +467,96 @@ EnabledTickLabels	1	1	1	1
 <right>0.494411247803163</right>
 <bottom>7.63281715387954</bottom>
 <attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@C)
+\l(2)%(2,@C)
+\l(3)%(3,@C)
+</Text>
+<Font>DejaVu Sans	17	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph1	1	1	06/11/2014 16:25
+geometry	955	142	741	656	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	7	9	716	581
+<PageGeometry>0.0095498	0.0148026	0.976808	0.955592</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Liberation Sans	17	50	0	0	0
+ScaleFont0	DejaVu Sans	23	50	0	0	0
+ScaleFont1	DejaVu Sans	23	50	0	0	0
+ScaleFont2	DejaVu Sans	23	50	0	0	0
+ScaleFont3	DejaVu Sans	23	50	0	0	0
+AxisFont0	DejaVu Sans	17	50	0	0	0
+AxisFont1	DejaVu Sans	17	50	0	0	0
+AxisFont2	DejaVu Sans	17	50	0	0	0
+AxisFont3	DejaVu Sans	17	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	temp-dependent_Temp	temp-dependent_Weighted Average	0	1	#0000ff	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
+curve	temp-dependent_Temp	temp-dependent_Unmodified EMA	0	1	#ff0000	0	2	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	64	1
+curve	temp-dependent_Temp	temp-dependent_Modified EMA	0	1	#00ff00	0	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
+scale	0	0	100	0	6	5	0	0
+scale	1	0	100	0	6	5	0	0
+scale	2	300	600	0	7	5	0	0
+scale	3	300	600	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	1	3	1
+MinorTicks	3	1	3	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>439.40886699507</x>
+<y>91.382765531062</y>
+<right>574.87684729064</right>
+<bottom>72.9458917835671</bottom>
+<attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
 <Text>
