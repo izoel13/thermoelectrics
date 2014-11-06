@@ -232,19 +232,27 @@ WindowLabel		2
 </table>
 <note>
 notes	04/11/2014 13:24
-geometry	0	0	892	641	
+geometry	maximized	active
 WindowLabel		2
 AutoExec	0
 <LineNumbers>1</LineNumbers>
 <tab>
 <active>1</active>
-<title>untitled</title>
+<title>general</title>
 <content>
 notes
 
 the data provided in the table in Chen's modified EMA paper uses the sine style dispersion of phonons. This changes the group velocity, specific heat and mean free path.
 We're going to use the Debye approximation for the dispersion of phonons, which is linear. It shouldn't matter too much since we're mostly concerned with comparing the different models.
 
+chen modified EMA
+http://dx.doi.org/10.1063/1.2771040
+
+chen specific heat data
+http://dx.doi.org/10.1103/PhysRevB.57.14958
+
+nan EMA theory
+http://dx.doi.org/10.1063/1.365209
 
 
 do
@@ -299,6 +307,41 @@ y
 z
 0
 150
+</content>
+</tab>
+<tab>
+<title>specfic-heat-data</title>
+<content>
+Silicon:
+Density = 2330 kg/m^3
+Temperature (K)	Pressure (Pa)	Heat Capacity (J/Kg-K)
+200				101325			556.9
+250				101325			648.7
+298.15			100000			705
+350				101325			757.7
+400				101325			788.3
+500				101325			830.7
+600				101325			859.9
+
+
+
+Germanium:
+Density = 5323 kg/m^3
+Temperature (K)	Pressure (Pa)	Heat Capacity (J/Kg-K)
+298.15			100000			320
+350				101325			328.5
+400				101325			334.8
+500				101325			343.8
+600				101325			350.5
+
+
+0-800K phonon thermal conductivities
+
+Ge
+100/(3.95*1e-3*T+3.38*1e-6*T^2+0.17)
+
+si
+100/(1.56*1e-3*T+1.65*1e-6*T^2+0.03)
 </content>
 </tab>
 </note>
@@ -394,7 +437,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 model-comparison-log-scale	1	1	04/11/2014 11:55
-geometry	965	141	696	656	active
+geometry	965	141	696	656	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
