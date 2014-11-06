@@ -304,7 +304,7 @@ z
 </note>
 <multiLayer>
 model-comparison-plot	1	1	04/11/2014 11:47
-geometry	173	142	780	656	
+geometry	173	142	780	656	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -343,12 +343,13 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	model-comparison_Volume Fraction	model-comparison_Weighted Average	0	1	#000000	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
+curve	model-comparison_Volume Fraction	model-comparison_Weighted Average	0	1	#ff0000	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
 curve	model-comparison_Volume Fraction	model-comparison_Modified EMA	0	1	#00ff00	0	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
+curve	model-comparison_Volume Fraction	model-comparison_Unmodified EMA	0	1	#0000ff	0	2	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	64	1
 scale	0	0	80	0	9	5	0	0
 scale	1	0	80	0	9	5	0	0
-scale	2	-0.1	0.6	0	8	5	0	0
-scale	3	-0.1	0.6	0	8	5	0	0
+scale	2	0	0.52	0	7	5	0	0
+scale	3	0	0.52	0	7	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	3	1	3	1
@@ -367,16 +368,17 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>0.039641255605381</x>
-<y>78.418972332016</y>
-<right>0.25339312406577</right>
-<bottom>63.8735177865613</bottom>
+<x>0.036532137518685</x>
+<y>79.367588932806</y>
+<right>0.250284005979073</right>
+<bottom>64.8221343873518</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
 <Text>
 \l(1)%(1,@C)
 \l(2)%(2,@C)
+\l(3)%(3,@C)
 </Text>
 <Font>DejaVu Sans	17	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
@@ -392,7 +394,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 model-comparison-log-scale	1	1	04/11/2014 11:55
-geometry	maximized	active
+geometry	965	141	696	656	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -401,8 +403,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	14	14	1887	913
-<PageGeometry>0.00729167	0.0147368	0.982812	0.961053</PageGeometry>
+ggeometry	5	9	676	584
+<PageGeometry>0.00726744	0.0148026	0.982558	0.960526</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -418,26 +420,26 @@ AxesTitles	Volume Fraction	Thermal Conductivity [W/mK]		%(?Y)
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	4	5124	4
 AxesTitleDistance	2	-1	2	-1
-TitleFont	Liberation Sans	27	50	0	0	0
-ScaleFont0	DejaVu Sans	36	50	0	0	0
-ScaleFont1	Liberation Sans	31	75	0	0	0
-ScaleFont2	DejaVu Sans	36	50	0	0	0
-ScaleFont3	Liberation Sans	31	75	0	0	0
-AxisFont0	DejaVu Sans	27	50	0	0	0
-AxisFont1	Liberation Sans	27	50	0	0	0
-AxisFont2	DejaVu Sans	27	50	0	0	0
-AxisFont3	Liberation Sans	27	50	0	0	0
+TitleFont	Liberation Sans	17	50	0	0	0
+ScaleFont0	DejaVu Sans	23	50	0	0	0
+ScaleFont1	Liberation Sans	20	75	0	0	0
+ScaleFont2	DejaVu Sans	23	50	0	0	0
+ScaleFont3	Liberation Sans	20	75	0	0	0
+AxisFont0	DejaVu Sans	17	50	0	0	0
+AxisFont1	Liberation Sans	17	50	0	0	0
+AxisFont2	DejaVu Sans	17	50	0	0	0
+AxisFont3	Liberation Sans	17	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	model-comparison_Volume Fraction	model-comparison_Weighted Average	0	1	#000000	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
+curve	model-comparison_Volume Fraction	model-comparison_Weighted Average	0	1	#ff0000	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
 curve	model-comparison_Volume Fraction	model-comparison_Modified EMA	0	1	#00ff00	0	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
 curve	model-comparison_Volume Fraction	model-comparison_Unmodified EMA	0	1	#0000ff	0	2	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	64	1
 scale	0	1.35387955988132	100	0	2	8	1	0
 scale	1	1.35387955988132	100	0	2	8	1	0
-scale	2	-0.1	0.6	0	8	5	0	0
-scale	3	-0.1	0.6	0	8	5	0	0
+scale	2	0	0.52	0	7	5	0	0
+scale	3	0	0.52	0	7	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	3	1	3	1
@@ -456,10 +458,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>0.24877622377622</x>
-<y>18.153657748823</y>
-<right>0.00512367491166077</right>
-<bottom>74.531596743823</bottom>
+<x>0.2425462962963</x>
+<y>19.438940965325</y>
+<right>0.358101851851852</right>
+<bottom>9.35290154210388</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -468,7 +470,7 @@ EnabledTickLabels	1	1	1	1
 \l(2)%(2,@C)
 \l(3)%(3,@C)
 </Text>
-<Font>DejaVu Sans	27	50	0	0	0</Font>
+<Font>DejaVu Sans	17	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
