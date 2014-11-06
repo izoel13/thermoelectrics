@@ -1,6 +1,6 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	10
+<windows>	11
 <table>
 model-comparison	65	17	10/27/14 11:25 AM
 geometry	467	-48	1291	660	
@@ -125,7 +125,7 @@ WindowLabel		2
 </table>
 <table>
 temp-dependent	65	21	04/11/2014 12:09
-geometry	0	0	1907	970	
+geometry	maximized	active
 header	Description	Data	variables	Temp[X]	Kge	Ksi	Cge	Csi	Lge	Lsi	Lge-eff	Lsi-eff	R	Alpha	Kge-eff	Ksi-eff	Alpha-eff	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
 ColWidth	179	148	25	106	138	117	100	100	152	157	148	155	93	122	121	122	116	28	115	124	115	
 <com>
@@ -193,7 +193,7 @@ WindowLabel		2
 </table>
 <note>
 notes	04/11/2014 13:24
-geometry	maximized
+geometry	0	0	1920	970	
 WindowLabel		2
 AutoExec	0
 <LineNumbers>1</LineNumbers>
@@ -219,7 +219,6 @@ http://dx.doi.org/10.1063/1.365209
 do
 
 * fix 3D plot function, must be wrong somewhere
-* finish temp-dependent table
 * comment table columns in temp-dependent
 
 1/(col("Volume Fraction")*(1/col("Data", 13))+(1-col("Volume Fraction"))*(1/col("Data", 14)))
@@ -487,8 +486,8 @@ EnabledTickLabels	1	1	1	1
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <multiLayer>
-Graph1	1	1	06/11/2014 16:25
-geometry	955	142	741	656	active
+temp-dependent-log-plot	1	1	06/11/2014 16:25
+geometry	0	0	1920	970	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -497,8 +496,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	7	9	716	581
-<PageGeometry>0.0095498	0.0148026	0.976808	0.955592</PageGeometry>
+ggeometry	18	14	1875	908
+<PageGeometry>0.009375	0.0147368	0.976562	0.955789</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -510,19 +509,19 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	0	1	0	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitles	Temperature [K]	Thermal Conductivity [W/mK]		%(?Y)	
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	4	5124	4
+AxesTitleAlignment	4	4	4	4
 AxesTitleDistance	2	-1	2	-1
-TitleFont	Liberation Sans	17	50	0	0	0
-ScaleFont0	DejaVu Sans	23	50	0	0	0
-ScaleFont1	DejaVu Sans	23	50	0	0	0
-ScaleFont2	DejaVu Sans	23	50	0	0	0
-ScaleFont3	DejaVu Sans	23	50	0	0	0
-AxisFont0	DejaVu Sans	17	50	0	0	0
-AxisFont1	DejaVu Sans	17	50	0	0	0
-AxisFont2	DejaVu Sans	17	50	0	0	0
-AxisFont3	DejaVu Sans	17	50	0	0	0
+TitleFont	Liberation Sans	26	50	0	0	0
+ScaleFont0	DejaVu Sans	36	50	0	0	0
+ScaleFont1	DejaVu Sans	36	50	0	0	0
+ScaleFont2	DejaVu Sans	36	50	0	0	0
+ScaleFont3	DejaVu Sans	36	50	0	0	0
+AxisFont0	DejaVu Sans	26	50	0	0	0
+AxisFont1	DejaVu Sans	26	50	0	0	0
+AxisFont2	DejaVu Sans	26	50	0	0	0
+AxisFont3	DejaVu Sans	26	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
@@ -530,8 +529,8 @@ CanvasBackground	#ffffff	0
 curve	temp-dependent_Temp	temp-dependent_Weighted Average	0	1	#0000ff	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
 curve	temp-dependent_Temp	temp-dependent_Unmodified EMA	0	1	#ff0000	0	2	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	64	1
 curve	temp-dependent_Temp	temp-dependent_Modified EMA	0	1	#00ff00	0	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
-scale	0	0	100	0	6	5	0	0
-scale	1	0	100	0	6	5	0	0
+scale	0	8.676571895038	100	0	2	8	1	0
+scale	1	8.676571895038	100	0	2	8	1	0
 scale	2	300	600	0	7	5	0	0
 scale	3	300	600	0	7	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
@@ -552,10 +551,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>439.40886699507</x>
-<y>91.382765531062</y>
-<right>574.87684729064</right>
-<bottom>72.9458917835671</bottom>
+<x>456.15763546798</x>
+<y>98.54108133381</y>
+<right>591.625615763547</right>
+<bottom>62.7887614048752</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -564,7 +563,97 @@ EnabledTickLabels	1	1	1	1
 \l(2)%(2,@C)
 \l(3)%(3,@C)
 </Text>
-<Font>DejaVu Sans	17	50	0	0	0</Font>
+<Font>DejaVu Sans	27	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+temp-dependent-plot	1	1	06/11/2014 16:30
+geometry	0	0	1920	970	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	18	14	1875	908
+<PageGeometry>0.009375	0.0147368	0.976562	0.955789</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Temperature [K]	Thermal Conductivity [W/mK]		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Liberation Sans	26	50	0	0	0
+ScaleFont0	DejaVu Sans	36	50	0	0	0
+ScaleFont1	Liberation Sans	19	75	0	0	0
+ScaleFont2	DejaVu Sans	36	50	0	0	0
+ScaleFont3	Liberation Sans	19	75	0	0	0
+AxisFont0	DejaVu Sans	26	50	0	0	0
+AxisFont1	Liberation Sans	16	50	0	0	0
+AxisFont2	DejaVu Sans	26	50	0	0	0
+AxisFont3	Liberation Sans	16	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	temp-dependent_Temp	temp-dependent_Weighted Average	0	1	#0000ff	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
+curve	temp-dependent_Temp	temp-dependent_Unmodified EMA	0	1	#ff0000	0	2	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	64	1
+curve	temp-dependent_Temp	temp-dependent_Modified EMA	0	1	#00ff00	0	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
+scale	0	0	100	0	6	4	0	0
+scale	1	8.676571895038	100	0	2	8	1	0
+scale	2	300	600	0	7	5	0	0
+scale	3	300	600	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	1	3	1
+MinorTicks	3	1	3	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>446.79802955665</x>
+<y>90.180360721443</y>
+<right>582.266009852217</right>
+<bottom>71.7434869739479</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@C)
+\l(2)%(2,@C)
+\l(3)%(3,@C)
+</Text>
+<Font>DejaVu Sans	27	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -579,8 +668,8 @@ EnabledTickLabels	1	1	1	1
 <folder>	plots	02/11/2014 17:52:52	
 <open>1</open>
 <multiLayer>
-modified-ema-v1	1	1	26/10/2014 23:17:33
-geometry	maximized
+modified-ema-10-100-1000nm	1	1	26/10/2014 23:17:33
+geometry	maximized	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -590,7 +679,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	15	7	2089	621
-<PageGeometry>0.0294118	0.0170732	4.09608	1.51463</PageGeometry>
+<PageGeometry>0.0078125	0.00736842	1.08802	0.653684</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -764,7 +853,7 @@ axisType	0	0	0
 </SurfacePlot>
 <SurfacePlot>
 3d-bose-einstein	28/02/2014 13:51:58
-geometry	0	0	1366	659	active
+geometry	0	0	1366	659	
 SurfaceFunction	1/(exp((1.054571726E-34*2*PI*x)/(1.3806488E-23*y)-1));40;40	1e+12	1.5e+13	0	1000	0	2.59091
 Style	box	nofloor	filledmesh
 grids	0
@@ -854,3 +943,22 @@ https://etd.ohiolink.edu/ap/0?0:APPLICATION_PROCESS%3DDOWNLOAD_ETD_SUB_DOC_ACCNU
 </note>
 </folder>
 <open>1</open>
+<log>
+[06/11/2014 16:45	Plot: ''Graph1'']
+Non-linear Fit of dataset: temp-dependent_Weighted Average, using function: A*x+B
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 2.981500000000000e+02 to x = 6.000000000000000e+02
+A = -1.639806993818275e-01 +/- 1.880988313053692e-02
+B = 1.332494017736214e+02 +/- 8.333408407700414e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.069223105590366e+01
+R^2 = 0.96202528954144
+Adjusted R^2 = 0.92405057908288
+RMSE (Root Mean Squared Error) = 4.54887140463474
+RSS (Residual Sum of Squares) = 62.076693167711
+---------------------------------------------------------------------------------------
+Iterations = 2
+Status = success
+---------------------------------------------------------------------------------------
+</log>
