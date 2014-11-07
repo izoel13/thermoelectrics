@@ -118,7 +118,7 @@ si
 <open>1</open>
 <multiLayer>
 modified-ema-10-100-1000nm	1	1	26/10/2014 23:17:33
-geometry	maximized	active
+geometry	-1130	0	510	430	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -127,8 +127,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	15	6	2089	546
-<PageGeometry>0.0078125	0.00719424	1.08802	0.654676</PageGeometry>
+ggeometry	4	3	546	250
+<PageGeometry>0.00796813	0.0078534	1.08765	0.65445</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -144,15 +144,15 @@ AxesTitles	Volume Fraction	Keff
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	0
-TitleFont	DejaVu Sans	25	50	0	0	0
-ScaleFont0	DejaVu Sans	19	50	0	0	0
-ScaleFont1	DejaVu Sans	19	50	0	0	0
-ScaleFont2	DejaVu Sans	19	50	0	0	0
-ScaleFont3	DejaVu Sans	19	50	0	0	0
-AxisFont0	DejaVu Sans Condensed	14	50	0	0	0
-AxisFont1	DejaVu Sans Condensed	14	50	0	0	0
-AxisFont2	DejaVu Sans Condensed	14	50	0	0	0
-AxisFont3	DejaVu Sans Condensed	14	50	0	0	0
+TitleFont	DejaVu Sans	12	50	0	0	0
+ScaleFont0	DejaVu Sans	9	50	0	0	0
+ScaleFont1	DejaVu Sans	9	50	0	0	0
+ScaleFont2	DejaVu Sans	9	50	0	0	0
+ScaleFont3	DejaVu Sans	9	50	0	0	0
+AxisFont0	DejaVu Sans Condensed	7	50	0	0	0
+AxisFont1	DejaVu Sans Condensed	7	50	0	0	0
+AxisFont2	DejaVu Sans Condensed	7	50	0	0	0
+AxisFont3	DejaVu Sans Condensed	7	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
@@ -251,7 +251,7 @@ EnabledTickLabels	1	0	1	0
 \l(2) 100nm
 \l(1) 1000nm
 </Text>
-<Font>DejaVu Sans Condensed	14	50	0	0	0</Font>
+<Font>DejaVu Sans Condensed	7	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -265,7 +265,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <SurfacePlot>
 3d-modified-ema	31/10/2014 13:04
-geometry	-1470	0	1366	659	
+geometry	-1130	0	1366	659	
 SurfaceFunction	(x<(pi/y))*((870000*1042)/((3/0.000000171)+(2*y/x)))*((((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))+2*(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x)))))/(((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))-(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x))))));40;40	1e+06	1e+08	1e-08	2e-07	0	51.5461
 Style	box	nofloor	filledmesh
 grids	0
@@ -302,7 +302,7 @@ axisType	0	0	0
 </SurfacePlot>
 <SurfacePlot>
 3d-bose-einstein	28/02/2014 13:51:58
-geometry	-1470	0	1366	659	
+geometry	maximized	active
 SurfaceFunction	1/(exp((1.054571726E-34*2*PI*x)/(1.3806488E-23*y)-1));40;40	1e+12	1.5e+13	0	1000	0	2.59091
 Style	box	nofloor	filledmesh
 grids	0
@@ -391,11 +391,11 @@ https://etd.ohiolink.edu/ap/0?0:APPLICATION_PROCESS%3DDOWNLOAD_ETD_SUB_DOC_ACCNU
 </tab>
 </note>
 </folder>
-<folder>	model-comparison	07/11/2014 13:36		current
+<folder>	model-comparison	07/11/2014 13:36	
 <open>1</open>
 <table>
 model-comparison	65	17	10/27/14 11:25 AM
-geometry	-1474	0	1700	840	
+geometry	-1134	0	1700	840	
 header	Description	Data	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	Alpha-unmodified	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	3D EMA
 ColWidth	179	148	97	52	61	30	67	51	106	116	119	117	28	115	115	115	118	
 <com>
@@ -516,8 +516,8 @@ WindowLabel		2
 </data>
 </table>
 <multiLayer>
-model-comparison-plot	1	1	07/11/2014 16:06
-geometry	227	1	846	810	
+model-comparison-10nm	1	1	07/11/2014 16:06
+geometry	567	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -606,8 +606,8 @@ EnabledTickLabels	1	0	1	0
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <multiLayer>
-model-comparison-log-plot	1	1	07/11/2014 16:09
-geometry	1074	1	846	810	active
+model-comparison-10nm-log	1	1	07/11/2014 16:09
+geometry	1414	1	846	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -629,7 +629,7 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	Thermal Conductivity [W/mK]		 	
+AxesTitles	%(?X)	Thermal Conductivity [W/mK]			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	4	5124	5124	5124
 AxesTitleDistance	0	4	4	4
@@ -696,11 +696,11 @@ EnabledTickLabels	1	0	1	0
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 </folder>
-<folder>	temp-dependence	07/11/2014 13:36	
+<folder>	temp-dependence	07/11/2014 13:36		current
 <open>1</open>
 <table>
 temp-dependent	65	21	04/11/2014 12:09
-geometry	-1474	0	1919	502	
+geometry	-1134	0	1700	840	active
 header	Description	Data	variables	Temp[X]	Kge	Ksi	Cge	Csi	Lge	Lsi	Lge-eff	Lsi-eff	R	Alpha	Kge-eff	Ksi-eff	Alpha-eff	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
 ColWidth	179	148	25	106	138	117	100	100	152	157	148	155	93	122	121	122	116	28	115	124	115	
 <com>
@@ -767,18 +767,18 @@ WindowLabel		2
 </data>
 </table>
 <multiLayer>
-temp-dependent-log-plot	1	1	06/11/2014 16:25
-geometry	1246	0	800	800	
+model-comparison-temp-dependence	1	1	07/11/2014 16:17
+geometry	565	1	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
-LayerCanvasSize	400	300
+LayerCanvasSize	693	650
 Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	9	15	775	735
-<PageGeometry>0.0113636	0.0199468	0.978535	0.977394</PageGeometry>
+ggeometry	5	5	845	747
+<PageGeometry>0.00584795	0.00656168	0.988304	0.980315</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -789,53 +789,53 @@ Background	#ffffff	0
 Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	0	1	0	
-AxesTitles	Temperature [K]	Thermal Conductivity [W/mK]		%(?Y)	
+EnabledAxes	1	1	1	1	
+AxesTitles	Temperature [K]	Thermal Conductivity [W/mK]			
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	4	4	4	4
-AxesTitleDistance	2	-1	2	-1
-TitleFont	Liberation Sans	21	50	0	0	0
-ScaleFont0	DejaVu Sans	29	50	0	0	0
-ScaleFont1	DejaVu Sans	29	50	0	0	0
-ScaleFont2	DejaVu Sans	29	50	0	0	0
-ScaleFont3	DejaVu Sans	29	50	0	0	0
-AxisFont0	DejaVu Sans	21	50	0	0	0
-AxisFont1	DejaVu Sans	21	50	0	0	0
-AxisFont2	DejaVu Sans	21	50	0	0	0
-AxisFont3	DejaVu Sans	21	50	0	0	0
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	4	4	4	4
+TitleFont	Liberation Sans	10	50	0	0	0
+ScaleFont0	DejaVu Sans	28	50	0	0	0
+ScaleFont1	DejaVu Sans	28	50	0	0	0
+ScaleFont2	DejaVu Sans	28	50	0	0	0
+ScaleFont3	DejaVu Sans	28	50	0	0	0
+AxisFont0	DejaVu Sans	20	50	0	0	0
+AxisFont1	DejaVu Sans	20	50	0	0	0
+AxisFont2	DejaVu Sans	20	50	0	0	0
+AxisFont3	DejaVu Sans	20	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	temp-dependent_Temp	temp-dependent_Weighted Average	0	1	#0000ff	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
-curve	temp-dependent_Temp	temp-dependent_Unmodified EMA	0	1	#ff0000	0	2	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	64	1
-curve	temp-dependent_Temp	temp-dependent_Modified EMA	0	1	#00ff00	0	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
-scale	0	8.676571895038	100	0	2	8	1	0
-scale	1	8.676571895038	100	0	2	8	1	0
+curve	temp-dependent_Temp	temp-dependent_Weighted Average	0	1	#ff0000	0	2.5	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	64	1
+curve	temp-dependent_Temp	temp-dependent_Unmodified EMA	0	1	#00ff00	0	2.5	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
+curve	temp-dependent_Temp	temp-dependent_Modified EMA	0	1	#0000ff	0	2.5	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	64	1
+scale	0	0	100	0	6	6	0	0
+scale	1	0	100	0	6	6	0	0
 scale	2	300	600	0	7	5	0	0
 scale	3	300	600	0	7	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
-MajorTicks	3	1	3	1
-MinorTicks	3	1	3	1
-TicksLength	5	9
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	12
 DrawAxesBackbone	1	1	1	1	1
 AxesLineWidth	1
 LabelsRotation	0	0	0	0
 LabelsPrefix				
 LabelsSuffix				
-TickLabelsSpace	4	4	4	4
+TickLabelsSpace	2	2	2	2
 ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
+EnabledTickLabels	1	0	1	0
 <Legend>
 <Frame>1</Frame>
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>457.72230889236</x>
-<y>103.1427320322</y>
-<right>611.232449297972</right>
-<bottom>65.8534428022915</bottom>
+<x>435.33519553073</x>
+<y>93.528505392912</y>
+<right>565.223463687151</right>
+<bottom>77.5038520801233</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -844,7 +844,7 @@ EnabledTickLabels	1	1	1	1
 \l(2)%(2,@C)
 \l(3)%(3,@C)
 </Text>
-<Font>DejaVu Sans	22	50	0	0	0</Font>
+<Font>DejaVu Sans	20	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -857,18 +857,18 @@ EnabledTickLabels	1	1	1	1
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <multiLayer>
-temp-dependent-plot	1	1	06/11/2014 16:30
-geometry	445	0	800	800	active
+model-comparison-temp-dependence-log	1	1	07/11/2014 16:19
+geometry	1429	1	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
-LayerCanvasSize	400	300
+LayerCanvasSize	650	650
 Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	9	3	777	739
-<PageGeometry>0.0113636	0.00398936	0.981061	0.982713</PageGeometry>
+ggeometry	5	5	845	747
+<PageGeometry>0.00584795	0.00656168	0.988304	0.980315</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -879,53 +879,53 @@ Background	#ffffff	0
 Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	0	1	0	
-AxesTitles	Temperature [K]	Thermal Conductivity [W/mK]		%(?Y)	
+EnabledAxes	1	1	1	1	
+AxesTitles	Temperature [K]	Thermal Conductivity [W/mK]			
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	4	4	4	4
-AxesTitleDistance	2	-1	2	-1
-TitleFont	Liberation Sans	21	50	0	0	0
-ScaleFont0	DejaVu Sans	29	50	0	0	0
-ScaleFont1	Liberation Sans	15	75	0	0	0
-ScaleFont2	DejaVu Sans	29	50	0	0	0
-ScaleFont3	Liberation Sans	15	75	0	0	0
-AxisFont0	DejaVu Sans	21	50	0	0	0
-AxisFont1	Liberation Sans	13	50	0	0	0
-AxisFont2	DejaVu Sans	21	50	0	0	0
-AxisFont3	Liberation Sans	13	50	0	0	0
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	0	4	4	4
+TitleFont	Liberation Sans	10	50	0	0	0
+ScaleFont0	DejaVu Sans	28	50	0	0	0
+ScaleFont1	DejaVu Sans	28	50	0	0	0
+ScaleFont2	DejaVu Sans	28	50	0	0	0
+ScaleFont3	DejaVu Sans	28	50	0	0	0
+AxisFont0	DejaVu Sans	20	50	0	0	0
+AxisFont1	DejaVu Sans	20	50	0	0	0
+AxisFont2	DejaVu Sans	20	50	0	0	0
+AxisFont3	DejaVu Sans	20	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	temp-dependent_Temp	temp-dependent_Weighted Average	0	1	#0000ff	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	64	1
-curve	temp-dependent_Temp	temp-dependent_Unmodified EMA	0	1	#ff0000	0	2	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	64	1
-curve	temp-dependent_Temp	temp-dependent_Modified EMA	0	1	#00ff00	0	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
-scale	0	0	100	0	6	4	0	0
-scale	1	0	100	0	6	4	0	0
+curve	temp-dependent_Temp	temp-dependent_Weighted Average	0	1	#ff0000	0	2.5	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	64	1
+curve	temp-dependent_Temp	temp-dependent_Unmodified EMA	0	1	#00ff00	0	2.5	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
+curve	temp-dependent_Temp	temp-dependent_Modified EMA	0	1	#0000ff	0	2.5	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	64	1
+scale	0	8.67657189503761	100	0	2	8	1	0
+scale	1	0	100	0	6	6	0	0
 scale	2	300	600	0	7	5	0	0
 scale	3	300	600	0	7	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
-MajorTicks	3	1	3	1
-MinorTicks	3	1	3	1
-TicksLength	5	9
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	12
 DrawAxesBackbone	1	1	1	1	1
 AxesLineWidth	1
 LabelsRotation	0	0	0	0
 LabelsPrefix				
 LabelsSuffix				
-TickLabelsSpace	4	4	4	4
+TickLabelsSpace	2	2	2	2
 ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
+EnabledTickLabels	1	0	1	0
 <Legend>
 <Frame>1</Frame>
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>449.766718507</x>
-<y>92.610062893082</y>
-<right>602.799377916019</right>
-<bottom>74.3710691823899</bottom>
+<x>454.16666666667</x>
+<y>89.652212573078</y>
+<right>583.333333333333</right>
+<bottom>60.5947484660319</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -934,7 +934,7 @@ EnabledTickLabels	1	1	1	1
 \l(2)%(2,@C)
 \l(3)%(3,@C)
 </Text>
-<Font>DejaVu Sans	22	50	0	0	0</Font>
+<Font>DejaVu Sans	20	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
