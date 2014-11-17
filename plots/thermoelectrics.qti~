@@ -118,7 +118,7 @@ si
 <open>1</open>
 <multiLayer>
 modified-ema-10-100-1000nm	1	1	26/10/2014 23:17:33
-geometry	maximized	active
+geometry	-1130	0	510	430	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -127,8 +127,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	15	6	2089	546
-<PageGeometry>0.0078125	0.00719424	1.08802	0.654676</PageGeometry>
+ggeometry	4	3	546	250
+<PageGeometry>0.00796813	0.0078534	1.08765	0.65445</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -144,15 +144,15 @@ AxesTitles	Volume Fraction	Keff
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	0
-TitleFont	DejaVu Sans	25	50	0	0	0
-ScaleFont0	DejaVu Sans	19	50	0	0	0
-ScaleFont1	DejaVu Sans	19	50	0	0	0
-ScaleFont2	DejaVu Sans	19	50	0	0	0
-ScaleFont3	DejaVu Sans	19	50	0	0	0
-AxisFont0	DejaVu Sans Condensed	14	50	0	0	0
-AxisFont1	DejaVu Sans Condensed	14	50	0	0	0
-AxisFont2	DejaVu Sans Condensed	14	50	0	0	0
-AxisFont3	DejaVu Sans Condensed	14	50	0	0	0
+TitleFont	DejaVu Sans	12	50	0	0	0
+ScaleFont0	DejaVu Sans	9	50	0	0	0
+ScaleFont1	DejaVu Sans	9	50	0	0	0
+ScaleFont2	DejaVu Sans	9	50	0	0	0
+ScaleFont3	DejaVu Sans	9	50	0	0	0
+AxisFont0	DejaVu Sans Condensed	7	50	0	0	0
+AxisFont1	DejaVu Sans Condensed	7	50	0	0	0
+AxisFont2	DejaVu Sans Condensed	7	50	0	0	0
+AxisFont3	DejaVu Sans Condensed	7	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
@@ -251,7 +251,7 @@ EnabledTickLabels	1	0	1	0
 \l(2) 100nm
 \l(1) 1000nm
 </Text>
-<Font>DejaVu Sans Condensed	14	50	0	0	0</Font>
+<Font>DejaVu Sans Condensed	7	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -265,7 +265,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <SurfacePlot>
 3d-modified-ema	31/10/2014 13:04
-geometry	-1351	0	1366	659	
+geometry	-1130	0	1366	659	
 SurfaceFunction	(x<(pi/y))*((870000*1042)/((3/0.000000171)+(2*y/x)))*((((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))+2*(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x)))))/(((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))-(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x))))));40;40	1e+06	1e+08	1e-08	2e-07	0	51.5461
 Style	box	nofloor	filledmesh
 grids	0
@@ -302,7 +302,7 @@ axisType	0	0	0
 </SurfacePlot>
 <SurfacePlot>
 3d-bose-einstein	28/02/2014 13:51:58
-geometry	-1351	0	1366	659	
+geometry	maximized	active
 SurfaceFunction	1/(exp((1.054571726E-34*2*PI*x)/(1.3806488E-23*y)-1));40;40	1e+12	1.5e+13	0	1000	0	2.59091
 Style	box	nofloor	filledmesh
 grids	0
@@ -395,7 +395,7 @@ https://etd.ohiolink.edu/ap/0?0:APPLICATION_PROCESS%3DDOWNLOAD_ETD_SUB_DOC_ACCNU
 <open>1</open>
 <table>
 model-comparison	65	17	10/27/14 11:25 AM
-geometry	-1355	0	1700	840	
+geometry	-1134	0	1700	840	
 header	Description	Data	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	Alpha-unmodified	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	3D EMA
 ColWidth	179	148	97	52	61	30	67	51	106	116	119	117	28	115	115	115	118	
 <com>
@@ -517,7 +517,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 model-comparison-10nm	1	1	07/11/2014 16:06
-geometry	346	1	846	810	
+geometry	567	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -607,7 +607,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 model-comparison-10nm-log	1	1	07/11/2014 16:09
-geometry	1193	1	846	810	active
+geometry	1414	1	846	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -697,10 +697,10 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 </folder>
 <folder>	temp-dependence	07/11/2014 13:36		current
-<open>0</open>
+<open>1</open>
 <table>
 temp-dependent	65	21	04/11/2014 12:09
-geometry	-1355	0	1700	840	
+geometry	-1134	0	1700	840	active
 header	Description	Data	variables	Temp[X]	Kge	Ksi	Cge	Csi	Lge	Lsi	Lge-eff	Lsi-eff	R	Alpha	Kge-eff	Ksi-eff	Alpha-eff	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
 ColWidth	179	148	25	106	138	117	100	100	152	157	148	155	93	122	121	122	116	28	115	124	115	
 <com>
@@ -768,7 +768,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 model-comparison-temp-dependence	1	1	07/11/2014 16:17
-geometry	344	1	863	810	
+geometry	565	1	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -858,7 +858,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 model-comparison-temp-dependence-log	1	1	07/11/2014 16:19
-geometry	1208	1	863	810	active
+geometry	1429	1	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
