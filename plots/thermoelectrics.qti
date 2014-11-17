@@ -1,6 +1,6 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	13
+<windows>	14
 <note>
 notes	04/11/2014 13:24
 geometry	maximized	active
@@ -118,7 +118,7 @@ si
 <open>1</open>
 <multiLayer>
 modified-ema-10-100-1000nm	1	1	26/10/2014 23:17:33
-geometry	-1130	0	510	430	
+geometry	-2446	0	510	430	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -265,7 +265,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <SurfacePlot>
 3d-modified-ema	31/10/2014 13:04
-geometry	-1130	0	1366	659	
+geometry	-2446	0	1366	659	
 SurfaceFunction	(x<(pi/y))*((870000*1042)/((3/0.000000171)+(2*y/x)))*((((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))+2*(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x)))))/(((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))-(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x))))));40;40	1e+06	1e+08	1e-08	2e-07	0	51.5461
 Style	box	nofloor	filledmesh
 grids	0
@@ -395,7 +395,7 @@ https://etd.ohiolink.edu/ap/0?0:APPLICATION_PROCESS%3DDOWNLOAD_ETD_SUB_DOC_ACCNU
 <open>1</open>
 <table>
 model-comparison	65	17	10/27/14 11:25 AM
-geometry	-1134	0	1700	840	active
+geometry	-2450	0	1700	840	active
 header	Description	Data	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	Alpha-unmodified	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	3D EMA
 ColWidth	179	148	97	52	61	30	67	51	106	116	119	117	28	115	115	115	118	
 <com>
@@ -517,7 +517,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 model-comparison-10nm	1	1	07/11/2014 16:06
-geometry	567	1	846	810	
+geometry	-749	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -607,7 +607,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 model-comparison-10nm-log	1	1	07/11/2014 16:09
-geometry	1414	1	846	810	
+geometry	98	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -700,7 +700,7 @@ EnabledTickLabels	1	0	1	0
 <open>1</open>
 <table>
 temp-dependent	65	21	04/11/2014 12:09
-geometry	-1134	0	1700	840	active
+geometry	-2450	0	1700	840	active
 header	Description	Data	variables	Temp[X]	Kge	Ksi	Cge	Csi	Lge	Lsi	Lge-eff	Lsi-eff	R	Alpha	Kge-eff	Ksi-eff	Alpha-eff	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
 ColWidth	179	148	25	106	138	117	100	100	152	157	148	155	93	122	121	122	116	28	115	124	115	
 <com>
@@ -768,7 +768,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 model-comparison-temp-dependence	1	1	07/11/2014 16:17
-geometry	565	1	863	810	
+geometry	-751	1	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -858,7 +858,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 model-comparison-temp-dependence-log	1	1	07/11/2014 16:19
-geometry	1429	1	863	810	
+geometry	113	1	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -951,7 +951,7 @@ EnabledTickLabels	1	0	1	0
 <open>1</open>
 <table>
 specularity-model	65	25	17/11/2014 13:19
-geometry	-1134	0	1922	840	
+geometry	-2450	0	2678	840	
 header	Description	Data	Interface Dens	Volume Fraction[X]	variables	Lsi-d	Ksi-d	Lsi-s	Ksi-s	Thp-d	Lge-tbr-d	Lge-d	Kge-d	Tph-s	Thp-s	Lge-tbr-s	Lge-s	Kge-s	Keff-d	Keff-s	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	Specularity EMA[Y]
 ColWidth	189	187	97	128	30	169	106	153	116	133	157	100	117	125	133	166	146	134	100	100	28	115	115	115	118	
 <com>
@@ -1096,8 +1096,8 @@ WindowLabel		2
 </data>
 </table>
 <multiLayer>
-specularity-model-plot	1	1	17/11/2014 17:30
-geometry	787	0	846	810	active
+specularity-model-10nm	1	1	17/11/2014 17:42
+geometry	229	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1119,7 +1119,7 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		 	
+AxesTitles	%(?X)	Thermal Conductivity [W/mK]			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	4	4	4	4
@@ -1161,10 +1161,100 @@ EnabledTickLabels	1	0	1	0
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>0.007514450867052</x>
-<y>78.767334360555</y>
-<right>0.240462427745665</right>
-<bottom>65.9476117103236</bottom>
+<x>0.015166666666667</x>
+<y>77.28813559322</y>
+<right>0.239055555555556</right>
+<bottom>64.4684129429892</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@C)
+\l(2)%(2,@C)
+\l(3)%(3,@C)
+</Text>
+<Font>DejaVu Sans	20	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+specularity-model-10nm-log	1	1	17/11/2014 17:43
+geometry	1074	1	846	810	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	650	650
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	828	747
+<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	Thermal Conductivity [W/mK]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	4	4	4	4
+TitleFont	Liberation Sans	10	50	0	0	0
+ScaleFont0	DejaVu Sans	28	50	0	0	0
+ScaleFont1	DejaVu Sans	28	50	0	0	0
+ScaleFont2	DejaVu Sans	28	50	0	0	0
+ScaleFont3	DejaVu Sans	28	50	0	0	0
+AxisFont0	DejaVu Sans	20	50	0	0	0
+AxisFont1	DejaVu Sans	20	50	0	0	0
+AxisFont2	DejaVu Sans	20	50	0	0	0
+AxisFont3	DejaVu Sans	20	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	specularity-model_Volume Fraction	specularity-model_Weighted Average	0	1	#ff0000	0	2.5	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	64	1
+curve	specularity-model_Volume Fraction	specularity-model_Modified EMA	0	1	#00ff00	0	2.5	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	64	1
+curve	specularity-model_Volume Fraction	specularity-model_Specularity EMA	0	1	#0000ff	0	2.5	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	64	1
+scale	0	0	80	0	9	5	0	0
+scale	1	0	80	0	9	5	0	0
+scale	2	0.01	0.52	0	3	5	1	0
+scale	3	0	0.52	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	12
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	2	2	2	2
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.011198566732526</x>
+<y>77.28813559322</y>
+<right>0.0595516410347895</right>
+<bottom>64.4684129429892</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
