@@ -1,0 +1,279 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	4
+<note>
+pbte-notes	04/11/2014 13:27
+geometry	maximized	active
+WindowLabel		2
+AutoExec	0
+<LineNumbers>1</LineNumbers>
+<tab>
+<active>1</active>
+<title>untitled</title>
+<content>
+PbTe plot notes
+
+http://code.google.com/p/msysgit/downloads/list
+https://github.com/bungeshea/GitPortable/tree/master/GitPortable
+
+
+project notes
+
+effective mass are given in units of mass/electron rest mass m_0, m_e
+Uc * Uv
+
+
+electron rest mass = 9.10938215E-31
+	wikipedia
+
+
+n-type
+Nd = 3x10^25
+	http://www.jim.or.jp/journal/e/pdf3/45/11/3102.pdf
+electron effective mass = 0.24ml 0.024mt
+	http://link.springer.com/chapter/10.1007/10681727_723#page-2
+hole effective mass = 0.31ml 0.022mt
+	http://link.springer.com/chapter/10.1007/10681727_723#page-2
+	http://www.iue.tuwien.ac.at/phd/mwagner/node65.html
+
+
+plot 2k_b sigma T / e^2 = thermal conductivity electrons
+plot initial ZT expectation Power factor/thermal conducivity
+
+expected results
+S = 200uV/K
+conductction = 741 -> 10905 S/m
+
+PbTe under pressure
+http://prb.aps.org/abstract/PRB/v82/i19/e195102
+
+good PbTe data
+https://etd.ohiolink.edu/ap/0?0:APPLICATION_PROCESS%3DDOWNLOAD_ETD_SUB_DOC_ACCNUM:::F1501_ID:osu1228340969%2Cattachment
+</content>
+</tab>
+</note>
+<folder>	plots	02/11/2014 17:52:52	
+<open>1</open>
+<multiLayer>
+modified-ema-10-100-1000nm	1	1	26/10/2014 23:17:33
+geometry	-2554	0	510	430	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	704	440
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	3	546	250
+<PageGeometry>0.00796813	0.0078534	1.08765	0.65445</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Volume Fraction	Keff			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	0
+TitleFont	DejaVu Sans	12	50	0	0	0
+ScaleFont0	DejaVu Sans	9	50	0	0	0
+ScaleFont1	DejaVu Sans	9	50	0	0	0
+ScaleFont2	DejaVu Sans	9	50	0	0	0
+ScaleFont3	DejaVu Sans	9	50	0	0	0
+AxisFont0	DejaVu Sans Condensed	7	50	0	0	0
+AxisFont1	DejaVu Sans Condensed	7	50	0	0	0
+AxisFont2	DejaVu Sans Condensed	7	50	0	0	0
+AxisFont3	DejaVu Sans Condensed	7	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+<Function>
+<Type>0</Type>
+<Title>F1</Title>
+<Expression>((930000*1804)/((3/0.000000268)+(2*0.000001000/x)))*((((870000*1042)/((3/0.000000171)+(3/0.000001000)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*0.000001000/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000001000))+2*((930000*1804)/((3/0.000000268)+(2*0.000001000/x)))+2*x*(((870000*1042)/((3/0.000000171)+(3/0.000001000)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*0.000001000/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000001000))-((930000*1804)/((3/0.000000268)+(2*0.000001000/x)))))/(((870000*1042)/((3/0.000000171)+(3/0.000001000)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*0.000001000/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000001000))+2*((930000*1804)/((3/0.000000268)+(2*0.000001000/x)))-x*(((870000*1042)/((3/0.000000171)+(3/0.000001000)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*0.000001000/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000001000))-((930000*1804)/((3/0.000000268)+(2*0.000001000/x))))))</Expression>
+<Variable>x</Variable>
+<Range>0.0001	1</Range>
+<Points>1000</Points>
+<Log10>1</Log10>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#0000ff</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>F2</Title>
+<Expression>((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))*((((870000*1042)/((3/0.000000171)+(3/0.000000500)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000500))+2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))+2*x*(((870000*1042)/((3/0.000000171)+(3/0.000000500)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000500))-((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))))/(((870000*1042)/((3/0.000000171)+(3/0.000000500)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000500))+2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))-x*(((870000*1042)/((3/0.000000171)+(3/0.000000500)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*0.000000500/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000500))-((930000*1804)/((3/0.000000268)+(2*0.000000500/x))))))</Expression>
+<Variable>x</Variable>
+<Range>0.0001	1</Range>
+<Points>1000</Points>
+<Log10>1</Log10>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>F3</Title>
+<Expression>((930000*1804)/((3/0.000000268)+(2*0.000000010/x)))*((((870000*1042)/((3/0.000000171)+(3/0.000000010)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*0.000000010/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000010))+2*((930000*1804)/((3/0.000000268)+(2*0.000000010/x)))+2*x*(((870000*1042)/((3/0.000000171)+(3/0.000000010)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*0.000000010/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000010))-((930000*1804)/((3/0.000000268)+(2*0.000000010/x)))))/(((870000*1042)/((3/0.000000171)+(3/0.000000010)))*(1+2*(2*((930000*1804)/((3/0.000000268)+(2*0.000000010/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000010))+2*((930000*1804)/((3/0.000000268)+(2*0.000000010/x)))-x*(((870000*1042)/((3/0.000000171)+(3/0.000000010)))*(1-(2*((930000*1804)/((3/0.000000268)+(2*0.000000010/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/0.000000010))-((930000*1804)/((3/0.000000268)+(2*0.000000010/x))))))</Expression>
+<Variable>x</Variable>
+<Range>0.0001	1</Range>
+<Points>1000</Points>
+<Log10>1</Log10>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#00ff00</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	160	0	9	5	0	0
+scale	1	0	160	0	9	5	0	0
+scale	2	0.0008	8	0	5	8	1	0
+scale	3	0.0008	8	0	5	8	1	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	0	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	2
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>2</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0025471261206694</x>
+<y>99.84962406015</y>
+<right>0.00816768529844837</right>
+<bottom>122.937853107345</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(3) 10nm
+\l(2) 100nm
+\l(1) 1000nm
+</Text>
+<Font>DejaVu Sans Condensed	7	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>1</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<SurfacePlot>
+3d-modified-ema	31/10/2014 13:04
+geometry	-2554	0	1366	659	
+SurfaceFunction	(x<(pi/y))*((870000*1042)/((3/0.000000171)+(2*y/x)))*((((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))+2*(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x)))))/(((930000*1804)/((3/0.000000268)+(3/y)))*(1+2*(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))+2*((870000*1042)/((3/0.000000171)+(2*y/x)))-(x*y/6)*(((930000*1804)/((3/0.000000268)+(3/y)))*(1-(2*((870000*1042)/((3/0.000000171)+(2*y/x)))*(4*(((930000*1804)+(870000*1042))/(930000*1804*870000*1042)))/y))-((870000*1042)/((3/0.000000171)+(2*y/x))))));40;40	1e+06	1e+08	1e-08	2e-07	0	51.5461
+Style	box	nofloor	filledmesh
+grids	0
+title		#000000	Liberation Sans	10	50	0
+colors	#000000	#000000	#000000	#000000	#ffffff	#000000	#0000ff	#ff0000	1	
+axesLabels	Interface Density (1/m)	Nanoparticle Diameter (m)	Keff (mK)
+tics	5	5	5	5	5	5
+tickLengths	1.9e-08	1.14e-08	9.9e+06	5.94e+06	9.9e+06	5.94e+06
+options	1	1	0
+numbersFont	Liberation Sans	8	50	0
+xAxisLabelFont	Liberation Sans	7	50	0
+yAxisLabelFont	Liberation Sans	7	50	0
+zAxisLabelFont	Liberation Sans	7	50	0
+rotation	24	0	211
+zoom	4.2668e+07
+scaling	1.11111e-08	6.31579e+06	0.0257518
+shift	0	0	0
+LineWidth	1
+WindowLabel		2
+Orthogonal	1
+<ColorMap>
+	<Mode>1</Mode>
+	<MinColor>#0000ff</MinColor>
+	<MaxColor>#ff0000</MaxColor>
+	<ColorStops>1</ColorStops>
+	<Stop>0	#0000ff</Stop>
+</ColorMap>
+axisType	0	0	0
+<Grid>
+	<Major>1	#0000ff	0	1</Major>
+	<Minor>1	#c0c0c0	1	0.8</Minor>
+</Grid>
+<AxesNumberFormat>0	6	0	6	0	6	</AxesNumberFormat>
+</SurfacePlot>
+<SurfacePlot>
+3d-bose-einstein	28/02/2014 13:51:58
+geometry	maximized	active
+SurfaceFunction	1/(exp((1.054571726E-34*2*PI*x)/(1.3806488E-23*y)-1));40;40	1e+12	1.5e+13	0	1000	0	2.59091
+Style	box	nofloor	filledmesh
+grids	0
+title		#000000	MS Shell Dlg 2	108	50	0
+colors	#000000	#000000	#000000	#000000	#ffffff	#000000	#0000ff	#ff0000	1	
+axesLabels	Frequency [Hz]	Temperature [K]	Bose-Einstein
+tics	4	5	5	5	5	5
+tickLengths	65	25	65	25	65	25
+options	1	1	5
+numbersFont	DejaVu Sans Condensed	21	50	0
+xAxisLabelFont	DejaVu Serif	37	50	0
+yAxisLabelFont	DejaVu Serif	37	50	0
+zAxisLabelFont	DejaVu Serif	37	50	0
+rotation	28	0	-49
+zoom	7.5656e+12
+scaling	7.14286e-14	0.001	0.385131
+shift	0	0	0
+LineWidth	1
+WindowLabel		2
+Orthogonal	1
+<ColorMap>
+	<Mode>1</Mode>
+	<MinColor>#0000ff</MinColor>
+	<MaxColor>#ff0000</MaxColor>
+	<ColorStops>0</ColorStops>
+</ColorMap>
+axisType	0	0	0
+<Grid>
+	<Major>1	#0000ff	0	1</Major>
+	<Minor>1	#c0c0c0	1	0.8</Minor>
+</Grid>
+<AxesNumberFormat>0	6	0	6	0	2	</AxesNumberFormat>
+</SurfacePlot>
+</folder>
+</folder>
+<open>1</open>
