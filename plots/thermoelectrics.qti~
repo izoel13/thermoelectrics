@@ -113,7 +113,6 @@ si
 </content>
 </tab>
 <tab>
-<active>1</active>
 <title>expressions</title>
 <content>
 Specularity Model
@@ -159,12 +158,25 @@ Combining effective thermal conducitivies to find thermal conducitivity of whole
 Specularity EMA = ς×Kes+(1-ς)×Ked
 </content>
 </tab>
+<tab>
+<active>1</active>
+<title>observations</title>
+<content>
+mEMA-temp:specularity
+
+There is a small increase in total thermal conductivity in the specularity model.
+This is due to the kp-d and kp-s terms, which have a slight increase at 400K
+
+Overall the introduction of specularity seems to make the total thermal conductivity more constant than the mEMA model.
+This is likely because of the lack of temperature depedence on the new specularity terms.
+</content>
+</tab>
 </note>
 <folder>	modified-EMA	07/11/2014 13:36	
 <open>1</open>
 <table>
 modified-EMA	68	16	10/27/14 11:25 AM
-geometry	-1668	0	1624	839	
+geometry	-1852	0	1624	839	
 header	Description	Data	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	Alpha-unmodified	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
 ColWidth	179	148	97	48	125	30	67	51	106	116	119	117	28	115	115	115	
 <com>
@@ -286,7 +298,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 modified-EMA-10nm	1	1	21/11/2014 14:28
-geometry	-36	0	846	810	
+geometry	-220	0	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -296,7 +308,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
+<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -376,7 +388,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 modified-EMA-10nm-log	1	1	21/11/2014 14:34
-geometry	812	0	846	810	active
+geometry	628	0	846	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -386,7 +398,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
+<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -465,13 +477,13 @@ EnabledTickLabels	1	0	1	0
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 </folder>
-<folder>	mEMA-temp	07/11/2014 13:36		current
+<folder>	mEMA-temp	07/11/2014 13:36	
 <open>1</open>
 <table>
-mEMA-temp	9	21	04/11/2014 12:09
-geometry	-1668	0	1860	306	
-header	Description	Data	variables	Temperature [K][X]	Kge	Ksi	Cge	Csi	Lge	Lsi	Lge-eff	Lsi-eff	R	Alpha	Kge-eff	Ksi-eff	Alpha-eff	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
-ColWidth	179	125	25	64	120	117	100	80	42	32	56	49	30	56	121	122	116	28	115	124	115	
+mEMA-temp	11	31	04/11/2014 12:09
+geometry	-1852	0	1861	306	active
+header	Description	Data	variables	Temperature [K][X]	Kge	Ksi	Cge	Csi	Lge	Lsi	mEMA	Lge-eff	Lsi-eff	R	Alpha	Kge-eff	Ksi-eff	Alpha-eff	sEMA	Kp-d	Kp-s	Kh-d	Thp-s	Tph-s	Lh-tbr-s	Kh-s	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	Specular EMA[Y]
+ColWidth	179	125	25	64	120	117	100	80	42	32	52	56	49	30	56	121	122	116	49	199	206	180	115	130	61	48	28	115	124	114	115	
 <com>
 <col nr="1">
 6*col("Data", 8)/col("Data", 7)
@@ -488,56 +500,81 @@ ColWidth	179	125	25	64	120	117	100	80	42	32	56	49	30	56	121	122	116	28	115	124	1
 <col nr="9">
 3*col("Ksi")/(col("Csi")*col("Data", 4))
 </col>
-<col nr="10">
+<col nr="11">
 1/((1/col("Lge"))+(col("Data", 9)/4))
 </col>
-<col nr="11">
+<col nr="12">
 1/((1/col("Lsi"))+(1/col("Data", 7)))
 </col>
-<col nr="12">
+<col nr="13">
 4*((col("Cge")*col("Data", 1)+col("Csi")*col("Data", 4))/(col("Cge")*col("Data", 1)*col("Csi")*col("Data", 4)))
 </col>
-<col nr="13">
+<col nr="14">
 col("R")*col("Kge")/(col("Data", 7)/2)
 </col>
-<col nr="14">
+<col nr="15">
 col("Cge")*col("Data", 1)*col("Lge-eff")/3
 </col>
-<col nr="15">
+<col nr="16">
 col("Csi")*col("Data", 4)*col("Lsi-eff")/3
 </col>
-<col nr="16">
+<col nr="17">
 col("R")*col("Kge-eff")/(col("Data", 7)/2)
 </col>
-<col nr="18">
-1/(col("Data", 8)/col("Ksi")+(1-col("Data", 8))/col("Kge"))
-</col>
 <col nr="19">
-col("Kge")*((col("Ksi")*(1+2*col("Alpha"))+2*col("Kge")+2*col("Data", 8)*(col("Ksi")*(1-col("Alpha"))-col("Kge")))/(col("Ksi")*(1+2*col("Alpha"))+2*col("Kge")-col("Data", 8)*(col("Ksi")*(1-col("Alpha"))-col("Kge"))))
+col("Csi")*col("Data", 4)/(3*((1/col("Lsi"))+(8/(3*col("Data", 7)))))
 </col>
 <col nr="20">
+col("Csi")*col("Data", 4)/(3*((1/col("Lsi"))+(8/(3*col("Data", 7)))*((1-col("Data", 10))/(1+col("Data", 10)))))
+</col>
+<col nr="21">
+col("Cge")*col("Data", 1)/(3*((1/col("Lge"))+(3*col("Data", 8)/(2*col("Data", 7)))+(1/(col("Data", 7)*(col("Csi")*col("Data", 4)/(col("Csi")*col("Data", 4)+col("Cge")*col("Data", 1)))/col("Data", 8)))))
+</col>
+<col nr="22">
+(2*col("Data", 4)*col("Data", 5)/(col("Data", 1)*col("Data", 2)))^2*((col("Csi")*col("Data", 4)^3)/(col("Cge")*col("Data", 1)^3))*(1+((col("Data", 1)*col("Data", 2)*(1-(col("Data", 1)/col("Data", 4))^2)^0.5)/(col("Data", 4)*col("Data", 5)))+2*ln(col("Data", 4)*col("Data", 5)/((col("Data", 1)*col("Data", 2)*(1-(col("Data", 1)/col("Data", 4))^2)^0.5)+col("Data", 4)*col("Data", 5)))-(col("Data", 4)*col("Data", 5)/((col("Data", 1)*col("Data", 2)*(1-(col("Data", 1)/col("Data", 4))^2)^0.5)+col("Data", 4)*col("Data", 5))))
+</col>
+<col nr="23">
+(2*(col("Data", 1)*col("Data", 2))/(col("Data", 4)*col("Data", 5)))^2*(1+((col("Data", 4)*col("Data", 5))/(col("Data", 1)*col("Data", 2)))+2*ln((col("Data", 1)*col("Data", 2))/((col("Data", 1)*col("Data", 2))+(col("Data", 4)*col("Data", 5))))-((col("Data", 1)*col("Data", 2))/((col("Data", 1)*col("Data", 2))+(col("Data", 4)*col("Data", 5)))))
+</col>
+<col nr="24">
+(col("Data", 7)*((1+col("Data", 10))/(1-col("Data", 10)))*col("Thp-s"))/(col("Data", 8)*(1-col("Thp-s")-col("Tph-s")))
+</col>
+<col nr="25">
+col("Cge")*col("Data", 1)/(3*((1/col("Lge"))+(3*col("Data", 8)/(2*col("Data", 7)))+(1/col("Lh-tbr-s"))))
+</col>
+<col nr="27">
+1/(col("Data", 8)/col("Ksi")+(1-col("Data", 8))/col("Kge"))
+</col>
+<col nr="28">
+col("Kge")*((col("Ksi")*(1+2*col("Alpha"))+2*col("Kge")+2*col("Data", 8)*(col("Ksi")*(1-col("Alpha"))-col("Kge")))/(col("Ksi")*(1+2*col("Alpha"))+2*col("Kge")-col("Data", 8)*(col("Ksi")*(1-col("Alpha"))-col("Kge"))))
+</col>
+<col nr="29">
 col("Kge-eff")*((col("Ksi-eff")*(1+2*col("Alpha-eff"))+2*col("Kge-eff")+2*col("Data", 8)*(col("Ksi-eff")*(1-col("Alpha-eff"))-col("Kge-eff")))/(col("Ksi-eff")*(1+2*col("Alpha-eff"))+2*col("Kge-eff")-col("Data", 8)*(col("Ksi-eff")*(1-col("Alpha-eff"))-col("Kge-eff"))))
 </col>
+<col nr="30">
+col("Data", 10)*(col("Kh-s")*((2*col("Kh-s")+col("Kp-s")+2*col("Data", 8)*(col("Kp-s")-col("Kh-s")))/(2*col("Kh-s")+col("Kp-s")-col("Data", 8)*(col("Kp-s")-col("Kh-s")))))+(1-col("Data", 10))*(col("Kh-d")*((2*col("Kh-d")+col("Kp-d")+2*col("Data", 8)*(col("Kp-d")-col("Kh-d")))/(2*col("Kh-d")+col("Kp-d")-col("Data", 8)*(col("Kp-d")-col("Kh-d")))))
+</col>
 </com>
-ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Comments		Velocity from: http://dx.doi.org/10.1103/PhysRevB.57.14958  Density well defined  Volume fraction from maximum size of a  sphere in a cube			Formula defined in: Equation (12), 1964-Glassbrenner_Slack, Physical Review, Volume 134, Number 4A, May 1964	Formula defined in: Equation (12), 1964-Glassbrenner_Slack, Physical Review, Volume 134, Number 4A, May 1964	J/Kg-K data multiplied by density. Ask GP for reference!	J/Kg-K data multiplied by density. Ask GP for reference!	1/3CVL = K	1/3 CVL = K									Defined by adding reciprocal bulk thermal conductivities	Defined in: http://dx.doi.org/10.1063/1.365209	Defined in: http://dx.doi.org/10.1063/1.2771040	
+ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments		Velocity from: http://dx.doi.org/10.1103/PhysRevB.57.14958  Density well defined  Volume fraction from maximum size of a  sphere in a cube			Formula defined in: Equation (12), 1964-Glassbrenner_Slack, Physical Review, Volume 134, Number 4A, May 1964	Formula defined in: Equation (12), 1964-Glassbrenner_Slack, Physical Review, Volume 134, Number 4A, May 1964	J/Kg-K data multiplied by density. Ask GP for reference!	J/Kg-K data multiplied by density. Ask GP for reference!	1/3CVL = K	1/3 CVL = K																		Defined by adding reciprocal bulk thermal conductivities	Defined in: http://dx.doi.org/10.1063/1.365209	Defined in: http://dx.doi.org/10.1063/1.2771040		
 WindowLabel		2
 <data>
-0	Phonon velocity - Ge	3900		298.15	60.6740056356	155.8146569829	1703360	1642650	2.740014561067e-08	4.446359264648e-08	8.692932967431e-09	8.163911061668e-09	9.826109182965e-10	11.92378807886	19.24935258922	28.60895681162	3.782924804861		89.18846330257	26.49897562893	10.33444243114
-1	Density (kg/m^3) - Ge	5323		350	50.85047418067	128.5140562249	1748605.5	1765441	2.236968222378e-08	3.412233195866e-08	8.114039367504e-09	7.733574007519e-09	9.405671751e-10	9.565657370522	18.4447300248	29.12675974274	3.469701522982		74.38859317267	22.90597024204	10.14402949673
-2				400	43.652872359	108.9324618736	1782140.4	1836739	1.884202422202e-08	2.780040686415e-08	7.598052662106e-09	7.354525829328e-09	9.157877678548e-10	7.99535330762	17.60303559361	28.81780142343	3.224128934748		63.61308583859	20.24397771754	9.883259951308
-3	Phonon Velocity - Si	6400		500	33.44481605351	81.79959100204	1830047.4	1935531	1.405798646506e-08	1.981035606364e-08	6.681197881085e-09	6.64546106774e-09	8.833538642445e-10	5.908721499963	15.89498145451	27.43999126593	2.808178657987		48.43695955854	16.43089206382	9.290052732521
-4	Density (kg/m^3) - Si	2330		600	26.61839863714	64.10256410256	1865711.5	2003567	1.097473605074e-08	1.499729079341e-08	5.894204422816e-09	5.999566479966e-09	8.616754937753e-10	4.587284357833	14.2959504675	25.64380461561	2.463694035614		38.36476761783	13.84403471156	8.692986454801
-6	Nanoparticle diameter	1e-08																			
-7	Volume Fraction	0.5235987755983																			
-8	Interface density	314159265.359																			
+0	Phonon velocity - Ge	3900		298.15	60.6740056356	155.8146569829	1703360	1642650	2.740014561067e-08	4.446359264648e-08		8.692932967431e-09	8.163911061668e-09	9.826109182965e-10	11.92378807886	19.24935258922	28.60895681162	3.782924804861		12.11909197413	21.10018581926	11.04522760017	1.240042873692	0.4159973222232	-6.704292306381e-08	22.11710511923		89.18846330257	26.49897562893	10.33444243114	14.59348613017
+1	Density (kg/m^3) - Ge	5323		350	50.85047418067	128.5140562249	1748605.5	1765441	2.236968222378e-08	3.412233195866e-08		8.114039367504e-09	7.733574007519e-09	9.405671751e-10	9.565657370522	18.4447300248	29.12675974274	3.469701522982		12.72506037836	21.78345788832	10.97068456628	1.298253420671	0.4159973222232	-6.446967260898e-08	21.10038762168		74.38859317267	22.90597024204	10.14402949673	14.74343085531
+2				400	43.652872359	108.9324618736	1782140.4	1836739	1.884202422202e-08	2.780040686415e-08		7.598052662106e-09	7.354525829328e-09	9.157877678548e-10	7.99535330762	17.60303559361	28.81780142343	3.224128934748		12.94743151126	21.82204793949	10.77919743718	1.325267779837	0.4159973222232	-6.341277736681e-08	19.99933499597		63.61308583859	20.24397771754	9.883259951308	14.59756538989
+3	Phonon Velocity - Si	6400		500	33.44481605351	81.79959100204	1830047.4	1935531	1.405798646506e-08	1.981035606364e-08		6.681197881085e-09	6.64546106774e-09	8.833538642445e-10	5.908721499963	15.89498145451	27.43999126593	2.808178657987		13.01968719951	21.27668888253	10.24567444833	1.359990580274	0.4159973222232	-6.216238081464e-08	17.80909919315		48.43695955854	16.43089206382	9.290052732521	14.01786944229
+4	Density (kg/m^3) - Si	2330		600	26.61839863714	64.10256410256	1865711.5	2003567	1.097473605074e-08	1.499729079341e-08		5.894204422816e-09	5.999566479966e-09	8.616754937753e-10	4.587284357833	14.2959504675	25.64380461561	2.463694035614		12.82236553717	20.32771059364	9.635044169287	1.380884926166	0.4159973222232	-6.146247241566e-08	15.81234206143		38.36476761783	13.84403471156	8.692986454801	13.27664643044
+6	Nanoparticle diameter	1e-08																													
+7	Volume Fraction	0.5235987755983																													
+8	Interface density	314159265.359																													
+9	Specularity Factor	0.3																													
 </data>
 </table>
 <multiLayer>
 mEMA-temp-10nm	1	1	21/11/2014 14:08
-geometry	194	0	863	810	active
+geometry	10	0	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -579,6 +616,7 @@ CanvasBackground	#ffffff	0
 curve	mEMA-temp_Temperature [K]	mEMA-temp_Weighted Average	0	1	#ff0000	0	2.5	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	8	1
 curve	mEMA-temp_Temperature [K]	mEMA-temp_Unmodified EMA	0	1	#00ff00	0	2.5	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	8	1
 curve	mEMA-temp_Temperature [K]	mEMA-temp_Modified EMA	0	1	#0000ff	0	2.5	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	8	1
+curve	mEMA-temp_Temperature [K]	mEMA-temp_Specular EMA	0	1	#ff00ff	0	2.5	7	0	#ff00ff	#ff00ff	0	#000000	14	1	2	0	0	10	1
 scale	0	0	100	0	6	5	0	0
 scale	1	0	100	0	6	5	0	0
 scale	2	298.15	600	0	7	5	0	0
@@ -601,10 +639,10 @@ EnabledTickLabels	1	0	1	0
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>454.30939306358</x>
+<x>454.13393854749</x>
 <y>97.380585516179</y>
-<right>337.3905</right>
-<bottom>95.2380952380952</bottom>
+<right>584.823184357542</right>
+<bottom>76.5793528505393</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -612,6 +650,7 @@ EnabledTickLabels	1	0	1	0
 \l(1)%(1,@C)
 \l(2)%(2,@C)
 \l(3)%(3,@C)
+\l(4)%(4,@C)
 </Text>
 <Font>DejaVu Sans	20	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
@@ -627,7 +666,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 mEMA-temp-10nm-log	1	1	21/11/2014 14:55
-geometry	1057	0	863	810	
+geometry	873	0	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -669,6 +708,7 @@ CanvasBackground	#ffffff	0
 curve	mEMA-temp_Temperature [K]	mEMA-temp_Weighted Average	0	1	#ff0000	0	2.5	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	8	1
 curve	mEMA-temp_Temperature [K]	mEMA-temp_Unmodified EMA	0	1	#00ff00	0	2.5	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	8	1
 curve	mEMA-temp_Temperature [K]	mEMA-temp_Modified EMA	0	1	#0000ff	0	2.5	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	8	1
+curve	mEMA-temp_Temperature [K]	mEMA-temp_Specular EMA	0	1	#ff00ff	0	2.5	7	0	#ff00ff	#ff00ff	0	#000000	14	1	2	0	0	10	1
 scale	0	8	100	0	2	8	1	0
 scale	1	8	100	0	2	8	1	0
 scale	2	298.15	600	0	7	5	0	0
@@ -693,8 +733,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>454.13393854749</x>
 <y>93.598174871475</y>
-<right>337.3905</right>
-<bottom>88.9240378400219</bottom>
+<right>584.823184357542</right>
+<bottom>55.347317421936</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -702,6 +742,7 @@ EnabledTickLabels	1	0	1	0
 \l(1)%(1,@C)
 \l(2)%(2,@C)
 \l(3)%(3,@C)
+\l(4)%(4,@C)
 </Text>
 <Font>DejaVu Sans	20	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
@@ -716,12 +757,12 @@ EnabledTickLabels	1	0	1	0
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 </folder>
-<folder>	specular-EMA	17/11/2014 13:09	
+<folder>	specular-EMA	17/11/2014 13:09		current
 <open>1</open>
 <table>
 specular-EMA	68	27	17/11/2014 13:19
-geometry	-799	1	2364	841	
-header	Description	Data	Interface Dens	Volume Fraction[X]	variables	Lp-d	Kp-d	Lp-s	Kp-s	Thp-d	Lh-tbr-d	Lh-d	Kh-d	Thp-s	Tph-s	Lh-tbr-s	Lh-s	Kh-s	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	Specularity EMA[Y]	res	thpd-lt[Y]	thpd-ht[Y]	1[Y]
+geometry	-983	1	2364	841	active
+header	Description	Data	Interface Dens	Volume Fraction[X]	variables	Lp-d	Kp-d	Lp-s	Kp-s	Thp-d	Lh-tbr-d	Lh-d	Kh-d	Thp-s	Tph-s	Lh-tbr-s	Lh-s	Kh-s	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	Specularity EMA[Y]	res	thpd-lt	thpd-ht	ratio
 ColWidth	189	88	97	143	30	50	41	36	47	53	64	46	46	58	46	165	53	55	28	122	115	115	126	35	137	176	120	
 <com>
 <col nr="1">
@@ -872,7 +913,7 @@ WindowLabel		2
 </table>
 <table>
 definitions	34	4	21/11/2014 11:41
-geometry	-1668	1	868	732	
+geometry	-1852	1	868	732	
 header	QtiPlot Name	LaTeX	Description	Substitution
 ColWidth	180	124	479	51	
 <com>
@@ -918,7 +959,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 specular-EMA-10nm	1	1	21/11/2014 13:54
-geometry	1074	1	846	810	
+geometry	1381	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -928,7 +969,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
+<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1010,7 +1051,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 specular-EMA-10nm-log	1	1	21/11/2014 13:55
-geometry	1920	2	846	810	active
+geometry	2226	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1020,7 +1061,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
+<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1120,6 +1161,7 @@ RSS (Residual Sum of Squares) = 62.076693167711
 Iterations = 2
 Status = success
 ---------------------------------------------------------------------------------------
+
 
 
 
