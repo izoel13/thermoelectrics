@@ -296,7 +296,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -386,7 +386,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -537,7 +537,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 mEMA-temp-10nm	1	1	21/11/2014 14:08
-geometry	194	0	863	810	
+geometry	194	0	863	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -603,7 +603,7 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>454.30939306358</x>
 <y>97.380585516179</y>
-<right>338.60412371134</right>
+<right>337.3905</right>
 <bottom>95.2380952380952</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
@@ -627,7 +627,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 mEMA-temp-10nm-log	1	1	21/11/2014 14:55
-geometry	1057	0	863	810	active
+geometry	1057	0	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -693,8 +693,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>454.13393854749</x>
 <y>93.598174871475</y>
-<right>584.823184357542</right>
-<bottom>62.4440917983947</bottom>
+<right>337.3905</right>
+<bottom>88.9240378400219</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -918,7 +918,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 specular-EMA-10nm	1	1	21/11/2014 13:54
-geometry	1074	1	846	810	active
+geometry	1074	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -928,7 +928,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -985,8 +985,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>0.0098363931719653</x>
 <y>79.013867488444</y>
-<right>0.244396538041908</right>
-<bottom>62.3728813559322</bottom>
+<right>0.077791818</right>
+<bottom>76.1904761904762</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1010,7 +1010,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 specular-EMA-10nm-log	1	1	21/11/2014 13:55
-geometry	1920	2	846	810	
+geometry	1920	2	846	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1020,7 +1020,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1077,8 +1077,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>0.002457897815832</x>
 <y>75.932203389831</y>
-<right>0.0312072973603888</right>
-<bottom>59.291217257319</bottom>
+<right>0.00437390684164785</right>
+<bottom>76.1904761904762</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1120,6 +1120,7 @@ RSS (Residual Sum of Squares) = 62.076693167711
 Iterations = 2
 Status = success
 ---------------------------------------------------------------------------------------
+
 
 
 
