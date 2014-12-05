@@ -8,6 +8,7 @@ WindowLabel		2
 AutoExec	0
 <LineNumbers>1</LineNumbers>
 <tab>
+<active>1</active>
 <title>general</title>
 <content>
 notes
@@ -27,7 +28,8 @@ http://dx.doi.org/10.1063/1.365209
 
 do
 
-* fix 3D plot function, must be wrong somewhere
+* fix 3D plot function
+* fix non-specular radius in host coll term of specularity model
 
 1/(col("Volume Fraction")*(1/col("Data", 13))+(1-col("Volume Fraction"))*(1/col("Data", 14)))
 
@@ -90,7 +92,6 @@ col("Data", 4)/(1+((0.735*(1.381e-23)^2*col("Data", 20)*col("Data", 19)/(8*1.054
 </content>
 </tab>
 <tab>
-<active>1</active>
 <title>specfic-heat-data</title>
 <content>
 Silicon:
@@ -183,12 +184,53 @@ Overall the introduction of specularity seems to make the total thermal conducti
 This is likely because of the lack of temperature depedence on the new specularity terms.
 </content>
 </tab>
+<tab>
+<title>scrap-book</title>
+<content>
+ERROR FIX 
+
+
+R-granular
+
+col("Data", 4)/(1+((0.735*(1.381e-23)^2*col("Data", 20)*col("Data", 19)/(8*1.05457e-34*(0.234e-9)^2))*col("Data", 4)/(pi*(col("Data", 12))^3/(6*col("Volume Fraction")))))
+
+
+
+R
+
+4*((col("Cge")*col("Data", 1)+col("Csi")*col("Data", 4))/(col("Cge")*col("Data", 1)*col("Csi")*col("Data", 4)))
+
+
+
+
+R-granular and R give very similar results with different physical considerations
+
+
+Nat idea?
+http://www.nobelprize.org/nobel_prizes/physics/laureates/2007/popular-physicsprize2007.pdf
+
+auto filtering and agergation of science papers so people don't end up doing the same thing
+
+
+voteforpolicies
+rasing the tax threshold to 11.5k
+
+the consitutiional funcions of the monarchy should be abolished
+
+make the police democractically accountable
+
+
+agree on what you have done each
+poster joint effort
+what part did you focus in?
+</content>
+</tab>
 </note>
 <folder>	modified-EMA	07/11/2014 13:36	
 <open>1</open>
 <table>
 modified-EMA	68	16	10/27/14 11:25 AM
-geometry	0	0	1624	839	active
+geometry	0	0	1624	839	
 header	Description	Data	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	Alpha-unmodified	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
 ColWidth	179	148	97	48	125	30	67	51	106	116	119	117	28	115	115	115	
 <com>
@@ -320,7 +362,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -400,7 +442,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 modified-EMA-10nm-log	1	1	21/11/2014 14:34
-geometry	2480	0	846	810	
+geometry	2480	0	846	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -410,7 +452,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -489,7 +531,7 @@ EnabledTickLabels	1	0	1	0
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 </folder>
-<folder>	mEMA-temp	07/11/2014 13:36		current
+<folder>	mEMA-temp	07/11/2014 13:36	
 <open>1</open>
 <table>
 mEMA-temp	26	35	04/11/2014 12:09
@@ -615,7 +657,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 mEMA-temp-10nm	1	1	21/11/2014 14:08
-geometry	1862	0	863	810	active
+geometry	1862	0	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -625,7 +667,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	845	747
-<PageGeometry>0.00584795	0.00656168	0.988304	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.65686	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -682,8 +724,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>455.39867318436</x>
 <y>95.223420647149</y>
-<right>586.087918994413</right>
-<bottom>74.42218798151</bottom>
+<right>337.3905</right>
+<bottom>95.2380952380952</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -707,7 +749,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 mEMA-temp-10nm-log	1	1	21/11/2014 14:55
-geometry	2725	0	863	810	
+geometry	2725	0	863	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -717,7 +759,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	845	747
-<PageGeometry>0.00584795	0.00656168	0.988304	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.65686	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -774,8 +816,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>464.25181564246</x>
 <y>94.329533886559</y>
-<right>594.941061452514</right>
-<bottom>55.7797912347299</bottom>
+<right>337.3905</right>
+<bottom>88.9240378400219</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1004,7 +1046,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1061,8 +1103,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>0.0018524615070227</x>
 <y>78.767334360555</y>
-<right>0.0208419643116558</right>
-<bottom>62.1263482280431</bottom>
+<right>0.00416353564047381</right>
+<bottom>76.1904761904762</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1096,7 +1138,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1153,8 +1195,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>0.0018524615070227</x>
 <y>78.767334360555</y>
-<right>0.00398162814522282</right>
-<bottom>75.1926040061633</bottom>
+<right>0.00416353564047381</right>
+<bottom>76.1904761904762</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1188,7 +1230,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	785	747
-<PageGeometry>0.00628931	0.00656168	0.987421	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.53922	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1243,8 +1285,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>0.062496147919877</x>
 <y>46.653175034334</y>
-<right>0.290847457627119</right>
-<bottom>31.2566858434773</bottom>
+<right>0.0823135464231355</right>
+<bottom>43.0498823113817</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1284,6 +1326,9 @@ RSS (Residual Sum of Squares) = 62.076693167711
 Iterations = 2
 Status = success
 ---------------------------------------------------------------------------------------
+
+
+
 
 
 
