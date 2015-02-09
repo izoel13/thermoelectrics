@@ -1,0 +1,12 @@
+decided to abandon keeping the handwritten lab book, getting too far behind on it and it's taking me too much time to get it up to date
+
+2015/02/09 17:59:00
+long day today.
+
+Seebeck cofficient persistantly high, but we've managed to find the problem. We've been considering Si and Ge as intrinsic semiconductors, with a large band gap, when they're actually extrinsic at our temp range. This produces a too large Seebeck cofficient and severly decreases electrical conductivity, overall negatively effecting our thermoelectric.
+
+
+Plan is to take a truely instrinsic semiconductor pair, PbTe and test all our results for this system.
+
+Found some disserations on this stuff and a handbook of data.
+Martin Gentile did a project with GP in the past, hes got extrinsic results.

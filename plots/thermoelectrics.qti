@@ -230,7 +230,7 @@ what part did you focus in?
 <open>1</open>
 <table>
 modified-EMA	68	16	10/27/14 11:25 AM
-geometry	-1534	0	1624	839	active
+geometry	0	0	1624	839	active
 header	Description	Data	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	Alpha-unmodified	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
 ColWidth	179	148	97	48	125	30	67	51	106	116	119	117	28	115	115	115	
 <com>
@@ -352,7 +352,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 modified-EMA-10nm	1	1	21/11/2014 14:28
-geometry	98	0	846	810	
+geometry	1632	0	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -442,7 +442,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 modified-EMA-10nm-log	1	1	21/11/2014 14:34
-geometry	946	0	846	810	
+geometry	2480	0	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -535,7 +535,7 @@ EnabledTickLabels	1	0	1	0
 <open>1</open>
 <table>
 mEMA-temp	26	35	04/11/2014 12:09
-geometry	-1534	0	1861	435	active
+geometry	0	0	1861	435	active
 header	Description	Data	variables	Temperature [K][X]	Kge	Ksi	Cge	Csi	Lge	Lsi	mEMA	Lge-eff	Lsi-eff	R	x-bar	b(x-bar)	Rgraunualr	ratio[Y]	Alpha	Kge-eff	Ksi-eff	Alpha-eff	sEMA	Kp-d	Kp-s	Kh-d	Thp-s	Tph-s	Lh-tbr-s	Kh-s	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	Specular EMA[Y]
 ColWidth	179	125	25	64	120	117	100	80	42	32	52	56	49	187	123	137	149	123	113	68	51	132	49	41	36	46	48	47	68	48	28	115	124	114	115	
 <com>
@@ -663,7 +663,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 mEMA-temp-10nm	1	1	21/11/2014 14:08
-geometry	328	0	863	810	
+geometry	1862	0	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -755,7 +755,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 mEMA-temp-10nm-log	1	1	21/11/2014 14:55
-geometry	1191	0	863	810	
+geometry	2725	0	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -850,7 +850,7 @@ EnabledTickLabels	1	0	1	0
 <open>1</open>
 <table>
 specular-EMA	68	25	17/11/2014 13:19
-geometry	-664	1	1992	823	
+geometry	870	1	1992	823	
 header	Description	Data	Interface Dens	Volume Fraction[X]	variables	Lp-d	Kp-d	Lp-s	Kp-s	Thp-d	Lh-tbr-d	Lh-d	Kh-d	Thp-s	Tph-s	Lh-tbr-s	Lh-s	Kh-s	results	S=0 Diffuse Only[Y]	Specularity EMA[Y]	interest	thpd-lt	thpd-ht	thpd-lt/ht
 ColWidth	189	88	97	143	30	50	41	36	47	53	64	46	131	58	46	165	53	55	28	128	126	35	64	67	86	
 <com>
@@ -996,7 +996,7 @@ WindowLabel		2
 </table>
 <table>
 definitions	34	4	21/11/2014 11:41
-geometry	-1527	6	868	732	
+geometry	7	6	868	732	
 header	QtiPlot Name	LaTeX	Description	Substitution
 ColWidth	180	124	479	51	
 <com>
@@ -1042,7 +1042,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 specular-EMA-10nm-log	1	1	05/12/2014 13:43
-geometry	2173	1	846	810	
+geometry	3707	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1134,7 +1134,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 specular-EMA-10nm	1	1	05/12/2014 14:07
-geometry	1327	1	846	810	
+geometry	2861	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1226,7 +1226,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 specularity-factor-effect	1	1	05/12/2014 14:09
-geometry	3020	2	803	810	active
+geometry	4554	2	803	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1317,12 +1317,12 @@ EnabledTickLabels	1	0	1	0
 <open>1</open>
 <table>
 eEMA	30	13	06/02/2015 11:15
-geometry	-1532	3	1740	658	
-header	Description	Data	variables	Temperature [K][X]	Ef [eV][Y]	Seebeck[Y]	Elec Cond[Y]	Kel[Y]	Kph (Avg)[Y]	Kph (mEMA)[Y]	ZT[Y]	plotting	Seebeck [uV][Y]
-ColWidth	179	125	25	45	154	151	100	80	115	113	107	57	150	
+geometry	2	3	1740	658	active
+header	Description	Data	variables	Temperature [K][X]	Ef [eV][Y]	Seebeck[Y]	Elec Conductivity[Y]	Kel[Y]	Kph (Avg)[Y]	Kph (mEMA)[Y]	ZT[Y]	plotting	Seebeck [uV][Y]
+ColWidth	179	125	25	45	154	151	166	80	115	113	107	57	150	
 <com>
 <col nr="1">
-1/((1-col("Data", 14))/col("Data", 1)+col("Data", 14)/col("Data", 7))
+1/((1-col("Data", 14))/col("Data", 5)+col("Data", 14)/col("Data", 11))
 </col>
 <col nr="4">
 col("Data", 18)/2+0.75*col("Data", 25)*col("Temperature [K]")*ln(col("Data", 20)/col("Data", 19))
@@ -1331,16 +1331,16 @@ col("Data", 18)/2+0.75*col("Data", 25)*col("Temperature [K]")*ln(col("Data", 20)
 col("Data", 25)*((col("Ef [eV]")/(col("Data", 25)*col("Temperature [K]")))-2)
 </col>
 <col nr="6">
-2*col("Data", 28)*((2*pi*col("Data", 25)*col("Temperature [K]"))/(col("Data", 27)^2))^1.5*(col("Data", 19)*col("Data", 20)/(col("Data", 29))^2)^0.75*(col("Data", 21)+col("Data", 22))*exp(col("Data", 18)/(col("Data", 25)*col("Temperature [K]")))
+2*col("Data", 28)*((2*pi*col("Data", 25)*col("Temperature [K]"))/(col("Data", 27)^2))^1.5*(col("Data", 19)*col("Data", 20)*col("Data", 29)^2)^0.75*(col("Data", 21)+col("Data", 22))*exp(col("Data", 18)*col("Data", 28)^2/(col("Data", 25)*col("Temperature [K]")))
 </col>
 <col nr="7">
-2*col("Elec Cond")*col("Temperature [K]")*col("Data", 27)^2
+2*col("Elec Conductivity")*col("Temperature [K]")*col("Data", 27)^2
 </col>
 <col nr="9">
 pi
 </col>
 <col nr="10">
-col("Seebeck")^2*col("Elec Cond")*col("Temperature [K]")/(col("Kel")+col("Kph (mEMA)"))
+col("Seebeck")^2*col("Elec Conductivity")*col("Temperature [K]")/(col("Kel")+col("Kph (mEMA)"))
 </col>
 <col nr="12">
 col("Seebeck")*1e6
@@ -1352,17 +1352,17 @@ HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
 Comments		Velocity from: http://dx.doi.org/10.1103/PhysRevB.57.14958  Density well defined  Volume fraction from maximum size of a  sphere in a cube			Fermi Level									
 WindowLabel		2
 <data>
-0	Band gap - Ge	0.66		300	0.4301263651046	0.001261407902349			88.57776284696	10.31815584528			1261.407902349
-1	Electron mass - Ge	0.12		310	0.4304502881445	0.001216202668595			85.39491084581	10.27602609054			1216.202668595
-2	Hole mass - Ge	0.21		320	0.4307742111843	0.001173822761951			82.39925146739	10.23350990905			1173.822761951
-3	Mobility Electron - Ge			330	0.4310981342242	0.001134011334498			79.57529844704	10.19064099463			1134.011334498
-4	Mobility Hole - Ge			340	0.431422057264	0.001096541755718			76.90921347942	10.14745182783			1096.541755718
-5				350	0.4317459803039	0.001061213295725			74.38859317267	10.10397368346			1061.213295725
-6	Band gap - Si	1.12		360	0.4320699033437	0.001027847527955			72.002288201	10.06023664049			1027.847527955
-7	Electron mass - Si	0.26		370	0.4323938263835	0.0009962853151986			69.74024911856	10.01626959432			996.2853151986
-8	Hole mass - Si	0.386		380	0.4327177494234	0.0009663842715353			67.59339436014	9.972100271094			966.3842715353
-9	Mobility Electron - Si			390	0.4330416724632	0.0009380166147262			65.55349679144	9.92775524401			938.0166147262
-10	Mobility Hole - Si			400	0.4333655955031	0.0009110673407577			63.61308583859	9.883259951308			911.0673407577
+0	Band gap - Ge	0.66		300	0.4301263651046	0.001719858931277	6.800247715387e-20		88.57776284696	10.31815584528			1719.858931277
+1	Electron mass - Ge	0.12		310	0.4304502881445	0.001659643877513	7.14307798994e-20		85.39491084581	10.27602609054			1659.643877513
+2	Hole mass - Ge	0.21		320	0.4307742111843	0.00160319226461	7.49148334984e-20		82.39925146739	10.23350990905			1603.19226461
+3	Mobility Electron - Ge	3800		330	0.4310981342242	0.00155016196158	7.845375971012e-20		79.57529844704	10.19064099463			1550.16196158
+4	Mobility Hole - Ge	1800		340	0.431422057264	0.001500251088139	8.20467205386e-20		76.90921347942	10.14745182783			1500.251088139
+5				350	0.4317459803039	0.00145319226461	8.56929152496e-20		74.38859317267	10.10397368346			1453.19226461
+6	Band gap - Si	1.12		360	0.4320699033437	0.001408747820166	8.939157768817e-20		72.002288201	10.06023664049			1408.747820166
+7	Electron mass - Si	0.26		370	0.4323938263835	0.001366705778124	9.314197385915e-20		69.74024911856	10.01626959432			1366.705778124
+8	Hole mass - Si	0.386		380	0.4327177494234	0.001326876475136	9.694339973816e-20		67.59339436014	9.972100271094			1326.876475136
+9	Mobility Electron - Si	1450		390	0.4330416724632	0.001289089700507	1.007951792857e-19		65.55349679144	9.92775524401			1289.089700507
+10	Mobility Hole - Si	370		400	0.4333655955031	0.00125319226461	1.046966626409e-19		63.61308583859	9.883259951308			1253.19226461
 12	Nanoparticle diameter	1e-08											
 13	Volume Fraction	0.5235987755983											
 14	Interface density	314159265.359											
@@ -1370,8 +1370,8 @@ WindowLabel		2
 17	Band gap - GeSi	0.8408173478188											
 18	Electron mass - GeSi	0.1671164425244											
 19	Hole mass - GeSi	0.275858205355											
-20	Mobility Electron - GeSi												
-21	Mobility Hole - GeSi												
+20	Mobility Electron - GeSi	2055.619526023											
+21	Mobility Hole - GeSi	595.3092584958											
 23	debye temp silicon	645											
 24	boltzman constant [eV]	8.6173324e-05											
 25	a_0 silicon spacing	2.34e-10											
@@ -1382,7 +1382,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 seebeck	1	1	09/02/2015 14:00
-geometry	1074	3	846	810	active
+geometry	2608	3	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1445,7 +1445,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 fermi-level	1	1	09/02/2015 14:01
-geometry	208	4	863	810	
+geometry	1742	4	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
