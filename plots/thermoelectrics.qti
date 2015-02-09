@@ -1,6 +1,6 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	13
+<windows>	15
 <note>
 notes	04/11/2014 13:24
 geometry	maximized	active
@@ -230,7 +230,7 @@ what part did you focus in?
 <open>1</open>
 <table>
 modified-EMA	68	16	10/27/14 11:25 AM
-geometry	0	0	1624	839	active
+geometry	-1534	0	1624	839	active
 header	Description	Data	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	Alpha-unmodified	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
 ColWidth	179	148	97	48	125	30	67	51	106	116	119	117	28	115	115	115	
 <com>
@@ -352,7 +352,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 modified-EMA-10nm	1	1	21/11/2014 14:28
-geometry	1632	0	846	810	
+geometry	98	0	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -442,7 +442,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 modified-EMA-10nm-log	1	1	21/11/2014 14:34
-geometry	2480	0	846	810	
+geometry	946	0	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -531,11 +531,11 @@ EnabledTickLabels	1	0	1	0
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 </folder>
-<folder>	mEMA-temp	07/11/2014 13:36		current
+<folder>	mEMA-temp	07/11/2014 13:36	
 <open>1</open>
 <table>
 mEMA-temp	26	35	04/11/2014 12:09
-geometry	0	0	1861	435	active
+geometry	-1534	0	1861	435	active
 header	Description	Data	variables	Temperature [K][X]	Kge	Ksi	Cge	Csi	Lge	Lsi	mEMA	Lge-eff	Lsi-eff	R	x-bar	b(x-bar)	Rgraunualr	ratio[Y]	Alpha	Kge-eff	Ksi-eff	Alpha-eff	sEMA	Kp-d	Kp-s	Kh-d	Thp-s	Tph-s	Lh-tbr-s	Kh-s	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	Specular EMA[Y]
 ColWidth	179	125	25	64	120	117	100	80	42	32	52	56	49	187	123	137	149	123	113	68	51	132	49	41	36	46	48	47	68	48	28	115	124	114	115	
 <com>
@@ -663,7 +663,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 mEMA-temp-10nm	1	1	21/11/2014 14:08
-geometry	1862	0	863	810	
+geometry	328	0	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -755,7 +755,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 mEMA-temp-10nm-log	1	1	21/11/2014 14:55
-geometry	2725	0	863	810	
+geometry	1191	0	863	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -850,7 +850,7 @@ EnabledTickLabels	1	0	1	0
 <open>1</open>
 <table>
 specular-EMA	68	25	17/11/2014 13:19
-geometry	870	1	1992	823	
+geometry	-664	1	1992	823	
 header	Description	Data	Interface Dens	Volume Fraction[X]	variables	Lp-d	Kp-d	Lp-s	Kp-s	Thp-d	Lh-tbr-d	Lh-d	Kh-d	Thp-s	Tph-s	Lh-tbr-s	Lh-s	Kh-s	results	S=0 Diffuse Only[Y]	Specularity EMA[Y]	interest	thpd-lt	thpd-ht	thpd-lt/ht
 ColWidth	189	88	97	143	30	50	41	36	47	53	64	46	131	58	46	165	53	55	28	128	126	35	64	67	86	
 <com>
@@ -996,7 +996,7 @@ WindowLabel		2
 </table>
 <table>
 definitions	34	4	21/11/2014 11:41
-geometry	7	6	868	732	
+geometry	-1527	6	868	732	
 header	QtiPlot Name	LaTeX	Description	Substitution
 ColWidth	180	124	479	51	
 <com>
@@ -1042,7 +1042,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 specular-EMA-10nm-log	1	1	05/12/2014 13:43
-geometry	3707	1	846	810	
+geometry	2173	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1134,7 +1134,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 specular-EMA-10nm	1	1	05/12/2014 14:07
-geometry	2861	1	846	810	
+geometry	1327	1	846	810	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1226,7 +1226,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 specularity-factor-effect	1	1	05/12/2014 14:09
-geometry	4554	2	803	810	active
+geometry	3020	2	803	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1313,16 +1313,16 @@ EnabledTickLabels	1	0	1	0
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 </folder>
-<folder>	eEMA	06/02/2015 11:12	
+<folder>	eEMA	06/02/2015 11:12		current
 <open>1</open>
 <table>
-eEMA	30	36	06/02/2015 11:15
-geometry	maximized	active
-header	Description	Data	variables	Temperature [K][X]	Ef [eV]	Seebeck	Seebeck [uV]	Elec Cond	Kel	Kph	Lsi	mEMA	Lge-eff	Lsi-eff	R	x-bar	b(x-bar)	Rgraunualr	ratio[Y]	Alpha	Kge-eff	Ksi-eff	Alpha-eff	sEMA	Kp-d	Kp-s	Kh-d	Thp-s	Tph-s	Lh-tbr-s	Kh-s	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	Specular EMA[Y]
-ColWidth	179	125	25	45	154	66	110	100	80	113	32	52	56	49	187	123	137	149	123	56	68	51	81	49	41	36	46	48	47	68	48	28	115	124	114	115	
+eEMA	30	13	06/02/2015 11:15
+geometry	-1532	3	1740	658	
+header	Description	Data	variables	Temperature [K][X]	Ef [eV][Y]	Seebeck[Y]	Elec Cond[Y]	Kel[Y]	Kph (Avg)[Y]	Kph (mEMA)[Y]	ZT[Y]	plotting	Seebeck [uV][Y]
+ColWidth	179	125	25	45	154	151	100	80	115	113	107	57	150	
 <com>
 <col nr="1">
-col("Data", 6)/2+0.75*col("Data", 22)*col("Temperature [K]")*ln(col("Data", 8)/col("Data", 7))
+1/((1-col("Data", 14))/col("Data", 1)+col("Data", 14)/col("Data", 7))
 </col>
 <col nr="4">
 col("Data", 18)/2+0.75*col("Data", 25)*col("Temperature [K]")*ln(col("Data", 20)/col("Data", 19))
@@ -1331,124 +1331,224 @@ col("Data", 18)/2+0.75*col("Data", 25)*col("Temperature [K]")*ln(col("Data", 20)
 col("Data", 25)*((col("Ef [eV]")/(col("Data", 25)*col("Temperature [K]")))-2)
 </col>
 <col nr="6">
-col("Seebeck")*1000000
+2*col("Data", 28)*((2*pi*col("Data", 25)*col("Temperature [K]"))/(col("Data", 27)^2))^1.5*(col("Data", 19)*col("Data", 20)/(col("Data", 29))^2)^0.75*(col("Data", 21)+col("Data", 22))*exp(col("Data", 18)/(col("Data", 25)*col("Temperature [K]")))
 </col>
 <col nr="7">
-2*col("Data", 28)*((2*pi*col("Data", 25)*col("Temperature [K]"))/(col("Data", 27)^2))^1.5*(col("Data", 19)*col("Data", 20))^0.75*(col("Data", 21)+col("Data", 22))*exp(col("Data", 18)/(col("Data", 25)*col("Temperature [K]")))
-</col>
-<col nr="8">
 2*col("Elec Cond")*col("Temperature [K]")*col("Data", 27)^2
 </col>
 <col nr="9">
 pi
 </col>
 <col nr="10">
-3*col("Seebeck")/(col("Kel")*col("Data", 4))
+col("Seebeck")^2*col("Elec Cond")*col("Temperature [K]")/(col("Kel")+col("Kph (mEMA)"))
 </col>
 <col nr="12">
-1/((1/col("Kph"))+(col("Data", 9)/4))
-</col>
-<col nr="13">
-1/((1/col("Lsi"))+(1/col("Data", 7)))
-</col>
-<col nr="14">
-3*col("Data", 15)*col("Data", 14)^2/(col("Data", 13)^2*col("Data", 12)*col("Data", 16)*col("b(x-bar)"))
-</col>
-<col nr="15">
-col("Data", 12)/(2*col("Temperature [K]"))
-</col>
-<col nr="16">
-(9/32)*(col("x-bar")^2*exp(col("x-bar"))/(exp(col("x-bar"))-1)^2)
-</col>
-<col nr="17">
-3*col("Data", 15)*col("Data", 14)^2/(col("Data", 13)^2*col("Data", 12)*col("Data", 16)*col("b(x-bar)"))
-</col>
-<col nr="18">
-col("R")/col("Rgraunualr")
-</col>
-<col nr="19">
-col("R")*col("Ef [eV]")/(col("Data", 7)/2)
-</col>
-<col nr="20">
-col("Elec Cond")*col("Data", 1)*col("Lge-eff")/3
-</col>
-<col nr="21">
-col("Kel")*col("Data", 4)*col("Lsi-eff")/3
-</col>
-<col nr="22">
-col("R")*col("Kge-eff")/(col("Data", 7)/2)
-</col>
-<col nr="24">
-col("Kel")*col("Data", 4)/(3*((1/col("Lsi"))+(8/(3*col("Data", 7)))))
-</col>
-<col nr="25">
-col("Kel")*col("Data", 4)/(3*((1/col("Lsi"))+(8/(3*col("Data", 7)))*((1-col("Data", 10))/(1+col("Data", 10)))))
-</col>
-<col nr="26">
-col("Elec Cond")*col("Data", 1)/(3*((1/col("Kph"))+(3*col("Data", 8)/(2*col("Data", 7)))+(1/(col("Data", 7)*(col("Kel")*col("Data", 4)/(col("Kel")*col("Data", 4)+col("Elec Cond")*col("Data", 1)))/col("Data", 8)))))
-</col>
-<col nr="27">
-(2*col("Data", 4)*col("Data", 5)/(col("Data", 1)*col("Data", 2)))^2*((col("Kel")*col("Data", 4)^3)/(col("Elec Cond")*col("Data", 1)^3))*(1+((col("Data", 1)*col("Data", 2)*(1-(col("Data", 1)/col("Data", 4))^2)^0.5)/(col("Data", 4)*col("Data", 5)))+2*ln(col("Data", 4)*col("Data", 5)/((col("Data", 1)*col("Data", 2)*(1-(col("Data", 1)/col("Data", 4))^2)^0.5)+col("Data", 4)*col("Data", 5)))-(col("Data", 4)*col("Data", 5)/((col("Data", 1)*col("Data", 2)*(1-(col("Data", 1)/col("Data", 4))^2)^0.5)+col("Data", 4)*col("Data", 5))))
-</col>
-<col nr="28">
-(2*(col("Data", 1)*col("Data", 2))/(col("Data", 4)*col("Data", 5)))^2*(1+((col("Data", 4)*col("Data", 5))/(col("Data", 1)*col("Data", 2)))+2*ln((col("Data", 1)*col("Data", 2))/((col("Data", 1)*col("Data", 2))+(col("Data", 4)*col("Data", 5))))-((col("Data", 1)*col("Data", 2))/((col("Data", 1)*col("Data", 2))+(col("Data", 4)*col("Data", 5)))))
-</col>
-<col nr="29">
-(col("Data", 7)*((1+col("Data", 10))/(1-col("Data", 10)))*col("Thp-s"))/(col("Data", 8)*(1-col("Thp-s")-col("Tph-s")))
-</col>
-<col nr="30">
-col("Elec Cond")*col("Data", 1)/(3*((1/col("Kph"))+(3*col("Data", 8)/(2*col("Data", 7)))+(1/col("Lh-tbr-s"))))
-</col>
-<col nr="32">
-1/(col("Data", 8)/col("Seebeck")+(1-col("Data", 8))/col("Ef [eV]"))
-</col>
-<col nr="33">
-col("Ef [eV]")*((col("Seebeck")*(1+2*col("Alpha"))+2*col("Ef [eV]")+2*col("Data", 8)*(col("Seebeck")*(1-col("Alpha"))-col("Ef [eV]")))/(col("Seebeck")*(1+2*col("Alpha"))+2*col("Ef [eV]")-col("Data", 8)*(col("Seebeck")*(1-col("Alpha"))-col("Ef [eV]"))))
-</col>
-<col nr="34">
-col("Kge-eff")*((col("Ksi-eff")*(1+2*col("Alpha-eff"))+2*col("Kge-eff")+2*col("Data", 8)*(col("Ksi-eff")*(1-col("Alpha-eff"))-col("Kge-eff")))/(col("Ksi-eff")*(1+2*col("Alpha-eff"))+2*col("Kge-eff")-col("Data", 8)*(col("Ksi-eff")*(1-col("Alpha-eff"))-col("Kge-eff"))))
-</col>
-<col nr="35">
-col("Data", 10)*(col("Kh-s")*((2*col("Kh-s")+col("Kp-s")+2*col("Data", 8)*(col("Kp-s")-col("Kh-s")))/(2*col("Kh-s")+col("Kp-s")-col("Data", 8)*(col("Kp-s")-col("Kh-s")))))+(1-col("Data", 10))*(col("Kh-d")*((2*col("Kh-d")+col("Kp-d")+2*col("Data", 8)*(col("Kp-d")-col("Kh-d")))/(2*col("Kh-d")+col("Kp-d")-col("Data", 8)*(col("Kp-d")-col("Kh-d")))))
+col("Seebeck")*1e6
 </col>
 </com>
-ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/4	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-Comments		Velocity from: http://dx.doi.org/10.1103/PhysRevB.57.14958  Density well defined  Volume fraction from maximum size of a  sphere in a cube			Fermi Level						1/3 CVL = K																						Defined by adding reciprocal bulk thermal conductivities	Defined in: http://dx.doi.org/10.1063/1.365209	Defined in: http://dx.doi.org/10.1063/1.2771040		
+ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments		Velocity from: http://dx.doi.org/10.1103/PhysRevB.57.14958  Density well defined  Volume fraction from maximum size of a  sphere in a cube			Fermi Level									
 WindowLabel		2
 <data>
-0	Band gap - Ge	0.66		300	0.4301263651046	0.001261407902349	1261								9.199636187343e-10	0.001308996938996	0.2553605409675	9.199636187343e-10	1.602146375606	3.999066158337e-09								1.240042873692	0.4159973222232	-1.080110557871			0.006822602231257	0.2924604884488		
-1	Electron mass - Ge	0.12		310	0.4304502881445	0.001216202668595	1216								8.960759750877e-10	0.001163552834663	0.2621679566037	8.960759750877e-10	1.574476720584	3.899627903104e-09								1.298253420671	0.4159973222232	-1.038653609736			0.006027873700651	0.2925996760648		
-2	Hole mass - Ge	0.21		320	0.4307742111843	0.001173822761951	1174									0.001047197551197																	0.005391085506243			
-3	Mobility Electron - Ge			330	0.4310981342242	0.001134011334498	1134									0.0009519977738151																	0.004869410853717			
-4	Mobility Hole - Ge			340	0.431422057264	0.001096541755718	1097									0.0008726646259972																	0.004434223216682			
-5				350	0.4317459803039	0.001061213295725	1061																													
-6	Band gap - Si	1.12		360	0.4320699033437	0.001027847527955	1028								8.815185794696e-10	0.0008055365778435	0.2664973975838	8.815185794696e-10	1.558312761381	3.853593368782e-09								1.325267779837	0.4159973222232	-1.021626253865			0.004065661309272	0.2934476028745		
-7	Electron mass - Si	0.26		370	0.4323938263835	0.0009962853151986	996.3								8.646423462922e-10	0.0007479982508547	0.2716989381307	8.646423462922e-10	1.532461140781	3.784064790661e-09								1.359990580274	0.4159973222232	-1.00148145027			0.003749512812834	0.2937012041203		
-8	Hole mass - Si	0.386		380	0.4327177494234	0.0009663842715353	966.4								8.555841275087e-10	0.0006981317007977	0.2745754623037	8.555841275087e-10	1.510679311486	3.74862399618e-09								1.380884926166	0.4159973222232	-0.9902054137143			0.003475339344249	0.2939647986234		
-9	Mobility Electron - Si			390	0.4330416724632	0.0009380166147262	938									0.0006544984694979													0.4159973222232				0.003235301774704			
-10	Mobility Hole - Si			400	0.4333655955031	0.0009110673407577	911.1																													
-12	Nanoparticle diameter	1e-08																											0.4159973222232							
-13	Volume Fraction	0.5235987755983																											0.4159973222232							
-14	Interface density	314159265.359																											0.4159973222232							
-15																													0.4159973222232							
-16	Effective medium																												0.4159973222232							
-17	Band gap - GeSi	0.8408173478188																											0.4159973222232							
-18	Electron mass - GeSi	0.1671164425244																											0.4159973222232							
-19	Hole mass - GeSi	0.275858205355																											0.4159973222232							
-20	Mobility Electron - GeSi																												0.4159973222232							
-21	Mobility Hole - GeSi																																			
-22																													0.4159973222232							
-23	debye temp silicon	645																											0.4159973222232							
-24	boltzman constant [eV]	8.6173324e-05																											0.4159973222232							
-25	a_0 silicon spacing	2.34e-10																											0.4159973222232							
-26	plancks constant [eV]	4.135667516e-15																											0.4159973222232							
-27	elementary charge	1.602176565e-19																											0.4159973222232							
-28																													0.4159973222232							
-29																													0.4159973222232							
+0	Band gap - Ge	0.66		300	0.4301263651046	0.001261407902349			88.57776284696	10.31815584528			1261.407902349
+1	Electron mass - Ge	0.12		310	0.4304502881445	0.001216202668595			85.39491084581	10.27602609054			1216.202668595
+2	Hole mass - Ge	0.21		320	0.4307742111843	0.001173822761951			82.39925146739	10.23350990905			1173.822761951
+3	Mobility Electron - Ge			330	0.4310981342242	0.001134011334498			79.57529844704	10.19064099463			1134.011334498
+4	Mobility Hole - Ge			340	0.431422057264	0.001096541755718			76.90921347942	10.14745182783			1096.541755718
+5				350	0.4317459803039	0.001061213295725			74.38859317267	10.10397368346			1061.213295725
+6	Band gap - Si	1.12		360	0.4320699033437	0.001027847527955			72.002288201	10.06023664049			1027.847527955
+7	Electron mass - Si	0.26		370	0.4323938263835	0.0009962853151986			69.74024911856	10.01626959432			996.2853151986
+8	Hole mass - Si	0.386		380	0.4327177494234	0.0009663842715353			67.59339436014	9.972100271094			966.3842715353
+9	Mobility Electron - Si			390	0.4330416724632	0.0009380166147262			65.55349679144	9.92775524401			938.0166147262
+10	Mobility Hole - Si			400	0.4333655955031	0.0009110673407577			63.61308583859	9.883259951308			911.0673407577
+12	Nanoparticle diameter	1e-08											
+13	Volume Fraction	0.5235987755983											
+14	Interface density	314159265.359											
+16	Effective medium												
+17	Band gap - GeSi	0.8408173478188											
+18	Electron mass - GeSi	0.1671164425244											
+19	Hole mass - GeSi	0.275858205355											
+20	Mobility Electron - GeSi												
+21	Mobility Hole - GeSi												
+23	debye temp silicon	645											
+24	boltzman constant [eV]	8.6173324e-05											
+25	a_0 silicon spacing	2.34e-10											
+26	plancks constant [eV]	4.135667516e-15											
+27	elementary charge	1.602176565e-19											
+28	electron rest mass	9.10938215e-31											
 </data>
 </table>
+<multiLayer>
+seebeck	1	1	09/02/2015 14:00
+geometry	1074	3	846	810	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	650	650
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	828	747
+<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	4	4	4	4
+TitleFont	Liberation Sans	10	50	0	0	0
+ScaleFont0	DejaVu Sans	28	50	0	0	0
+ScaleFont1	DejaVu Sans	28	50	0	0	0
+ScaleFont2	DejaVu Sans	28	50	0	0	0
+ScaleFont3	DejaVu Sans	28	50	0	0	0
+AxisFont0	DejaVu Sans	20	50	0	0	0
+AxisFont1	DejaVu Sans	20	50	0	0	0
+AxisFont2	DejaVu Sans	20	50	0	0	0
+AxisFont3	DejaVu Sans	20	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	eEMA_Temperature [K]	eEMA_Seebeck [uV]	0	1	#ff0000	0	2.5	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+scale	0	900	1300	0	9	5	0	0
+scale	1	900	1300	0	9	5	0	0
+scale	2	300	400	0	6	5	0	0
+scale	3	300	400	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	12
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	2	2	2	2
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	0	1	0
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+fermi-level	1	1	09/02/2015 14:01
+geometry	208	4	863	810	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	650	650
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	845	747
+<PageGeometry>0.00584795	0.00656168	0.988304	0.980315</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	Energy [eV]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	4	4	4	4
+TitleFont	Liberation Sans	10	50	0	0	0
+ScaleFont0	DejaVu Sans	28	50	0	0	0
+ScaleFont1	DejaVu Sans	28	50	0	0	0
+ScaleFont2	DejaVu Sans	28	50	0	0	0
+ScaleFont3	DejaVu Sans	28	50	0	0	0
+AxisFont0	DejaVu Sans	20	50	0	0	0
+AxisFont1	DejaVu Sans	20	50	0	0	0
+AxisFont2	DejaVu Sans	20	50	0	0	0
+AxisFont3	DejaVu Sans	20	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	eEMA_Temperature [K]	eEMA_Ef [eV]	0	1	#ff0000	0	2.5	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>F1</Title>
+<Expression>0.420408673</Expression>
+<Variable>x</Variable>
+<Range>300	400</Range>
+<Points>2</Points>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#0000ff</Color>
+	<Style>0</Style>
+	<Width>2.5</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0.4	0.45	0	6	5	0	0
+scale	1	0.4	0.45	0	6	5	0	0
+scale	2	300	400	0	6	5	0	0
+scale	3	300	400	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	12
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	2	2	2	2
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>306.36492220651</x>
+<y>0.44745762711864</y>
+<right>340.876944837341</right>
+<bottom>0.441833590138675</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)Fermi Level
+\l(2)Fermi Energy
+</Text>
+<Font>DejaVu Sans	20	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
 </folder>
 <open>1</open>
 <log>
