@@ -1,0 +1,66 @@
+Springer Handbook of Condensed Matter and Materials Data [2005]
+ISBN: 978-3-540-30437-1
+
+Table references give the ebook page number, table reference
+All data at 300K and from springer unless stated otherwise
+Temperature dependenance can be found in relevant section of table
+
+
+Silicon
+=======
+
+structure - p597, 4.1-1
+	Diamond, fcc, Fd3m
+lattie constant @295.65K - nm - physics.nist.gov/Constants
+	0.5431020504
+density @298.15K- g/cm³ - p598, 4.1-3 (no temperature dependence)
+	2.329002
+melting point - K - p599, 4.1-5
+	1687
+heat capacity @298K - J/mol K - p603, 4.1-8
+	45.882
+
+	
+
+indirect band gap - eV - p611, 4.1-13
+	1.1242
+electron mobility - cm²/V - p616, 4.1-20
+	1450
+hole mobility - cm²/V - p616, 4.1-20
+	370
+	
+instrinsic carrier concentration - cm⁻³ - p614, 4.1-19
+	1.02e10
+electrical conductivity - Ω⁻¹cm⁻¹ - p614, 4.1-19
+	3.16e-2
+
+
+Germanium
+=========
+
+structure - p597, 4.1-1
+	Diamond, fcc, Fd3m
+lattie constant @298.15K - nm - p598, 4.1-2
+	0.56579060
+density @298K- g/cm³ - p598, 4.1-3
+	5.3234
+melting point - K - p599, 4.1-5
+	1210.4
+heat capacity @298K - J/mol K - p603, 4.1-8
+	51.88
+
+
+indirect band gap @291K - eV - p611, 4.1-13
+	0.664
+electron mobility - cm²/V - p616, 4.1-20
+	3800
+hole mobility - cm²/V - p616, 4.1-20
+	1800
+instrinsic carrier concentration - cm⁻³ - p614, 4.1-19
+	2.33e13
+electrical conductivity - Ω⁻¹cm⁻¹ - p614, 4.1-19
+	2.1e-2
+
+
+
+http://www.htelabs.com/appnotes/Si_silicon_physical_constants_300K_silicon_properties_silicon_basic_properties_semiconductor_devices_01.shtml
