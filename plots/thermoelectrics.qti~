@@ -1318,29 +1318,29 @@ EnabledTickLabels	1	0	1	0
 <table>
 eEMA	30	13	06/02/2015 11:15
 geometry	2	3	1740	658	active
-header	Description	Data	variables	Temperature [K][X]	Ef [eV][Y]	Seebeck[Y]	Elec Cond[Y]	Kel[Y]	Kph (Avg)[Y]	Kph (mEMA)[Y]	ZT[Y]	plotting	Seebeck [uV][Y]
-ColWidth	179	125	25	45	154	151	100	80	115	113	107	57	150	
+header	Description	Data	variables	Temperature [K][X]	Ef [eV][Y]	Seebeck[Y]	Elec Conductivity[Y]	Kel[Y]	Kph (Avg)[Y]	Kph (mEMA)[Y]	ZT[Y]	plotting	Seebeck [uV][Y]
+ColWidth	179	125	25	45	154	151	166	80	115	113	107	57	150	
 <com>
 <col nr="1">
 1/((1-col("Data", 14))/col("Data", 5)+col("Data", 14)/col("Data", 11))
 </col>
 <col nr="4">
-col("Data", 7)/2+0.75*col("Data", 25)*col("Temperature [K]")*ln(col("Data", 9)/col("Data", 8))
+col("Data", 18)/2+0.75*col("Data", 25)*col("Temperature [K]")*ln(col("Data", 20)/col("Data", 19))
 </col>
 <col nr="5">
-col("Ef [eV]")/(col("Data", 25)*col("Temperature [K]"))
+col("Data", 25)*((col("Ef [eV]")/(col("Data", 25)*col("Temperature [K]")))-2)
 </col>
 <col nr="6">
 2*col("Data", 28)*((2*pi*col("Data", 25)*col("Temperature [K]"))/(col("Data", 27)^2))^1.5*(col("Data", 19)*col("Data", 20)*col("Data", 29)^2)^0.75*(col("Data", 21)+col("Data", 22))*exp(col("Data", 18)*col("Data", 28)^2/(col("Data", 25)*col("Temperature [K]")))
 </col>
 <col nr="7">
-2*col("Elec Cond")*col("Temperature [K]")*col("Data", 27)^2
+2*col("Elec Conductivity")*col("Temperature [K]")*col("Data", 27)^2
 </col>
 <col nr="9">
 pi
 </col>
 <col nr="10">
-col("Seebeck")^2*col("Elec Cond")*col("Temperature [K]")/(col("Kel")+col("Kph (mEMA)"))
+col("Seebeck")^2*col("Elec Conductivity")*col("Temperature [K]")/(col("Kel")+col("Kph (mEMA)"))
 </col>
 <col nr="12">
 col("Seebeck")*1e6
@@ -1352,17 +1352,17 @@ HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
 Comments		Velocity from: http://dx.doi.org/10.1103/PhysRevB.57.14958  Density well defined  Volume fraction from maximum size of a  sphere in a cube			Fermi Level									
 WindowLabel		2
 <data>
-0	Band gap - Ge	0.66		300	0.567661673783	21.95813613128	6.800247715387e-20		88.57776284696	10.31815584528			1719.858931277
-1	Electron mass - Ge	0.12		310	0.5679170629091	21.25936937878	7.14307798994e-20		85.39491084581	10.27602609054			1659.643877513
-2	Hole mass - Ge	0.21		320	0.5681724520352	20.60427554831	7.49148334984e-20		82.39925146739	10.23350990905			1603.19226461
-3	Mobility Electron - Ge	3800		330	0.5684278411613	19.98888437424	7.845375971012e-20		79.57529844704	10.19064099463			1550.16196158
-4	Mobility Hole - Ge	1800		340	0.5686832302874	19.40969268099	8.20467205386e-20		76.90921347942	10.14745182783			1500.251088139
-5				350	0.5689386194135	18.86359765593	8.56929152496e-20		74.38859317267	10.10397368346			1453.19226461
-6	Band gap - Si	1.12		360	0.5691940085396	18.34784124337	8.939157768817e-20		72.002288201	10.06023664049			1408.747820166
-7	Electron mass - Si	0.26		370	0.5694493976657	17.85996355582	9.314197385915e-20		69.74024911856	10.01626959432			1366.705778124
-8	Hole mass - Si	0.386		380	0.5697047867918	17.39776364129	9.694339973816e-20		67.59339436014	9.972100271094			1326.876475136
-9	Mobility Electron - Si	1450		390	0.5699601759179	16.95926628648	1.007951792857e-19		65.55349679144	9.92775524401			1289.089700507
-10	Mobility Hole - Si	370		400	0.570215565044	16.54269379942	1.046966626409e-19		63.61308583859	9.883259951308			1253.19226461
+0	Band gap - Ge	0.66		300	0.4301263651046	0.001719858931277	6.800247715387e-20		88.57776284696	10.31815584528			1719.858931277
+1	Electron mass - Ge	0.12		310	0.4304502881445	0.001659643877513	7.14307798994e-20		85.39491084581	10.27602609054			1659.643877513
+2	Hole mass - Ge	0.21		320	0.4307742111843	0.00160319226461	7.49148334984e-20		82.39925146739	10.23350990905			1603.19226461
+3	Mobility Electron - Ge	3800		330	0.4310981342242	0.00155016196158	7.845375971012e-20		79.57529844704	10.19064099463			1550.16196158
+4	Mobility Hole - Ge	1800		340	0.431422057264	0.001500251088139	8.20467205386e-20		76.90921347942	10.14745182783			1500.251088139
+5				350	0.4317459803039	0.00145319226461	8.56929152496e-20		74.38859317267	10.10397368346			1453.19226461
+6	Band gap - Si	1.12		360	0.4320699033437	0.001408747820166	8.939157768817e-20		72.002288201	10.06023664049			1408.747820166
+7	Electron mass - Si	0.26		370	0.4323938263835	0.001366705778124	9.314197385915e-20		69.74024911856	10.01626959432			1366.705778124
+8	Hole mass - Si	0.386		380	0.4327177494234	0.001326876475136	9.694339973816e-20		67.59339436014	9.972100271094			1326.876475136
+9	Mobility Electron - Si	1450		390	0.4330416724632	0.001289089700507	1.007951792857e-19		65.55349679144	9.92775524401			1289.089700507
+10	Mobility Hole - Si	370		400	0.4333655955031	0.00125319226461	1.046966626409e-19		63.61308583859	9.883259951308			1253.19226461
 12	Nanoparticle diameter	1e-08											
 13	Volume Fraction	0.5235987755983											
 14	Interface density	314159265.359											

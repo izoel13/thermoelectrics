@@ -170,6 +170,18 @@ Kes	= Khs×((2×Khs+Kps+2×φ×(Kps-Khs))÷(2×Khs+Kps-φ×(Kps-Khs)))
 Combining effective thermal conducitivies to find thermal conducitivity of whole system:
 
 Specularity EMA = ς×Kes+(1-ς)×Ked
+
+
+eEMA Model
+==========
+
+Intrinsic Fermi Level:
+
+εg + 0.75×k×T×ln(mh÷me)
+
+Extrinsic Fermi Addition:
+
+k×T×asinh(
 </content>
 </tab>
 <tab>
@@ -230,7 +242,7 @@ what part did you focus in?
 <open>1</open>
 <table>
 modified-EMA	68	16	10/27/14 11:25 AM
-geometry	0	0	1624	839	active
+geometry	0	0	1624	839	
 header	Description	Data	Interface Dens	Nanoparticle Diameter	Volume Fraction[X]	variables	Lge-eff	Lsi-eff	Kge	Ksi	Alpha	Alpha-unmodified	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]
 ColWidth	179	148	97	48	125	30	67	51	106	116	119	117	28	115	115	115	
 <com>
@@ -362,7 +374,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -442,7 +454,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 modified-EMA-10nm-log	1	1	21/11/2014 14:34
-geometry	2480	0	846	810	
+geometry	2480	0	846	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -452,7 +464,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -535,7 +547,7 @@ EnabledTickLabels	1	0	1	0
 <open>1</open>
 <table>
 mEMA-temp	26	35	04/11/2014 12:09
-geometry	0	0	1861	435	active
+geometry	0	0	1861	435	
 header	Description	Data	variables	Temperature [K][X]	Kge	Ksi	Cge	Csi	Lge	Lsi	mEMA	Lge-eff	Lsi-eff	R	x-bar	b(x-bar)	Rgraunualr	ratio[Y]	Alpha	Kge-eff	Ksi-eff	Alpha-eff	sEMA	Kp-d	Kp-s	Kh-d	Thp-s	Tph-s	Lh-tbr-s	Kh-s	results[Y]	Weighted Average[Y]	Unmodified EMA[Y]	Modified EMA[Y]	Specular EMA[Y]
 ColWidth	179	125	25	64	120	117	100	80	42	32	52	56	49	187	123	137	149	123	113	68	51	132	49	41	36	46	48	47	68	48	28	115	124	114	115	
 <com>
@@ -673,7 +685,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	845	747
-<PageGeometry>0.00584795	0.00656168	0.988304	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.65686	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -730,8 +742,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>455.39867318436</x>
 <y>95.223420647149</y>
-<right>586.087918994413</right>
-<bottom>74.42218798151</bottom>
+<right>337.3905</right>
+<bottom>95.2380952380952</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -755,7 +767,7 @@ EnabledTickLabels	1	0	1	0
 </multiLayer>
 <multiLayer>
 mEMA-temp-10nm-log	1	1	21/11/2014 14:55
-geometry	2725	0	863	810	
+geometry	2725	0	863	810	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -765,7 +777,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	845	747
-<PageGeometry>0.00584795	0.00656168	0.988304	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.65686	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -822,8 +834,8 @@ EnabledTickLabels	1	0	1	0
 <LineStyle>0</LineStyle>
 <x>464.25181564246</x>
 <y>94.329533886559</y>
-<right>594.941061452514</right>
-<bottom>55.7797912347299</bottom>
+<right>337.3905</right>
+<bottom>88.9240378400219</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1052,7 +1064,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1144,7 +1156,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	828	747
-<PageGeometry>0.00596659	0.00656168	0.988067	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.62353	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1236,7 +1248,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	785	747
-<PageGeometry>0.00628931	0.00656168	0.987421	0.980315</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.53922	1.82195</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>1</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1316,10 +1328,10 @@ EnabledTickLabels	1	0	1	0
 <folder>	eEMA	06/02/2015 11:12		current
 <open>1</open>
 <table>
-eEMA	30	13	06/02/2015 11:15
-geometry	2	3	1740	658	active
-header	Description	Data	variables	Temperature [K][X]	Ef [eV][Y]	Seebeck[Y]	Elec Conductivity[Y]	Kel[Y]	Kph (Avg)[Y]	Kph (mEMA)[Y]	ZT[Y]	plotting	Seebeck [uV][Y]
-ColWidth	179	125	25	45	154	151	166	80	115	113	107	57	150	
+eEMA	33	14	06/02/2015 11:15
+geometry	2	3	1740	711	active
+header	Description	Data	variables	Temperature [K][X]	Ef-instrinsic[Y]	Ef [eV][Y]	Seebeck[Y]	Elec Conductivity[Y]	Kel[Y]	Kph (Avg)[Y]	Kph (mEMA)[Y]	ZT[Y]	plotting	Seebeck [uV][Y]
+ColWidth	223	125	25	45	122	154	151	166	80	115	113	107	57	150	
 <com>
 <col nr="1">
 1/((1-col("Data", 14))/col("Data", 5)+col("Data", 14)/col("Data", 11))
@@ -1328,56 +1340,59 @@ ColWidth	179	125	25	45	154	151	166	80	115	113	107	57	150
 col("Data", 18)/2+0.75*col("Data", 25)*col("Temperature [K]")*ln(col("Data", 20)/col("Data", 19))
 </col>
 <col nr="5">
-col("Data", 25)*((col("Ef [eV]")/(col("Data", 25)*col("Temperature [K]")))-2)
+col("Data", 18)/2+0.75*col("Data", 25)*col("Temperature [K]")*ln(col("Data", 20)/col("Data", 19))+col("Data", 25)*col("Temperature [K]")*asinh(col("Data", 16)*1e6/(2*sqrt(32*col("Data", 29)^3*col("Data", 25)^3*col("Temperature [K]")^3*(pi*col("Data", 19)*col("Data", 20))^1.5/(col("Data", 27)^6))*exp((-col("Data", 18))/(2*col("Data", 25)*col("Temperature [K]")))))
 </col>
 <col nr="6">
-2*col("Data", 28)*((2*pi*col("Data", 25)*col("Temperature [K]"))/(col("Data", 27)^2))^1.5*(col("Data", 19)*col("Data", 20)*col("Data", 29)^2)^0.75*(col("Data", 21)+col("Data", 22))*exp(col("Data", 18)*col("Data", 28)^2/(col("Data", 25)*col("Temperature [K]")))
+col("Data", 25)*((col("Ef [eV]")/(col("Data", 25)*col("Temperature [K]")))-2)
 </col>
 <col nr="7">
+2*col("Data", 28)*((2*pi*col("Data", 25)*col("Temperature [K]"))/(col("Data", 27)^2))^1.5*(col("Data", 19)*col("Data", 20)*col("Data", 29)^2)^0.75*(col("Data", 21)+col("Data", 22))*exp(col("Data", 18)*col("Data", 28)^2/(col("Data", 25)*col("Temperature [K]")))
+</col>
+<col nr="8">
 2*col("Elec Conductivity")*col("Temperature [K]")*col("Data", 27)^2
 </col>
-<col nr="9">
+<col nr="10">
 pi
 </col>
-<col nr="10">
+<col nr="11">
 col("Seebeck")^2*col("Elec Conductivity")*col("Temperature [K]")/(col("Kel")+col("Kph (mEMA)"))
 </col>
-<col nr="12">
+<col nr="13">
 col("Seebeck")*1e6
 </col>
 </com>
-ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
-HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
-Comments		Velocity from: http://dx.doi.org/10.1103/PhysRevB.57.14958  Density well defined  Volume fraction from maximum size of a  sphere in a cube			Fermi Level									
+ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments		Velocity from: http://dx.doi.org/10.1103/PhysRevB.57.14958  Density well defined  Volume fraction from maximum size of a  sphere in a cube				Fermi Level									
 WindowLabel		2
 <data>
-0	Band gap - Ge	0.66		300	0.4301263651046	0.001719858931277	6.800247715387e-20		88.57776284696	10.31815584528			1719.858931277
-1	Electron mass - Ge	0.12		310	0.4304502881445	0.001659643877513	7.14307798994e-20		85.39491084581	10.27602609054			1659.643877513
-2	Hole mass - Ge	0.21		320	0.4307742111843	0.00160319226461	7.49148334984e-20		82.39925146739	10.23350990905			1603.19226461
-3	Mobility Electron - Ge	3800		330	0.4310981342242	0.00155016196158	7.845375971012e-20		79.57529844704	10.19064099463			1550.16196158
-4	Mobility Hole - Ge	1800		340	0.431422057264	0.001500251088139	8.20467205386e-20		76.90921347942	10.14745182783			1500.251088139
-5				350	0.4317459803039	0.00145319226461	8.56929152496e-20		74.38859317267	10.10397368346			1453.19226461
-6	Band gap - Si	1.12		360	0.4320699033437	0.001408747820166	8.939157768817e-20		72.002288201	10.06023664049			1408.747820166
-7	Electron mass - Si	0.26		370	0.4323938263835	0.001366705778124	9.314197385915e-20		69.74024911856	10.01626959432			1366.705778124
-8	Hole mass - Si	0.386		380	0.4327177494234	0.001326876475136	9.694339973816e-20		67.59339436014	9.972100271094			1326.876475136
-9	Mobility Electron - Si	1450		390	0.4330416724632	0.001289089700507	1.007951792857e-19		65.55349679144	9.92775524401			1289.089700507
-10	Mobility Hole - Si	370		400	0.4333655955031	0.00125319226461	1.046966626409e-19		63.61308583859	9.883259951308			1253.19226461
-12	Nanoparticle diameter	1e-08											
-13	Volume Fraction	0.5235987755983											
-14	Interface density	314159265.359											
-16	Effective medium												
-17	Band gap - GeSi	0.8408173478188											
-18	Electron mass - GeSi	0.1671164425244											
-19	Hole mass - GeSi	0.275858205355											
-20	Mobility Electron - GeSi	2055.619526023											
-21	Mobility Hole - GeSi	595.3092584958											
-23	debye temp silicon	645											
-24	boltzman constant [eV]	8.6173324e-05											
-25	a_0 silicon spacing	2.34e-10											
-26	plancks constant [eV]	4.135667516e-15											
-27	elementary charge	1.602176565e-19											
-28	electron rest mass	9.10938215e-31											
+0	Band gap - Ge	0.66		100	0.4236479043078	1.357653098694	0.007810102500406	1.308708283012e-20	4.476762760557e-47	88.57776284696	10.31815584528	8.542870992361e-24		1719.858931277
+1	Electron mass - Ge	0.12		150	0.425267519507	1.608209412002	0.004954967593479	2.404250636649e-20	1.233650752071e-46	85.39491084581	10.27602609054	1.005187875321e-23		1659.643877513
+2	Hole mass - Ge	0.21		200	0.4268871347062	1.856569610598	0.003516419566456	3.70158600605e-20	2.532439444602e-46	82.39925146739	10.23350990905	1.107825005183e-23		1603.19226461
+3	Mobility Electron - Ge	3800		250	0.4285067499054	2.103296793213	0.00264675868632	5.173123708806e-20	4.423989646118e-46	79.57529844704	10.19064099463	1.175619962984e-23		1550.16196158
+4	Mobility Hole - Ge	1800		300	0.4301263651046	2.348722617728	0.002062646906617	6.800247715387e-20	6.978582499243e-46	76.90921347942	10.14745182783	1.216127238878e-23		1500.251088139
+5				350	0.4317459803039	2.593066232562	0.001642332297591	8.56929152496e-20	1.025968887677e-45	74.38859317267	10.10397368346	1.234325644434e-23		1453.19226461
+6	Band gap - Si	1.12		360	0.4320699033437	2.641819594233	0.001571959557693	8.939157768817e-20	1.100830191623e-45	72.002288201	10.06023664049	1.239923906247e-23		1408.747820166
+7	Electron mass - Si	0.26		370	0.4323938263835	2.690537045734	0.001505293896655	9.314197385915e-20	1.178876716906e-45	69.74024911856	10.01626959432	1.24487092391e-23		1366.705778124
+8	Hole mass - Si	0.386		380	0.4327177494234	2.739219557849	0.001442045417443	9.694339973816e-20	1.260152402457e-45	67.59339436014	9.972100271094	1.249180578342e-23		1326.876475136
+9	Mobility Electron - Si	1450		390	0.4330416724632	2.787868050251	0.001381954018098	1.007951792857e-19	1.344700597235e-45	65.55349679144	9.92775524401	1.252865918915e-23		1289.089700507
+10	Mobility Hole - Si	370		1500	0.4689971298856	8.06828981432	0.0001404122748176	7.602908077722e-19	3.901146213725e-44	63.61308583859	9.883259951308	2.586483129839e-24		1253.19226461
+12	Nanoparticle diameter	1e-08												
+13	Volume Fraction	0.5235987755983												
+14	Interface density	314159265.359												
+15	Donor Concentration [cm^-3]	1e+15												
+17	Band gap - GeSi	0.8408173478188												
+18	Electron mass - GeSi	0.1671164425244												
+19	Hole mass - GeSi	0.275858205355												
+20	Mobility Electron - GeSi	2055.619526023												
+21	Mobility Hole - GeSi	595.3092584958												
+23	debye temp silicon	645												
+24	boltzman constant [eV]	8.6173324e-05												
+25	a_0 silicon spacing	2.34e-10												
+26	plancks constant [eV]	4.135667516e-15												
+27	elementary charge	1.602176565e-19												
+28	electron rest mass	9.10938215e-31												
 </data>
 </table>
 <multiLayer>
@@ -1484,7 +1499,6 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	eEMA_Temperature [K]	eEMA_Ef [eV]	0	1	#ff0000	0	2.5	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
 <Function>
 <Type>0</Type>
 <Title>F1</Title>
@@ -1504,10 +1518,11 @@ curve	eEMA_Temperature [K]	eEMA_Ef [eV]	0	1	#ff0000	0	2.5	7	0	#ff0000	#ff0000	0	
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
-scale	0	0.4	0.45	0	6	5	0	0
-scale	1	0.4	0.45	0	6	5	0	0
-scale	2	300	400	0	6	5	0	0
-scale	3	300	400	0	6	5	0	0
+curve	eEMA_Temperature [K]	eEMA_Ef-instrinsic	0	1	#ffff00	0	2.5	7	0	#ffff00	#ffff00	0	#000000	14	1	2	0	0	32	1
+scale	0	0.4	1	0	7	5	0	0
+scale	1	0.4	1	0	7	5	0	0
+scale	2	0	500	0	6	5	0	0
+scale	3	0	500	0	6	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	3	3	3	3
@@ -1526,16 +1541,16 @@ EnabledTickLabels	1	0	1	0
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>306.36492220651</x>
-<y>0.44745762711864</y>
-<right>340.876944837341</right>
-<bottom>0.441833590138675</bottom>
+<x>43.448275862069</x>
+<y>0.96949152542373</y>
+<right>211.724137931035</right>
+<bottom>0.902003081664099</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
 <Text>
-\l(1)Fermi Level
-\l(2)Fermi Energy
+\l(1)Fermi Energy
+\l(2)%(2,@C)
 </Text>
 <Font>DejaVu Sans	20	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
@@ -1569,6 +1584,7 @@ RSS (Residual Sum of Squares) = 62.076693167711
 Iterations = 2
 Status = success
 ---------------------------------------------------------------------------------------
+
 
 
 
