@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="832.91846"
+   height="747"
+   version="1.2"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="specular-EMA-10nm-log.svg">
+  <metadata
+     id="metadata564">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1058"
+     id="namedview562"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0537416"
+     inkscape:cx="488.90731"
+     inkscape:cy="434.07535"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Qt Svg Document</title>
+  <desc
+     id="desc6">Generated with Qt</desc>
+  <defs
+     id="defs8" />
+  <g
+     id="g3513">
+    <polyline
+       transform="matrix(0.9967894,0,0,1.0000185,-3.5267934,-5.0026115)"
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#ff0000;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:MS Shell Dlg 2"
+       id="polyline36"
+       points="90,249.346 176.356,248.887 228.357,248.427 265.252,247.965 293.871,247.503 382.767,245.176 434.768,242.823 471.663,240.444 500.281,238.039 523.664,235.606 543.433,233.145 560.559,230.657 575.664,228.14 589.177,225.593 601.4,223.018 612.56,220.412 622.825,217.775 632.329,215.107 641.178,212.408 649.455,209.676 657.23,206.912 664.561,204.113 671.495,201.281 678.073,198.414 684.33,195.512 690.297,192.574 695.997,189.599 701.456,186.586 706.691,183.536 711.721,180.446 716.561,177.317 721.226,174.148 725.726,170.938 730.074,167.685 734.279,164.39 738.351,161.052 742.297,157.669 746.126,154.24 749.844,150.765 753.457,147.243 756.971,143.673 760.391,140.054 763.722,136.384 766.969,132.663 770.136,128.89 773.226,125.063 776.244,121.182 779.193,117.245 782.075,113.251 784.894,109.198 787.652,105.086 790.352,100.914 792.996,96.6786 795.587,92.38 798.127,88.0163 800.617,83.5861 803.06,79.0878 805.457,74.5199 807.811,69.8806 810.122,65.1684 812.392,60.3815 814.622,55.5181 816.814,50.5763 818.97,45.5542 821.09,40.4499 823.175,35.2614 824,33.2614 "
+       vector-effect="non-scaling-stroke" />
+    <polyline
+       transform="matrix(0.99724574,0,0,1.0000135,-3.9150261,-5.0051023)"
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#00ff00;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:MS Shell Dlg 2"
+       id="polyline46"
+       points="90,250.83 176.356,251.853 228.357,252.875 265.252,253.895 293.871,254.913 382.767,259.98 434.768,265.007 471.663,269.993 500.281,274.939 523.664,279.846 543.433,284.713 560.559,289.543 575.664,294.334 589.177,299.088 601.4,303.805 612.56,308.485 622.825,313.129 632.329,317.737 641.178,322.309 649.455,326.847 657.23,331.35 664.561,335.818 671.495,340.253 678.073,344.655 684.33,349.023 690.297,353.359 695.997,357.662 701.456,361.933 706.691,366.173 711.721,370.381 716.561,374.559 721.226,378.706 725.726,382.823 730.074,386.909 734.279,390.966 738.351,394.994 742.297,398.993 746.126,402.964 749.844,406.905 753.457,410.819 756.971,414.706 760.391,418.564 763.722,422.396 766.969,426.2 770.136,429.979 773.226,433.73 776.244,437.456 779.193,441.156 782.075,444.831 784.894,448.48 787.652,452.104 790.352,455.704 792.996,459.279 795.587,462.829 798.127,466.356 800.617,469.859 803.06,473.339 805.457,476.795 807.811,480.229 810.122,483.639 812.392,487.027 814.622,490.393 816.814,493.736 818.97,497.058 821.09,500.358 823.175,503.636 824,504.636 "
+       vector-effect="non-scaling-stroke" />
+    <polyline
+       transform="matrix(0.99725722,0,0,1.0000088,-3.5686103,-5.004084)"
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#0000ff;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:MS Shell Dlg 2"
+       id="polyline56"
+       points="90,267.975 176.356,284.711 228.357,300.176 265.252,314.51 293.871,327.83 382.767,382.432 434.768,422.762 471.663,453.756 500.281,478.307 523.664,498.227 543.433,514.706 560.559,528.558 575.664,540.361 589.177,550.533 601.4,559.387 612.56,567.16 622.825,574.036 632.329,580.16 641.178,585.646 649.455,590.588 657.23,595.06 664.561,599.125 671.495,602.836 678.073,606.234 684.33,609.357 690.297,612.237 695.997,614.899 701.456,617.366 706.691,619.659 711.721,621.794 716.561,623.787 721.226,625.65 725.726,627.396 730.074,629.034 734.279,630.575 738.351,632.025 742.297,633.392 746.126,634.684 749.844,635.904 753.457,637.06 756.971,638.155 760.391,639.194 763.722,640.181 766.969,641.119 770.136,642.012 773.226,642.863 776.244,643.674 779.193,644.448 782.075,645.187 784.894,645.893 787.652,646.569 790.352,647.215 792.996,647.835 795.587,648.428 798.127,648.997 800.617,649.543 803.06,650.068 805.457,650.572 807.811,651.056 810.122,651.522 812.392,651.97 814.622,652.401 816.814,652.817 818.97,653.217 821.09,653.603 823.175,653.975 824,653.975 "
+       vector-effect="non-scaling-stroke" />
+    <polyline
+       transform="matrix(0.99729133,0,0,1.0000091,-3.6471086,-5.0042292)"
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#ff00ff;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:MS Shell Dlg 2"
+       id="polyline66"
+       points="90,278.076 176.356,302.528 228.357,323.92 265.252,342.816 293.871,359.647 382.767,422.45 434.768,463.698 471.663,493.084 500.281,515.168 523.664,532.408 543.433,546.252 560.559,557.618 575.664,567.115 589.177,575.167 601.4,582.076 612.56,588.066 622.825,593.305 632.329,597.923 641.178,602.02 649.455,605.678 657.23,608.96 664.561,611.919 671.495,614.598 678.073,617.034 684.33,619.255 690.297,621.288 695.997,623.154 701.456,624.871 706.691,626.455 711.721,627.92 716.561,629.278 721.226,630.538 725.726,631.71 730.074,632.802 734.279,633.821 738.351,634.773 742.297,635.664 746.126,636.499 749.844,637.282 753.457,638.017 756.971,638.708 760.391,639.359 763.722,639.971 766.969,640.548 770.136,641.093 773.226,641.606 776.244,642.091 779.193,642.549 782.075,642.983 784.894,643.392 787.652,643.78 790.352,644.147 792.996,644.494 795.587,644.823 798.127,645.134 800.617,645.429 803.06,645.708 805.457,645.973 807.811,646.223 810.122,646.46 812.392,646.685 814.622,646.898 816.814,647.099 818.97,647.289 821.09,647.469 823.175,647.639 824,647.639 "
+       vector-effect="non-scaling-stroke" />
+    <path
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:none;font-family:MS Shell Dlg 2"
+       inkscape:connector-curvature="0"
+       id="path14"
+       d="M 0,0 828,0 828,747 0,747 0,0"
+       vector-effect="non-scaling-stroke" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path18"
+       d="M 0,0 828,0 828,747 0,747 0,0"
+       vector-effect="non-scaling-stroke"
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:none;stroke:none;font-family:MS Shell Dlg 2" />
+    <path
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:none;font-family:MS Shell Dlg 2"
+       inkscape:connector-curvature="0"
+       id="path24"
+       d="m 85,15 734,0 0,649 -734,0 0,-649"
+       vector-effect="non-scaling-stroke" />
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       style="font-size:37.33330154px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       id="text78"
+       font-style="normal"
+       font-weight="400"
+       font-size="37.3333"
+       y="34"
+       x="-611.5"
+       xml:space="preserve">Thermal Conductivity [W/mK]</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text90"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="673"
+       x="65"
+       xml:space="preserve">0</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text98"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="592"
+       x="48"
+       xml:space="preserve">10</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text106"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="511"
+       x="48"
+       xml:space="preserve">20</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text114"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="430"
+       x="48"
+       xml:space="preserve">30</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text122"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="349"
+       x="48"
+       xml:space="preserve">40</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text130"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="267"
+       x="48"
+       xml:space="preserve">50</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text138"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="186"
+       x="48"
+       xml:space="preserve">60</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text146"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="105"
+       x="48"
+       xml:space="preserve">70</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text154"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="24"
+       x="48"
+       xml:space="preserve">80</text>
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline164"
+       points="90,20 90,669 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline168"
+       points="90,588 102,588 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline170"
+       points="90,507 102,507 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline172"
+       points="90,426 102,426 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline174"
+       points="90,345 102,345 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline176"
+       points="90,263 102,263 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline178"
+       points="90,182 102,182 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline180"
+       points="90,101 102,101 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline182"
+       points="90,653 95,653 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline184"
+       points="90,637 95,637 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline186"
+       points="90,620 95,620 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline188"
+       points="90,604 95,604 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline190"
+       points="90,572 95,572 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline192"
+       points="90,555 95,555 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline194"
+       points="90,539 95,539 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline196"
+       points="90,523 95,523 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline198"
+       points="90,491 95,491 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline200"
+       points="90,474 95,474 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline202"
+       points="90,458 95,458 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline204"
+       points="90,442 95,442 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline206"
+       points="90,409 95,409 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline208"
+       points="90,393 95,393 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline210"
+       points="90,377 95,377 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline212"
+       points="90,361 95,361 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline214"
+       points="90,328 95,328 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline216"
+       points="90,312 95,312 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline218"
+       points="90,296 95,296 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline220"
+       points="90,280 95,280 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline222"
+       points="90,247 95,247 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline224"
+       points="90,231 95,231 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline226"
+       points="90,215 95,215 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline228"
+       points="90,198 95,198 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline230"
+       points="90,166 95,166 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline232"
+       points="90,150 95,150 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline234"
+       points="90,134 95,134 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline236"
+       points="90,117 95,117 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline238"
+       points="90,85 95,85 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline240"
+       points="90,69 95,69 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline242"
+       points="90,52 95,52 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline244"
+       points="90,36 95,36 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline260"
+       points="824,20 824,669 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline264"
+       points="824,588 812,588 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline266"
+       points="824,507 812,507 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline268"
+       points="824,426 812,426 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline270"
+       points="824,345 812,345 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline272"
+       points="824,263 812,263 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline274"
+       points="824,182 812,182 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline276"
+       points="824,101 812,101 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline278"
+       points="824,653 819,653 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline280"
+       points="824,637 819,637 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline282"
+       points="824,620 819,620 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline284"
+       points="824,604 819,604 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline286"
+       points="824,572 819,572 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline288"
+       points="824,555 819,555 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline290"
+       points="824,539 819,539 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline292"
+       points="824,523 819,523 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline294"
+       points="824,491 819,491 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline296"
+       points="824,474 819,474 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline298"
+       points="824,458 819,458 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline300"
+       points="824,442 819,442 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline302"
+       points="824,409 819,409 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline304"
+       points="824,393 819,393 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline306"
+       points="824,377 819,377 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline308"
+       points="824,361 819,361 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline310"
+       points="824,328 819,328 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline312"
+       points="824,312 819,312 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline314"
+       points="824,296 819,296 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline316"
+       points="824,280 819,280 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline318"
+       points="824,247 819,247 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline320"
+       points="824,231 819,231 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline322"
+       points="824,215 819,215 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline324"
+       points="824,198 819,198 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline326"
+       points="824,166 819,166 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline328"
+       points="824,150 819,150 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline330"
+       points="824,134 819,134 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline332"
+       points="824,117 819,117 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline334"
+       points="824,85 819,85 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline336"
+       points="824,69 819,69 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline338"
+       points="824,52 819,52 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline340"
+       points="824,36 819,36 "
+       vector-effect="none" />
+    <text
+       style="font-size:37.33330154px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text350"
+       font-style="normal"
+       font-weight="400"
+       font-size="37.3333"
+       y="738"
+       x="308.5"
+       xml:space="preserve">Volume Fraction</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text362"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="694"
+       x="282"
+       xml:space="preserve">0.01</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text370"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="694"
+       x="587"
+       xml:space="preserve">0.1</text>
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline380"
+       points="90,669 824,669 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline384"
+       points="317,669 317,657 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline386"
+       points="613,669 613,657 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline388"
+       points="111,669 111,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline390"
+       points="163,669 163,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline392"
+       points="200,669 200,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline394"
+       points="228,669 228,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline396"
+       points="252,669 252,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline398"
+       points="272,669 272,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline400"
+       points="289,669 289,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline402"
+       points="304,669 304,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline404"
+       points="406,669 406,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline406"
+       points="458,669 458,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline408"
+       points="495,669 495,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline410"
+       points="524,669 524,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline412"
+       points="547,669 547,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline414"
+       points="567,669 567,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline416"
+       points="584,669 584,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline418"
+       points="599,669 599,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline420"
+       points="701,669 701,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline422"
+       points="753,669 753,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline424"
+       points="790,669 790,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline426"
+       points="819,669 819,664 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline442"
+       points="90,20 824,20 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline446"
+       points="317,20 317,32 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline448"
+       points="613,20 613,32 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline450"
+       points="111,20 111,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline452"
+       points="163,20 163,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline454"
+       points="200,20 200,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline456"
+       points="228,20 228,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline458"
+       points="252,20 252,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline460"
+       points="272,20 272,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline462"
+       points="289,20 289,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline464"
+       points="304,20 304,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline466"
+       points="406,20 406,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline468"
+       points="458,20 458,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline470"
+       points="495,20 495,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline472"
+       points="524,20 524,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline474"
+       points="547,20 547,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline476"
+       points="567,20 567,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline478"
+       points="584,20 584,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline480"
+       points="599,20 599,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline482"
+       points="701,20 701,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline484"
+       points="753,20 753,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline486"
+       points="790,20 790,25 "
+       vector-effect="none" />
+    <polyline
+       transform="translate(-5,-5)"
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:DejaVu Sans"
+       id="polyline488"
+       points="819,20 819,25 "
+       vector-effect="none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path496"
+       d="m 104,34 312,0 0,135 -312,0 0,-135"
+       vector-effect="non-scaling-stroke"
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:MS Shell Dlg 2" />
+    <polyline
+       transform="translate(104,34)"
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#ff0000;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:MS Shell Dlg 2"
+       id="polyline506"
+       points="11,21 43,21 "
+       vector-effect="non-scaling-stroke" />
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text512"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="65"
+       x="157"
+       xml:space="preserve">Weighted Average</text>
+    <polyline
+       transform="translate(104,34)"
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:MS Shell Dlg 2"
+       id="polyline520"
+       points="11,52 43,52 "
+       vector-effect="non-scaling-stroke" />
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text526"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="96"
+       x="157"
+       xml:space="preserve">Unmodified EMA</text>
+    <polyline
+       transform="translate(104,34)"
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#0000ff;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:MS Shell Dlg 2"
+       id="polyline534"
+       points="11,83 43,83 "
+       vector-effect="non-scaling-stroke" />
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text540"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="127"
+       x="157"
+       xml:space="preserve">Modified EMA</text>
+    <polyline
+       transform="translate(104,34)"
+       style="font-size:10.66670036px;font-style:normal;font-weight:400;fill:none;stroke:#ff00ff;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:MS Shell Dlg 2"
+       id="polyline548"
+       points="11,114 43,114 "
+       vector-effect="non-scaling-stroke" />
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text554"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="158"
+       x="157"
+       xml:space="preserve">Specularity EMA</text>
+    <text
+       style="font-size:26.66670036px;font-style:normal;font-weight:400;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:DejaVu Sans"
+       id="text370-1"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="694"
+       x="792.81421"
+       xml:space="preserve">0.5</text>
+  </g>
+</svg>

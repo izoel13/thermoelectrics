@@ -1,0 +1,29 @@
+ It seems certain that line spacing, font size and 60-70 characters per line improve readability
+
+General tips:
+Line height, 1.5em (use [golden-ratio-calculator][1])
+Bigger text is better text
+Use half line height for paragraph spacing
+Lower page-text contrast
+Multiply body size by 1.96x to get heading size
+
+Assuming you have black text on white background. Don't use pure black
+(#000000) - use anything between: #222222 to #555555.
+If you can don't use pure white (#FFFFFF). Make it off white: #FAFAFA,
+#F9F9F9, #F8F8F8 etc. work great. But it's often hard to make it work
+so treat this as optional.
+
+
+Title: Knockout
+Large text: Proxima Nova Regular
+Small text or emphasis/quotes: Tisa (serif)
+
+Palatino Linotype
+
+
+Montserrat - Proxima Nova clone
+Nouvelle Vague - Hard to read script font, probably harder to read than current estimate
+
+Title - Knockout
+Subtitles - Montesserat
+Text - Palatino Linotype
