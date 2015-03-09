@@ -1,4 +1,4 @@
- It seems certain that line spacing, font size and 60-70 characters per line improve readability
+It seems certain that line spacing, font size and 60-70 characters per line improve readability
 
 General tips:
 Line height, 1.5em (use [golden-ratio-calculator][1])
@@ -27,3 +27,32 @@ Nouvelle Vague - Hard to read script font, probably harder to read than current 
 Title - Knockout
 Subtitles - Montesserat
 Text - Palatino Linotype
+
+Fiddle with the body text size to get the optimum characters per line
+
+
+Stuff to do
+===========
+
+Diagrams
+	At least 700 pixels across
+	Line art pictures
+	Applications and graphs
+	Draw precisely our set up? (nanospheres of Si in Ge host)
+
+Colour scheme
+	at least three tone, titles, background, boxes
+	
+References
+	even if we don't quote them in the text, for further reading
+	solar thermal paper?
+	
+Which name?
+	G.P. Srivastva
+	G. P. Srivastva
+	Prof. G. P. Srivastva
+	Supervisor - GP Srivastva
+
+Which other subtitles?
+	P/N junctions?
+	
