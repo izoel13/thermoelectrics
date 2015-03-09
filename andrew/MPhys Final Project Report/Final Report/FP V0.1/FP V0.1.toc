@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {subsection}{\numberline {1.1}Thermoelectric History}{1}
+\contentsline {subsection}{\numberline {1.2}Thermoelectric Generators}{1}
+\contentsline {subsection}{\numberline {1.3}Thermoelectric Efficiency}{2}
+\contentsline {subsection}{\numberline {1.4}Thermoelectric Materiasls}{2}
+\contentsline {section}{\numberline {2}Modelling $\mathbf {ZT}$ }{3}
+\contentsline {subsection}{\numberline {2.1}Components of $\mathbf {ZT}$}{3}
+\contentsline {subsubsection}{\numberline {2.1.1}Power Factor}{3}
+\contentsline {subsubsection}{\numberline {2.1.2}Thermal Conductivity}{3}
+\contentsline {subsection}{\numberline {2.2}Maximizing Power Factor}{3}
+\contentsline {subsection}{\numberline {2.3}Minimizing KT}{3}
