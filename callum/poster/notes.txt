@@ -55,4 +55,21 @@ Which name?
 
 Which other subtitles?
 	P/N junctions?
+	Assumptions
+
+3 columns
+	background/history
 	
+	results
+
+what we're doing is really a fesability study, we're pulling together
+multiple diffferent models
+why max volume fraction?
+why minimal nano particle diameter?
+get electrical conductivity plots
+
+specularity EMA vs modified EMA
+	we have shown that the inclusion of specularity physics has minimal
+	effect on modified EMA
+
+group photo at the top
