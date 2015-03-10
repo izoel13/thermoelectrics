@@ -74,6 +74,10 @@ specularity EMA vs modified EMA
 
 group photo at the top
 
+Little larger than 24pt body text
+*Figure* 1 Description of each image
+theLittle larger than 12pt reference text
+
 
 http://www.colourlovers.com/palette/134283/Sub_Text
 http://www.colourlovers.com/palette/482774/dream_magnet
