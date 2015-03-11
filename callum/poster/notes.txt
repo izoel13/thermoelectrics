@@ -25,8 +25,9 @@ Montserrat - Proxima Nova clone
 Nouvelle Vague - Hard to read script font, probably harder to read than current estimate
 
 Title - Knockout
-Subtitles - Montesserat
-Text - Palatino Linotype
+Subtitles - Montesserat all CAPS, 3 letter spacing
+Text - Palatino Linotype, 1.5 line spacing
+Numbers on figures - Deja Vu Sans
 
 Fiddle with the body text size to get the optimum characters per line
 
