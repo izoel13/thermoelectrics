@@ -87,3 +87,25 @@ nanocomposite, optimising key parameters and minimising inaccuracies as
 
 
 842.313 = y value for filler boxes
+
+
+Latex Rendering equations:
+
+\(your equation \)
+
+ZT equation
+\( ZT = \frac{S^2 \sigma T}{K_{el} + K_{ph}} \)
+
+Effective medium for spherical nanoparticles from nan
+\( \frac{k_e}{k_h} = \frac{k_p (1 + 2\alpha) + 2k_h + 2\varphi[k_p (1 - \alpha) - k_h]}{k_p (1 + 2\alpha) + 2k_h - \varphi[k_p (1 - \alpha) - k_h]} \)
+
+Extrinsic fermi level
+\( \varepsilon_f = \Delta_g + \frac{3}{4}kT\ln(\frac{m^*_h}{m^*_e}) + kT\sinh^{-1}(\frac{N_d - N_a}{2\sqrt{U_c U_v}\exp{-\frac{\Delta_g}{2kT}}}) \)
+
+Electrical thermal conductivity asymptotic limit
+\( K_e = \frac{k_B^2}{e^2} (P + \frac{5}{2}) \sigma T \)
+\( K_e = \frac{2k_B^2}{e^2} \sigma T \)
+
+Seebeck cofficient asymptotic limit
+\( S = \frac{k_B}{e} (\frac{2\varepsilon_f}{k_BT} - (P + \frac{5}{2})) \)
+\( S = \frac{k_B}{e} (\eta - (P + \frac{5}{2})) \)
