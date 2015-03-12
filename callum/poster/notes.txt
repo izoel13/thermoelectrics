@@ -77,7 +77,7 @@ group photo at the top
 
 Little larger than 24pt body text
 *Figure* 1 Description of each image
-theLittle larger than 12pt reference text
+Little larger than 12pt reference text
 
 
 http://www.colourlovers.com/palette/134283/Sub_Text
@@ -115,3 +115,4 @@ Seebeck cofficient asymptotic limit
 \( S = \frac{k_B}{e} (\frac{2\varepsilon_f}{k_BT} - (P + \frac{5}{2})) \)
 \( S = \frac{k}{e} (\frac{2E_F}{kT} - (P + \frac{5}{2})) \)
 \( S = \frac{k_B}{e} (\eta - (P + \frac{5}{2})) \)
+
