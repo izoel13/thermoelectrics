@@ -34,34 +34,12 @@ Fiddle with the body text size to get the optimum characters per line
 
 Stuff to do
 ===========
-
-Diagrams
-	At least 700 pixels across
-	Line art pictures
-	Applications and graphs
-	Draw precisely our set up? (nanospheres of Si in Ge host)
-
-Colour scheme
-	at least three tone, titles, background, boxes
-	
-References
-	even if we don't quote them in the text, for further reading
-	solar thermal paper?
 	
 Which name?
 	G.P. Srivastva
 	G. P. Srivastva
 	Prof. G. P. Srivastva
 	Supervisor - GP Srivastva
-
-Which other subtitles?
-	P/N junctions?
-	Assumptions
-
-3 columns
-	background/history
-	
-	results
 
 what we're doing is really a fesability study, we're pulling together
 multiple diffferent models
@@ -84,13 +62,10 @@ http://www.colourlovers.com/palette/134283/Sub_Text
 http://www.colourlovers.com/palette/482774/dream_magnet
 http://www.colourlovers.com/palette/359978/w_o_r_d_l_e_s_s_.
 
-nanocomposite, optimising key parameters and minimising inaccuracies as
-
 
 842.313 = y value for filler boxes
 
 white boarder around figures?
-equation colour
 
 
 Latex Rendering equations:
