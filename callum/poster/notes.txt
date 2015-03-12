@@ -13,60 +13,34 @@ If you can don't use pure white (#FFFFFF). Make it off white: #FAFAFA,
 #F9F9F9, #F8F8F8 etc. work great. But it's often hard to make it work
 so treat this as optional.
 
-
 Title: Knockout
 Large text: Proxima Nova Regular
 Small text or emphasis/quotes: Tisa (serif)
-
-Palatino Linotype
-
 
 Montserrat - Proxima Nova clone
 Nouvelle Vague - Hard to read script font, probably harder to read than current estimate
 
 Title - Knockout
-Subtitles - Montesserat all CAPS, 3 letter spacing
-Text - Palatino Linotype, 1.5 line spacing
-Numbers on figures - Deja Vu Sans
+Subtitles - Montesserat all CAPS, double body pt, 3 letter spacing
+Text - Palatino Linotype, ~24pt, 1.5 line spacing
+Numbers, figures and unicode - Deja Vu Sans
 
-Fiddle with the body text size to get the optimum characters per line
-
-
-Stuff to do
-===========
-	
-Which name?
-	G.P. Srivastva
-	G. P. Srivastva
-	Prof. G. P. Srivastva
-	Supervisor - GP Srivastva
 
 what we're doing is really a fesability study, we're pulling together
 multiple diffferent models
 why max volume fraction?
 why minimal nano particle diameter?
-get electrical conductivity plots
 
 specularity EMA vs modified EMA
 	we have shown that the inclusion of specularity physics has minimal
 	effect on modified EMA
 
-group photo at the top
-
 Little larger than 24pt body text
-*Figure* 1 Description of each image
 Little larger than 12pt reference text
-
 
 http://www.colourlovers.com/palette/134283/Sub_Text
 http://www.colourlovers.com/palette/482774/dream_magnet
 http://www.colourlovers.com/palette/359978/w_o_r_d_l_e_s_s_.
-
-
-842.313 = y value for filler boxes
-
-white boarder around figures?
-
 
 Latex Rendering equations:
 
@@ -92,9 +66,5 @@ Seebeck cofficient asymptotic limit
 \( S = \frac{k_B}{e} (\eta - (p + \frac{5}{2})) \)
 
 
-First wow the poster looks amazing! I've read through it all. A couple of tiny things: Figure 7's background merged with Figure 5 and 6 (I'm sure you're doing this anyway), Possibly could include references in the applications section (just some background reading, nothing too involved (really minor point entirely up to you!)), small assumption all temp dependence contained within the fermi level (not within m*).
-Is there anything I could be working on now? Please email me back, I'm feeling sort of useless at the moment lol!
-
-P.S; Could mention that temperature independence is beneficial to practical thermometric devices? 
-
-      - May be possible to use the EMA approach
+Could mention that temperature independence is beneficial to practical thermometric devices?   
+Could mention the fabrication limit of 20nm
