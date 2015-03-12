@@ -83,11 +83,18 @@ Extrinsic fermi level
 \( E_F = E_g + \frac{3}{4}kT\ln(\frac{m^*_h}{m^*_e}) + kT\sinh^{-1}(\frac{N_d - N_a}{2\sqrt{U_c U_v}\exp{-\frac{E_g}{2kT}}}) \)
 
 Electrical thermal conductivity asymptotic limit
-\( K_{el} = \frac{k^2}{e^2} (P + \frac{5}{2}) \sigma T \)
+\( K_{el} = \frac{k^2}{e^2} (p + \frac{5}{2}) \sigma T \)
 \( K_e = \frac{2k_B^2}{e^2} \sigma T \)
 
 Seebeck cofficient asymptotic limit
-\( S = \frac{k_B}{e} (\frac{2\varepsilon_f}{k_BT} - (P + \frac{5}{2})) \)
-\( S = \frac{k}{e} (\frac{2E_F}{kT} - (P + \frac{5}{2})) \)
-\( S = \frac{k_B}{e} (\eta - (P + \frac{5}{2})) \)
+\( S = \frac{k_B}{e} (\frac{2\varepsilon_f}{k_BT} - (p + \frac{5}{2})) \)
+\( S = \frac{k}{e} (\frac{2E_F}{kT} - (p + \frac{5}{2})) \)
+\( S = \frac{k_B}{e} (\eta - (p + \frac{5}{2})) \)
 
+
+First wow the poster looks amazing! I've read through it all. A couple of tiny things: Figure 7's background merged with Figure 5 and 6 (I'm sure you're doing this anyway), Possibly could include references in the applications section (just some background reading, nothing too involved (really minor point entirely up to you!)), small assumption all temp dependence contained within the fermi level (not within m*).
+Is there anything I could be working on now? Please email me back, I'm feeling sort of useless at the moment lol!
+
+P.S; Could mention that temperature independence is beneficial to practical thermometric devices? 
+
+      - May be possible to use the EMA approach
