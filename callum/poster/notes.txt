@@ -102,6 +102,7 @@ Effective medium for spherical nanoparticles from nan
 
 Extrinsic fermi level
 \( \varepsilon_f = \Delta_g + \frac{3}{4}kT\ln(\frac{m^*_h}{m^*_e}) + kT\sinh^{-1}(\frac{N_d - N_a}{2\sqrt{U_c U_v}\exp{-\frac{\Delta_g}{2kT}}}) \)
+\( E_F = E_g + \frac{3}{4}kT\ln(\frac{m^*_h}{m^*_e}) + kT\sinh^{-1}(\frac{N_d - N_a}{2\sqrt{U_c U_v}\exp{-\frac{E_g}{2kT}}}) \)
 
 Electrical thermal conductivity asymptotic limit
 \( K_e = \frac{k_B^2}{e^2} (P + \frac{5}{2}) \sigma T \)
@@ -109,4 +110,5 @@ Electrical thermal conductivity asymptotic limit
 
 Seebeck cofficient asymptotic limit
 \( S = \frac{k_B}{e} (\frac{2\varepsilon_f}{k_BT} - (P + \frac{5}{2})) \)
+\( S = \frac{k_B}{e} (\frac{2E_F}{k_BT} - (P + \frac{5}{2})) \)
 \( S = \frac{k_B}{e} (\eta - (P + \frac{5}{2})) \)
