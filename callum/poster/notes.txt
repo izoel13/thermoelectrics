@@ -89,6 +89,9 @@ nanocomposite, optimising key parameters and minimising inaccuracies as
 
 842.313 = y value for filler boxes
 
+white boarder around figures?
+equation colour
+
 
 Latex Rendering equations:
 
