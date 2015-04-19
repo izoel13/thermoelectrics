@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.4.18)  19 APR 2015 23:43
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.4.18)  19 APR 2015 23:54
 entering extended mode
-**D:/Users/Jack/Documents/000/git/thermoelectrics/callum/dissertation/output/di
+**D:/Users/Jack/Documents/000/Git/thermoelectrics/callum/dissertation/output/di
 ssertation.tex
 
-(D:/Users/Jack/Documents/000/git/thermoelectrics/callum/dissertation/output/dis
+(D:/Users/Jack/Documents/000/Git/thermoelectrics/callum/dissertation/output/dis
 sertation.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 3 languages loaded.
@@ -597,25 +597,21 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks21
 )
-(dissertation.aux
-
-LaTeX Warning: Label `seebeck-experiment' multiply defined.
-
-)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+(dissertation.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 87.
+LaTeX Info: Redefining \selectfont on input line 81.
 
 (D:\Users\Jack\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dict
 s\translator-basic-dictionary\translator-basic-dictionary-English.dict
@@ -667,197 +663,15 @@ Requested font "cmbx12" at 12.0pt
 )
 \tf@toc=\write4
  [1] [1] [1]
-Requested font "cmbx8" at 8.0pt
-Requested font "cmbx6" at 6.0pt
-
-
-LaTeX Warning: Citation `auparay' on page 2 undefined on input line 157.
-
-
-LaTeX Warning: Citation `ziman' on page 2 undefined on input line 161.
-
-
-LaTeX Warning: Citation `bos-review' on page 2 undefined on input line 176.
-
-
-LaTeX Warning: Citation `seebeck-original' on page 2 undefined on input line 18
-5.
-
-
-LaTeX Warning: Citation `seebeck-original' on page 2 undefined on input line 18
-5.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-[]\OT1/cmr/m/n/12 Figure 1: Thomas See-beck's orig-i-nal ther-mo-elec-tric-ity 
-ex-per-i-ment di-a-gram
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-\OT1/cmr/m/n/12 [[]]. A com-pass nee-dle lies on top of one metal, un-der-neath
- a bridge of a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-\OT1/cmr/m/n/12 dif-fer-ent metal (K), con-nected by two junc-tions and heated 
-at one of these
- []
-
-
-LaTeX Warning: Citation `seebeck-original' on page 2 undefined on input line 19
-5.
-
-
-LaTeX Warning: Citation `seebeck-original' on page 2 undefined on input line 19
-5.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]\OT1/cmr/m/n/12 Figure 2: Thomas See-beck's orig-i-nal ther-mo-elec-tric-ity 
-ex-per-i-ment di-a-gram
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-\OT1/cmr/m/n/12 [[]]. A com-pass nee-dle lies on top of one metal, un-der-neath
- a bridge of a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-\OT1/cmr/m/n/12 dif-fer-ent metal (K), con-nected by two junc-tions and heated 
-at one of these
- []
-
-
-LaTeX Warning: Reference `project-discussion' on page 2 undefined on input line
- 200.
-
-
-LaTeX Warning: Citation `kittel' on page 2 undefined on input line 202.
-
-[2] [3]
-
-LaTeX Warning: Citation `ziman' on page 4 undefined on input line 214.
-
-
-LaTeX Warning: Citation `kittel' on page 4 undefined on input line 224.
-
-
-LaTeX Warning: Citation `wiki-boltz' on page 4 undefined on input line 228.
-
-
-LaTeX Warning: Citation `kittel' on page 4 undefined on input line 242.
-
-
-LaTeX Warning: Citation `kittel' on page 4 undefined on input line 244.
-
-
-LaTeX Warning: Citation `kittel' on page 4 undefined on input line 254.
-
-
-Overfull \hbox (7.04588pt too wide) in paragraph at lines 252--255
-[]\OT1/cmr/m/n/12 Electrons can be mod-elled as quasi-par-ti-cles in a sim-i-la
-r way, with a wavevec- |
- []
-
-[4]
-
-LaTeX Warning: Citation `ziman' on page 5 undefined on input line 265.
-
-
-LaTeX Warning: Reference `superlattice' on page 5 undefined on input line 279.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]\OT1/cmr/m/n/12 Figure 3: Su-per-lat-tice of graphene and cop-per. Al-ter-nat
-e lay-ers of
- []
-
-
-LaTeX Warning: Citation `kittel' on page 5 undefined on input line 299.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 299.
-
-
-LaTeX Warning: Citation `kittel' on page 5 undefined on input line 306.
-
-
-Overfull \hbox (6.4931pt too wide) in paragraph at lines 296--306
-\OT1/cmr/m/n/12 model, our main as-sump-tion is that our sys-tem con-sists of a
-t least 50 atomic |
- []
-
-[5] [6]
-
-LaTeX Warning: Citation `modern-thermoelectrics' on page 7 undefined on input l
-ine 324.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
-[]\OT1/cmr/m/n/12 Figure 4: Graph of dop-ing con-cen-tra-tion (elec-tron den-si
-ty) against $\OML/cmm/m/it/12 ZT$\OT1/cmr/m/n/12 . In-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
-\OT1/cmr/m/n/12 su-la-tors are seen up to $10[]$ with semi-conductors oc-cu-py-
-ing the rest of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
-\OT1/cmr/m/n/12 range. A com-pro-mise be-tween vari-ables $\OML/cmm/m/it/12 ^^[
-; ^^T; S[]$\OT1/cmr/m/n/12 , re-sults in heav-ily doped
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
-[]\OT1/cmr/m/n/12 Figure 5: Graph of ther-mo-elec-tric fig-ure of merit $\OML/c
-mm/m/it/12 ZT$ \OT1/cmr/m/n/12 against tem-per-a-ture.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
-\OT1/cmr/m/n/12 The dashed line rep-re-sents bulk ther-mo-elec-tric ma-te-ri-al
-s, above the dashed
- []
-
-Package acronym Info: Label `acro:PGEC' newly defined as it shall be overridden
-
-although it is yet undefined on input line 343.
-
-Package acronym Warning: Acronym `PGEC' is not defined on input line 343.
-
-
-Package acronym Warning: Acronym `PGEC' is not defined on input line 343.
-
-
-Package acronym Warning: Acronym `PGEC' is not defined on input line 343.
-
-[7]
-
-Package acronym Warning: Acronym `PGEC' is not defined on input line 349.
-
 Requested font "cmti12" at 12.0pt
-[8] [9] (dissertation.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ [2] (dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 10832 strings out of 430363
- 227434 string characters out of 3189221
- 240765 words of memory out of 3000000
- 13904 multiletter control sequences out of 15000+200000
- 13730 words of font info for 51 fonts, out of 3000000 for 9000
+ 10782 strings out of 430363
+ 226825 string characters out of 3189221
+ 238622 words of memory out of 3000000
+ 13863 multiletter control sequences out of 15000+200000
+ 13109 words of font info for 49 fonts, out of 3000000 for 9000
  22 hyphenation exceptions out of 8191
- 42i,6n,35p,10495b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,6n,35p,10495b,418s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on dissertation.pdf (12 pages).
+Output written on dissertation.pdf (5 pages).
