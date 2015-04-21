@@ -80,7 +80,7 @@
 
 \begin{document}
 
-\title{Nanocomposite Thermoelectric Materials Theory}
+\title{Thermoelectric Efficiency of Zero-dimensional Nanocomposites}
 \author{\textbf{Callum Vincent}, Andrew Morris, G.P. Srivastava}
 \date{Revision 1 - April 2015}
 \maketitle
@@ -96,12 +96,18 @@
 Thermoelectrics are a promising area of materials research recently revitalised by the introduction of nanocomposites. In this project, we aim to derive a theoretical mechanism, through which new, high efficiency thermoelectric materials can be designed. This will involve a detailed understanding of the fundamental theories of solid-state physics, of which the phonon model plays a critical role. This theoretical project aims to guide expierment, keeping within practical limits and computationally modelling potential designs.
 \end{abstract}
 
+% List of Symbols
+
 \section{Introduction}
+% Review previous research
+% 
 \subsection{Motivation}
 % Why would you want do this?
-Energy and its use defines human society. Throughout human history we have seen an upwards trend of energy consumption and with it we are able to transform our environment and our lives.
 
-Thermoelectric materials have the potential to revolutionise our energy harvesting methods due to their ability to convert heat directly into electricity.
+
+%Energy and its use defines human society. Throughout human history we have seen an upwards trend of energy consumption and with it we are able to transform our environment and our lives.
+
+%Thermoelectric materials have the potential to revolutionise our energy harvesting methods due to their ability to convert heat directly into electricity.
 
 \subsection{Investigation}
 % Describe the problem
@@ -113,10 +119,47 @@ Thermoelectric materials have the potential to revolutionise our energy harvesti
 
 \section{Background}
 % Explain the intuition behind the theory as if on a whiteboard
+\subsection{Thermoelectricity}
+In 1821, Thomas Seebeck discovered that circuit made from two dissimilar metals, with junctions at different temperatures would deflect a compass magnet (\figref{seebeck-experiment}), he had discovered thermoelectricity. The temperature gradient $\vec{\nabla} T$ between the junctions generates an electromotive force:
+
+\begin{equation}
+\label{seebeck-emf}
+	\vec{E_{emf}} = -S \vec{\nabla} T
+\end{equation}
+where $S$ is the Seebeck coefficient, defined as the induced voltage per unit temperature difference, mathematically $\Delta S = \frac{\Delta V}{\Delta T}$ \cite{auparay}. This coefficient is not only material dependent, but also temperature dependent, i.e., a temperature gradient produces an electromotive force gradient. This electromotive force gradient produces a current density gradient described macroscopically by a modified Ohm's law \cite{ziman}:
+
+\begin{equation}
+\label{current-density}
+	\vec{J} = \sigma (-\vec{\nabla} V - S \vec{\nabla} T)
+\end{equation}
+where $\vec{J}$ and $\sigma$ are the current density $\frac{I}{A}$ and electrical conductivity at a given location in the material and $\vec{\nabla} T$ and $\vec{\nabla} V$ are the temperature and resultant voltage gradients across the material. If we were to repeat the experiment conducted by Seebeck (\figref{seebeck-experiment}), using a probe to measure $V$ between junctions and $\sigma$ at each junction for one of the metals, assuming steady state, i.e., $I=0$ so $\vec{J} = 0$, the metal's Seebeck coefficient can be determined.
+
+Thermoelectricity, its uses and current nanocomposite research are well summarised by J. W. Bos \cite{bos-review} and A. J. Minnich \emph{et al.} \cite{minnich-review}.
+
+\begin{figure}
+	\centering
+	\includegraphics{seebeck-experiment-black.png}
+	\caption{Thomas Seebeck's original thermoelectricity experiment
+	diagram \cite{seebeck-original}. A compass needle lies on top of
+	one metal, underneath a bridge of a different metal (K), connected
+	by two junctions and heated at one of these junctions.}
+	\label{seebeck-experiment}
+\end{figure}
+
+\subsection{Nanocomposites}
+Composite materials are combinations of two or more materials, forming a new structure with significantly different physical or chemical properties than its constituent parts. In a similar way, nanocomposites are the structuring of multiple materials, but at the nanoscale. As our nanocomposites are at a comparable size to the crystal lattices of their constituent materials, we can view nanocomposites as artificial defects in a larger crystal lattice. A simple example of a 2D nanocomposite, a copper-graphene superlattice, is pictured in \figref{superlattice}. Examining one layer of the superlattice, the material in bulk form would be a 3D crystal structure, but by constraining the layer thickness we have introduced a boundary defect. The periodic array of these boundary defects forms a new 3D artificial crystal, which we define as a superlattice, a nanocomposite.
+
+\begin{figure}
+	\centering
+	\includegraphics{graphene-superlattice.eps}
+	\caption{Superlattice of graphene and copper. Alternate layers of
+	nanoscale copper and graphene are sandwiched together.}
+\end{figure}
+
 \subsection{Kinetic Theory}
 \paragraph{Assumptions}
 
-\section{Specfics}
+\section{Specifics}
 % Details of exactly what you've done
 % Tell a story, keep it concise, only explain what you need to
 \subsection{Thermoelectric Theory}
@@ -140,9 +183,7 @@ Thermoelectric materials have the potential to revolutionise our energy harvesti
 \bibitem{crc-handbook}
 G. A. Slack, \emph{CRC Handbook of Thermoelectrics}, 1995, ISBN: 978-0060443849
 \bibitem{minnich-review}
-A. J. Minnich \emph{et al.}, \emph{Bulk nanostructured thermoelectric
-materials: current research and future prospects}, Energy Environ.
-Sci. 2, 466-479 (2009), DOI: 10.1039/B822664B
+A. J. Minnich \emph{et al.}, \emph{Bulk nanostructured thermoelectric materials: current research and future prospects}, Energy Environ. Sci. 2, 466-479 (2009), DOI: 10.1039/B822664B
 \end{thebibliography}
 
 \end{document}
@@ -164,6 +205,5 @@ Sci. 2, 466-479 (2009), DOI: 10.1039/B822664B
 
 %abbrivations list%
 \acresetall
-\ac{PGEC} - Exhibiting the properties of phonon scattering glasses and
-electron transmissive crystals
+\ac{PGEC} - Exhibiting the properties of phonon scattering glasses and electron transmissive crystals
 \ac{SSP} - The study of rigid matter (solids)
