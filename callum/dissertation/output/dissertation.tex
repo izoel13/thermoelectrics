@@ -34,8 +34,9 @@
 \usepackage{graphicx}
 \usepackage{epstopdf}
 \usepackage{siunitx}
-\usepackage{url}
 \usepackage{acronym}
+\usepackage{hyperref}
+
 % Some handy commands for referencing (copied from old template)
 \newcommand{\figref}[2][\figurename~]{#1\ref{#2}}
 \newcommand{\tabref}[2][\tablename~]{#1\ref{#2}}
@@ -82,6 +83,7 @@
 
 \title{Thermoelectric Efficiency of Zero-dimensional Nanocomposites}
 \author{\textbf{Callum Vincent}, Andrew Morris, G.P. Srivastava}
+%\href{mailto:cv235@exeter.ac.uk}{cv235@exeter.ac.uk}
 \date{Revision 1 - April 2015}
 \maketitle
 
@@ -103,11 +105,13 @@ Thermoelectrics are a promising area of materials research recently revitalised 
 % 
 \subsection{Motivation}
 % Why would you want do this?
+Energy and its use defines human society. Throughout history we have seen an upwards trend of energy consumption and with it we transform our environment and our lives.
 
+Thermoelectric materials have great potential to revolutionise our energy harvesting methods due to their ability to convert heat directly into electricity. This potential has motivated decades of research, resulting in;  radioisotope thermonuclear generators, solid state refrigerators and laser temperature control systems.
 
-%Energy and its use defines human society. Throughout human history we have seen an upwards trend of energy consumption and with it we are able to transform our environment and our lives.
+The main limitation of thermoelectric materials is their heat to electricity conversion efficiency. In modern applications, this is approximately 7\% \cite{modern-thermoelectrics}, roughly 4$\times$ lower than what is currently possible for internal combustion engines \cite{engine-efficiency}.
 
-%Thermoelectric materials have the potential to revolutionise our energy harvesting methods due to their ability to convert heat directly into electricity.
+Recent advances in nano-fabrication have facilitated the development of  new nano-composite materials. Closely resembling metamaterials; nanocomposites are typically periodic arrays of nanoscale sheets, wires or particles. Arranging two or more materials like this has shown potential to increase the thermoelectric figure of merit ZT \cite{nanocomposite-zt}, a key parameter in the conversion efficiency discussed above.
 
 \subsection{Investigation}
 % Describe the problem
@@ -118,9 +122,13 @@ Thermoelectrics are a promising area of materials research recently revitalised 
 % Survey the paper, forward reference the interesting parts, make explicit your contributions to the problem
 
 \section{Background}
+All the theories discussed in this report are transport processes. Fundamental to them all are the non-equilibrium statistical mechanics of their particles.
+
+\subsection{Boltzmann Equation}
+
 % Explain the intuition behind the theory as if on a whiteboard
 \subsection{Thermoelectricity}
-In 1821, Thomas Seebeck discovered that circuit made from two dissimilar metals, with junctions at different temperatures would deflect a compass magnet (\figref{seebeck-experiment}), he had discovered thermoelectricity. The temperature gradient $\vec{\nabla} T$ between the junctions generates an electromotive force:
+In 1821, Thomas Seebeck discovered that circuit made from two dissimilar metals, with junctions at different temperatures would deflect a compass magnet (\ref{seebeck-experiment}), he had discovered thermoelectricity. The temperature gradient $\vec{\nabla} T$ between the junctions generates an electromotive force:
 
 \begin{equation}
 \label{seebeck-emf}
@@ -137,23 +145,20 @@ where $\vec{J}$ and $\sigma$ are the current density $\frac{I}{A}$ and electrica
 Thermoelectricity, its uses and current nanocomposite research are well summarised by J. W. Bos \cite{bos-review} and A. J. Minnich \emph{et al.} \cite{minnich-review}.
 
 \begin{figure}
+	\label{fig:seebeck-experiment}
 	\centering
-	\includegraphics{seebeck-experiment-black.png}
-	\caption{Thomas Seebeck's original thermoelectricity experiment
-	diagram \cite{seebeck-original}. A compass needle lies on top of
-	one metal, underneath a bridge of a different metal (K), connected
-	by two junctions and heated at one of these junctions.}
-	\label{seebeck-experiment}
+	\includegraphics[width=\textwidth]{seebeck-experiment-black.png}
+	\caption{Thomas Seebeck's original thermoelectricity experiment diagram \cite{seebeck-original}. A compass needle lies on top of one metal, underneath a bridge of a different metal (K), connected by two junctions and heated at one of these junctions.}
 \end{figure}
 
 \subsection{Nanocomposites}
 Composite materials are combinations of two or more materials, forming a new structure with significantly different physical or chemical properties than its constituent parts. In a similar way, nanocomposites are the structuring of multiple materials, but at the nanoscale. As our nanocomposites are at a comparable size to the crystal lattices of their constituent materials, we can view nanocomposites as artificial defects in a larger crystal lattice. A simple example of a 2D nanocomposite, a copper-graphene superlattice, is pictured in \figref{superlattice}. Examining one layer of the superlattice, the material in bulk form would be a 3D crystal structure, but by constraining the layer thickness we have introduced a boundary defect. The periodic array of these boundary defects forms a new 3D artificial crystal, which we define as a superlattice, a nanocomposite.
 
 \begin{figure}
+	\label{fig:superlattice}
 	\centering
-	\includegraphics{graphene-superlattice.eps}
-	\caption{Superlattice of graphene and copper. Alternate layers of
-	nanoscale copper and graphene are sandwiched together.}
+	\includegraphics[width=\textwidth]{graphene-superlattice.eps}
+	\caption{Superlattice of graphene and copper. Alternate layers of nanoscale copper and graphene are sandwiched together.}
 \end{figure}
 
 \subsection{Kinetic Theory}
@@ -178,10 +183,36 @@ Composite materials are combinations of two or more materials, forming a new str
 % Link to your online repository
 \url{https://github.com/kahlos/thermoelectrics}
 
-\bibliographystyle{IEEEtran}
-\begin{thebibliography}{2}
+% The {number} is related to the number of digits required for the references
+\begin{thebibliography}{11}
+
+\bibitem{modern-thermoelectrics}
+D. M. Rowe,
+\emph{Modern Thermoelectrics},
+Holt-Technology (1983),
+ISBN:978-0835945936
+\textbf{Page 12}
+
+\bibitem{engine-efficiency}
+M. L. Baglione,
+\emph{Development of System Analysis Methodologies and Tools for Modeling and Optimizing Vehicle System Efficiency},
+University of Michigan (2007),
+DOI:2027.42/57640
+\textbf{Pages 52-54}
+
+\bibitem{nanocomposite-zt}
+R. Venkatasubramanian \emph{et al.},
+\emph{Thin-film thermoelectric devices with high room-temperature figures of merit},
+Nature 413,
+597 (2001),
+DOI:10.1038/35098012
+
 \bibitem{crc-handbook}
-G. A. Slack, \emph{CRC Handbook of Thermoelectrics}, 1995, ISBN: 978-0060443849
+G. A. Slack,
+\emph{CRC Handbook of Thermoelectrics},
+CRC Press (1995),
+ISBN: 978-0849301469
+
 \bibitem{minnich-review}
 A. J. Minnich \emph{et al.}, \emph{Bulk nanostructured thermoelectric materials: current research and future prospects}, Energy Environ. Sci. 2, 466-479 (2009), DOI: 10.1039/B822664B
 \end{thebibliography}
