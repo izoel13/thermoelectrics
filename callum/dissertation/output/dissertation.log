@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.4.18)  22 APR 2015 15:07
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.4.18)  23 APR 2015 17:50
 entering extended mode
-**D:/Users/Jack/Documents/000/git/thermoelectrics/callum/dissertation/output/di
+**D:/Users/Jack/Documents/000/Git/thermoelectrics/callum/dissertation/output/di
 ssertation.tex
 
-(D:/Users/Jack/Documents/000/git/thermoelectrics/callum/dissertation/output/dis
+(D:/Users/Jack/Documents/000/Git/thermoelectrics/callum/dissertation/output/dis
 sertation.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 3 languages loaded.
@@ -49,6 +49,17 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ("D:\Program Files\MiKTeX\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
+(D:\Users\Jack\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip57
+\f@ncyO@elh=\skip58
+\f@ncyO@erh=\skip59
+\f@ncyO@olh=\skip60
+\f@ncyO@orh=\skip61
+\f@ncyO@elf=\skip62
+\f@ncyO@erf=\skip63
+\f@ncyO@olf=\skip64
+\f@ncyO@orf=\skip65
+)
 (D:\Users\Jack\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
 Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
 
@@ -62,19 +73,19 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count89
 \calc@Adimen=\dimen103
 \calc@Bdimen=\dimen104
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count90
-\calc@Cskip=\skip59
+\calc@Cskip=\skip68
 )
 (D:\Users\Jack\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 ("D:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip60
+\@mathmargin=\skip69
 
 For additional information on amsmath, use the `?' option.
 ("D:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty"
@@ -124,8 +135,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen112
 \lineht@=\dimen113
 \@envbody=\toks18
-\multlinegap=\skip61
-\multlinetaggap=\skip62
+\multlinegap=\skip70
+\multlinetaggap=\skip71
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
@@ -134,7 +145,7 @@ LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count103
 \l_MT_multwidth_dim=\dimen114
-\origjot=\skip63
+\origjot=\skip72
 \l_MT_shortvdotswithinadjustabove_dim=\dimen115
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen116
 \l_MT_above_intertext_sep=\dimen117
@@ -285,12 +296,12 @@ Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
 \l_tmpb_dim=\dimen126
 \g_tmpa_dim=\dimen127
 \g_tmpb_dim=\dimen128
-\c_zero_skip=\skip64
-\c_max_skip=\skip65
-\l_tmpa_skip=\skip66
-\l_tmpb_skip=\skip67
-\g_tmpa_skip=\skip68
-\g_tmpb_skip=\skip69
+\c_zero_skip=\skip73
+\c_max_skip=\skip74
+\l_tmpa_skip=\skip75
+\l_tmpb_skip=\skip76
+\g_tmpa_skip=\skip77
+\g_tmpb_skip=\skip78
 \c_zero_muskip=\muskip11
 \c_max_muskip=\muskip12
 \l_tmpa_muskip=\muskip13
@@ -387,8 +398,8 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen154
 \extrarowheight=\dimen155
 \NC@list=\toks20
-\extratabsurround=\skip70
-\backup@length=\skip71
+\extratabsurround=\skip79
+\backup@length=\skip80
 )
 (D:\Users\Jack\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\l3keys2e\l3keys2
 e.sty
@@ -421,8 +432,8 @@ Variant \prop_get:NVNTF already defined; not changing it on line 382
 \l__siunitx_unit_prefix_base_int=\count148
 \l__siunitx_unit_prefix_gram_int=\count149
 \l__siunitx_number_product_int=\count150
-\c__siunitx_one_fill_skip=\skip72
-\l__siunitx_table_unit_align_skip=\skip73
+\c__siunitx_one_fill_skip=\skip81
+\l__siunitx_table_unit_align_skip=\skip82
 \l__siunitx_table_exponent_dim=\dimen159
 \l__siunitx_table_integer_dim=\dimen160
 \l__siunitx_table_mantissa_dim=\dimen161
@@ -436,8 +447,8 @@ Variant \prop_get:NVNTF already defined; not changing it on line 382
 \l__siunitx_table_post_box=\box47
 \l__siunitx_table_mantissa_box=\box48
 \l__siunitx_table_result_box=\box49
-\l__siunitx_table_number_align_skip=\skip74
-\l__siunitx_table_text_align_skip=\skip75
+\l__siunitx_table_number_align_skip=\skip83
+\l__siunitx_table_text_align_skip=\skip84
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -709,27 +720,27 @@ Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
 tly
 (rerunfilecheck)             and the loading of the package is aborted.
 )
-\Hy@SectionHShift=\skip76
+\Hy@SectionHShift=\skip85
 )
 (dissertation.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 82.
+LaTeX Info: Redefining \selectfont on input line 90.
 
 (D:\Users\Jack\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dict
 s\translator-basic-dictionary\translator-basic-dictionary-English.dict
@@ -744,7 +755,7 @@ File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 82.
+Package hyperref Info: Link coloring OFF on input line 90.
 ("D:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -753,9 +764,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count165
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
 \c__siunitx_mathsf_int=\count166
 Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
@@ -776,6 +787,7 @@ Requested font "cmtt12" at 12.0pt
 Requested font "cmtt8" at 8.0pt
 Requested font "cmtt8" at 6.0pt
 Requested font "cmr17" at 20.74pt
+Requested font "cmbx12" at 20.74pt
 Requested font "cmr12" at 14.4pt
 Requested font "cmmi12" at 14.4pt
 Requested font "cmsy10" at 14.4pt
@@ -788,6 +800,11 @@ Requested font "cmtt12" at 14.4pt
 Requested font "cmtt10" at 10.0pt
 Requested font "cmtt8" at 7.0pt
 Requested font "cmbx12" at 14.4pt
+Requested font "cmex7" at 5.0pt
+Requested font "cmss8" at 5.0pt
+Requested font "cmtt8" at 5.0pt
+Requested font "cmr10" at 10.95pt
+Requested font "cmbx10" at 10.95pt
 
 ("D:\Program Files\MiKTeX\tex\generic\oberdiek\se-ascii-print.def"
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -802,86 +819,135 @@ Requested font "cmbx12" at 17.28pt
 Requested font "cmbx12" at 12.0pt
 )
 \tf@toc=\write4
- [1] [1]
+ [2]
 
-LaTeX Warning: Citation `g' on page 1 undefined on input line 114.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[1]
 
-LaTeX Warning: Reference `seebeck-experiment' on page 1 undefined on input line
- 131.
+LaTeX Warning: Reference `seebeck-experiment' on page 2 undefined on input line
+ 161.
 
 Requested font "cmbx8" at 8.0pt
 Requested font "cmbx6" at 6.0pt
-[1]
 
-LaTeX Warning: Citation `auparay' on page 2 undefined on input line 137.
+LaTeX Warning: Citation `auparay' on page 2 undefined on input line 167.
 
 
-LaTeX Warning: Citation `ziman' on page 2 undefined on input line 137.
+LaTeX Warning: Citation `ziman' on page 2 undefined on input line 167.
 
 
 LaTeX Warning: Reference `seebeck-experiment' on page 2 undefined on input line
- 143.
+ 173.
 
 
-LaTeX Warning: Citation `bos-review' on page 2 undefined on input line 145.
+LaTeX Warning: Citation `bos-review' on page 2 undefined on input line 175.
 
 Requested font "cmti12" at 12.0pt
 
-LaTeX Warning: Citation `seebeck-original' on page 2 undefined on input line 15
+LaTeX Warning: Citation `seebeck-original' on page 2 undefined on input line 18
 1.
 
 
-LaTeX Warning: Citation `seebeck-original' on page 2 undefined on input line 15
+LaTeX Warning: Citation `seebeck-original' on page 2 undefined on input line 18
 1.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []\OT1/cmr/m/n/12 Figure 1: []Thomas See-beck's orig-i-nal ther-mo-elec-tric-it
 y ex-per-i-ment di-a-gram
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/cmr/m/n/12 [[]]. A com-pass nee-dle lies on top of one metal, un-der-neath
  a bridge of a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/cmr/m/n/12 dif-fer-ent metal (K), con-nected by two junc-tions and heated 
 at one of these
  []
 
 
-LaTeX Warning: Reference `superlattice' on page 2 undefined on input line 155.
+LaTeX Warning: Reference `superlattice' on page 2 undefined on input line 185.
 
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []\OT1/cmr/m/n/12 Figure 2: []Superlattice of graphene and cop-per. Al-ter-nate
  lay-ers of
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
+Underfull \hbox (badness 2197) in paragraph at lines 243--248
+[]\OT1/cmr/m/n/12 W. Liu \OT1/cmr/m/it/12 et al.\OT1/cmr/m/n/12 , \OT1/cmr/m/it
+/12 Re-cent ad-vances in ther-mo-elec-tric nanocom- 
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 243--248
+\OT1/cmr/m/it/12 pos-ites\OT1/cmr/m/n/12 , Jan-uary 2012, Nano En-ergy, vol. 1,
+ iss. 1, pp. 42-56, 
+ []
+
+Requested font "cmr17" at 24.88pt
+Requested font "cmbx12" at 24.88pt
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
  (dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 223.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 223.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 279.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 279.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
  ) 
 Here is how much of TeX's memory you used:
- 17746 strings out of 430363
- 324282 string characters out of 3189221
- 345778 words of memory out of 3000000
- 20779 multiletter control sequences out of 15000+200000
- 14090 words of font info for 52 fonts, out of 3000000 for 9000
+ 17881 strings out of 430363
+ 325668 string characters out of 3189221
+ 348895 words of memory out of 3000000
+ 20910 multiletter control sequences out of 15000+200000
+ 16306 words of font info for 60 fonts, out of 3000000 for 9000
  22 hyphenation exceptions out of 8191
- 42i,6n,35p,10499b,782s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,13n,43p,10499b,771s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on dissertation.pdf (8 pages).

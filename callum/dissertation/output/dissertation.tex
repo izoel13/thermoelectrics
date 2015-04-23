@@ -1,5 +1,5 @@
-\documentclass[12pt,titlepage,draft]{article}
-% draft - disables image rendering, shows black boxes at hypernation issues
+\documentclass[12pt,draft]{article}
+% draft - disables image rendering, shows black boxes at hyphenation issues
 % Defaults:
 %  10pt
 %  notitlepage
@@ -22,12 +22,20 @@
 % Paragraph spacing with no indent; breaks up huge blocks of text
 \usepackage{parskip}
 
-% Increases line spacing (think LaTeX default is okay)
+% Line spacing (Default or slightly larger?)
 %\usepackage{setspace}
 %\onehalfspacing
 
+% Header and footer
+\usepackage{fancyhdr}
+\fancyhead[L]{\nouppercase{\rightmark}}
+\fancyhead[R]{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
 % Font choices - LaTeX default is computer modern, a bit thin for my liking
 % https://www.tug.org/mactex/fonts/LaTeX_Preamble-Font_Choices.html
+
 
 % Tools
 \usepackage{mathtools}
@@ -81,28 +89,48 @@
 
 \begin{document}
 
-\title{Thermoelectric Efficiency of Zero-dimensional Nanocomposites}
-\author{\textbf{Callum Vincent}, Andrew Morris, G.P. Srivastava}
-%\href{mailto:cv235@exeter.ac.uk}{cv235@exeter.ac.uk}
+%Front Matter
+
+% Remove page numbering
+\pagenumbering{alph}
+\pagestyle{empty}
+
+% Basic title page
+\title{\textbf{Thermoelectric Efficiency of Zero-dimensional Nanocomposites}}
+\author{\textbf{Callum Vincent},\thanks{\href{mailto:cv235@exeter.ac.uk}{cv235@exeter.ac.uk}}
+Andrew Morris,
+G.P. Srivastava}
 \date{Revision 1 - April 2015}
 \maketitle
-
-\tableofcontents
 
 \begin{abstract}
 % State the problem
 % Why is it interesting?
 % What does your solution acheive?
 % What follows from your solution?
-
-Thermoelectrics are a promising area of materials research recently revitalised by the introduction of nanocomposites. In this project, we aim to derive a theoretical mechanism, through which new, high efficiency thermoelectric materials can be designed. This will involve a detailed understanding of the fundamental theories of solid-state physics, of which the phonon model plays a critical role. This theoretical project aims to guide expierment, keeping within practical limits and computationally modelling potential designs.
+Thermoelectrics are a promising area of materials research recently revitalised by the introduction of nanocomposites. In this project, we aim to derive a theoretical mechanism, through which new, high efficiency thermoelectric materials can be designed. This will involve a detailed understanding of the fundamental theories of solid-state physics, of which the phonon model plays a critical role. This theoretical project aims to guide experiment, keeping within practical limits and computationally modelling potential designs.
+\vfill
 \end{abstract}
 
-% List of Symbols
+% Required to remove page number from \maketitle
+\thispagestyle{empty}
+\pagebreak
 
-\section{Introduction}
+\tableofcontents
+\pagebreak
+
+% List of Symbols??
+
+
+% Main text
+
+% Set numeric page numbering
+\pagestyle{fancy}
+\pagenumbering{arabic}
+
+\section[Intro]{Introduction}
 % Review previous research
-% 
+ 
 \subsection{Motivation}
 % Why would you want do this?
 Energy and its use defines human society. Throughout history we have seen an upwards trend of energy consumption and with it we transform our environment and our lives.
@@ -111,7 +139,9 @@ Thermoelectric materials have great potential to revolutionise our energy harves
 
 The main limitation of thermoelectric materials is their heat to electricity conversion efficiency. In modern applications, this is approximately 7\% \cite{modern-thermoelectrics}, roughly 4$\times$ lower than what is currently possible for internal combustion engines \cite{engine-efficiency}.
 
-Recent advances in nano-fabrication have facilitated the development of  new nano-composite materials. Closely resembling metamaterials; nanocomposites are typically periodic arrays of nanoscale sheets, wires or particles. Arranging two or more materials like this has shown potential to increase the thermoelectric figure of merit ZT \cite{nanocomposite-zt}, a key parameter in the conversion efficiency discussed above.
+Recent advances in nano-fabrication have facilitated the development of  new nanocomposite materials. Closely resembling metamaterials; nanocomposites are typically periodic arrays of nanoscale sheets, wires or particles. In 2001, it was shown that layering thin-films of thermoelectric materials gave a 2.4$\times$ increase in the thermoelectric figure of merit ZT \cite{nanocomposite-zt}; a key parameter in the conversion efficiency discussed above.
+
+If ZT can be increased 3$\times$, an efficiency of 20\% could be attained in typical thermoelectric systems \cite{liu-review}. 
 
 \subsection{Investigation}
 % Describe the problem
@@ -121,7 +151,7 @@ Recent advances in nano-fabrication have facilitated the development of  new nan
 \subsection{Approach}
 % Survey the paper, forward reference the interesting parts, make explicit your contributions to the problem
 
-\section{Background}
+\section{Background Theory}
 All the theories discussed in this report are transport processes. Fundamental to them all are the non-equilibrium statistical mechanics of their particles.
 
 \subsection{Boltzmann Equation}
@@ -152,7 +182,7 @@ Thermoelectricity, its uses and current nanocomposite research are well summaris
 \end{figure}
 
 \subsection{Nanocomposites}
-Composite materials are combinations of two or more materials, forming a new structure with significantly different physical or chemical properties than its constituent parts. In a similar way, nanocomposites are the structuring of multiple materials, but at the nanoscale. As our nanocomposites are at a comparable size to the crystal lattices of their constituent materials, we can view nanocomposites as artificial defects in a larger crystal lattice. A simple example of a 2D nanocomposite, a copper-graphene superlattice, is pictured in \figref{superlattice}. Examining one layer of the superlattice, the material in bulk form would be a 3D crystal structure, but by constraining the layer thickness we have introduced a boundary defect. The periodic array of these boundary defects forms a new 3D artificial crystal, which we define as a superlattice, a nanocomposite.
+Composite materials are combinations of two or more materials, forming a new structure with significantly different physical or chemical properties than its constituent parts. In a similar way, nanocomposites are the structuring of multiple materials, but at the nanoscale. As our nanocomposites are at a comparable size to the crystal lattices of their constituent materials, we can view nanocomposites as artificial defects in a larger crystal lattice. A simple example of a 2D nanocomposite, a copper-graphene superlattice, is pictured in \figref{superlattice}. Examining one layer of th0e superlattice, the material in bulk form would be a 3D crystal structure, but by constraining the layer thickness we have introduced a boundary defect. The periodic array of these boundary defects forms a new 3D artificial crystal, which we define as a superlattice, a nanocomposite.
 
 \begin{figure}
 	\label{fig:superlattice}
@@ -164,7 +194,7 @@ Composite materials are combinations of two or more materials, forming a new str
 \subsection{Kinetic Theory}
 \paragraph{Assumptions}
 
-\section{Specifics}
+\section{Specific Theory}
 % Details of exactly what you've done
 % Tell a story, keep it concise, only explain what you need to
 \subsection{Thermoelectric Theory}
@@ -189,23 +219,32 @@ Composite materials are combinations of two or more materials, forming a new str
 \bibitem{modern-thermoelectrics}
 D. M. Rowe,
 \emph{Modern Thermoelectrics},
-Holt-Technology (1983),
+September 1983,
+Holt-Technology,
 ISBN:978-0835945936
 \textbf{Page 12}
 
 \bibitem{engine-efficiency}
 M. L. Baglione,
 \emph{Development of System Analysis Methodologies and Tools for Modeling and Optimizing Vehicle System Efficiency},
-University of Michigan (2007),
+2007,
+University of Michigan,
 DOI:2027.42/57640
 \textbf{Pages 52-54}
 
 \bibitem{nanocomposite-zt}
 R. Venkatasubramanian \emph{et al.},
 \emph{Thin-film thermoelectric devices with high room-temperature figures of merit},
-Nature 413,
-597 (2001),
+October 2001,
+Nature, vol. 413, pp. 597-602,
 DOI:10.1038/35098012
+
+\bibitem{liu-review}
+W. Liu \emph{et al.},
+\emph{Recent advances in thermoelectric nanocomposites},
+January 2012,
+Nano Energy, vol. 1, iss. 1, pp. 42-56,
+DOI:10.1016/j.nanoen.2011.10.001
 
 \bibitem{crc-handbook}
 G. A. Slack,
@@ -217,12 +256,14 @@ ISBN: 978-0849301469
 A. J. Minnich \emph{et al.}, \emph{Bulk nanostructured thermoelectric materials: current research and future prospects}, Energy Environ. Sci. 2, 466-479 (2009), DOI: 10.1039/B822664B
 \end{thebibliography}
 
-\end{document}
 
-\newpage
 \appendix
 
+\huge\textbf{Appendix}
+
 \section{Further Questions and Thoughts}
+
+
 
 \section{List of Assumptions}
 
@@ -233,6 +274,10 @@ A. J. Minnich \emph{et al.}, \emph{Bulk nanostructured thermoelectric materials:
 \section{Physical Data}
 
 \section{Program Code}
+
+
+\end{document}
+
 
 %abbrivations list%
 \acresetall
