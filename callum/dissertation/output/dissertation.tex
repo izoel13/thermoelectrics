@@ -1,18 +1,28 @@
 \documentclass[12pt,draft]{article}
-% draft - disables image rendering, shows black boxes at hyphenation issues
-% Defaults:
-%  10pt
-%  notitlepage
-%  usletter page size on some distros (not mine)
-%  singleside (twoside changes the margins for a binding)
 
-% Style:
-% http://practicaltypography.com
-% https://www.sharelatex.com/learn/Paragraphs_and_new_lines
+% Allow block comment commands
+\usepackage{comment}
 
-% Left-aligned text; equal spacing between words, better readability
-%  May look "unprofessional", books, articles typically use fully justified
-% ragged2e retains hyphenation and attempts to give a more uniform right edge, but maintains equal spacing between words
+\begin{comment}
+draft - disables image rendering, shows black boxes at hyphenation issues
+
+Defaults:
+	10pt
+	notitlepage
+	a4paper (usletter on some distros)
+	singleside (twoside changes the margins for a binding)
+
+Style:
+http://practicaltypography.com
+https://www.sharelatex.com/learn/Paragraphs_and_new_lines
+
+title styling
+http://texblog.org/2012/07/03/fancy-latex-chapter-styles/
+
+Left-aligned text; equal spacing between words, better readability
+	May look "unprofessional", books, articles typically use fully justified
+	ragged2e retains hyphenation and attempts to give a more uniform right edge, but maintains equal spacing between words
+\end{comment}
 \usepackage{ragged2e}
 \RaggedRight
 
@@ -35,7 +45,9 @@
 
 % Font choices - LaTeX default is computer modern, a bit thin for my liking
 % https://www.tug.org/mactex/fonts/LaTeX_Preamble-Font_Choices.html
-
+% Palatino body text
+%\renewcommand{\rmdefault}{ppl}
+%\linespread{1.05}
 
 % Tools
 \usepackage{mathtools}
@@ -44,6 +56,8 @@
 \usepackage{siunitx}
 \usepackage{acronym}
 \usepackage{hyperref}
+% In text subscripts and superscripts
+\usepackage{fixltx2e}
 
 % Some handy commands for referencing (copied from old template)
 \newcommand{\figref}[2][\figurename~]{#1\ref{#2}}
@@ -51,48 +65,34 @@
 \newcommand{\secref}[2][Section~]{#1\ref{#2}}
 \renewcommand{\vec}[1]{\mathbf{#1}}
 
-% Packages for glossary (List of Symbols)
-%\usepackage{glossaries}
-%\usepackage[acronym,toc,style=tree]{glossaries}
-%\usepackage{longtable}
+\begin{comment}
+Useful LaTeX commands/tools:
+	\clearpage ends the current page and causes all figures and tables that have so far appeared in the input to be printed.
+	www.doi2bib.org
 
-% Defining symbols
-%\newglossaryentry{your-entry}{name=$\theta$, description={Angle of incidence}}
+General writing tips:
+https://owl.english.purdue.edu/owl/section/1/2/
+	3-5 sentences per paragraph; one idea, contrast, a break, balance
+	15-20 words per sentence; comprehension lowers the longer it gets
+	25-33 syllables; most like typical speech
+	50-75 characters per line, ~65 seems optimal
+	Use plain English; simpler words are better words
+	Explain all technical jargon and abbreviations at first use
 
-% To use the glossary entry
-% \gls{your-entry}
+Science writing:
+	Figure text and the abstract should be independent from main text
+	List assumptions after each sub-theory (being clear about problems)
+	Every review is gold dust, people can only read the first time once
+	Send your draft to your references to see if you've cited their work fairly
 
-% To print the glossary
-% \printglossary[title=List of Symbols]
-
-%\makeglossaries
-
-
-% Useful LaTeX commands:
-% The \clearpage command ends the current page and causes all figures and tables that have so far appeared in the input to be printed.
-
-
-% General writing tips:
-% https://owl.english.purdue.edu/owl/section/1/2/
-%   3-5 sentences per paragraph; one idea, contrast, a break, balance
-%   15-20 words per sentence; comprehension lowers the longer it gets
-%   25-33 syllables; most like typical speech
-%   50-75 characters per line, ~65 seems optimal
-%   Use plain English; simpler words are better words
-%   Explain all technical jargon and abbreviations at first use
-
-% Science writing:
-%   Figure text and the abstract should be independent from main text
-%   List assumptions after each sub-theory (being clear about problems)
-%   Every review is gold dust, people can only read the first time once
-%   Send your draft to your references to see if you've cited their work fairly
+\end{comment}
 
 \begin{document}
 
 %Front Matter
 
 % Remove page numbering
-\pagenumbering{alph}
+\pagenumbering{garble}
 \pagestyle{empty}
 
 % Basic title page
@@ -108,19 +108,17 @@ G.P. Srivastava}
 % Why is it interesting?
 % What does your solution acheive?
 % What follows from your solution?
+\noindent
 Thermoelectrics are a promising area of materials research recently revitalised by the introduction of nanocomposites. In this project, we aim to derive a theoretical mechanism, through which new, high efficiency thermoelectric materials can be designed. This will involve a detailed understanding of the fundamental theories of solid-state physics, of which the phonon model plays a critical role. This theoretical project aims to guide experiment, keeping within practical limits and computationally modelling potential designs.
 \vfill
 \end{abstract}
-
-% Required to remove page number from \maketitle
+% Required to remove page number from \maketitle command
 \thispagestyle{empty}
 \pagebreak
 
 \tableofcontents
+
 \pagebreak
-
-% List of Symbols??
-
 
 % Main text
 
@@ -128,7 +126,7 @@ Thermoelectrics are a promising area of materials research recently revitalised 
 \pagestyle{fancy}
 \pagenumbering{arabic}
 
-\section[Intro]{Introduction}
+\section{Introduction}
 % Review previous research
  
 \subsection{Motivation}
@@ -141,12 +139,25 @@ The main limitation of thermoelectric materials is their heat to electricity con
 
 Recent advances in nano-fabrication have facilitated the development of  new nanocomposite materials. Closely resembling metamaterials; nanocomposites are typically periodic arrays of nanoscale sheets, wires or particles. In 2001, it was shown that layering thin-films of thermoelectric materials gave a 2.4$\times$ increase in the thermoelectric figure of merit ZT \cite{nanocomposite-zt}; a key parameter in the conversion efficiency discussed above.
 
-If ZT can be increased 3$\times$, an efficiency of 20\% could be attained in typical thermoelectric systems \cite{liu-review}. 
+If ZT can be increased to 3, an efficiency comparable to combustion engines could be attained in typical thermoelectric systems \cite{liu-review}. This would open up a wide array of applications such as: solar thermoelectric panels \cite{solar-thermal}, exhust heat recovery systems \cite{exhust-recovery} and high reliability refridgeration systems \cite{thermo-cooling}.
+
+It is therefore the purpose of this project to understand how nanocomposite structuring effects the electrical and thermal properties of materials and whether theoretically a ZT>3 can be achieved.
 
 \subsection{Investigation}
 % Describe the problem
 % Describe the idea
 % Make claims about and defend the idea
+Thermoelectricity requires a compromise between 3 variables; $S$ the Seebeck coefficient, $\sigma$ electrical conductivity and $k$ thermal conductivity. The thermoelectric figure of merit ZT and ultimately the conversion efficiency, is maximised when both $S$ and $\sigma$ are much greater than $k$. The problem lies in the complex interplay between these 3 variables. This is well summarised in \figref{fig:zt-vs-doping}, 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{zt-vs-doping.png}
+	\caption{Normalised thermoelectric properties \emph{versus} doping concentration at 300 K for n-type Si\textsubscript{80}Ge\textsubscript{20} \cite{minnich-review}. Variables defined as: $S$ - Seebeck coefficient, $\sigma$ - Electrical conductivity, $k$ - Thermal conductivity and ZT - Thermoelectric figure of merit (proportional to conversion efficiency). The interrelationships between the variables gives a maximum ZT for a heavily doped semiconductor.}
+	\label{fig:zt-vs-doping}
+\end{figure}
+
+Nanocomposites have only been a practical possability for the last 10 years, so the theories describing them are still young and in development. 
+
 
 \subsection{Approach}
 % Survey the paper, forward reference the interesting parts, make explicit your contributions to the problem
@@ -175,20 +186,20 @@ where $\vec{J}$ and $\sigma$ are the current density $\frac{I}{A}$ and electrica
 Thermoelectricity, its uses and current nanocomposite research are well summarised by J. W. Bos \cite{bos-review} and A. J. Minnich \emph{et al.} \cite{minnich-review}.
 
 \begin{figure}
-	\label{fig:seebeck-experiment}
 	\centering
 	\includegraphics[width=\textwidth]{seebeck-experiment-black.png}
 	\caption{Thomas Seebeck's original thermoelectricity experiment diagram \cite{seebeck-original}. A compass needle lies on top of one metal, underneath a bridge of a different metal (K), connected by two junctions and heated at one of these junctions.}
+	\label{fig:seebeck-experiment}
 \end{figure}
 
 \subsection{Nanocomposites}
 Composite materials are combinations of two or more materials, forming a new structure with significantly different physical or chemical properties than its constituent parts. In a similar way, nanocomposites are the structuring of multiple materials, but at the nanoscale. As our nanocomposites are at a comparable size to the crystal lattices of their constituent materials, we can view nanocomposites as artificial defects in a larger crystal lattice. A simple example of a 2D nanocomposite, a copper-graphene superlattice, is pictured in \figref{superlattice}. Examining one layer of th0e superlattice, the material in bulk form would be a 3D crystal structure, but by constraining the layer thickness we have introduced a boundary defect. The periodic array of these boundary defects forms a new 3D artificial crystal, which we define as a superlattice, a nanocomposite.
 
 \begin{figure}
-	\label{fig:superlattice}
 	\centering
 	\includegraphics[width=\textwidth]{graphene-superlattice.eps}
 	\caption{Superlattice of graphene and copper. Alternate layers of nanoscale copper and graphene are sandwiched together.}
+	\label{fig:superlattice}
 \end{figure}
 
 \subsection{Kinetic Theory}
@@ -246,14 +257,43 @@ January 2012,
 Nano Energy, vol. 1, iss. 1, pp. 42-56,
 DOI:10.1016/j.nanoen.2011.10.001
 
+\bibitem{solar-thermal}
+D. Kraemer \emph{et al.},
+\emph{High-performance flat-panel solar thermoelectric
+generators with high thermal concentration},
+May 2011,
+Nature Materials 10, pp. 532-538,
+DOI:10.1038/NMAT3013
+
+\bibitem{exhust-recovery}
+X. Liu \emph{et al.},
+\emph{A case study on compatibility of automotive exhaust thermoelectric generation system, catalytic converter and muffler},
+March 2014,
+Case Studies in Thermal Engineering, vol. 2, pp. 62-66,
+DOI:10.1016/j.csite.2014.01.002
+
+\bibitem{thermo-cooling}
+L. E. Bell,
+\emph{Cooling, Heating, Generating Power, and Recovering Waste Heat with Thermoelectric Systems},
+September 2008,
+Science 12, vol. 321, no. 5895, pp. 1457-1461,
+DOI:10.1126/science.1158899
+
+\bibitem{minnich-review}
+A. J. Minnich \emph{et al.},
+\emph{Bulk nanostructured thermoelectric materials: current research and future prospects},
+Feburary 2009,
+Energy Environ. Sci. 2, pp. 466-479,
+DOI:10.1039/B822664B
+
+% Maybe later
+
 \bibitem{crc-handbook}
 G. A. Slack,
 \emph{CRC Handbook of Thermoelectrics},
 CRC Press (1995),
 ISBN: 978-0849301469
 
-\bibitem{minnich-review}
-A. J. Minnich \emph{et al.}, \emph{Bulk nanostructured thermoelectric materials: current research and future prospects}, Energy Environ. Sci. 2, 466-479 (2009), DOI: 10.1039/B822664B
 \end{thebibliography}
 
 
@@ -275,11 +315,6 @@ A. J. Minnich \emph{et al.}, \emph{Bulk nanostructured thermoelectric materials:
 
 \section{Program Code}
 
-
 \end{document}
 
 
-%abbrivations list%
-\acresetall
-\ac{PGEC} - Exhibiting the properties of phonon scattering glasses and electron transmissive crystals
-\ac{SSP} - The study of rigid matter (solids)

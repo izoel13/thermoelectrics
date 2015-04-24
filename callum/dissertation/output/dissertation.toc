@@ -1,21 +1,21 @@
-\contentsline {section}{\numberline {1}Intro}{1}{section.1}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Investigation}{1}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Approach}{1}{subsection.1.3}
-\contentsline {section}{\numberline {2}Background Theory}{1}{section.2}
+\contentsline {subsection}{\numberline {1.3}Approach}{2}{subsection.1.3}
+\contentsline {section}{\numberline {2}Background Theory}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Boltzmann Equation}{2}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Thermoelectricity}{2}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Nanocomposites}{2}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.3}Nanocomposites}{4}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Kinetic Theory}{4}{subsection.2.4}
 \contentsline {paragraph}{Assumptions}{4}{section*.2}
-\contentsline {section}{\numberline {3}Specific Theory}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Thermoelectric Theory}{5}{subsection.3.1}
-\contentsline {paragraph}{Assumptions}{5}{section*.3}
-\contentsline {section}{\numberline {4}Results and Analysis}{5}{section.4}
-\contentsline {section}{\numberline {5}Conclusion and Potential Development}{5}{section.5}
-\contentsline {section}{\numberline {A}Further Questions and Thoughts}{6}{appendix.A}
-\contentsline {section}{\numberline {B}List of Assumptions}{6}{appendix.B}
-\contentsline {section}{\numberline {C}Further Reading}{6}{appendix.C}
-\contentsline {section}{\numberline {D}Tools and Software}{6}{appendix.D}
-\contentsline {section}{\numberline {E}Physical Data}{6}{appendix.E}
-\contentsline {section}{\numberline {F}Program Code}{6}{appendix.F}
+\contentsline {section}{\numberline {3}Specific Theory}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Thermoelectric Theory}{6}{subsection.3.1}
+\contentsline {paragraph}{Assumptions}{6}{section*.3}
+\contentsline {section}{\numberline {4}Results and Analysis}{6}{section.4}
+\contentsline {section}{\numberline {5}Conclusion and Potential Development}{6}{section.5}
+\contentsline {section}{\numberline {A}Further Questions and Thoughts}{8}{appendix.A}
+\contentsline {section}{\numberline {B}List of Assumptions}{8}{appendix.B}
+\contentsline {section}{\numberline {C}Further Reading}{8}{appendix.C}
+\contentsline {section}{\numberline {D}Tools and Software}{8}{appendix.D}
+\contentsline {section}{\numberline {E}Physical Data}{8}{appendix.E}
+\contentsline {section}{\numberline {F}Program Code}{8}{appendix.F}
