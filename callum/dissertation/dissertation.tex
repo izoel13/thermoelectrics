@@ -23,8 +23,11 @@ Left-aligned text; equal spacing between words, better readability
 	May look "unprofessional", books, articles typically use fully justified
 	ragged2e retains hyphenation and attempts to give a more uniform right edge, but maintains equal spacing between words
 \end{comment}
-\usepackage{ragged2e}
-\RaggedRight
+\usepackage[document]{ragged2e}
+% Adjust default length before hyphenation, reducing amount of hyphenation
+\setlength{\RaggedRightRightskip}{0pt plus 3.5em}
+\raggedright
+
 
 % Single space after a full stop, modern typographic readability standard
 \frenchspacing
@@ -42,6 +45,10 @@ Left-aligned text; equal spacing between words, better readability
 \fancyhead[R]{}
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0.5pt}
+
+% Roman section numbering, numbered subsections
+\renewcommand \thesection{\Roman{section}}
+\renewcommand \thesubsection{\arabic{section}.\arabic{subsection}}
 
 % Font choices - LaTeX default is computer modern, a bit thin for my liking
 % https://www.tug.org/mactex/fonts/LaTeX_Preamble-Font_Choices.html
@@ -141,25 +148,37 @@ Recent advances in nano-fabrication have facilitated the development of  new nan
 
 If ZT can be increased to 3, an efficiency comparable to combustion engines could be attained in typical thermoelectric systems \cite{liu-review}. This would open up a wide array of applications such as: solar thermoelectric panels \cite{solar-thermal}, exhust heat recovery systems \cite{exhust-recovery} and high reliability refridgeration systems \cite{thermo-cooling}.
 
-It is therefore the purpose of this project to understand how nanocomposite structuring effects the electrical and thermal properties of materials and whether theoretically a ZT>3 can be achieved.
+It is therefore the goal of this project to understand how nanocomposite structuring effects the electrical and thermal properties of thermoelectric materials and whether a ZT\textgreater3 can be achieved.
 
-\subsection{Investigation}
+\subsection{Approach}
 % Describe the problem
 % Describe the idea
 % Make claims about and defend the idea
-Thermoelectricity requires a compromise between 3 variables; $S$ the Seebeck coefficient, $\sigma$ electrical conductivity and $k$ thermal conductivity. The thermoelectric figure of merit ZT and ultimately the conversion efficiency, is maximised when both $S$ and $\sigma$ are much greater than $k$. The problem lies in the complex interplay between these 3 variables. This is well summarised in \figref{fig:zt-vs-doping}, 
+Thermoelectricity requires a compromise between 3 variables; $S$ the Seebeck coefficient, $\sigma$ electrical conductivity and $k$ thermal conductivity. The thermoelectric figure of merit ZT and ultimately the conversion efficiency, is maximised when both $S$ and $\sigma$ are much greater than $k$. This is well shown in \figref{fig:zt-vs-doping}, where a decreasing $k$ and increasing $\sigma$ produce a maximum in ZT.
+
+The problem therefore lies in the complex interplay between these 3 variables; how do we disentangle their relationships and produce a positive effect on ZT?
 
 \begin{figure}
 	\centering
-	\includegraphics[width=\textwidth]{zt-vs-doping.png}
-	\caption{Normalised thermoelectric properties \emph{versus} doping concentration at 300 K for n-type Si\textsubscript{80}Ge\textsubscript{20} \cite{minnich-review}. Variables defined as: $S$ - Seebeck coefficient, $\sigma$ - Electrical conductivity, $k$ - Thermal conductivity and ZT - Thermoelectric figure of merit (proportional to conversion efficiency). The interrelationships between the variables gives a maximum ZT for a heavily doped semiconductor.}
+	\includegraphics[width=0.8\textwidth]{zt-vs-doping.png}
+	\caption{Normalised thermoelectric properties \emph{versus} doping concentration at 300 K for n-type Si\textsubscript{80}Ge\textsubscript{20} \cite{minnich-review}. Variables defined as: $S$ the Seebeck coefficient, $\sigma$ electrical conductivity, $k$ thermal conductivity and ZT the thermoelectric figure of merit (proportional to conversion efficiency). The interrelationships between the variables gives a maximum ZT for a heavily doped semiconductor.}
 	\label{fig:zt-vs-doping}
 \end{figure}
 
-Nanocomposites have only been a practical possability for the last 10 years, so the theories describing them are still young and in development. 
+In the \emph{CRC Handbook of Thermoelectrics} \cite{crc-handbook}, G. A. Slack proposes a mechanism for enhancing ZT, the phonon glass electron crystal (PGEC). In a PGEC, the material is structured to restrict phonon propagation (PG), but enhance electron propagation (EC). If these two effects are independent, then the resultant increase in electrical conducitivity and decrease in thermal conducitivity will boost ZT, as in \figref{fig:zt-vs-doping}.
+
+In 1993, it was theoretically shown that a nanocomposite of closely packed nanoscale cylinders had the potential to significantly increase ZT \cite{nanowires}. We interpretted these results to be agreeing with the PGEC concept; the cylinder boundries are scattering phonons, whilst leaving the electrons unaffected, boosting ZT. Therefore nanocomposite structuring offers a possible technique for developing a PGEC material.
+
+As a relatively new field, nanocomposites and its conceptual framework is still young and in development. In the context of thermoelectrics, theories for $S$, $\sigma$ and $k$ all need to be explored. For our project, we decided to focus on $k$, Of the literature reviewed, two theories were of note, the effective medium approximation (EMA) \cite{ema} and the phonon hopping model (PHM) \cite{phm}. The EMA models the
 
 
-\subsection{Approach}
+From a qualitive understanding, there must be strong boundary and interface effects; by definition nanocomposites contain numerous transistions between two or more materials, where each transisition forms a new interface. Therefore a througher understanding of how interfaces affect the propogation of phonons and electrons is required.
+
+
+A core concept for for our project is the idea of \ac{PGEC} first proposed by G. A. Slack \cite{crc-handbook}. Slack proposes that developing a material with the properties of both phonon scattering glasses and electron transmissive crystals, will achieve the desired $ZT > 3$. It is thought that the low dimensional systems of nanocomposites introduce the short range disorder of crystal structures common to glasses, yet they maintain the long range order common to electron crystals common \cite{crc-handbook}. Some key questions for our project are; How can we achieve \ac{PGEC}? What are its constraints? How effective is it at increasing $ZT$?
+
+
+\subsection{Investigation}
 % Survey the paper, forward reference the interesting parts, make explicit your contributions to the problem
 
 \section{Background Theory}
@@ -286,16 +305,36 @@ Feburary 2009,
 Energy Environ. Sci. 2, pp. 466-479,
 DOI:10.1039/B822664B
 
-% Maybe later
-
 \bibitem{crc-handbook}
-G. A. Slack,
+G. A. Slack, ed. D. M. Rowe,
 \emph{CRC Handbook of Thermoelectrics},
-CRC Press (1995),
-ISBN: 978-0849301469
+1995,
+CRC Press,
+ISBN:978-0849301469
+\textbf{Pages 407-440}
+
+\bibitem{nanowires}
+L. D. Hicks, M. S. Dresselhaus,
+\emph{Thermoelectric figure of merit of a one-dimensional conductor},
+June 1993,
+Phys. Rev. B 47, 16631
+DOI:10.1103/PhysRevB.47.16631
+
+\bibitem{ema}
+C. Nan \emph{et al.},
+\emph{Effective thermal conductivity of particulate composites with interfacial thermal resistance},
+February 1997,
+Journal of Applied Physics 81, pp. 6692-6699,
+DOI:10.1063/1.365209
+
+\bibitem{phm}
+L. Braginsky \emph{et al.},
+\emph{High-temperature phonon thermal conductivity of nanostructures},
+October 2002,
+Physical Review B 66, 134203,
+DOI:10.1103/PhysRevB.66.134203
 
 \end{thebibliography}
-
 
 \appendix
 
