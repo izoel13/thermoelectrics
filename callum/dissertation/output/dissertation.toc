@@ -12,11 +12,11 @@
 \contentsline {section}{\numberline {III}Specific Theory}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Thermoelectric Theory}{9}{subsection.3.1}
 \contentsline {paragraph}{Assumptions}{9}{section*.5}
-\contentsline {section}{\numberline {IV}Results and Analysis}{10}{section.4}
-\contentsline {section}{\numberline {V}Conclusion and Potential Development}{10}{section.5}
-\contentsline {section}{\numberline {A}Further Questions and Thoughts}{12}{appendix.A}
-\contentsline {section}{\numberline {B}List of Assumptions}{12}{appendix.B}
-\contentsline {section}{\numberline {C}Further Reading}{12}{appendix.C}
-\contentsline {section}{\numberline {D}Tools and Software}{12}{appendix.D}
-\contentsline {section}{\numberline {E}Physical Data}{12}{appendix.E}
-\contentsline {section}{\numberline {F}Program Code}{12}{appendix.F}
+\contentsline {section}{\numberline {IV}Results and Analysis}{11}{section.4}
+\contentsline {section}{\numberline {V}Conclusion and Potential Development}{11}{section.5}
+\contentsline {section}{\numberline {A}Further Questions and Thoughts}{13}{appendix.A}
+\contentsline {section}{\numberline {B}List of Assumptions}{13}{appendix.B}
+\contentsline {section}{\numberline {C}Further Reading}{13}{appendix.C}
+\contentsline {section}{\numberline {D}Tools and Software}{13}{appendix.D}
+\contentsline {section}{\numberline {E}Physical Data}{13}{appendix.E}
+\contentsline {section}{\numberline {F}Program Code}{13}{appendix.F}
