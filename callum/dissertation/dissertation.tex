@@ -36,13 +36,13 @@ Left-aligned text; equal spacing between words, better readability
 \usepackage{parskip}
 
 % Line spacing (Default or slightly larger?)
-%\usepackage{setspace}
+\usepackage{setspace}
 %\onehalfspacing
 
 % Header and footer
 \usepackage{fancyhdr}
 \fancyhead[L]{\nouppercase{\rightmark}}
-\fancyhead[R]{\thepage}
+\fancyhead[R]{Page \thepage}
 \cfoot{}
 \renewcommand{\headrulewidth}{0.5pt}
 %\renewcommand{\footrulewidth}{0.5pt}
@@ -50,6 +50,10 @@ Left-aligned text; equal spacing between words, better readability
 % Roman section numbering, numbered subsections
 \renewcommand \thesection{\Roman{section}}
 \renewcommand \thesubsection{\arabic{section}.\arabic{subsection}}
+
+% Page decorations
+\input{page-decoration.tex}
+\definecolor{pagecolour}{cmyk}{1,.60,0,.40}
 
 % Font choices - LaTeX default is computer modern, a bit thin for my liking
 % https://www.tug.org/mactex/fonts/LaTeX_Preamble-Font_Choices.html
@@ -66,6 +70,7 @@ Left-aligned text; equal spacing between words, better readability
 \usepackage{hyperref}
 % In text subscripts and superscripts
 \usepackage{fixltx2e}
+\usepackage{titling}
 
 % Some handy commands for referencing (copied from old template)
 \newcommand{\figref}[2][\figurename~]{#1\ref{#2}}
@@ -104,11 +109,12 @@ Science writing:
 \pagestyle{empty}
 
 % Basic title page
+\begin{comment}
 \title{\textbf{Thermoelectric Efficiency of Zero-dimensional Nanocomposites}}
-\author{\textbf{Callum Vincent} \thanks{\href{mailto:cv235@exeter.ac.uk}{cv235@exeter.ac.uk}}\\
+\author{\textbf{Callum Vincent} %\thanks{\href{mailto:cv235@exeter.ac.uk}{cv235@exeter.ac.uk}}\\
 Andrew Morris\\
 G.P. Srivastava}
-\date{Revision 1 - April 2015}
+\date{April 2015}
 \maketitle
 
 \begin{abstract}
@@ -117,13 +123,62 @@ G.P. Srivastava}
 % What does your solution acheive?
 % What follows from your solution?
 \noindent
-Thermoelectrics are currently limited by their conversion efficiency. If thermoelectric efficiency can be improved 3\texttimes then a wide array of technological applications can be developed.
-
-Thermoelectrics are a promising area of materials research recently revitalised by the introduction of nanocomposites. Currently their use is limited by their low thermal to electric conversion efficiency.  theoretical mechanism, through which new, high efficiency thermoelectric materials can be designed. This will involve a detailed understanding of the fundamental theories of solid-state physics, of which the phonon model plays a critical role. This theoretical project aims to guide experiment, keeping within practical limits and computationally modelling potential designs.
+Thermoelectrics are currently limited by their heat to electric conversion efficiency. If their efficiency can be improved 3$\times$ then a wide array of technological applications can be developed. Nanocomposite structuring is a potential technique for achieving this. We utilise an effective medium approximation to calculate the thermoelectric efficiency of a zero-dimensional SiGe nanocomposite. We find that silicon spheres of 10nm diameter densly packed in a germanium host medium, improves the thermoelectric efficiency 2.6$\times$ compared to a bulk SiGe semiconductor.
 \vfill
 \end{abstract}
+
+\pagedecorationleft
+\pagedecorationright
+
 % Required to remove page number from \maketitle command
 \thispagestyle{empty}
+\end{comment}
+
+% Fancy title page, modified version of fancy-title.tex
+\begin{titlepage}
+\center
+% Headings
+\textsc{\huge University of Exeter}\\[1cm]
+\textsc{\Large MPhys Project}\\[1.5cm]
+%\textsc{\large Minor Heading}\\[0.5cm]
+
+% Title
+\rule{\linewidth}{0.5mm}\\[0.4cm]
+\begin{doublespace}
+{\LARGE \textbf{Thermoelectric Efficiency of Zero-dimensional Nanocomposites}}\\[0cm]
+\end{doublespace}
+\rule{\linewidth}{0.5mm}\\[2.5cm]
+ 
+% Authors
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Callum \textsc{Vincent}
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+Prof. G. P. \textsc{Srivastava}
+\end{flushright}
+\end{minipage}\\[4cm]
+
+% Date
+{\large April 2015}
+
+\pagedecorationleft
+\pagedecorationright
+\end{titlepage}
+
+% Abstract page
+\begin{center}
+{\Huge\textbf{Abstract}}\\[2cm]
+\end{center}
+\begin{justify}
+Thermoelectrics are currently limited by their heat to electric conversion efficiency. If their efficiency can be improved 3$\times$ then a wide array of technological applications can be developed. Nanocomposite structuring is a potential technique for achieving this. We utilise an effective medium approximation to calculate the thermoelectric efficiency of a zero-dimensional SiGe nanocomposite. We find that silicon spheres of 10nm diameter densly packed in a germanium host medium, improves the thermoelectric efficiency 2.6$\times$ compared to a bulk SiGe semiconductor.
+\end{justify}
+
 \pagebreak
 
 \tableofcontents
@@ -145,9 +200,9 @@ Energy and its use defines human society. Throughout history we have seen an upw
 
 Thermoelectric materials have the potential to revolutionise our energy harvesting methods due to their ability to convert heat directly into electricity. This potential has motivated decades of research, resulting in; radioisotope thermonuclear generators, solid state refrigerators and precise thermal control systems.
 
-The main limitation of thermoelectric materials is their heat to electricity conversion efficiency. In modern applications, this is approximately 7\% \cite{modern-thermoelectrics}, roughly 4\texttimes lower than what is currently possible for internal combustion engines \cite{engine-efficiency}.
+The main limitation of thermoelectric materials is their heat to electricity conversion efficiency. In modern applications, this is approximately 7\% \cite{modern-thermoelectrics}, roughly 4$\times$ lower than what is currently possible for internal combustion engines \cite{engine-efficiency}.
 
-Recent advances in nano-fabrication have facilitated the development of new nanocomposite materials. Closely resembling metamaterials; nanocomposites are typically periodic arrays of nanoscale sheets, wires or particles. In 2001, it was shown that layering thin-films of thermoelectric materials gave a 2.4\textatimes increase in the thermoelectric figure of merit ZT \cite{nanocomposite-zt}; a key parameter in the conversion efficiency discussed above.
+Recent advances in nano-fabrication have facilitated the development of new nanocomposite materials. Closely resembling metamaterials; nanocomposites are typically periodic arrays of nanoscale sheets, wires or particles. In 2001, it was shown that layering thin-films of thermoelectric materials gave a 2.4$\times$ increase in the thermoelectric figure of merit ZT \cite{nanocomposite-zt}; a key parameter in the conversion efficiency discussed above.
 
 If ZT can be increased to 3, an efficiency comparable to combustion engines could be attained in typical thermoelectric systems \cite{liu-review}. This would open up a wide array of applications such as: solar thermoelectric panels \cite{solar-thermal}, exhust heat recovery systems \cite{exhust-recovery} and high reliability refridgeration systems \cite{thermo-cooling}.
 
@@ -192,7 +247,7 @@ Some key questions for our project are; How can we achieve \ac{PGEC}? What are i
 
 \section{Background Theory}
 % Explain the intuition as if on a whiteboard
-All the theories discussed in this report are transport processes. Therefore fundamental to them all are the non-equilibrium statistical mechanics of their quasiparticles.
+All the theories discussed in this report are transport processes. Therefore fundamental to them all are the non-equilibrium statistical mechanics of their quasiparticles, so this is where we will start.
 
 \subsection{Boltzmann Equation}
 The Boltzmann equation describes the statistical behaviour of a thermodynamic system of particles not in thermodynamic equilibrium and its general definition is:
@@ -202,11 +257,12 @@ The Boltzmann equation describes the statistical behaviour of a thermodynamic sy
 	\frac{\partial f}{\partial t} = \left(\frac{\partial f}{\partial
 	t}\right)_\mathrm{force} + \left(\frac{\partial f}{\partial t}\right)_\mathrm{diff}+ \left(\frac{\partial f}{\partial t}\right)_\mathrm{coll}
 \end{equation}
+
 where $\frac{\partial f}{\partial t}$ is the time dependence of the distribution function of the particles $f$, the ``force" term represents external forces on the particles, the ``diff" term is the diffusion of particles through the system and the ``coll" term represents forces acting between particles in collisions.
 
-From this general definition we can find how a particular system of particles or quasiparticles are distributed across a material and therefore infer their motion. We use this in the electrical conductivity $\sigma$ (\secref{electrical-conductivity}) and phonon thermal conductivity $k_{ph}$ (\secref{phonon-thermal}) derivations.
+From this general definition we can find how a particular system of particles or quasiparticles are distributed across a material and therefore find their average motion. We use this in the electrical conductivity $\sigma$ (\secref{electrical-conductivity}) and phonon thermal conductivity $k_{ph}$ (\secref{phonon-thermal}) derivations.
 
-So we have a way of finding the rate of motion of our quasiparticles, but what exactly are the quasiparticles we are dealing with? And how are they important in the context of thermoelectrics?
+So we have a way of finding the distribution of our quasiparticles, but what exactly are the quasiparticles we are dealing with? And how are they important in the context of thermoelectrics?
 
 \subsection{Phonons}
 
@@ -216,12 +272,19 @@ A phonon is the quantisation of vibrational motion of a lattice of atoms at a si
 \label{bose-einstein}
 	 \bar{n} = \frac{1}{e^{(\hbar \omega) / k T} - 1}
 \end{equation}
-where $\bar{n}$ is the probability of a phonon existing with energy $\hbar \omega$.
 
-Phonons are carriers of acoustic and thermal energy through a material. They travel at the speed of sound. Slowly does it
+where $\bar{n}$ is the probability of a phonon existing with energy $\hbar \omega$ at temperature $T$.
 
-10^4 phonons
-10^6 electrons
+Phonons are carriers of acoustic and thermal energy through a material. They follow two types of dispersion curve; optical and acoustic. Of these 
+
+\paragraph{Assumptions}
+\begin{itemize}
+  \item Acoustic phonons
+  \item The second item
+  \item The third etc \ldots
+\end{itemize}
+
+
 
 Electrons can be modelled as quasiparticles in a similar way, with a wavevector and effective mass as in equation \eqref{micro-elec}, leading to the Fermi-Dirac distribution \cite{kittel}:
 
@@ -229,6 +292,7 @@ Electrons can be modelled as quasiparticles in a similar way, with a wavevector 
 \label{fermi-dirac}
 	 \bar{f} = \frac{1}{e^{(E - E_f) / k T} + 1}
 \end{equation}
+
 where $\bar{f}$ is the probability of an electron existing with energy $E$ and $E_f$ is the Fermi level.
 
 In the presence of an external fields, phonon and electron
@@ -239,6 +303,7 @@ satisfy the Boltzmann transport equation \eqref{boltz-trans} with \cite{ziman}:
 \label{boltz-specific}
 	\frac{df}{dt}\bigg|_{field} + \frac{df}{dt}\bigg|_{collisions} = 0
 \end{equation}
+
 where function $f$ is $f = \bar{n}$ or $f = \bar{f}$, the Bose-Einstein and Fermi-Dirac distribution functions.
 
 \subsection{Thermoelectricity}
@@ -248,12 +313,14 @@ In 1821, Thomas Seebeck discovered that circuit made from two dissimilar metals,
 \label{seebeck-emf}
 	\vec{E_{emf}} = -S \vec{\nabla} T
 \end{equation}
+
 where $S$ is the Seebeck coefficient, defined as the induced voltage per unit temperature difference, mathematically $\Delta S = \frac{\Delta V}{\Delta T}$ \cite{auparay}. This coefficient is not only material dependent, but also temperature dependent, i.e., a temperature gradient produces an electromotive force gradient. This electromotive force gradient produces a current density gradient described macroscopically by a modified Ohm's law \cite{ziman}:
 
 \begin{equation}
 \label{current-density}
 	\vec{J} = \sigma (-\vec{\nabla} V - S \vec{\nabla} T)
 \end{equation}
+
 where $\vec{J}$ and $\sigma$ are the current density $\frac{I}{A}$ and electrical conductivity at a given location in the material and $\vec{\nabla} T$ and $\vec{\nabla} V$ are the temperature and resultant voltage gradients across the material. If we were to repeat the experiment conducted by Seebeck (\figref{seebeck-experiment}), using a probe to measure $V$ between junctions and $\sigma$ at each junction for one of the metals, assuming steady state, i.e., $I=0$ so $\vec{J} = 0$, the metal's Seebeck coefficient can be determined.
 
 Thermoelectricity, its uses and current nanocomposite research are well summarised by J. W. Bos \cite{bos-review} and A. J. Minnich \emph{et al.} \cite{minnich-review}.
@@ -396,9 +463,13 @@ ISBN:978-0471415268
 
 \end{thebibliography}
 
+\pagebreak
+
 \appendix
 
-\huge\textbf{Appendix}
+\begin{center}
+{\Huge\textbf{Appendix}}
+\end{center}
 
 \section{Further Questions and Thoughts}
 

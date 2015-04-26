@@ -4,18 +4,19 @@
 \contentsline {subsection}{\numberline {1.3}Investigation}{4}{subsection.1.3}
 \contentsline {section}{\numberline {II}Background Theory}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Boltzmann Equation}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Thermoelectricity}{4}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Nanocomposites}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Kinetic Theory}{5}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.2}Phonons}{5}{subsection.2.2}
 \contentsline {paragraph}{Assumptions}{5}{section*.3}
-\contentsline {section}{\numberline {III}Specific Theory}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Thermoelectric Theory}{7}{subsection.3.1}
-\contentsline {paragraph}{Assumptions}{7}{section*.4}
-\contentsline {section}{\numberline {IV}Results and Analysis}{7}{section.4}
-\contentsline {section}{\numberline {V}Conclusion and Potential Development}{7}{section.5}
-\contentsline {section}{\numberline {A}Further Questions and Thoughts}{9}{appendix.A}
-\contentsline {section}{\numberline {B}List of Assumptions}{9}{appendix.B}
-\contentsline {section}{\numberline {C}Further Reading}{9}{appendix.C}
-\contentsline {section}{\numberline {D}Tools and Software}{9}{appendix.D}
-\contentsline {section}{\numberline {E}Physical Data}{9}{appendix.E}
-\contentsline {section}{\numberline {F}Program Code}{9}{appendix.F}
+\contentsline {subsection}{\numberline {2.3}Thermoelectricity}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Nanocomposites}{6}{subsection.2.4}
+\contentsline {paragraph}{Assumptions}{8}{section*.4}
+\contentsline {section}{\numberline {III}Specific Theory}{9}{section.3}
+\contentsline {subsection}{\numberline {3.1}Thermoelectric Theory}{9}{subsection.3.1}
+\contentsline {paragraph}{Assumptions}{9}{section*.5}
+\contentsline {section}{\numberline {IV}Results and Analysis}{9}{section.4}
+\contentsline {section}{\numberline {V}Conclusion and Potential Development}{9}{section.5}
+\contentsline {section}{\numberline {A}Further Questions and Thoughts}{11}{appendix.A}
+\contentsline {section}{\numberline {B}List of Assumptions}{11}{appendix.B}
+\contentsline {section}{\numberline {C}Further Reading}{11}{appendix.C}
+\contentsline {section}{\numberline {D}Tools and Software}{11}{appendix.D}
+\contentsline {section}{\numberline {E}Physical Data}{11}{appendix.E}
+\contentsline {section}{\numberline {F}Program Code}{11}{appendix.F}
