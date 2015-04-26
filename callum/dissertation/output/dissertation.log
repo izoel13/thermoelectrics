@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.4.18)  26 APR 2015 21:32
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.4.18)  26 APR 2015 22:53
 entering extended mode
-**D:/Users/Jack/Documents/000/git/thermoelectrics/callum/dissertation/output/di
+**D:/Users/Jack/Documents/000/Git/thermoelectrics/callum/dissertation/output/di
 ssertation.tex
 
-(D:/Users/Jack/Documents/000/git/thermoelectrics/callum/dissertation/output/dis
+(D:/Users/Jack/Documents/000/Git/thermoelectrics/callum/dissertation/output/dis
 sertation.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 3 languages loaded.
@@ -1255,13 +1255,19 @@ LaTeX Warning: Reference `electrical-conductivity' on page 5 undefined on input
 LaTeX Warning: Reference `phonon-thermal' on page 5 undefined on input line 236
 .
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 255.
 
-("D:\Program Files\MiKTeX\tex\latex\base\omscmr.fd"
+LaTeX Warning: Reference `3d-bose-einstein' on page 5 undefined on input line 2
+49.
+
+File: 3d-bose-einstein.eps Graphic file (type eps)
+<3d-bose-einstein.eps>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 262.
+
+ ("D:\Program Files\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 255.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 262.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1271,22 +1277,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5]
 
-LaTeX Warning: Reference `micro-elec' on page 6 undefined on input line 262.
+LaTeX Warning: Reference `micro-elec' on page 6 undefined on input line 269.
 
 
-LaTeX Warning: Citation `ziman' on page 6 undefined on input line 273.
-
-
-LaTeX Warning: Reference `seebeck-experiment' on page 6 undefined on input line
- 283.
-
-Requested font "cmbx8" at 8.0pt
-Requested font "cmbx6" at 6.0pt
-
-LaTeX Warning: Citation `auparay' on page 6 undefined on input line 290.
-
-
-LaTeX Warning: Citation `ziman' on page 6 undefined on input line 290.
+LaTeX Warning: Citation `ziman' on page 6 undefined on input line 280.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1297,26 +1291,36 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [6]
 
 LaTeX Warning: Reference `seebeck-experiment' on page 7 undefined on input line
- 297.
+ 290.
+
+Requested font "cmbx8" at 8.0pt
+Requested font "cmbx6" at 6.0pt
+
+LaTeX Warning: Citation `auparay' on page 7 undefined on input line 297.
 
 
-LaTeX Warning: Citation `bos-review' on page 7 undefined on input line 299.
+LaTeX Warning: Citation `ziman' on page 7 undefined on input line 297.
+
+
+LaTeX Warning: Reference `seebeck-experiment' on page 7 undefined on input line
+ 304.
+
+
+LaTeX Warning: Citation `bos-review' on page 7 undefined on input line 306.
 
 File: seebeck-experiment-black.png Graphic file (type QTm)
 <use  "seebeck-experiment-black.png" >
 
-LaTeX Warning: Citation `seebeck-original' on page 7 undefined on input line 30
-4.
+LaTeX Warning: Citation `seebeck-original' on page 7 undefined on input line 31
+1.
 
 
-LaTeX Warning: Citation `seebeck-original' on page 7 undefined on input line 30
-4.
+LaTeX Warning: Citation `seebeck-original' on page 7 undefined on input line 31
+1.
 
 
-LaTeX Warning: Reference `superlattice' on page 7 undefined on input line 309.
+LaTeX Warning: Reference `superlattice' on page 7 undefined on input line 316.
 
-File: graphene-superlattice.eps Graphic file (type eps)
-<graphene-superlattice.eps>
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1331,18 +1335,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
-Package acronym Info: Label `acro:PGEC' newly defined as it shall be overridden
-
-although it is yet undefined on input line 327.
-
-
-Package acronym Warning: Acronym `PGEC' is not defined on input line 327.
-
-
-Package acronym Warning: Acronym `PGEC' is not defined on input line 327.
-
-File: ZT-10nm.eps Graphic file (type eps)
-<ZT-10nm.eps>
+File: graphene-superlattice.eps Graphic file (type eps)
+ <graphene-superlattice.eps>
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1350,6 +1344,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9]
+Package acronym Info: Label `acro:PGEC' newly defined as it shall be overridden
+
+although it is yet undefined on input line 334.
+
+
+Package acronym Warning: Acronym `PGEC' is not defined on input line 334.
+
+
+Package acronym Warning: Acronym `PGEC' is not defined on input line 334.
+
+File: ZT-10nm.eps Graphic file (type eps)
+<ZT-10nm.eps>
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1378,24 +1384,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 475.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 475.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 482.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 482.
  (dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 475.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 475.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 482.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 482.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 475.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 482.
  ) 
 Here is how much of TeX's memory you used:
- 27987 strings out of 430363
- 536279 string characters out of 3189221
- 541416 words of memory out of 3000000
- 30794 multiletter control sequences out of 15000+200000
+ 27991 strings out of 430363
+ 536365 string characters out of 3189221
+ 541513 words of memory out of 3000000
+ 30797 multiletter control sequences out of 15000+200000
  14071 words of font info for 50 fonts, out of 3000000 for 9000
  22 hyphenation exceptions out of 8191
- 57i,12n,54p,10499b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,12n,54p,10499b,874s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on dissertation.pdf (16 pages).
