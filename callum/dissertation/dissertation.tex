@@ -191,11 +191,56 @@ Some key questions for our project are; How can we achieve \ac{PGEC}? What are i
 % Survey the paper, forward reference the interesting parts, make explicit your contributions to the problem
 
 \section{Background Theory}
-All the theories discussed in this report are transport processes. Fundamental to them all are the non-equilibrium statistical mechanics of their particles.
+% Explain the intuition as if on a whiteboard
+All the theories discussed in this report are transport processes. Therefore fundamental to them all are the non-equilibrium statistical mechanics of their quasiparticles.
 
 \subsection{Boltzmann Equation}
+The Boltzmann equation describes the statistical behaviour of a thermodynamic system of particles not in thermodynamic equilibrium and its general definition is:
 
-% Explain the intuition behind the theory as if on a whiteboard
+\begin{equation}
+\label{boltz-trans}
+	\frac{\partial f}{\partial t} = \left(\frac{\partial f}{\partial
+	t}\right)_\mathrm{force} + \left(\frac{\partial f}{\partial t}\right)_\mathrm{diff}+ \left(\frac{\partial f}{\partial t}\right)_\mathrm{coll}
+\end{equation}
+where $\frac{\partial f}{\partial t}$ is the time dependence of the distribution function of the particles $f$, the ``force" term represents external forces on the particles, the ``diff" term is the diffusion of particles through the system and the ``coll" term represents forces acting between particles in collisions.
+
+From this general definition we can find how a particular system of particles or quasiparticles are distributed across a material and therefore infer their motion. We use this in the electrical conductivity $\sigma$ (\secref{electrical-conductivity}) and phonon thermal conductivity $k_{ph}$ (\secref{phonon-thermal}) derivations.
+
+So we have a way of finding the rate of motion of our quasiparticles, but what exactly are the quasiparticles we are dealing with? And how are they important in the context of thermoelectrics?
+
+\subsection{Phonons}
+
+A phonon is the quantisation of vibrational motion of a lattice of atoms at a single frequency, known as a normal mode \cite{kittel}. These phonons are quasiparticles, free to move around the crystal lattice and they are distributed according to the Bose-Einstein distribution \cite{kittel}:
+
+\begin{equation}
+\label{bose-einstein}
+	 \bar{n} = \frac{1}{e^{(\hbar \omega) / k T} - 1}
+\end{equation}
+where $\bar{n}$ is the probability of a phonon existing with energy $\hbar \omega$.
+
+Phonons are carriers of acoustic and thermal energy through a material. They travel at the speed of sound. Slowly does it
+
+10^4 phonons
+10^6 electrons
+
+Electrons can be modelled as quasiparticles in a similar way, with a wavevector and effective mass as in equation \eqref{micro-elec}, leading to the Fermi-Dirac distribution \cite{kittel}:
+
+\begin{equation}
+\label{fermi-dirac}
+	 \bar{f} = \frac{1}{e^{(E - E_f) / k T} + 1}
+\end{equation}
+where $\bar{f}$ is the probability of an electron existing with energy $E$ and $E_f$ is the Fermi level.
+
+In the presence of an external fields, phonon and electron
+distributions (\eqref{bose-einstein} \& \eqref{fermi-dirac}) both
+satisfy the Boltzmann transport equation \eqref{boltz-trans} with \cite{ziman}:
+
+\begin{equation}
+\label{boltz-specific}
+	\frac{df}{dt}\bigg|_{field} + \frac{df}{dt}\bigg|_{collisions} = 0
+\end{equation}
+where function $f$ is $f = \bar{n}$ or $f = \bar{f}$, the Bose-Einstein and Fermi-Dirac distribution functions.
+
 \subsection{Thermoelectricity}
 In 1821, Thomas Seebeck discovered that circuit made from two dissimilar metals, with junctions at different temperatures would deflect a compass magnet (\ref{seebeck-experiment}), he had discovered thermoelectricity. The temperature gradient $\vec{\nabla} T$ between the junctions generates an electromotive force:
 
@@ -230,7 +275,6 @@ Composite materials are combinations of two or more materials, forming a new str
 	\label{fig:superlattice}
 \end{figure}
 
-\subsection{Kinetic Theory}
 \paragraph{Assumptions}
 
 \section{Specific Theory}
@@ -342,6 +386,13 @@ L. Braginsky \emph{et al.},
 October 2002,
 Physical Review B 66, 134203,
 DOI:10.1103/PhysRevB.66.134203
+
+\bibitem{kittel}
+C. Kittel,
+\emph{Introduction to Solid State Physics}, 8th Ed.,
+November 2004,
+John Wiley \& Sons,
+ISBN:978-0471415268
 
 \end{thebibliography}
 
