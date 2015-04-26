@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.4.18)  26 APR 2015 14:49
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.4.18)  26 APR 2015 18:10
 entering extended mode
-**D:/Users/Jack/Documents/000/Git/thermoelectrics/callum/dissertation/output/di
+**D:/Users/Jack/Documents/000/git/thermoelectrics/callum/dissertation/output/di
 ssertation.tex
 
-(D:/Users/Jack/Documents/000/Git/thermoelectrics/callum/dissertation/output/dis
+(D:/Users/Jack/Documents/000/git/thermoelectrics/callum/dissertation/output/dis
 sertation.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 3 languages loaded.
@@ -1064,33 +1064,27 @@ LaTeX Info: The control sequence `\)' is already robust on input line 480.
 LaTeX Info: The control sequence `\[' is already robust on input line 481.
 LaTeX Info: The control sequence `\]' is already robust on input line 482.
 )
-(D:\Users\Jack\AppData\Roaming\MiKTeX\2.9\tex\latex\titling\titling.sty
-Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip86
-\thanksmargin=\skip87
-\droptitle=\skip88
-)
 Excluding 'comment' comment. (dissertation.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 102.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 103.
+LaTeX Info: Redefining \selectfont on input line 102.
  ABD: EveryShipout initializing macros
 (D:\Users\Jack\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dict
 s\translator-basic-dictionary\translator-basic-dictionary-English.dict
@@ -1105,7 +1099,7 @@ File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 103.
+Package hyperref Info: Link coloring OFF on input line 102.
 ("D:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1114,9 +1108,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count186
 )
-LaTeX Info: Redefining \ref on input line 103.
-LaTeX Info: Redefining \pageref on input line 103.
-LaTeX Info: Redefining \nameref on input line 103.
+LaTeX Info: Redefining \ref on input line 102.
+LaTeX Info: Redefining \pageref on input line 102.
+LaTeX Info: Redefining \nameref on input line 102.
 \c__siunitx_mathsf_int=\count187
 Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
@@ -1136,8 +1130,6 @@ Requested font "cmss8" at 6.0pt
 Requested font "cmtt12" at 12.0pt
 Requested font "cmtt8" at 8.0pt
 Requested font "cmtt8" at 6.0pt
-
-Excluding 'comment' comment.
 Requested font "cmcsc10" at 12.0pt
 Requested font "cmcsc10" at 24.88pt
 Requested font "cmcsc10" at 17.28pt
@@ -1149,11 +1141,11 @@ Requested font "cmcsc10" at 14.4pt
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@garble' on input line 172.
+(hyperref)                removing `\@garble' on input line 145.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\c@page' on input line 172.
+(hyperref)                removing `\c@page' on input line 145.
 
 ("D:\Program Files\MiKTeX\tex\generic\oberdiek\se-ascii-print.def"
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -1161,11 +1153,11 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@garble' on input line 172.
+(hyperref)                removing `\@garble' on input line 145.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\c@page' on input line 172.
+(hyperref)                removing `\c@page' on input line 145.
 
 [1
 
@@ -1175,19 +1167,19 @@ Requested font "cmbx12" at 24.88pt
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@garble' on input line 183.
+(hyperref)                removing `\@garble' on input line 156.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\c@page' on input line 183.
+(hyperref)                removing `\c@page' on input line 156.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@garble' on input line 183.
+(hyperref)                removing `\@garble' on input line 156.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\c@page' on input line 183.
+(hyperref)                removing `\c@page' on input line 156.
 
 [1]
 Requested font "cmr17" at 17.28pt
@@ -1199,29 +1191,29 @@ Requested font "cmbx12" at 12.0pt
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@garble' on input line 187.
+(hyperref)                removing `\@garble' on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\c@page' on input line 187.
+(hyperref)                removing `\c@page' on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@garble' on input line 187.
+(hyperref)                removing `\@garble' on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\c@page' on input line 187.
+(hyperref)                removing `\c@page' on input line 160.
 
 [2]
 Requested font "cmbx12" at 14.4pt
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 209.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 182.
 
  ("D:\Program Files\MiKTeX\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 209.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 182.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1246,24 +1238,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Package acronym Info: Label `acro:PGEC' newly defined as it shall be overridden
-
-although it is yet undefined on input line 242.
-
-
-Package acronym Warning: Acronym `PGEC' is not defined on input line 242.
-
-
-Package acronym Warning: Acronym `PGEC' is not defined on input line 242.
-
-
-LaTeX Warning: Reference `electrical-conductivity' on page 4 undefined on input
- line 263.
-
-
-LaTeX Warning: Reference `phonon-thermal' on page 4 undefined on input line 263
-.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1271,19 +1245,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 282.
 
- ("D:\Program Files\MiKTeX\tex\latex\base\omscmr.fd"
+LaTeX Warning: Reference `electrical-conductivity' on page 5 undefined on input
+ line 235.
+
+
+LaTeX Warning: Reference `phonon-thermal' on page 5 undefined on input line 235
+.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 254.
+
+("D:\Program Files\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 282.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 254.
 
 
-LaTeX Warning: Reference `micro-elec' on page 5 undefined on input line 289.
-
-
-LaTeX Warning: Citation `ziman' on page 5 undefined on input line 300.
+LaTeX Warning: Reference `micro-elec' on page 5 undefined on input line 261.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1293,34 +1272,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5]
 
+LaTeX Warning: Citation `ziman' on page 6 undefined on input line 272.
+
+
 LaTeX Warning: Reference `seebeck-experiment' on page 6 undefined on input line
- 310.
+ 282.
 
 Requested font "cmbx8" at 8.0pt
 Requested font "cmbx6" at 6.0pt
 
-LaTeX Warning: Citation `auparay' on page 6 undefined on input line 317.
+LaTeX Warning: Citation `auparay' on page 6 undefined on input line 289.
 
 
-LaTeX Warning: Citation `ziman' on page 6 undefined on input line 317.
+LaTeX Warning: Citation `ziman' on page 6 undefined on input line 289.
 
 
 LaTeX Warning: Reference `seebeck-experiment' on page 6 undefined on input line
- 324.
-
-
-LaTeX Warning: Citation `bos-review' on page 6 undefined on input line 326.
-
-
-LaTeX Warning: Citation `seebeck-original' on page 6 undefined on input line 33
-1.
-
-
-LaTeX Warning: Citation `seebeck-original' on page 6 undefined on input line 33
-1.
-
-
-LaTeX Warning: Reference `superlattice' on page 6 undefined on input line 336.
+ 296.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1329,6 +1297,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
+
+LaTeX Warning: Citation `bos-review' on page 7 undefined on input line 298.
+
+
+LaTeX Warning: Citation `seebeck-original' on page 7 undefined on input line 30
+3.
+
+
+LaTeX Warning: Citation `seebeck-original' on page 7 undefined on input line 30
+3.
+
+
+LaTeX Warning: Reference `superlattice' on page 7 undefined on input line 308.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1343,6 +1325,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
+Package acronym Info: Label `acro:PGEC' newly defined as it shall be overridden
+
+although it is yet undefined on input line 326.
+
+
+Package acronym Warning: Acronym `PGEC' is not defined on input line 326.
+
+
+Package acronym Warning: Acronym `PGEC' is not defined on input line 326.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1364,24 +1356,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 488.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 488.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 467.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
  (dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 488.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 488.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 467.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 467.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 488.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 467.
  ) 
 Here is how much of TeX's memory you used:
- 28029 strings out of 430363
- 536784 string characters out of 3189221
- 540139 words of memory out of 3000000
- 30840 multiletter control sequences out of 15000+200000
+ 27972 strings out of 430363
+ 536065 string characters out of 3189221
+ 539576 words of memory out of 3000000
+ 30785 multiletter control sequences out of 15000+200000
  14071 words of font info for 50 fonts, out of 3000000 for 9000
  22 hyphenation exceptions out of 8191
- 57i,11n,54p,10499b,862s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,12n,54p,10499b,862s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on dissertation.pdf (14 pages).
+Output written on dissertation.pdf (15 pages).

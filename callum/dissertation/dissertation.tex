@@ -41,8 +41,8 @@ Left-aligned text; equal spacing between words, better readability
 
 % Header and footer
 \usepackage{fancyhdr}
-\fancyhead[L]{\nouppercase{\rightmark}}
-\fancyhead[R]{Page \thepage}
+\fancyhead[L]{\nouppercase{\textbf{\rightmark}}}
+\fancyhead[R]{\textbf{\thepage}}
 \cfoot{}
 \renewcommand{\headrulewidth}{0.5pt}
 %\renewcommand{\footrulewidth}{0.5pt}
@@ -70,7 +70,6 @@ Left-aligned text; equal spacing between words, better readability
 \usepackage{hyperref}
 % In text subscripts and superscripts
 \usepackage{fixltx2e}
-\usepackage{titling}
 
 % Some handy commands for referencing (copied from old template)
 \newcommand{\figref}[2][\figurename~]{#1\ref{#2}}
@@ -107,32 +106,6 @@ Science writing:
 % Remove page numbering
 \pagenumbering{garble}
 \pagestyle{empty}
-
-% Basic title page
-\begin{comment}
-\title{\textbf{Thermoelectric Efficiency of Zero-dimensional Nanocomposites}}
-\author{\textbf{Callum Vincent} %\thanks{\href{mailto:cv235@exeter.ac.uk}{cv235@exeter.ac.uk}}\\
-Andrew Morris\\
-G.P. Srivastava}
-\date{April 2015}
-\maketitle
-
-\begin{abstract}
-% State the problem
-% Why is it interesting?
-% What does your solution acheive?
-% What follows from your solution?
-\noindent
-Thermoelectrics are currently limited by their heat to electric conversion efficiency. If their efficiency can be improved 3$\times$ then a wide array of technological applications can be developed. Nanocomposite structuring is a potential technique for achieving this. We utilise an effective medium approximation to calculate the thermoelectric efficiency of a zero-dimensional SiGe nanocomposite. We find that silicon spheres of 10nm diameter densly packed in a germanium host medium, improves the thermoelectric efficiency 2.6$\times$ compared to a bulk SiGe semiconductor.
-\vfill
-\end{abstract}
-
-\pagedecorationleft
-\pagedecorationright
-
-% Required to remove page number from \maketitle command
-\thispagestyle{empty}
-\end{comment}
 
 % Fancy title page, modified version of fancy-title.tex
 \begin{titlepage}
@@ -176,7 +149,7 @@ Prof. G. P. \textsc{Srivastava}
 {\Huge\textbf{Abstract}}\\[2cm]
 \end{center}
 \begin{justify}
-Thermoelectrics are currently limited by their heat to electric conversion efficiency. If their efficiency can be improved 3$\times$ then a wide array of technological applications can be developed. Nanocomposite structuring is a potential technique for achieving this. We utilise an effective medium approximation to calculate the thermoelectric efficiency of a zero-dimensional SiGe nanocomposite. We find that silicon spheres of 10nm diameter densly packed in a germanium host medium, improves the thermoelectric efficiency 2.6$\times$ compared to a bulk SiGe semiconductor.
+Thermoelectrics are currently limited by their heat to electric conversion efficiency. If their efficiency can be improved 3$\times$ then a wide array of technological applications can be developed. Nanocomposite structuring is a potential technique for achieving this. We utilise an effective medium approximation to calculate the thermoelectric efficiency of a zero-dimensional SiGe nanocomposite. We find that silicon spheres of 10nm diameter densely packed in a germanium host medium, improves the thermoelectric efficiency 2.6$\times$ compared to bulk SiGe.
 \end{justify}
 
 \pagebreak
@@ -204,12 +177,12 @@ The main limitation of thermoelectric materials is their heat to electricity con
 
 Recent advances in nano-fabrication have facilitated the development of new nanocomposite materials. Closely resembling metamaterials; nanocomposites are typically periodic arrays of nanoscale sheets, wires or particles. In 2001, it was shown that layering thin-films of thermoelectric materials gave a 2.4$\times$ increase in the thermoelectric figure of merit ZT \cite{nanocomposite-zt}; a key parameter in the conversion efficiency discussed above.
 
-If ZT can be increased to 3, an efficiency comparable to combustion engines could be attained in typical thermoelectric systems \cite{liu-review}. This would open up a wide array of applications such as: solar thermoelectric panels \cite{solar-thermal}, exhust heat recovery systems \cite{exhust-recovery} and high reliability refridgeration systems \cite{thermo-cooling}.
+If ZT can be increased to 3, an efficiency comparable to combustion engines could be attained in typical thermoelectric systems \cite{liu-review}. This would open up a wide array of applications such as: solar thermoelectric panels \cite{solar-thermal}, exhaust heat recovery systems \cite{exhust-recovery} and high reliability refrigeration systems \cite{thermo-cooling}.
 
 It is therefore the goal of this project to understand how nanocomposite structuring effects the electrical and thermal properties of thermoelectric materials and whether a ZT\textgreater3 can be achieved.
 
 \subsection{Approach}
-% Describe the problem
+% Describe the problem 
 % Describe the idea
 % Make claims about and defend the idea
 Thermoelectricity requires a compromise between 3 variables; $S$ the Seebeck coefficient, $\sigma$ the electrical conductivity and $k$ the thermal conductivity. The thermoelectric figure of merit ZT and ultimately the conversion efficiency, is maximised when both $S$ and $\sigma$ are much greater than $k$. This is well shown in \figref{fig:zt-vs-doping}, where a decreasing $k$ and increasing $\sigma$ produce a maximum in ZT.
@@ -223,23 +196,22 @@ The problem therefore lies in the complex interplay between these 3 variables; h
 	\label{fig:zt-vs-doping}
 \end{figure}
 
-In the \emph{CRC Handbook of Thermoelectrics} \cite{crc-handbook}, G. A. Slack proposes a mechanism for enhancing ZT, the phonon glass electron crystal (PGEC). In a PGEC, the material is structured to restrict phonon propagation (PG), but enhance electron propagation (EC). If these two effects are independent, then the resultant increase in electrical conducitivity and decrease in thermal conducitivity will boost ZT, as in \figref{fig:zt-vs-doping}.
+In the \emph{CRC Handbook of Thermoelectrics} \cite{crc-handbook}, G. A. Slack proposes a mechanism for enhancing ZT, the phonon glass electron crystal (PGEC). In a PGEC, the material is structured to restrict phonon propagation (PG), but enhance electron propagation (EC). If these two effects are independent, then the resultant increase in electrical conductivity and decrease in thermal conductivity will boost ZT, as in \figref{fig:zt-vs-doping}.
 
-In 1993, Hicks and Dresselhaus theoretically showed that a nanocomposite of closely packed nanoscale cylinders had the potential to significantly increase ZT \cite{nanowires}. We interpretted their findings to be in agreement with the PGEC concept; the cylinder boundries are scattering phonons, whilst leaving the electrons unaffected, boosting ZT. Therefore nanocomposite structuring may offer a possible technique for developing a PGEC material.
+In 1993, Hicks and Dresselhaus theoretically showed that a nanocomposite of closely packed nanoscale cylinders had the potential to significantly increase ZT \cite{nanowires}. We interpreted their findings to be in agreement with the PGEC concept; the cylinder boundaries are scattering phonons, whilst leaving the electrons unaffected, boosting ZT. Therefore nanocomposite structuring may offer a possible technique for developing a PGEC material.
 
-As a relatively new field, nanocomposites and its conceptual framework is still young and in development. In the context of thermoelectrics, theories for $S$, $\sigma$ and $k$ all need to be explored. For our project, we decided to focus on $k$, specifically the phononic contribution $k_{ph}$. We hypothesised that the main reason for the increase of ZT in nanocomposite structuring, is the scattering of phonons, not any potential electron effects.
+As a relatively new field, nanocomposites and its conceptual framework is still young and in development. In the context of thermoelectrics, theories for $S$, $\sigma$ and $k$ all need to be explored. We hypothesised that the main reason for the increase of ZT in nanocomposite structuring, is the scattering of phonons. So for our project, we decided to focus on $k$, specifically the phononic contribution $k_{ph}$. 
 
-Of the literature reviewed, two theories for $k_{ph}$ were of note, the effective medium approximation (EMA) \cite{ema} and the phonon hopping model (PHM) \cite{phm}. The EMA considers a homogenous host material whose phonon thermal conductivity is peterbed by regularly dispersed nanoparticles. Whereas the PHM considers a linear chain of host atoms regularly peterbed by nanoparticles and calculates the probability of a phonon hopping past or interacting with these nanoparticles. 
+Of the literature reviewed, two theories for $k_{ph}$ were of note, the effective medium approximation (EMA) \cite{ema} and the phonon hopping model (PHM) \cite{phm}. The EMA considers a homogeneous host material whose phonon thermal conductivity is perturbed by a regularly arranged nanostructure. Whereas the PHM considers a linear chain of host atoms regularly perturbed by nanoparticles and calculates the probability of a phonon hopping past or interacting with these nanoparticles. We evaluated both models in detail and decided that the PHM neglected crucial thermoelectric properties, so we adopted the EMA for our final calculations.
 
-We evaluated both the EMA and PHM models in detail and decided that the PHM neglected crucial thermoelectric properties, so we adopted the approach of the EMA model.
+Our final consideration is which nanocomposite structure to investigate. Originally, we had planned to test multiple structures and compare their effects. However, as we were studying the EMA theory, it became clear that the optimum structure would have a high density of interfaces, with maximal gaps between these interfaces. This made closely packed spheres an obvious choice, this is illustrated in \figref{fig:nanospheres-cube}.
 
-
-
-From a qualitive understanding, there must be strong boundary and interface effects; by definition nanocomposites contain numerous transistions between two or more materials, where each transisition forms a new interface. Therefore a througher understanding of how interfaces affect the propogation of phonons and electrons is required.
-
-The EMA considers a homogenous host material with a phonon thermal conductivity $k_h$, that is reguarly peterbed by an interface resistance $R$ and seperate phonon thermal conductivity $k_p$, which is then averaged over a relevant length scale $d$.
-
-Some key questions for our project are; How can we achieve \ac{PGEC}? What are its constraints? How effective is it at increasing $ZT$?
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{nanospheres-cube.eps}
+	\caption{Zero-dimensional nanocomposite structure. Nanoscale spheres are densely packed with a homogeneous host material filling the voids. A temperature gradient is shown, to illustrate use as a thermoelectric.}
+	\label{fig:nanospheres-cube}
+\end{figure}
 
 
 \subsection{Investigation}
@@ -347,6 +319,13 @@ Composite materials are combinations of two or more materials, forming a new str
 \section{Specific Theory}
 % Details of exactly what you've done
 % Tell a story, keep it concise, only explain what you need to
+From a qualitative understanding, there must be strong boundary and interface effects; by definition nanocomposites contain numerous transitions between two or more materials, where each transition forms a new interface. Therefore a thorough understanding of how interfaces affect the propagation of phonons and electrons is required.
+
+The EMA considers a homogeneous host material with a phonon thermal conductivity $k_h$, that is regularly perturbed by an interface resistance $R$ and separate phonon thermal conductivity $k_p$, which is then averaged over a relevant length scale $d$.
+
+Some key questions for our project are; How can we achieve \ac{PGEC}? What are its constraints? How effective is it at increasing $ZT$?
+
+
 \subsection{Thermoelectric Theory}
 \paragraph{Assumptions}
 
