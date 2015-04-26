@@ -42,9 +42,10 @@ Left-aligned text; equal spacing between words, better readability
 % Header and footer
 \usepackage{fancyhdr}
 \fancyhead[L]{\nouppercase{\rightmark}}
-\fancyhead[R]{}
+\fancyhead[R]{\thepage}
+\cfoot{}
 \renewcommand{\headrulewidth}{0.5pt}
-\renewcommand{\footrulewidth}{0.5pt}
+%\renewcommand{\footrulewidth}{0.5pt}
 
 % Roman section numbering, numbered subsections
 \renewcommand \thesection{\Roman{section}}
@@ -104,8 +105,8 @@ Science writing:
 
 % Basic title page
 \title{\textbf{Thermoelectric Efficiency of Zero-dimensional Nanocomposites}}
-\author{\textbf{Callum Vincent},\thanks{\href{mailto:cv235@exeter.ac.uk}{cv235@exeter.ac.uk}}
-Andrew Morris,
+\author{\textbf{Callum Vincent} \thanks{\href{mailto:cv235@exeter.ac.uk}{cv235@exeter.ac.uk}}\\
+Andrew Morris\\
 G.P. Srivastava}
 \date{Revision 1 - April 2015}
 \maketitle
@@ -116,7 +117,9 @@ G.P. Srivastava}
 % What does your solution acheive?
 % What follows from your solution?
 \noindent
-Thermoelectrics are a promising area of materials research recently revitalised by the introduction of nanocomposites. In this project, we aim to derive a theoretical mechanism, through which new, high efficiency thermoelectric materials can be designed. This will involve a detailed understanding of the fundamental theories of solid-state physics, of which the phonon model plays a critical role. This theoretical project aims to guide experiment, keeping within practical limits and computationally modelling potential designs.
+Thermoelectrics are currently limited by their conversion efficiency. If thermoelectric efficiency can be improved 3\texttimes then a wide array of technological applications can be developed.
+
+Thermoelectrics are a promising area of materials research recently revitalised by the introduction of nanocomposites. Currently their use is limited by their low thermal to electric conversion efficiency.  theoretical mechanism, through which new, high efficiency thermoelectric materials can be designed. This will involve a detailed understanding of the fundamental theories of solid-state physics, of which the phonon model plays a critical role. This theoretical project aims to guide experiment, keeping within practical limits and computationally modelling potential designs.
 \vfill
 \end{abstract}
 % Required to remove page number from \maketitle command
@@ -140,11 +143,11 @@ Thermoelectrics are a promising area of materials research recently revitalised 
 % Why would you want do this?
 Energy and its use defines human society. Throughout history we have seen an upwards trend of energy consumption and with it we transform our environment and our lives.
 
-Thermoelectric materials have great potential to revolutionise our energy harvesting methods due to their ability to convert heat directly into electricity. This potential has motivated decades of research, resulting in;  radioisotope thermonuclear generators, solid state refrigerators and laser temperature control systems.
+Thermoelectric materials have the potential to revolutionise our energy harvesting methods due to their ability to convert heat directly into electricity. This potential has motivated decades of research, resulting in; radioisotope thermonuclear generators, solid state refrigerators and precise thermal control systems.
 
-The main limitation of thermoelectric materials is their heat to electricity conversion efficiency. In modern applications, this is approximately 7\% \cite{modern-thermoelectrics}, roughly 4$\times$ lower than what is currently possible for internal combustion engines \cite{engine-efficiency}.
+The main limitation of thermoelectric materials is their heat to electricity conversion efficiency. In modern applications, this is approximately 7\% \cite{modern-thermoelectrics}, roughly 4\texttimes lower than what is currently possible for internal combustion engines \cite{engine-efficiency}.
 
-Recent advances in nano-fabrication have facilitated the development of  new nanocomposite materials. Closely resembling metamaterials; nanocomposites are typically periodic arrays of nanoscale sheets, wires or particles. In 2001, it was shown that layering thin-films of thermoelectric materials gave a 2.4$\times$ increase in the thermoelectric figure of merit ZT \cite{nanocomposite-zt}; a key parameter in the conversion efficiency discussed above.
+Recent advances in nano-fabrication have facilitated the development of new nanocomposite materials. Closely resembling metamaterials; nanocomposites are typically periodic arrays of nanoscale sheets, wires or particles. In 2001, it was shown that layering thin-films of thermoelectric materials gave a 2.4\textatimes increase in the thermoelectric figure of merit ZT \cite{nanocomposite-zt}; a key parameter in the conversion efficiency discussed above.
 
 If ZT can be increased to 3, an efficiency comparable to combustion engines could be attained in typical thermoelectric systems \cite{liu-review}. This would open up a wide array of applications such as: solar thermoelectric panels \cite{solar-thermal}, exhust heat recovery systems \cite{exhust-recovery} and high reliability refridgeration systems \cite{thermo-cooling}.
 
@@ -154,14 +157,14 @@ It is therefore the goal of this project to understand how nanocomposite structu
 % Describe the problem
 % Describe the idea
 % Make claims about and defend the idea
-Thermoelectricity requires a compromise between 3 variables; $S$ the Seebeck coefficient, $\sigma$ electrical conductivity and $k$ thermal conductivity. The thermoelectric figure of merit ZT and ultimately the conversion efficiency, is maximised when both $S$ and $\sigma$ are much greater than $k$. This is well shown in \figref{fig:zt-vs-doping}, where a decreasing $k$ and increasing $\sigma$ produce a maximum in ZT.
+Thermoelectricity requires a compromise between 3 variables; $S$ the Seebeck coefficient, $\sigma$ the electrical conductivity and $k$ the thermal conductivity. The thermoelectric figure of merit ZT and ultimately the conversion efficiency, is maximised when both $S$ and $\sigma$ are much greater than $k$. This is well shown in \figref{fig:zt-vs-doping}, where a decreasing $k$ and increasing $\sigma$ produce a maximum in ZT.
 
 The problem therefore lies in the complex interplay between these 3 variables; how do we disentangle their relationships and produce a positive effect on ZT?
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{zt-vs-doping.png}
-	\caption{Normalised thermoelectric properties \emph{versus} doping concentration at 300 K for n-type Si\textsubscript{80}Ge\textsubscript{20} \cite{minnich-review}. Variables defined as: $S$ the Seebeck coefficient, $\sigma$ electrical conductivity, $k$ thermal conductivity and ZT the thermoelectric figure of merit (proportional to conversion efficiency). The interrelationships between the variables gives a maximum ZT for a heavily doped semiconductor.}
+	\caption{Normalised thermoelectric properties \emph{versus} doping concentration at 300 K for n-type Si\textsubscript{80}Ge\textsubscript{20} \cite{minnich-review}. Variables defined as follows: $S$ Seebeck coefficient, $\sigma$ electrical conductivity, $k$ thermal conductivity and ZT the thermoelectric figure of merit (proportional to conversion efficiency). The interrelationships between the variables gives a maximum ZT for a heavily doped semiconductor.}
 	\label{fig:zt-vs-doping}
 \end{figure}
 
@@ -169,19 +172,19 @@ In the \emph{CRC Handbook of Thermoelectrics} \cite{crc-handbook}, G. A. Slack p
 
 In 1993, Hicks and Dresselhaus theoretically showed that a nanocomposite of closely packed nanoscale cylinders had the potential to significantly increase ZT \cite{nanowires}. We interpretted their findings to be in agreement with the PGEC concept; the cylinder boundries are scattering phonons, whilst leaving the electrons unaffected, boosting ZT. Therefore nanocomposite structuring may offer a possible technique for developing a PGEC material.
 
-As a relatively new field, nanocomposites and its conceptual framework is still young and in development. In the context of thermoelectrics, theories for $S$, $\sigma$ and $k$ all need to be explored. For our project, we decided to focus on $k$, specifically the phononic contribution $k_{ph}$. We hypothesised that the main reason for the increase of ZT in nanocomposite structuring, is the scattering of phonons, not the potential electron effects.
+As a relatively new field, nanocomposites and its conceptual framework is still young and in development. In the context of thermoelectrics, theories for $S$, $\sigma$ and $k$ all need to be explored. For our project, we decided to focus on $k$, specifically the phononic contribution $k_{ph}$. We hypothesised that the main reason for the increase of ZT in nanocomposite structuring, is the scattering of phonons, not any potential electron effects.
 
-Of the literature reviewed, two theories for $k_{ph}$ were of note, the effective medium approximation (EMA) \cite{ema} and the phonon hopping model (PHM) \cite{phm}. The EMA considers a homogenous host material whose phonon thermal conductivity is peterbed by a regularly dispersed particle. Whereas the PHM considers a linear chain of atoms, with regular modifications and calculates the probability of a phonon hopping past
+Of the literature reviewed, two theories for $k_{ph}$ were of note, the effective medium approximation (EMA) \cite{ema} and the phonon hopping model (PHM) \cite{phm}. The EMA considers a homogenous host material whose phonon thermal conductivity is peterbed by regularly dispersed nanoparticles. Whereas the PHM considers a linear chain of host atoms regularly peterbed by nanoparticles and calculates the probability of a phonon hopping past or interacting with these nanoparticles. 
+
+We evaluated both the EMA and PHM models in detail and decided that the PHM neglected crucial thermoelectric properties, so we adopted the approach of the EMA model.
 
 
-The EMA considers a homogenous host material with a phonon thermal conductivity $k_h$, that is reguarly peterbed by an interface resistance $R$ and seperate phonon thermal conductivity $k_p$, which is then averaged over a relevant length scale $d$.
-
-The EMA considers a regularly fluctuating phonon thermal conductivity with an interface resistance, which is averaged over 
 
 From a qualitive understanding, there must be strong boundary and interface effects; by definition nanocomposites contain numerous transistions between two or more materials, where each transisition forms a new interface. Therefore a througher understanding of how interfaces affect the propogation of phonons and electrons is required.
 
+The EMA considers a homogenous host material with a phonon thermal conductivity $k_h$, that is reguarly peterbed by an interface resistance $R$ and seperate phonon thermal conductivity $k_p$, which is then averaged over a relevant length scale $d$.
 
-A core concept for for our project is the idea of \ac{PGEC} first proposed by G. A. Slack \cite{crc-handbook}. Slack proposes that developing a material with the properties of both phonon scattering glasses and electron transmissive crystals, will achieve the desired $ZT > 3$. It is thought that the low dimensional systems of nanocomposites introduce the short range disorder of crystal structures common to glasses, yet they maintain the long range order common to electron crystals common \cite{crc-handbook}. Some key questions for our project are; How can we achieve \ac{PGEC}? What are its constraints? How effective is it at increasing $ZT$?
+Some key questions for our project are; How can we achieve \ac{PGEC}? What are its constraints? How effective is it at increasing $ZT$?
 
 
 \subsection{Investigation}
