@@ -3,20 +3,23 @@
 \contentsline {subsection}{\numberline {1.2}Approach}{2}{subsection.1.2}
 \contentsline {subsection}{\numberline {1.3}Investigation}{4}{subsection.1.3}
 \contentsline {section}{\numberline {II}Background Theory}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Boltzmann Equation}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}Boltzmann Equation}{5}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Phonons}{5}{subsection.2.2}
-\contentsline {paragraph}{Assumptions}{5}{section*.2}
-\contentsline {subsection}{\numberline {2.3}Thermoelectricity}{7}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Nanocomposites}{7}{subsection.2.4}
-\contentsline {paragraph}{Assumptions}{9}{section*.3}
-\contentsline {section}{\numberline {III}Specific Theory}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}Thermoelectric Theory}{10}{subsection.3.1}
-\contentsline {paragraph}{Assumptions}{10}{section*.5}
-\contentsline {section}{\numberline {IV}Results and Analysis}{10}{section.4}
-\contentsline {section}{\numberline {V}Conclusion and Potential Development}{10}{section.5}
-\contentsline {section}{\numberline {A}Further Questions and Thoughts}{13}{appendix.A}
-\contentsline {section}{\numberline {B}List of Assumptions}{13}{appendix.B}
-\contentsline {section}{\numberline {C}Further Reading}{13}{appendix.C}
-\contentsline {section}{\numberline {D}Tools and Software}{13}{appendix.D}
-\contentsline {section}{\numberline {E}Physical Data}{13}{appendix.E}
-\contentsline {section}{\numberline {F}Program Code}{13}{appendix.F}
+\contentsline {subsection}{\numberline {2.3}Debye Isotropic Continuum Model}{7}{subsection.2.3}
+\contentsline {paragraph}{Assumptions}{7}{section*.2}
+\contentsline {subsection}{\numberline {2.4}Phonon Thermal Conductivity}{8}{subsection.2.4}
+\contentsline {paragraph}{Assumptions}{8}{section*.3}
+\contentsline {subsection}{\numberline {2.5}Fermi Level}{9}{subsection.2.5}
+\contentsline {paragraph}{Assumptions}{10}{section*.4}
+\contentsline {subsection}{\numberline {2.6}Electrical Transport}{10}{subsection.2.6}
+\contentsline {section}{\numberline {III}Specific Theory}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}Thermoelectricity}{13}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Thermoelectric Efficiency}{15}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Nanocomposites}{15}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Effective Medium Approximation}{18}{subsection.3.4}
+\contentsline {section}{\numberline {IV}Results and Analysis}{19}{section.4}
+\contentsline {section}{\numberline {V}Conclusion and Future Work}{22}{section.5}
+\contentsline {subsection}{\numberline {5.1}Future Work}{22}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Online repository}{22}{subsection.5.2}
+\contentsline {section}{\numberline {A}Tools and Software}{25}{appendix.A}
+\contentsline {section}{\numberline {B}Physical Data}{25}{appendix.B}

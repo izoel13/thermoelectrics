@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="238.47778mm"
+   height="210.82001mm"
+   version="1.2"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="fermi-level-compare.svg">
+  <metadata
+     id="metadata396">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Qt Svg Document</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1058"
+     id="namedview394"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.85599467"
+     inkscape:cx="282.02303"
+     inkscape:cy="360.53784"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Qt Svg Document</title>
+  <desc
+     id="desc6">Generated with Qt</desc>
+  <defs
+     id="defs8" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1"
+     id="g54"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     stroke-miterlimit="2"
+     transform="matrix(0.99070828,0,0,1.009333,-0.35564151,-1.5996963)">
+    <polyline
+       style="fill:none"
+       id="polyline56"
+       points="122,20.0008 133,20 213.867,20 225.35,20.0008 236.35,20 811,20 "
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#ff00ff;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1"
+     id="g378-6"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="matrix(18.116129,0,0,1,-27.920458,546.45509)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline380-2"
+       points="11,114 43,114 "
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel"
+     id="g12"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)">
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path14"
+       d="M 5,5 850,5 850,752 5,752 5,5"
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel"
+     id="g16"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)">
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path18"
+       d="M 5,5 850,5 850,752 5,752 5,5"
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g20"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel"
+     id="g22"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)">
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path24"
+       d="m 122,20 689,0 0,649 -689,0 0,-649"
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g26"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g28"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g30"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g32"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1"
+     id="g34"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     stroke-miterlimit="2"
+     transform="translate(-5,-5)">
+    <polyline
+       style="fill:none"
+       id="polyline36"
+       points="122,133.713 133.483,143.464 144.967,153.345 156.45,163.356 167.933,173.472 179.417,183.71 190.9,194.046 202.383,204.478 213.867,215 225.35,225.587 236.833,236.222 248.317,246.842 259.8,257.331 271.283,267.537 282.767,277.207 294.25,286.049 305.733,293.797 317.217,300.303 328.7,305.568 340.183,309.73 351.667,312.95 363.15,315.417 374.633,317.299 386.117,318.71 397.6,319.765 409.083,320.544 420.567,321.095 432.05,321.477 443.533,321.72 455.017,321.85 466.5,321.899 477.983,321.866 489.467,321.777 500.95,321.639 512.433,321.46 523.917,321.25 535.4,321.014 546.883,320.755 558.367,320.471 569.85,320.171 581.333,319.854 592.817,319.522 604.3,319.189 615.783,318.84 627.267,318.483 638.75,318.118 650.233,317.753 661.717,317.38 673.2,316.999 684.683,316.609 696.167,316.228 707.65,315.839 719.133,315.441 730.617,315.044 742.1,314.646 753.583,314.24 765.067,313.843 776.55,313.437 788.033,313.032 799.517,312.618 811,312.618 "
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g38"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g40"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g42"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#00ff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:0.70000796"
+     id="g44"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     stroke-miterlimit="2"
+     transform="translate(-5,-5)">
+    <polyline
+       style="fill:none"
+       id="polyline46"
+       points="122,338.107 133.483,337.685 144.967,337.256 156.45,336.834 167.933,336.404 179.417,335.982 190.9,335.552 202.383,335.13 213.867,334.7 225.35,334.278 236.833,333.848 248.317,333.426 259.8,332.996 271.283,332.575 282.767,332.145 294.25,331.723 305.733,331.293 317.217,330.871 328.7,330.441 340.183,330.019 351.667,329.589 363.15,329.167 374.633,328.737 386.117,328.316 397.6,327.886 409.083,327.464 420.567,327.034 432.05,326.612 443.533,326.182 455.017,325.76 466.5,325.33 477.983,324.908 489.467,324.478 500.95,324.057 512.433,323.627 523.917,323.205 535.4,322.775 546.883,322.353 558.367,321.923 569.85,321.501 581.333,321.071 592.817,320.649 604.3,320.219 615.783,319.797 627.267,319.367 638.75,318.946 650.233,318.516 661.717,318.094 673.2,317.664 684.683,317.242 696.167,316.812 707.65,316.382 719.133,315.96 730.617,315.53 742.1,315.108 753.583,314.678 765.067,314.257 776.55,313.827 788.033,313.405 799.517,312.975 811,312.975 "
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g48"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g50"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g52"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g58"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g60"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g62"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g64"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g66"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g68"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g70"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="matrix(0,-1,1,0,0,679)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:37.33330154px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g72"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.3333"
+     transform="matrix(0,-1,1,0,0,679)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:37.33330154px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+       id="text74"
+       font-style="normal"
+       font-weight="400"
+       font-size="37.3333"
+       y="34"
+       x="232"
+       xml:space="preserve">Energy [eV]</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g76"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="matrix(0,-1,1,0,0,679)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g78"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g80"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g82"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g84"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(48,648)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="text86"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="25"
+       x="0"
+       xml:space="preserve">−0.8</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g88"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(48,648)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g90"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g92"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(48,486)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="text94"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="25"
+       x="0"
+       xml:space="preserve">−0.6</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g96"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(48,486)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g98"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g100"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(48,324)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="text102"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="25"
+       x="0"
+       xml:space="preserve">−0.4</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g104"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(48,324)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g106"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g108"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(48,161)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="text110"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="25"
+       x="0"
+       xml:space="preserve">−0.2</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g112"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(48,161)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g114"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g116"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(97,-1)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="text118"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="25"
+       x="0"
+       xml:space="preserve">0</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g120"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(97,-1)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g122"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g124"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g126"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)">
+    <polyline
+       style="fill:none"
+       id="polyline128"
+       points="122,20 122,669 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g130"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)">
+    <polyline
+       style="fill:none"
+       id="polyline132"
+       points="122,507 134,507 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline134"
+       points="122,345 134,345 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline136"
+       points="122,182 134,182 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline138"
+       points="122,628 127,628 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline140"
+       points="122,547 127,547 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline142"
+       points="122,466 127,466 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline144"
+       points="122,385 127,385 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline146"
+       points="122,304 127,304 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline148"
+       points="122,223 127,223 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline150"
+       points="122,142 127,142 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline152"
+       points="122,61 127,61 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline154"
+       points="122,588 127,588 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline156"
+       points="122,426 127,426 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline158"
+       points="122,263 127,263 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline160"
+       points="122,101 127,101 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g162"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g164"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g166"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="matrix(0,-1,1,0,812,663)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g168"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="matrix(0,-1,1,0,812,663)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g170"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g172"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g174"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)">
+    <polyline
+       style="fill:none"
+       id="polyline176"
+       points="811,20 811,669 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g178"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)">
+    <polyline
+       style="fill:none"
+       id="polyline180"
+       points="811,507 799,507 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline182"
+       points="811,345 799,345 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline184"
+       points="811,182 799,182 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline186"
+       points="811,628 806,628 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline188"
+       points="811,547 806,547 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline190"
+       points="811,466 806,466 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline192"
+       points="811,385 806,385 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline194"
+       points="811,304 806,304 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline196"
+       points="811,223 806,223 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline198"
+       points="811,142 806,142 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline200"
+       points="811,61 806,61 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline202"
+       points="811,588 806,588 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline204"
+       points="811,426 806,426 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline206"
+       points="811,263 806,263 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline208"
+       points="811,101 806,101 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g210"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g212"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g214"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(117,703)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:37.33330154px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g216"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.3333"
+     transform="translate(117,703)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:37.33330154px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+       id="text218"
+       font-style="normal"
+       font-weight="400"
+       font-size="37.3333"
+       y="35"
+       x="214.5"
+       xml:space="preserve">Temperature [K]</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g220"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(117,703)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g222"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g224"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g226"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g228"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(207,668)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="text230"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="26"
+       x="0"
+       xml:space="preserve">500</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g232"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(207,668)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g234"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g236"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(481,668)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="text238"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="26"
+       x="0"
+       xml:space="preserve">1,000</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g240"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(481,668)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g242"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g244"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(768,668)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="text246"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="26"
+       x="0"
+       xml:space="preserve">1,500</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g248"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(768,668)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g250"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g252"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g254"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)">
+    <polyline
+       style="fill:none"
+       id="polyline256"
+       points="122,669 811,669 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g258"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)">
+    <polyline
+       style="fill:none"
+       id="polyline260"
+       points="237,669 237,657 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline262"
+       points="524,669 524,657 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline264"
+       points="179,669 179,664 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline266"
+       points="294,669 294,664 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline268"
+       points="352,669 352,664 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline270"
+       points="409,669 409,664 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline272"
+       points="467,669 467,664 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline274"
+       points="581,669 581,664 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline276"
+       points="639,669 639,664 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline278"
+       points="696,669 696,664 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline280"
+       points="754,669 754,664 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g282"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g284"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g286"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(117,0)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g288"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(117,0)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g290"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g292"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g294"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)">
+    <polyline
+       style="fill:none"
+       id="polyline296"
+       points="122,20 811,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g298"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)">
+    <polyline
+       style="fill:none"
+       id="polyline300"
+       points="237,20 237,32 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline302"
+       points="524,20 524,32 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline304"
+       points="179,20 179,25 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline306"
+       points="294,20 294,25 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline308"
+       points="352,20 352,25 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline310"
+       points="409,20 409,25 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline312"
+       points="467,20 467,25 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline314"
+       points="581,20 581,25 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline316"
+       points="639,20 639,25 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline318"
+       points="696,20 696,25 "
+       vector-effect="none" />
+    <polyline
+       style="fill:none"
+       id="polyline320"
+       points="754,20 754,25 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g322"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g324"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1"
+     id="g326"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     stroke-miterlimit="2"
+     transform="translate(-5,-5)">
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path328"
+       d="m 429,72 348,0 0,135 -348,0 0,-135"
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g330"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g332"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g334"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1"
+     id="g336"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline338"
+       points="11,21 43,21 "
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g340"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g342"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(424,67)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+       id="text344"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="31"
+       x="53"
+       xml:space="preserve">Extrinsic Fermi Level</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g346"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g348"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#00ff00;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:0.70000796"
+     id="g350"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline352"
+       points="11,52 43,52 "
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g354"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g356"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(424,67)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+       id="text358"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="62"
+       x="53"
+       xml:space="preserve">Intrinsic Fermi Level</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g360"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g362"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1"
+     id="g364"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline366"
+       points="11,83 43,83 "
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g368"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g370"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(424,67)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+       id="text372"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="93"
+       x="53"
+       xml:space="preserve">Conduction Band</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g374"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g376"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#ff00ff;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1"
+     id="g378"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline380"
+       points="11,114 43,114 "
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g382"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g384"
+     font-style="normal"
+     font-weight="400"
+     font-size="26.6667"
+     transform="translate(424,67)">
+    <text
+       style="font-style:normal;font-weight:400;font-size:26.66670036px;font-family:'DejaVu Sans';fill:#000000;fill-opacity:1;stroke:none"
+       id="text386"
+       font-style="normal"
+       font-weight="400"
+       font-size="26.6667"
+       y="124"
+       x="53"
+       xml:space="preserve">Valence Band</text>
+  </g>
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g388"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(424,67)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g390"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+  <g
+     style="font-style:normal;font-weight:400;font-size:10.66670036px;font-family:'MS Shell Dlg 2';fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+     id="g392"
+     font-style="normal"
+     font-weight="400"
+     font-size="10.6667"
+     transform="translate(-5,-5)" />
+</svg>

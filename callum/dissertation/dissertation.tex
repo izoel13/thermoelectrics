@@ -1,4 +1,4 @@
-\documentclass[12pt,draft]{article}
+\documentclass[12pt]{article}
 
 % Allow block comment commands
 \usepackage{comment}
@@ -46,6 +46,7 @@ Left-aligned text; equal spacing between words, better readability
 \cfoot{}
 \renewcommand{\headrulewidth}{0.5pt}
 %\renewcommand{\footrulewidth}{0.5pt}
+%textsf ?
 
 % Roman section numbering, numbered subsections
 \renewcommand \thesection{\Roman{section}}
@@ -70,6 +71,8 @@ Left-aligned text; equal spacing between words, better readability
 \usepackage{hyperref}
 % In text subscripts and superscripts
 \usepackage{fixltx2e}
+% Side captioned figures
+\usepackage{sidecap}
 
 % Some handy commands for referencing (copied from old template)
 \newcommand{\figref}[2][\figurename~]{#1\ref{#2}}
@@ -149,7 +152,7 @@ Prof. G. P. \textsc{Srivastava}
 {\Huge\textbf{Abstract}}\\[2cm]
 \end{center}
 \begin{justify}
-Thermoelectrics are currently limited by their heat to electric conversion efficiency. If their efficiency can be improved 3$\times$ then a wide array of technological applications can be developed. Nanocomposite structuring is a potential technique for achieving this. We utilise an effective medium approximation to calculate the thermoelectric efficiency of a zero-dimensional SiGe nanocomposite. We find that silicon spheres of 10nm diameter densely packed in a germanium host medium, improves the thermoelectric efficiency 2.6$\times$ compared to bulk SiGe. This gives good indiciation that further theoretical and experimental research should be conducted.
+Thermoelectrics are currently limited by their heat to electric conversion efficiency. If their efficiency can be improved 3$\times$ then a wide array of technological applications can be developed. Nanocomposite structuring is a potential technique for achieving this. We utilise an effective medium approximation to calculate the thermoelectric efficiency of a zero-dimensional SiGe nanocomposite. We find that silicon spheres of 10nm diameter densely packed in a germanium host medium, increases the thermoelectric efficiency 4$\times$ compared to bulk SiGe. This gives good indication that further theoretical and experimental research should be conducted.
 \end{justify}
 
 \pagebreak
@@ -177,7 +180,7 @@ The main limitation of thermoelectric materials is their heat to electricity con
 
 Recent advances in nano-fabrication have facilitated the development of new nanocomposite materials. Closely resembling metamaterials; nanocomposites are typically periodic arrays of nanoscale sheets, wires or particles. In 2001, it was shown that layering thin-films of thermoelectric materials gave a 2.4$\times$ increase in the thermoelectric figure of merit ZT \cite{nanocomposite-zt}; a key parameter in the conversion efficiency discussed above.
 
-If ZT can be increased 3$\times$, an efficiency comparable to combustion engines could be attained in typical thermoelectric systems \cite{liu-review}. This would open up a wide array of applications such as: solar thermoelectric panels \cite{solar-thermal}, exhaust heat recovery systems \cite{exhust-recovery} and high reliability refrigeration systems \cite{thermo-cooling}.
+If ZT can be increased from 1 to 3, an efficiency comparable to combustion engines could be attained in typical thermoelectric systems \cite{liu-review}. This would open up a wide array of applications such as: solar thermoelectric panels \cite{solar-thermal}, exhaust heat recovery systems \cite{exhust-recovery} and high reliability refrigeration systems \cite{thermo-cooling}.
 
 It is therefore the goal of this project to understand how nanocomposite structuring effects the electrical and thermal properties of thermoelectric materials and whether a ZT\textgreater3 can be achieved.
 
@@ -215,30 +218,31 @@ Our final consideration is which nanocomposite structure to investigate. Origina
 
 \subsection{Investigation}
 % Survey the paper, forward reference the interesting parts, make explicit your contributions to the problem
-With the components discussed in the previous section
-
+With the components discussed in the previous section, we have a clear plan of action. We must start by defining the non-equilibrium transport dynamics as in \secref{sec:boltz}. We then need a detailed description of phonons and electrons as is given in \secref{sec:phonons} and \secref{sec:electrical-transport}. Finally, we must apply these results to the EMA model and define the figure of merit ZT for our chosen nanocomposite structure, as is done in \secref{sec:ema} and \secref{sec:efficiency}. Our final results pull together all of this, to present a first principles theory of thermoelectric efficiency in a zero-dimensional SiGe nanocomposite.
 
 \section{Background Theory}
+\label{sec:background}
 % Explain the intuition as if on a whiteboard
 All the theories discussed in this report are transport processes. Therefore fundamental to them all are the non-equilibrium statistical mechanics of their quasiparticles.
 
 \subsection{Boltzmann Equation}
-The Boltzmann equation describes the statistical behaviour of a thermodynamic system of particles not in thermodynamic equilibrium and its general definition is:
+\label{sec:boltz}
+The Boltzmann equation describes the statistical behaviour of a thermodynamic system of particles not in thermodynamic equilibrium and its general definition is \cite{kittel}:
 
 \begin{equation}
-\label{boltz-trans}
-	\frac{\partial f}{\partial t} = \left(\frac{\partial f}{\partial
+\label{eq:boltzmann-transport}
+	\frac{f}{t} = \left(\frac{\partial f}{\partial
 	t}\right)_\mathrm{force} + \left(\frac{\partial f}{\partial t}\right)_\mathrm{diff}+ \left(\frac{\partial f}{\partial t}\right)_\mathrm{coll}
 \end{equation}
 
 where $\frac{\partial f}{\partial t}$ is the time dependence of the distribution function of the particles $f$, the ``force" term represents external forces on the particles, the ``diff" term is the diffusion of particles through the system and the ``coll" term represents forces acting between particles in collisions.
 
-From this general definition we can find how a particular system of particles or quasiparticles are distributed across a material and therefore find their average motion. We use this in the electrical conductivity $\sigma$ (\secref{electrical-conductivity}) and phonon thermal conductivity $k_{ph}$ (\secref{phonon-thermal}) derivations.
+From this general definition we can find how a particular system of particles or quasiparticles are distributed across a material and therefore find their average motion. We use this in the electrical conductivity $\sigma$ (\secref{sec:electrical-transport}) and phonon thermal conductivity $k_{ph}$ (\secref{sec:phonon-thermal}) derivations.
 
 So we have a way of finding the distribution of our quasiparticles, but what exactly are the quasiparticles we are dealing with? And how are they important in the context of thermoelectrics?
 
 \subsection{Phonons}
-
+\label{sec:phonons}
 A phonon is the quantisation of vibrational motion of a lattice of atoms at a single frequency, known as a normal mode \cite{kittel}. These phonons are quasiparticles, free to move around the crystal lattice and they are distributed according to the Bose-Einstein distribution \cite{kittel}:
 
 \begin{equation}
@@ -246,96 +250,263 @@ A phonon is the quantisation of vibrational motion of a lattice of atoms at a si
 	 \bar{n} = \frac{1}{e^{(\hbar \omega) / k T} - 1}
 \end{equation}
 
-where $\bar{n}$ is the probability of a phonon existing with energy $\hbar \omega$ at temperature $T$. This distribution is shown in \figref{3d-bose-einstein}
+where $\bar{n}$ is the probability of a phonon existing with energy $\hbar \omega$ at temperature $T$. This distribution is shown in \figref{fig:3d-bose-einstein}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{3d-bose-einstein.eps}
-	\caption{Probability of phonon occupancy \emph{versus} phonon frequency and temperature.}
+	\caption{Probability of phonon occupancy \emph{versus} phonon frequency and temperature, computed from the Bose-Einstein distribution \cite{kittel}. Frequencies at and above 15THz represent optical phonons.}
 	\label{fig:3d-bose-einstein}
 \end{figure}
 
-Phonons are carriers of acoustic and thermal energy through a material. They follow two types of dispersion curve; optical and acoustic. For the energies of typical phonons around room temperature, we can neglect the optical branch, 
+Phonons are carriers of acoustic and thermal energy through a material. They follow two types of dispersion; optical and acoustic. These two dispersions are characterised by the type of atomic motion. For acoustic phonons there is coherent motion of the atoms out of their equilibrium positions. Whereas in optical phonons there is out of phase (incoherent) motion, one atom moving to the left, and its neighbour to the right. See \figref{fig:coherence-walk} for a visual depiction of coherence.
+
+For typical thermal energies from room temperature to roughly the melting point of most semiconductors (~1300K), we can neglect the optical phonons. We can do this because the lower energy acoustic phonons are dominant. This is seen in the Bose-Einstein distribution \figref{fig:3d-bose-einstein}, where phonons with frequency at and above approximately 15THz are optical. There is a much higher probability for phonons at lower frequencies and therefore a much higher occupancy.
+
+\begin{SCfigure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{coherence-walk.png}
+	\caption{An incoherent walk, contrasted with a coherent walk. For the coherent walk, the `atoms' keep step, they are in phase with their neighbours. For the incoherent walk, the `atoms' move in all directions, out of phase with each other.}
+	\label{fig:coherence-walk}
+\end{SCfigure}
+
+\subsection{Debye Isotropic Continuum Model}
+By assuming that we only have acoustic phonons, we are well justified in using the approximations in the Debye model, greatly simplifying the theory.
+
+Our first approximation is that our nanocomposites form an \emph{isotropic continuum}, which means that the sample size is much larger than the typical phonon wavelength and it is the same everywhere. This is a valid assumption, as long as our nanocomposite structure is regular and periodic and we have macroscopic samples.
+
+With this approximation, we can assume that our nanocomposite has translational symmetry. This enables us to invoke Bloch's theorem \cite{kittel}, which means for our phonons, all unit cells of the crystal lattice are equivalent. Mathematically this is $f(\vec{q}) = f(\vec{q} + \vec{T})$, where $\vec{q}$ is the wavevector and $\vec{T}$ is a lattice translation vector. The result of this is that if we can calculate properties for one unit cell, we have solved the entire crystal structure, momumentally simplfying the theory.
+
+Our second approximation is that our unit cells can be modelled as a Debye spheres \cite{kittel}. This means that for a given unit cell, the wavevector $\vec{q}$ will be the same in all directions, forming a sphere. This is a good approximation, with a typical error of just 5-10\% \cite{gp}. Using we can easily derive the density of states, which can be used to calculate the specific heat, phonon mean free path and ultimately the phonon thermal conductivity.
 
 \paragraph{Assumptions}
 \begin{itemize}
-  \item Acoustic phonons
-  \item 
-  \item 
+  \item Optical phonons can be neglected up to 1300K
+  \item Our nanocomposite structure is an isotropic continuum
+  \item Unit cells can be modelled as Debye spheres
 \end{itemize}
 
-
-
-Electrons can be modelled as quasiparticles in a similar way, with a wavevector and effective mass as in equation \eqref{micro-elec}, leading to the Fermi-Dirac distribution \cite{kittel}:
-
-\begin{equation}
-\label{fermi-dirac}
-	 \bar{f} = \frac{1}{e^{(E - E_f) / k T} + 1}
-\end{equation}
-
-where $\bar{f}$ is the probability of an electron existing with energy $E$ and $E_f$ is the Fermi level.
-
-In the presence of an external fields, phonon and electron
-distributions (\eqref{bose-einstein} \& \eqref{fermi-dirac}) both
-satisfy the Boltzmann transport equation \eqref{boltz-trans} with \cite{ziman}:
+\subsection{Phonon Thermal Conductivity}
+\label{sec:phonon-thermal}
+Crucial to the EMA model \cite{ema} used in our nanocomposite theory, is the bulk phonon thermal conductivity $k_{ph}$. To find $k_{ph}$, we can model our phononic system as an ideal monatomic gas and use the kinetic theory of gases to describe their motion, leading to \cite{kittel}
 
 \begin{equation}
-\label{boltz-specific}
-	\frac{df}{dt}\bigg|_{field} + \frac{df}{dt}\bigg|_{collisions} = 0
+\label{eq:phonon-thermal}
+	k = \frac{1}{3} \int C(\omega) \nu(\omega) \Lambda (\omega) d\omega \approx \frac{1}{3}C\nu\Lambda
 \end{equation}
 
-where function $f$ is $f = \bar{n}$ or $f = \bar{f}$, the Bose-Einstein and Fermi-Dirac distribution functions.
+where $C$ is the volumetric specific heat, $\nu$ is the phonon group velocity and $\Lambda$ is the phonon mean free path.
+
+This can be derived more rigorously using the Boltzmann equation \eqref{eq:boltzmann-transport}. We can inspect a particular region of material, with $n$ as the number of phonons in this region. Phonons can leave this region by two mechanisms, \emph{diffusion} or \emph{decay}. Putting this together we get:
+
+\begin{equation}
+\label{eq:boltz-phonon-thermal}
+	\frac{d \langle n \rangle}{dt} = \left(\frac{\partial \langle n \rangle}{\partial t}\right)_\mathrm{diffusion} + \left(\frac{\partial \langle n \rangle}{\partial t}\right)_\mathrm{decay}
+\end{equation}
+
+which, with some effort \cite{gp}, leads to:
+
+\begin{equation}
+\label{eq:phonon-thermal-rigor}
+	k = \frac{1}{3} \sum_{\vec{q}, \vec{s}} C (\omega, \vec{s}) \nu (\omega, \vec{s}) \Lambda (\omega, \vec{s})
+\end{equation}
+
+where $\vec{q}$ and $\vec{s}$ are the wavevector and polarisation of the phonons.
+
+We used the first expression \eqref{eq:phonon-thermal}, as an analytical approximation to the second expression \eqref{eq:phonon-thermal-rigor}. Using these analytical results as a guide, we numerically analysed the second expression \eqref{eq:phonon-thermal-rigor}. To use the first expression \eqref{eq:phonon-thermal} we must describe the phonons as a ideal monoatomic gas, so we make the following assumptions:
+\paragraph{Assumptions}
+\begin{itemize}
+  \item The phonons are much smaller than the sample they exist in
+  \item The phonons are numerous, so a statistical treatment can be used
+  \item The phonons are in constant, random and rapid motion
+  \item Phonon collisions are perfectly elastic.
+  \item Other than collisions, there are no interactions between phonons
+\end{itemize}
+
+Surprisingly, despite these numerous assumptions, our numerical analysis of equation \eqref{eq:phonon-thermal-rigor} showed good agreement with the analytical results of equation \eqref{eq:phonon-thermal}. 
+
+So we have derived an expression for $k$ and defined the parameters needed for phononic contribution to our thermoelectric nanocomposite. We must now derive the last pieces of the jigsaw; $\sigma$, $S$ and $k_{el}$.
+
+An important quantity in defining $\sigma$, $S$ and $k_{el}$ is the Fermi level $E_F$. The Fermi level defines the highest occupied energy state of a system of electrons, at a given temperature $T$ \cite{kittel}. It is important in determining the number of electrons available for electrical conduction. So it's a good place to start the discussion.
+
+\subsection{Fermi Level}
+We are familiar with the derivation of the \emph{Fermi energy} \cite{kittel}, which is based upon Pauli's exclusion principle and defines the highest energy electron state at absolute zero. It is a relevant quantity in all materials for calculating solid state properties. However, with the small band gap of semiconductors used in thermoelectrics, additional temperature effects have to be accounted for.
+
+The Fermi level for an intrinsic semiconductor can be defined as \cite{mckelvey}:
+
+\begin{equation}
+\label{eq:intrinsic-fermi}
+	E_F = E_g + k_B T\ln\left(\frac{m^*_h}{m^*_e}\right)^\frac{3}{4}
+\end{equation}
+
+where $E_g$ is the band gap defined as $\frac{1}{2} (E_v + E_c)$, $E_v, E_c$ are the valence and conduction band edges and $m^*_e, m^*_h$ are the effective masses of electrons and holes.
+
+For an extrinsic semiconductor the donor or acceptor atoms increase the Fermi level, but this is only significant at temperatures below a certain threshold. We must add an additional component to our intrinsic expression to account for this. This is well justified in McKelvey \cite{mckelvey}, for brevity I will simply state the new expression below:
+
+\begin{equation}
+\label{eq:extrinsic-fermi}
+	E_F = E_g + k_B T\ln\left(\frac{m^*_h}{m^*_e}\right)^\frac{3}{4} + k_BT\sinh^{-1} \left(\frac{N_d-N_a}{2\sqrt{U_cU_v}e^{\frac{-E_g}{2k_BT}}}\right)
+\end{equation}
+
+where $N_d, N_a$ are the concentration of donor/acceptor atoms and $U_c, U_v$ are the effective density of states for the conduction/valence bands.
+
+This expression is used in the derivation of all the electrical properties and it's the essential ingredient for the thermoelectric effect to be seen. See \figref{fig:fermi-level-compare} for a comparison plot between the extrinsic \eqref{eq:extrinsic-fermi} and intrinsic equations \eqref{eq:intrinsic-fermi} for an n-type SiGe semiconductor.
+
+\paragraph{Assumptions}
+\begin{itemize}
+  \item The energy bands are parabolic and can be linearised at the band edges
+  \item The effective masses of holes and electrons do not vary with temperature and can be resolved to a single parameter
+  \item The density of donor or acceptor atoms does not change with temperature
+\end{itemize}
+
+\begin{figure}
+	\centering
+	\includegraphics[width= \textwidth]{fermi-level-compare.eps}
+	\caption{Extrinsic Fermi level \eqref{eq:extrinsic-fermi} and intrinsic Fermi level \eqref{eq:intrinsic-fermi} \emph{versus} energy for a n-type SiGe semiconductor. The extrinsic component of the Fermi level dominates over the intrinsic component from room temperature to 800K. Above 800K donor atoms have lost all their electrons and they no longer play a role in the Fermi level.}
+	\label{fig:fermi-level-compare}
+\end{figure}
+
+\subsection{Electrical Transport}
+\label{sec:electrical-transport}
+The goal of our nanocomposite structuring is to enhance the heat to electric conversion efficiency and a vital component of that is the electrical conductivity $\sigma$. 
+
+Kittel \cite{kittel} uses kinetic theory arguments similar to those in \secref{sec:phonon-thermal} to define a simple expression for electrical conductivity:
+
+\begin{equation}
+\label{eq:elec-cond}
+	\sigma = n e \mu
+\end{equation}
+
+where $n$ is the number of charge carriers available for conduction, $e$ is the elementary charge and $\mu$ is the carrier mobility.
+
+$n$ can be defined in terms of the density of states $g(\vec{q})$ and the distribution of charge carriers $f(\vec{q})$ as follows \cite{kittel}:
+
+\begin{equation}
+\label{eq:carrier-number}
+	n = \int g(\vec{q}) f(\vec{q}) d\varepsilon = \frac{1}{6\pi^2} \left(\frac{2m_c k_B T}{\hbar^2}\right)^\frac{3}{2} F_\frac{1}{2}(\eta)
+\end{equation}
+where $\varepsilon$ is the energy range of interest, $m_c$ is the mass of the charge carrier, $T$ and $\eta$ is the reduced Fermi level equal to $\frac{E_f}{k_B T}$
+
+This expression, along with a similar expression for mobility $\mu$ \cite{kittel} result in several non-analytical integrals called the \emph{Fermi-Dirac integrals}:
+
+\begin{equation}
+\label{eq:fermi-integral}
+	F_r(\eta) = \exp(\eta) \int_0^\infty x^\eta \exp(-x) dx
+\end{equation}
+
+This can be approximated to $\exp(\eta)\Gamma(r+1)$ \cite{kittel}. It can also be evaluated numerically using a method such as Simpson's rule. We used both solutions throughout our project, implementing the extended Simpson's rule in Fortran for our final results.
+
+Using the approximation above we arrive at a solution to the electrical conductivity equation \eqref{eq:elec-cond} is:
+
+\begin{equation}
+\label{eq:electrical-conductivity}
+	\sigma = 2e (2\pi k_B T h^{-2})^\frac{3}{2} (m_e^* m_h^*)^\frac{3}{4} (\mu_e + \mu_h) \exp \left(\frac{-E_g}{2k_B T}\right)
+\end{equation}
+
+where $m_e^*, m_h^*$ are the effective masses of electrons and holes and $\mu_e, \mu_h$ are the mobilities of electrons and holes.
+
+\section{Specific Theory}
+% Details of exactly what you've done
+% Tell a story, keep it concise, only explain what you need to
+Now that we have the background theory we can understand the specific theories that apply to our zero-dimensional nanocomposite thermoelectric.
+From a qualitative understanding, there must be strong boundary and interface effects; by definition nanocomposites contain numerous transitions between two or more materials, where each transition forms a new interface. Therefore a thorough understanding of how interfaces affect the propagation of phonons and electrons is required. However, we should first discuss the main topic of the project, thermoelectricity.
 
 \subsection{Thermoelectricity}
-In 1821, Thomas Seebeck discovered that circuit made from two dissimilar metals, with junctions at different temperatures would deflect a compass magnet (\ref{seebeck-experiment}), he had discovered thermoelectricity. The temperature gradient $\vec{\nabla} T$ between the junctions generates an electromotive force:
+In 1821, Thomas Seebeck discovered that circuit made from two dissimilar metals, with junctions at different temperatures would deflect a compass magnet (\figref{fig:seebeck-experiment}), he had discovered thermoelectricity. The temperature gradient $\vec{\nabla} T$ between the junctions generates an electromotive force:
 
 \begin{equation}
 \label{seebeck-emf}
 	\vec{E_{emf}} = -S \vec{\nabla} T
 \end{equation}
 
-where $S$ is the Seebeck coefficient, defined as the induced voltage per unit temperature difference, mathematically $\Delta S = \frac{\Delta V}{\Delta T}$ \cite{auparay}. This coefficient is not only material dependent, but also temperature dependent, i.e., a temperature gradient produces an electromotive force gradient. This electromotive force gradient produces a current density gradient described macroscopically by a modified Ohm's law \cite{ziman}:
+where $S$ is the Seebeck coefficient, defined as the induced voltage per unit temperature, mathematically $\Delta S = \frac{\Delta V}{\Delta T}$ \cite{modern-thermoelectrics}. A temperature gradient produces an electromotive force gradient, which in turn produces a current density gradient described macroscopically by a modified Ohm's law \cite{kittel}:
 
 \begin{equation}
 \label{current-density}
 	\vec{J} = \sigma (-\vec{\nabla} V - S \vec{\nabla} T)
 \end{equation}
 
-where $\vec{J}$ and $\sigma$ are the current density $\frac{I}{A}$ and electrical conductivity at a given location in the material and $\vec{\nabla} T$ and $\vec{\nabla} V$ are the temperature and resultant voltage gradients across the material. If we were to repeat the experiment conducted by Seebeck (\figref{seebeck-experiment}), using a probe to measure $V$ between junctions and $\sigma$ at each junction for one of the metals, assuming steady state, i.e., $I=0$ so $\vec{J} = 0$, the metal's Seebeck coefficient can be determined.
-
-Thermoelectricity, its uses and current nanocomposite research are well summarised by J. W. Bos \cite{bos-review} and A. J. Minnich \emph{et al.} \cite{minnich-review}.
+where $\vec{J}$ and $\sigma$ are the current density $\frac{I}{A}$ and electrical conductivity at a given location in the material and $\vec{\nabla} T$ and $\vec{\nabla} V$ are the temperature and resultant voltage gradients across the material. If we were to repeat the experiment conducted by Seebeck (\figref{fig:seebeck-experiment}), but instead of a compass we use a voltmeter, we could find $\sigma$ and $V$. Assuming a steady state system, i.e. the current and current density are zero $I = \vec{J} = 0$, we could experimentally determine the Seebeck coefficient.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{seebeck-experiment-black.png}
-	\caption{Thomas Seebeck's original thermoelectricity experiment diagram \cite{seebeck-original}. A compass needle lies on top of one metal, underneath a bridge of a different metal (K), connected by two junctions and heated at one of these junctions.}
+	\caption{Thomas Seebeck's original thermoelectricity experiment diagram \cite{seebeck-original}. A compass needle lies on top of one metal, underneath a bridge of a different metal (K), connected by two junctions and heated at one side. The heat produces a thermoelectric current in the junctions, creating a weak magnetic field, deflecting the compass needle.}
 	\label{fig:seebeck-experiment}
 \end{figure}
 
-\subsection{Nanocomposites}
-Composite materials are combinations of two or more materials, forming a new structure with significantly different physical or chemical properties than its constituent parts. In a similar way, nanocomposites are the structuring of multiple materials, but at the nanoscale. As our nanocomposites are at a comparable size to the crystal lattices of their constituent materials, we can view nanocomposites as artificial defects in a larger crystal lattice. A simple example of a 2D nanocomposite, a copper-graphene superlattice, is pictured in \figref{superlattice}. Examining one layer of th0e superlattice, the material in bulk form would be a 3D crystal structure, but by constraining the layer thickness we have introduced a boundary defect. The periodic array of these boundary defects forms a new 3D artificial crystal, which we define as a superlattice, a nanocomposite.
+\subsection{Thermoelectric Efficiency}
+\label{sec:efficiency}
+The thermoelectric efficiency is best expressed in the dimensionless parameter $ZT$. The thermal efficiency $\eta$, is a function of $(ZT, T_h, T_c)$, where $Z$ is the figure of merit, $T = \frac{1}{2}(T_h + T_c)$, $T_h$ is the temperature at the hot junction and $T_c$ is the temperature at the cold junction. $ZT$ is defined as \cite{modern-thermoelectrics}:
+\begin{equation}
+\label{zt}
+	ZT = \frac{S^2 \sigma T}{\kappa_e + \kappa_{ph}}
+\end{equation}
+
+where $S$ is the Seebeck coefficient from equation \eqref{seebeck-emf} \& \eqref{current-density}, $\sigma$ is electrical conductivity, $\kappa_e$ and $\kappa_{ph}$ are the thermal conductivity due to electrons and phonons respectively.
+
+Important points to note about $ZT$ are that it is proportional to thermal efficiency $\eta$, is increased by a reduction in thermal conductivity and it depends on the square of the Seebeck coefficient. \figref{fig:zt-vs-doping} demonstrates the compromise between the variables in equation \eqref{zt}. $ZT$ values of current and previous generation thermoelectric materials have been plotted in \figref{zt-plot}.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=\textwidth]{graphene-superlattice.eps}
-	\caption{Superlattice of graphene and copper. Alternate layers of nanoscale copper and graphene are sandwiched together.}
+	\includegraphics[width=0.7\textwidth]{zt-temp-plot.png}
+	\caption{Graph of thermoelectric figure of merit $ZT$ against temperature. The dashed line represents bulk thermoelectric materials, above the dashed line shows current generation nanocomposites \cite{minnich-review}.}
+	\label{zt-plot}
+\end{figure}
+
+\subsection{Nanocomposites}
+
+Composite materials are combinations of two or more materials, forming a new structure with significantly different physical or chemical properties than its constituent parts. In a similar way, nanocomposites are the structuring of multiple materials, but at the nanoscale. As our nanocomposites are at a comparable size to the crystal lattices of their constituent materials, we can view nanocomposites as artificial defects in a larger crystal lattice. A simple example of a 2D nanocomposite, a copper-graphene superlattice, is pictured in \figref{fig:superlattice} . Examining one layer of the superlattice, the material in bulk form would be a 3D crystal structure, but by constraining the layer thickness we have introduced a boundary defect. The periodic array of these boundary defects forms a new 3D artificial crystal, which we define as a superlattice, a nanocomposite.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{graphene-superlattice.eps}
+	\caption{Superlattice of graphene and copper. Alternate layers of nanoscale copper and graphene are sandwiched together to form a new 3D artificial crystal, with distinct properties.}
 	\label{fig:superlattice}
 \end{figure}
 
-\paragraph{Assumptions}
+There are several other possible nanocomposite structures. The most common are depicted in \figref{fig:nanocomposite-structures}.
 
-\section{Specific Theory}
-% Details of exactly what you've done
-% Tell a story, keep it concise, only explain what you need to
-From a qualitative understanding, there must be strong boundary and interface effects; by definition nanocomposites contain numerous transitions between two or more materials, where each transition forms a new interface. Therefore a thorough understanding of how interfaces affect the propagation of phonons and electrons is required.
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{nanocomposite-structures.png}
+	\caption{A range of possible nanocomposite structures, arranged in increasing dimensionality. Our chosen system is a \emph{composite nanoparticle} \cite{nanowires}.}
+	\label{fig:nanocomposite-structures}
+\end{figure}
 
-The EMA considers a homogeneous host material with a phonon thermal conductivity $k_h$, that is regularly perturbed by an interface resistance $R$ and separate phonon thermal conductivity $k_p$, which is then averaged over a relevant length scale $d$.
+There has been experimental progress in the field of nanocomposites, structures such as the ones seen in \figref{fig:nanopillars} have been created.
 
-Some key questions for our project are; How can we achieve \ac{PGEC}? What are its constraints? How effective is it at increasing $ZT$?
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{stem-pillar-composites-edit.pdf}
+	\caption{A recently fabricated 3D nancomposite structure \cite{minnich-review}.}
+	\label{fig:nanopillars}
+\end{figure}
 
 
-\subsection{Thermoelectric Theory}
-\paragraph{Assumptions}
+\subsection{Effective Medium Approximation}
+\label{sec:ema}
+The effective medium approximation (EMA) considers a homogeneous host material with a phonon thermal conductivity $k_h$, that is regularly perturbed by an interface resistance $R$ and separate phonon thermal conductivity $k_p$, which is then averaged over a relevant length scale $d$. For spherical particles the theory takes the following form \cite{ema}:
+
+\begin{equation}
+\label{eq:ema}
+	\frac{k_e}{k_h} = \frac{k_p (1 + 2\alpha) + 2k_h + 2	\varphi [k_p (1 - \alpha) - k_h]}{k_p (1 + 2\alpha) + 2k_h -	\varphi [k_p (1 - \alpha) - k_h]}
+\end{equation}
+
+where $k_e$ is the effective composite thermal conductivity, $k_h$ is the host material thermal conductivity, $k_p$ is the particle thermal conductivity, $\varphi$  is the volume fraction of nanoparticle inclusions and $\alpha = R / (d / 2)$, where $R$ is the thermal boundary resistance and $d$ is the diameter of the spherical particles.
+
+The crucial problem with this theory in application to nanocomposites, is that it fails to account for the increased scattering in and around particles. The modified-EMA (mEMA) \cite{mema} introduces additional terms into the mean free path of the thermal conductivity expressions to address the issue:
+
+\begin{equation}
+\label{eq:mema}
+	\Lambda_{\textsc{coll}} = \frac {4a^3}{\pi d^2}
+\end{equation}
+
+where $a$ is the unit cell effective length defined from the density of nanoparticles $n = 1 / a^3$, $d$ is the diameter of the nanoparticles.
+
+Using this in the equations derived for phonon thermal conductivity in \secref{sec:phonon-thermal}, we can define a new effective $k_p$ and $k_e$, which we then substitute back into \eqref{eq:ema}. This additional scattering is significant and it substantially lowers the phonon thermal conductivity.
+
+Studying the mEMA closer, we found that the smallest possible particles would give the lowest phonon thermal conductivity. We decided upon 10nm as our final particle size, as it is comparable with the phonon wavelength. If used smaller particles, then the idea of a phonon breaks down.
 
 \section{Results and Analysis}
 % Split into two sections if lengthy
@@ -343,19 +514,51 @@ Some key questions for our project are; How can we achieve \ac{PGEC}? What are i
 % Include key graphs, have minimal tables
 % What do they show?
 
+To get our final results, we computed each component of the ZT expression \eqref{zt} in Fortran, using materials data from Springer \cite{springer}. We used the extended Simpson's rule to compute any integrals and solved what we could analytically. We took a nanocomposite of 10nm silicon spheres, at near maximum filling, which roughly corresponds to a ratio of 70-30 GeSi.
+
+\figref{fig:mEMA-temp-10nm-log} compares 4 different nanocomposite phonon thermal conductivity models. It shows the progressive decrease in phonon thermal conductivity, as more nanostructuring effects are considered. The \emph{specularity EMA} is not mentioned in the report, since the derivation was lengthy and it did not produce significantly different results from the mEMA.
+
+%\figref{fig:all-in-one} plots all of the different electrical transport properties on one graph, to show how their temperature dependence. Our results all gave negative slopes to the electrical properties, which is in agreement with what we would expect.
+
+EMA models show a surprisingly constant temperature dependence. This is likely because of the dominance of diffuse phonon scattering at particle interfaces. From our analysis, it is clear that maximising the particles surface area per unit volume (interface density) is key to minimising the phonon thermal conductivity. It appears to have no effect on the electrical transport properties, thus at 0.3 volume fraction, a 10$\times$ increase in ZT could potentially be realised.
+
+\figref{fig:zt-10nm} shows the final ZT values for our nanocomposite structure. Comparing this to \figref{zt-plot}, we can see that over the usable temperature range of 700-1200K, the nanostructuring has increased ZT roughly 4$\times$. The primary mechanism for this is likely to be scattering in between nanoparticles, but further investigation is required.
+
 \begin{figure}
 	\centering
-	\includegraphics[width=0.8\textwidth]{ZT-10nm.eps}
-	\caption{Zero-dimensional nanocomposite structure. Nanoscale spheres are densely packed with a homogeneous host material filling the voids. A temperature gradient is shown, to illustrate use as a thermoelectric.}
+	\includegraphics[width=0.8\textwidth]{mEMA-temp-10nm-log.eps}
+	\caption{A comparison between 4 different nanocomposite $k_ph$ models. 0.1 volume fraction corresponds to 90\% Ge, 10\% Si. Each model considers progressively smaller size scales with more detail.}
+	\label{fig:mEMA-temp-10nm-log}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ZT-10nm.eps}
+	\caption{ZT \emph{versus} temperature for a 70-30 GeSi zero-dimensional nanocomposite. As temperature increases, the decreasing thermal conductivity, greatly enhances ZT. Comparing to \figref{zt-plot} we see that ZT has increased roughly 4$\times$ over the usable temperature range (700-1200K).}
 	\label{fig:zt-10nm}
 \end{figure}
 
-\section{Conclusion and Potential Development}
+\section{Conclusion and Future Work}
 % Summarise results
 % What else could be done?
+We have derived expressions for the electrical and thermal conductivities of a 10nm 30-70 SiGe nanocomposite. We utilised an effective medium approximation to calculate phonon thermal conductivity and find that nanostructuring greatly reduces this quantity. We find that phonon thermal conductivity is minimised for silicon spheres of up to 10nm diameter. Further investigation may find that smaller spheres are possible and give an even greater decrease in the phonon thermal conductivity.
+
+With our analysis we find that nanocomposite structuring increases the thermoelectric efficiency approximately 4$\times$ compared to bulk SiGe. This gives good indication that further theoretical and experimental research should be conducted in this field.
+
+\subsection{Future Work}
+\begin{itemize}
+  \item Create a nanocomposite theory of electrical transport
+  \item Find temperature dependent material properties (band gap etc.) and calculate ZT
+  \item Derive an expression for the total efficiency of a thermoelectric generator. Is the ZT improvement translatable to a real world application?
+  \item Investigate the effects of non-spherical particle shapes. Particularly a tessellating 3D shape, to maximise interface density
+  \item Derive a non-phonon based theory to investigate nanoparticle sizes smaller than 10nm
+\end{itemize}
 
 % Link to your online repository
+\subsection{Online repository}
 \url{https://github.com/kahlos/thermoelectrics}
+
+\pagebreak
 
 % The {number} is related to the number of digits required for the references
 \begin{thebibliography}{11}
@@ -455,6 +658,38 @@ November 2004,
 John Wiley \& Sons,
 ISBN:978-0471415268
 
+\bibitem{gp}
+G.P Srivastava,
+\emph{The Physics of Phonons},
+January 1990,
+CRC Press,
+ISBN:978-0852741535
+
+\bibitem{mckelvey}
+J. P. McKelvey,
+\emph{Solid State and Semiconductor Physics},
+1966,
+Harper \& Row,
+ISBN:978-0898743968
+\textbf{Pages 109-111}
+
+\bibitem{seebeck-original}
+\url{etc.usf.edu/clipart/35600/35659/seebeck_35659_lg.gif},
+24 November 2013
+
+\bibitem{mema}
+A. Minnich, G. Chen,
+\emph{Modified effective medium formulation for the thermal conductivity of nanocomposites},
+August 2007,
+Appl. Phys. Lett. 91, 073105,
+DOI:10.1063/1.2771040
+
+\bibitem{springer}
+Springer,
+\emph{Springer Handbook of Condensed Matter and Materials Data},
+2005,
+ISBN: 978-3540443766
+
 \end{thebibliography}
 
 \pagebreak
@@ -465,19 +700,27 @@ ISBN:978-0471415268
 {\Huge\textbf{Appendix}}
 \end{center}
 
-\section{Further Questions and Thoughts}
+%\section{Further Questions and Thoughts}
 
+%\section{List of Assumptions}
 
-
-\section{List of Assumptions}
-
-\section{Further Reading}
+%\section{Further Reading}
 
 \section{Tools and Software}
 
-\section{Physical Data}
+\begin{itemize}
+  \item Github - An online version control repository
+  \item QtiPlot - Plotting graphs and quick checks of results
+  \item Fortran - Programming computational analysis
+  \item LaTeX - Typesetting this document
+\end{itemize}
 
-\section{Program Code}
+\section{Physical Data}
+All physical constants used were from the CODATA Recommended Values of the Fundamental Physical Constants [2010] \url{physics.nist.gov/Constants}
+
+All materials data were sourced from the \emph{Springer Handbook of Condensed Matter and Materials Data} \cite{springer}
+
+%\section{Program Code}
 
 \end{document}
 
