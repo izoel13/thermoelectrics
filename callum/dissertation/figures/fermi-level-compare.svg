@@ -42,9 +42,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.85599467"
-     inkscape:cx="282.02303"
-     inkscape:cy="360.53784"
+     inkscape:zoom="4.3835486"
+     inkscape:cx="205.58087"
+     inkscape:cy="410.16547"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -167,7 +167,7 @@
      font-weight="400"
      font-size="10.6667"
      stroke-miterlimit="2"
-     transform="translate(-5,-5)">
+     transform="matrix(0.99708451,0,0,1.0000278,-4.0025785,-5.0063135)">
     <polyline
        style="fill:none"
        id="polyline36"
@@ -202,7 +202,7 @@
      font-weight="400"
      font-size="10.6667"
      stroke-miterlimit="2"
-     transform="translate(-5,-5)">
+     transform="matrix(0.99570472,0,0,1.0002463,-2.8823035,-5.0801924)">
     <polyline
        style="fill:none"
        id="polyline46"
