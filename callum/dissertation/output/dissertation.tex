@@ -69,12 +69,14 @@ Left-aligned text; equal spacing between words, better readability
 \usepackage{siunitx}
 \usepackage{acronym}
 \usepackage{hyperref}
-% In text subscripts and superscripts
-\usepackage{fixltx2e}
 % Side captioned figures
 \usepackage{sidecap}
 % Unicode support
 \usepackage{xunicode}
+% Enables OpenType fonts and clever font typesetting
+%\usepackage{fontspec}
+% Body text super-sub scripts, \textsubscript \textsuperscript (needs fontspec)
+%\usepackage{realscripts}
 
 % Some handy commands for referencing (copied from old template)
 \newcommand{\figref}[2][\figurename~]{#1\ref{#2}}
@@ -137,7 +139,7 @@ Science writing:
 Callum \textsc{Vincent}
 \end{flushleft}
 \end{minipage}
-~
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushright} \large
 \emph{Supervisor:} \\
@@ -202,7 +204,7 @@ The problem therefore lies in the complex interplay between these 3 variables; h
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{zt-vs-doping.png}
-	\caption{Normalised thermoelectric properties \emph{versus} doping concentration at 300 K for n-type Si\textsubscript{80}Ge\textsubscript{20} \cite{minnich-review}. Variables defined as follows: $S$ Seebeck coefficient, $\sigma$ electrical conductivity, $k$ thermal conductivity and ZT the thermoelectric figure of merit (proportional to conversion efficiency). The interrelationships between the variables gives a maximum ZT for a heavily doped semiconductor.}
+	\caption{Normalised thermoelectric properties \emph{versus} doping concentration at 300 K for n-type SiGe \cite{minnich-review}. Variables defined as follows: $S$ Seebeck coefficient, $\sigma$ electrical conductivity, $k$ thermal conductivity and ZT the thermoelectric figure of merit (proportional to conversion efficiency). The interrelationships between the variables gives a maximum ZT for a heavily doped semiconductor.}
 	\label{fig:zt-vs-doping}
 \end{figure}
 
@@ -586,7 +588,7 @@ Studying the mEMA, we found that the smallest possible particles would give the 
 % Explain all elements leading to the results
 % Include key graphs, have minimal tables
 % What do they show?
-To get our final results, we computed each component of the ZT expression \eqref{eq:zt} in Fortran, using materials data from Springer \cite{springer}. We used Simpson's rule \eqref{eq:simpsons-rule} to compute any integrals, checking results with our analytical approximations. We took a nanocomposite of 10nm silicon spheres, at near maximum filling, which roughly corresponds to a ratio of 70-30 GeSi. See \figref{fig:nanospheres-cube} in \secref{sec:approach} for a diagram of this structure.
+To get our final results, we computed each component of the ZT expression \eqref{eq:zt} in Fortran, using materials data from Springer \cite{springer}. We used Simpson's rule \eqref{eq:simpsons-rule} to compute any integrals, checking results with our analytical approximations. We took a nanocomposite of 10nm silicon spheres, at near maximum filling, which roughly corresponds to a ratio of 3:7 SiGe. See \figref{fig:nanospheres-cube} in \secref{sec:approach} for a diagram of this structure.
 
 \figref{fig:mEMA-temp-10nm-log} compares 4 different nanocomposite phonon thermal conductivity models. It shows the progressive decrease in phonon thermal conductivity, as more nanostructuring effects are considered in the theory. The \emph{Specular EMA} \cite{sema} is not mentioned in the report, since the derivation was lengthy and it did not produce significantly different results from the mEMA. The weighted average is calculated from the bulk thermal conductivities of the two materials, considering no nanocomposite effects. 
 
@@ -601,14 +603,14 @@ During the calculation of \figref{fig:mEMA-temp-10nm-log}, it was clear that max
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{mEMA-temp-10nm-log.eps}
-	\caption{A comparison between 4 different phonon thermal conductivity models for a 70-30 GeSi nanocomposite. The \emph{Modified EMA} was chosen for the final results and lowers the conductivity approximately 10\tms. The \emph{Weighted Average} considers no nanocomposite effects. The \emph{Unmodified EMA} \cite{ema} ignores increased scattering due to nanoscale structures. The \emph{Modified EMA} \cite{mema} considers increased diffuse phonon scattering at nanoparticle interfaces. The \emph{Specular EMA} \cite{sema} considers both diffuse and specular phonon scattering at nanoparticle interfaces.}
+	\caption{A comparison between 4 different phonon thermal conductivity models for a 3:7 SiGe nanocomposite. The \emph{Modified EMA} was chosen for the final results and lowers the conductivity approximately 10\tms. The \emph{Weighted Average} considers no nanocomposite effects. The \emph{Unmodified EMA} \cite{ema} ignores increased scattering due to nanoscale structures. The \emph{Modified EMA} \cite{mema} considers increased diffuse phonon scattering at nanoparticle interfaces. The \emph{Specular EMA} \cite{sema} considers both diffuse and specular phonon scattering at nanoparticle interfaces.}
 	\label{fig:mEMA-temp-10nm-log}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{ZT-10nm.eps}
-	\caption{$ZT$ \emph{versus} temperature for a 70-30 GeSi zero-dimensional nanocomposite, using bulk electrical transport theory and modified EMA \cite{mema} phonon thermal conductivity theory. As temperature increases, the decreasing phonon thermal conductivity greatly enhances $ZT$. Comparing to historical SiGe thermoelectric results in \figref{zt-plot}, we see that $ZT$ has increased roughly 4\tms over the usable temperature range (700-1200K).}
+	\caption{$ZT$ \emph{versus} temperature for a 3:7 SiGe zero-dimensional nanocomposite, using bulk electrical transport theory and modified EMA \cite{mema} phonon thermal conductivity theory. As temperature increases, the decreasing phonon thermal conductivity greatly enhances $ZT$. Comparing to historical SiGe thermoelectric results in \figref{zt-plot}, we see that $ZT$ has increased roughly 4\tms over the usable temperature range (700-1200K).}
 	\label{fig:zt-10nm}
 \end{figure}
 
@@ -624,7 +626,7 @@ During the calculation of \figref{fig:mEMA-temp-10nm-log}, it was clear that max
 \section{Conclusion and Future Work}
 % Summarise results
 % What else could be done?
-We have derived expressions for the electrical and thermal conductivities of a 10nm 30-70 SiGe zero-dimensional nanocomposite. We utilised an effective medium approximation to calculate phonon thermal conductivity and find that nanostructuring greatly reduces this quantity. We find that phonon thermal conductivity is minimised for spheres of 10nm diameter. Further investigation may find that smaller spheres are possible and give an even greater decrease in the phonon thermal conductivity.
+We have derived expressions for the electrical and thermal conductivities of a 10nm 3:7 SiGe zero-dimensional nanocomposite. We utilised an effective medium approximation to calculate phonon thermal conductivity and find that nanostructuring greatly reduces this quantity. We find that phonon thermal conductivity is minimised for spheres of 10nm diameter. Further investigation may find that smaller spheres are possible and give an even greater decrease in the phonon thermal conductivity.
 
 Combining all our results, we find that a 10nm SiGe zero-dimensional nanocomposite increases the thermoelectric efficiency approximately 4\tms compared to bulk. This gives good indication that further theoretical and experimental research should be conducted in this field.
 
@@ -827,5 +829,3 @@ All materials data were sourced from the \emph{Springer Handbook of Condensed Ma
 %\section{Program Code}
 
 \end{document}
-
-
